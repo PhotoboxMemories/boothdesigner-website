@@ -1060,4 +1060,5 @@ I18N.add('fr', {
 "Für die Admin-Funktionen bitte zuerst im Dashboard die Zwei-Faktor-Anmeldung einrichten.": "Pour les fonctions administrateur, configure d’abord la connexion à deux facteurs dans le tableau de bord.",
 "Betreiber-Konto": "Compte exploitant",
 ". Hinweise zum Datenschutz:": ". Informations sur la protection des données :",
+"im Dashboard von Photobox Memories": "dans le tableau de bord Photobox Memories",
 });

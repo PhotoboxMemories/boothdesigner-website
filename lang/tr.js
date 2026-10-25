@@ -1060,4 +1060,5 @@ I18N.add('tr', {
 "Für die Admin-Funktionen bitte zuerst im Dashboard die Zwei-Faktor-Anmeldung einrichten.": "Yönetici işlevleri için lütfen önce panelde iki aşamalı girişi kur.",
 "Betreiber-Konto": "İşletmeci hesabı",
 ". Hinweise zum Datenschutz:": ". Gizlilik bilgileri:",
+"im Dashboard von Photobox Memories": "Photobox Memories panelinde",
 });

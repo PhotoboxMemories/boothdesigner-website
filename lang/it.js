@@ -1060,4 +1060,5 @@ I18N.add('it', {
 "Für die Admin-Funktionen bitte zuerst im Dashboard die Zwei-Faktor-Anmeldung einrichten.": "Per le funzioni di amministratore, configura prima l’accesso a due fattori nella dashboard.",
 "Betreiber-Konto": "Account gestore",
 ". Hinweise zum Datenschutz:": ". Informazioni sulla privacy:",
+"im Dashboard von Photobox Memories": "nella dashboard di Photobox Memories",
 });

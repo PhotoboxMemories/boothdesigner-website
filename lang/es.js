@@ -1060,4 +1060,5 @@ I18N.add('es', {
 "Für die Admin-Funktionen bitte zuerst im Dashboard die Zwei-Faktor-Anmeldung einrichten.": "Para las funciones de administrador, configura primero el inicio de sesión en dos pasos en el panel.",
 "Betreiber-Konto": "Cuenta de operador",
 ". Hinweise zum Datenschutz:": ". Información sobre protección de datos:",
+"im Dashboard von Photobox Memories": "en el panel de Photobox Memories",
 });
