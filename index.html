@@ -16,6 +16,7 @@
 <header class="top"><div class="wrap">
   <a class="logo" href="./"><img src="favicon.svg" alt="">BoothDesigner</a>
   <nav class="links"><a href="#so-gehts">So geht's</a><a href="#designs">Designs</a><a href="#preise">Preise</a><a href="#datenschutz">Datenschutz</a><a href="#fragen">Fragen</a></nav>
+  <a class="btn login" data-login href="#preise">Anmelden</a>
   <a class="btn gold" data-start href="#preise">Kostenlos testen</a>
 </div></header>
 
@@ -80,7 +81,7 @@
     <h2>Datenschutz nach DSGVO – ohne Kopfzerbrechen</h2>
     <p class="sub">Deine Kunden geben im Studio nur ein, was du für den Auftrag brauchst. Ihre Daten liegen auf Servern in Deutschland.</p>
     <div class="dsgvo">
-      <div><i>✓</i><span><b>Daten in Deutschland.</b> Einsendungen bei Hetzner (Falkenstein), Datenbank bei Supabase in Frankfurt, Mails über Brevo (EU). Die Webseite selbst wird über GitHub Pages ausgeliefert.</span></div>
+      <div><i>✓</i><span><b>Daten in Deutschland.</b> Einsendungen und Datenbank liegen in Rechenzentren in Deutschland, Benachrichtigungen gehen über einen Mail-Dienst in der EU.</span></div>
       <div><i>✓</i><span><b>Keine Cookies, kein Tracking.</b> Keine Google Fonts, keine Analyse-Dienste – alle Schriften und Programme kommen von unserem Server.</span></div>
       <div><i>✓</i><span><b>Nur das Nötigste.</b> Name, E-Mail, Veranstaltungsdatum und eine freiwillige Nachricht – mit ausdrücklicher Einwilligung beim Absenden.</span></div>
       <div><i>✓</i><span><b>Automatisch gelöscht.</b> Einsendungen werden nach der Veranstaltung automatisch gelöscht (Frist selbst einstellbar), vorher jederzeit per Klick.</span></div>
@@ -115,6 +116,7 @@
   // Testen / Buchen: Konto im Dashboard anlegen, danach direkt die Seite „BoothDesigner“
   const dash = String(C.dashboard || '').replace(/[?#].*$/, '');
   document.querySelectorAll('[data-start]').forEach(a => { if (dash) a.href = dash + '?konto=neu#studio'; });
+  document.querySelectorAll('[data-login]').forEach(a => { if (dash) a.href = dash + '#studio'; }); // gleiches Konto wie im Dashboard
 
   // Preise aus der Tarif-Tabelle (sobald der Betreiber sie eingeschaltet hat), sonst die Angaben oben
   if (C.supabaseUrl && C.anonKey) fetch(C.supabaseUrl + '/rest/v1/plans?select=id,cents,billing&id=in.(studio-monat,studio-jahr)&active=eq.true',

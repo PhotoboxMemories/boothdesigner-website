@@ -13,6 +13,7 @@ a{color:inherit}
 .wrap{width:min(1120px,100% - 32px);margin-inline:auto}
 header.top{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 header.top .wrap{display:flex;align-items:center;gap:20px;height:64px}
+header.top .btn.login{margin-left:auto}header.top .btn.login+.btn{margin-left:0}
 .logo{font:italic 500 25px var(--serif);text-decoration:none;display:flex;align-items:center;gap:10px}
 .logo img{width:30px;height:30px}
 nav.links{display:flex;gap:22px;margin-left:auto;font-size:14.5px}
@@ -82,6 +83,7 @@ footer nav{display:flex;gap:16px;margin-left:auto}
   nav.links{display:none}
   .logo{font-size:21px;white-space:nowrap}
   header.top .btn{margin-left:auto;padding:8px 13px;font-size:14px;white-space:nowrap}
+  header.top .btn.gold{display:none} /* auf dem Handy oben nur „Anmelden“ – „Kostenlos testen“ steht gleich darunter */
   .hero{padding-top:40px}
   .hero-art{max-width:420px}
 }
