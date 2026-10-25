@@ -1148,4 +1148,12 @@ I18N.add('it', {
 "BoothDesigner in 2 Minuten erklärt": "BoothDesigner spiegato in 2 minuti",
 "Mit Ton – das Video ist auf Deutsch.": "Con audio – il video è in tedesco.",
 "BoothDesigner erklärt": "BoothDesigner spiegato",
+"Fotobox-Layouts & Vorlagen selbst gestalten | BoothDesigner": "Layout e modelli per photo booth da creare da sé | BoothDesigner",
+"Für welche Anlässe gibt es Fotobox-Vorlagen?": "Per quali occasioni ci sono modelli per photo booth?",
+"Für Hochzeit, Geburtstag, Party, Sommerfest, Abschluss und Einschulung, JGA, Babyparty, Taufe, Kommunion und Konfirmation, Firmenfeier, Weihnachten und Winter sowie Silvester, Halloween, Karneval und Ostern. Insgesamt über 130 Fotobox-Layouts – und laufend kommen neue dazu.": "Per matrimoni, compleanni, feste, feste estive, lauree e primo giorno di scuola, addii al nubilato e celibato, baby shower, battesimi, comunioni e cresime, feste aziendali, Natale e inverno, oltre a Capodanno, Halloween, Carnevale e Pasqua. In totale oltre 130 layout per photo booth – e se ne aggiungono continuamente di nuovi.",
+"Welche Formate und Druckgrößen gibt es?": "Quali formati e dimensioni di stampa sono disponibili?",
+"Jedes Design gibt es als Fotostreifen 2×6 Zoll, im Hochformat 4×6, im Querformat 6×4, quadratisch 5×5 und als Magazin-Cover – druckfertig in 300 dpi, mit passendem Startbildschirm für die Fotobox.": "Ogni design è disponibile come striscia fotografica 2×6 pollici, verticale 4×6, orizzontale 6×4, quadrato 5×5 e copertina di rivista – pronto per la stampa a 300 dpi, con una schermata iniziale abbinata per il photo booth.",
+"Über 130 hochwertige Designs für Hochzeit, Geburtstag, Taufe, Firmenfeier und mehr – direkt auf deiner Webseite, mit deinem Logo. Das Brautpaar trägt Namen und Datum ein, passt das Design an und schickt es ab. Du übernimmst es mit einem Klick in die Fotobox.": "Oltre 130 design di qualità per matrimoni, compleanni, battesimi, feste aziendali e molto altro – direttamente sul tuo sito, con il tuo logo. Gli sposi inseriscono nomi e data, personalizzano il design e lo inviano. Tu lo trasferisci nel photo booth con un clic.",
+"Über 130 Designs, jedes in allen Formaten": "Oltre 130 design, ognuno in tutti i formati",
+"Über 130 Designs in allen Formaten": "Oltre 130 design in tutti i formati",
 });

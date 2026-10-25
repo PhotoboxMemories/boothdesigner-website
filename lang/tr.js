@@ -1148,4 +1148,12 @@ I18N.add('tr', {
 "BoothDesigner in 2 Minuten erklärt": "2 dakikada BoothDesigner",
 "Mit Ton – das Video ist auf Deutsch.": "Sesli – video Almanca.",
 "BoothDesigner erklärt": "BoothDesigner anlatımı",
+"Fotobox-Layouts & Vorlagen selbst gestalten | BoothDesigner": "Fotoğraf kabini düzenleri ve şablonları kendin tasarla | BoothDesigner",
+"Für welche Anlässe gibt es Fotobox-Vorlagen?": "Hangi etkinlikler için fotoğraf kabini şablonları var?",
+"Für Hochzeit, Geburtstag, Party, Sommerfest, Abschluss und Einschulung, JGA, Babyparty, Taufe, Kommunion und Konfirmation, Firmenfeier, Weihnachten und Winter sowie Silvester, Halloween, Karneval und Ostern. Insgesamt über 130 Fotobox-Layouts – und laufend kommen neue dazu.": "Düğün, doğum günü, parti, yaz şenliği, mezuniyet ve okula başlama, bekarlığa veda, baby shower, vaftiz, komünyon ve konfirmasyon, şirket partisi, Noel ve kış ile yılbaşı, Cadılar Bayramı, karnaval ve Paskalya için. Toplamda 130'u aşkın fotoğraf kabini düzeni – ve sürekli yenileri ekleniyor.",
+"Welche Formate und Druckgrößen gibt es?": "Hangi formatlar ve baskı boyutları var?",
+"Jedes Design gibt es als Fotostreifen 2×6 Zoll, im Hochformat 4×6, im Querformat 6×4, quadratisch 5×5 und als Magazin-Cover – druckfertig in 300 dpi, mit passendem Startbildschirm für die Fotobox.": "Her tasarım 2×6 inç fotoğraf şeridi, 4×6 dikey, 6×4 yatay, 5×5 kare ve dergi kapağı olarak mevcut – 300 dpi baskıya hazır, fotoğraf kabini için uygun başlangıç ekranıyla.",
+"Über 130 hochwertige Designs für Hochzeit, Geburtstag, Taufe, Firmenfeier und mehr – direkt auf deiner Webseite, mit deinem Logo. Das Brautpaar trägt Namen und Datum ein, passt das Design an und schickt es ab. Du übernimmst es mit einem Klick in die Fotobox.": "Düğün, doğum günü, vaftiz, şirket partisi ve daha fazlası için 130'u aşkın kaliteli tasarım – doğrudan web sitende, senin logonla. Gelin ve damat isimlerini ve tarihi girer, tasarımı uyarlar ve gönderir. Sen de tek tıkla fotoğraf kabinine aktarırsın.",
+"Über 130 Designs, jedes in allen Formaten": "130'u aşkın tasarım, her biri tüm formatlarda",
+"Über 130 Designs in allen Formaten": "Tüm formatlarda 130'u aşkın tasarım",
 });

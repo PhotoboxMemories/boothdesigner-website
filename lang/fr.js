@@ -1148,4 +1148,12 @@ I18N.add('fr', {
 "BoothDesigner in 2 Minuten erklärt": "BoothDesigner expliqué en 2 minutes",
 "Mit Ton – das Video ist auf Deutsch.": "Avec le son – la vidéo est en allemand.",
 "BoothDesigner erklärt": "BoothDesigner expliqué",
+"Fotobox-Layouts & Vorlagen selbst gestalten | BoothDesigner": "Mises en page et modèles de photobooth à créer soi-même | BoothDesigner",
+"Für welche Anlässe gibt es Fotobox-Vorlagen?": "Pour quelles occasions existe-t-il des modèles de photobooth ?",
+"Für Hochzeit, Geburtstag, Party, Sommerfest, Abschluss und Einschulung, JGA, Babyparty, Taufe, Kommunion und Konfirmation, Firmenfeier, Weihnachten und Winter sowie Silvester, Halloween, Karneval und Ostern. Insgesamt über 130 Fotobox-Layouts – und laufend kommen neue dazu.": "Pour les mariages, anniversaires, fêtes, fêtes d'été, remises de diplômes et rentrées scolaires, EVJF/EVG, baby showers, baptêmes, communions et confirmations, fêtes d'entreprise, Noël et l'hiver ainsi que le Nouvel An, Halloween, le carnaval et Pâques. Plus de 130 mises en page de photobooth au total – et de nouvelles s'ajoutent régulièrement.",
+"Welche Formate und Druckgrößen gibt es?": "Quels formats et tailles d'impression sont disponibles ?",
+"Jedes Design gibt es als Fotostreifen 2×6 Zoll, im Hochformat 4×6, im Querformat 6×4, quadratisch 5×5 und als Magazin-Cover – druckfertig in 300 dpi, mit passendem Startbildschirm für die Fotobox.": "Chaque design existe en bande photo 2×6 pouces, en portrait 4×6, en paysage 6×4, en carré 5×5 et en couverture de magazine – prêt à imprimer en 300 dpi, avec un écran d'accueil assorti pour le photobooth.",
+"Über 130 hochwertige Designs für Hochzeit, Geburtstag, Taufe, Firmenfeier und mehr – direkt auf deiner Webseite, mit deinem Logo. Das Brautpaar trägt Namen und Datum ein, passt das Design an und schickt es ab. Du übernimmst es mit einem Klick in die Fotobox.": "Plus de 130 designs de qualité pour mariages, anniversaires, baptêmes, fêtes d'entreprise et plus encore – directement sur ton site web, avec ton logo. Les mariés saisissent leurs prénoms et la date, adaptent le design et l'envoient. Tu le reprends en un clic dans le photobooth.",
+"Über 130 Designs, jedes in allen Formaten": "Plus de 130 designs, chacun dans tous les formats",
+"Über 130 Designs in allen Formaten": "Plus de 130 designs dans tous les formats",
 });

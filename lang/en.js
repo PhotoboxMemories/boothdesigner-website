@@ -1148,4 +1148,12 @@ I18N.add('en', {
 "BoothDesigner in 2 Minuten erklärt": "BoothDesigner explained in 2 minutes",
 "Mit Ton – das Video ist auf Deutsch.": "With sound – the video is in German.",
 "BoothDesigner erklärt": "BoothDesigner explained",
+"Fotobox-Layouts & Vorlagen selbst gestalten | BoothDesigner": "Design photo booth layouts & templates yourself | BoothDesigner",
+"Für welche Anlässe gibt es Fotobox-Vorlagen?": "Which occasions are there photo booth templates for?",
+"Für Hochzeit, Geburtstag, Party, Sommerfest, Abschluss und Einschulung, JGA, Babyparty, Taufe, Kommunion und Konfirmation, Firmenfeier, Weihnachten und Winter sowie Silvester, Halloween, Karneval und Ostern. Insgesamt über 130 Fotobox-Layouts – und laufend kommen neue dazu.": "For weddings, birthdays, parties, summer parties, graduations and school starts, hen and stag parties, baby showers, christenings, communions and confirmations, company parties, Christmas and winter as well as New Year's Eve, Halloween, carnival and Easter. Over 130 photo booth layouts in total – and new ones are added all the time.",
+"Welche Formate und Druckgrößen gibt es?": "Which formats and print sizes are available?",
+"Jedes Design gibt es als Fotostreifen 2×6 Zoll, im Hochformat 4×6, im Querformat 6×4, quadratisch 5×5 und als Magazin-Cover – druckfertig in 300 dpi, mit passendem Startbildschirm für die Fotobox.": "Every design comes as a 2×6 inch photo strip, 4×6 portrait, 6×4 landscape, 5×5 square and as a magazine cover – print-ready at 300 dpi, with a matching start screen for the photo booth.",
+"Über 130 hochwertige Designs für Hochzeit, Geburtstag, Taufe, Firmenfeier und mehr – direkt auf deiner Webseite, mit deinem Logo. Das Brautpaar trägt Namen und Datum ein, passt das Design an und schickt es ab. Du übernimmst es mit einem Klick in die Fotobox.": "Over 130 high-quality designs for weddings, birthdays, christenings, company parties and more – right on your website, with your logo. The couple enters their names and the date, adjusts the design and sends it off. You transfer it to the photo booth with one click.",
+"Über 130 Designs, jedes in allen Formaten": "Over 130 designs, each in every format",
+"Über 130 Designs in allen Formaten": "Over 130 designs in all formats",
 });

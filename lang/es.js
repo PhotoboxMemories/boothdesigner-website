@@ -1148,4 +1148,12 @@ I18N.add('es', {
 "BoothDesigner in 2 Minuten erklärt": "BoothDesigner explicado en 2 minutos",
 "Mit Ton – das Video ist auf Deutsch.": "Con sonido – el vídeo está en alemán.",
 "BoothDesigner erklärt": "BoothDesigner explicado",
+"Fotobox-Layouts & Vorlagen selbst gestalten | BoothDesigner": "Diseños y plantillas de fotomatón para crear tú mismo | BoothDesigner",
+"Für welche Anlässe gibt es Fotobox-Vorlagen?": "¿Para qué ocasiones hay plantillas de fotomatón?",
+"Für Hochzeit, Geburtstag, Party, Sommerfest, Abschluss und Einschulung, JGA, Babyparty, Taufe, Kommunion und Konfirmation, Firmenfeier, Weihnachten und Winter sowie Silvester, Halloween, Karneval und Ostern. Insgesamt über 130 Fotobox-Layouts – und laufend kommen neue dazu.": "Para bodas, cumpleaños, fiestas, fiestas de verano, graduaciones y comienzo de curso, despedidas de soltero/a, baby showers, bautizos, comuniones y confirmaciones, fiestas de empresa, Navidad e invierno, así como Nochevieja, Halloween, carnaval y Pascua. En total, más de 130 diseños de fotomatón, y se añaden nuevos continuamente.",
+"Welche Formate und Druckgrößen gibt es?": "¿Qué formatos y tamaños de impresión hay?",
+"Jedes Design gibt es als Fotostreifen 2×6 Zoll, im Hochformat 4×6, im Querformat 6×4, quadratisch 5×5 und als Magazin-Cover – druckfertig in 300 dpi, mit passendem Startbildschirm für die Fotobox.": "Cada diseño está disponible como tira de fotos de 2×6 pulgadas, en vertical 4×6, en horizontal 6×4, cuadrado 5×5 y como portada de revista, listo para imprimir a 300 ppp y con una pantalla de inicio a juego para el fotomatón.",
+"Über 130 hochwertige Designs für Hochzeit, Geburtstag, Taufe, Firmenfeier und mehr – direkt auf deiner Webseite, mit deinem Logo. Das Brautpaar trägt Namen und Datum ein, passt das Design an und schickt es ab. Du übernimmst es mit einem Klick in die Fotobox.": "Más de 130 diseños de alta calidad para bodas, cumpleaños, bautizos, fiestas de empresa y mucho más, directamente en tu web y con tu logo. Los novios escriben sus nombres y la fecha, ajustan el diseño y lo envían. Tú lo pasas al fotomatón con un clic.",
+"Über 130 Designs, jedes in allen Formaten": "Más de 130 diseños, cada uno en todos los formatos",
+"Über 130 Designs in allen Formaten": "Más de 130 diseños en todos los formatos",
 });
