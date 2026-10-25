@@ -1460,9 +1460,19 @@ let FIXES = {};
 const FIX_ROLES = ['slot', 'frame', 'plate', 'kit', 'deco', 'text'];
 const fixManaged = () => objs().filter((o) => FIX_ROLES.includes(o.role) && !o.custom && !o.fixAdded && (o.role !== 'text' || STD_TEXTS.includes(o.tid)));
 // Kennung je Bestandteil: beim Aufbau nach Reihenfolge vergeben (fixKey) und danach fest – auch wenn eine Korrektur Teile entfernt
+// Fotofelder und ihre Rahmen nach Reihenfolge (ihre sid ist bei jedem Aufbau neu), alles andere nach Name
+const fixBase = (o) => o.role + ':' + (o.role === 'text' ? o.tid : o.role === 'slot' || o.role === 'frame' ? '' : o.decoName || o.label || '');
 function numberFixKeys() {
   const n = {};
-  fixManaged().forEach((o) => { const b = o.role + ':' + (o.role === 'text' ? o.tid : o.decoName || o.sid || o.label || ''); n[b] = (n[b] || 0) + 1; o.fixKey = b + '#' + n[b]; });
+  fixManaged().forEach((o) => { const b = fixBase(o); n[b] = (n[b] || 0) + 1; o.fixKey = b + '#' + n[b]; });
+}
+// Ältere Korrekturen (25.10.) hatten bei Fotofeldern die sid im Schlüssel („slot:so59#1“): in Reihenfolge auf „slot:#1“ … umrechnen
+function normalizeFix(fx) {
+  if (!fx || fx.v === 2) return fx;
+  const n = {}, map = (k) => { const m = /^(slot|frame):so\d+#\d+$/.exec(k); if (!m) return k; return map.c[k] || (map.c[k] = m[1] + ':#' + (n[m[1]] = (n[m[1]] || 0) + 1)); };
+  map.c = {};
+  const items = {}; Object.entries(fx.items || {}).forEach(([k, v]) => { items[map(k)] = v; });
+  return { ...fx, v: 2, items, keys: fx.keys && fx.keys.map(map) };
 }
 function fixKeys() {
   const m = new Map();
@@ -1482,12 +1492,12 @@ function captureFix(stylesOnly) {
     if (o.strokeWidth !== undefined && o.role !== 'text') p.strokeWidth = o.strokeWidth;
     items[k] = p;
   });
-  if (stylesOnly) return { items };
+  if (stylesOnly) return { v: 2, items };
   const added = objs().filter((o) => (o.custom || o.fixAdded) && ['text', 'shape', 'image'].includes(o.role)).map((o) => o.toObject(PROPS));
-  return { items, keys, added };
+  return { v: 2, items, keys, added };
 }
 async function applyFix() {
-  const all = FIXES[state.design + '|*'], one = FIXES[state.design + '|' + state.layout];
+  const all = normalizeFix(FIXES[state.design + '|*']), one = normalizeFix(FIXES[state.design + '|' + state.layout]);
   objs().filter((o) => o.fixAdded).forEach((o) => canvas.remove(o));
   numberFixKeys();
   if (!all && !one) return;
@@ -1506,7 +1516,7 @@ async function applyFix() {
   }
   if (one && Array.isArray(one.keys)) {
     const keep = new Set(one.keys);
-    fixKeys().forEach((o, k) => { if (!keep.has(k)) canvas.remove(o); });
+    fixKeys().forEach((o, k) => { if (!keep.has(k) && o.role !== 'slot' && o.role !== 'frame') canvas.remove(o); }); // Fotofelder nie entfernen
   }
   if (one && Array.isArray(one.added) && one.added.length) {
     await new Promise((res) => fabric.util.enlivenObjects(one.added, (list) => { list.forEach((o) => { o.fixAdded = true; o.custom = false; canvas.add(o); }); res(); }));
