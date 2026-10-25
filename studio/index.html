@@ -176,6 +176,11 @@ input[type=color]::-webkit-color-swatch{border:none;border-radius:50%}
 .send-form input,.send-form textarea,.send-form select{font:inherit;font-size:15px;color:var(--text);background:var(--raise);border:1px solid var(--line);border-radius:9px;padding:9px 11px}
 .send-form textarea{min-height:76px;resize:vertical}
 .send-form [hidden]{display:none}
+.admin-bar{position:fixed;left:12px;right:12px;bottom:12px;z-index:90;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between;background:#1d1d24;color:#f4f1ea;border-radius:12px;padding:10px 14px;box-shadow:0 14px 40px rgba(0,0,0,.35);font-size:13.5px}
+.admin-bar .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.admin-bar button{font:inherit;font-size:13px;padding:7px 12px;border-radius:8px;border:1px solid #4a4a55;background:#2a2a33;color:#f4f1ea;cursor:pointer}
+.admin-bar button.primary{background:#c9a24d;border-color:#c9a24d;color:#1b1407;font-weight:600}
+.admin-bar #adm-what{color:#c9c4b5}.admin-bar #adm-msg{color:#f3d58a}
 .send-form .check{font-weight:400;color:var(--text);align-items:flex-start;display:flex}
 .send-form .check input{margin-top:3px;flex:none}
 .send-form a,.site-foot a{color:var(--gold-hi)}
@@ -367,7 +372,7 @@ input[type=color]::-webkit-color-swatch{border:none;border-radius:50%}
 const $ = (s) => document.querySelector(s);
 const DESIGN_DATA = JSON.parse($('#design-data').textContent);
 const FONTS = ['Great Vibes', 'Dancing Script', 'Pacifico', 'Shrikhand', 'Righteous', 'Playfair Display', 'Bodoni Moda', 'Cormorant Garamond', 'Cinzel', 'Montserrat', 'Manrope'];
-const PROPS = ['role', 'label', 'tid', 'sid', 'uid', 'colorKey', 'baseSize', 'defSize', 'locked', 'custom', 'decoName', 'shape', 'double', 'userTag'];
+const PROPS = ['role', 'label', 'tid', 'sid', 'uid', 'colorKey', 'baseSize', 'defSize', 'locked', 'custom', 'decoName', 'shape', 'double', 'userTag', 'fixAdded', 'fixKey'];
 const SAVED_KEY = 'fotobox-template-studio-designs';
 const UI_KEY = 'fotobox-template-studio-ui';
 const DRAFT_KEY = 'fotobox-template-studio-draft';
@@ -1447,6 +1452,75 @@ function placeTexts(before) {
   });
 }
 
+// ---------- Design-Korrekturen des Betreibers (public.studio_design_fixes) ----------
+// Je Design und Format gespeichert: Lage, Größe, Drehung, Schrift und Farbe der Bestandteile des Designs (Texte, Deko,
+// Textfläche, Bausatz, Fotofelder), entfernte Bestandteile und vom Admin hinzugefügte Elemente. „*“ = nur Schrift und Farben,
+// für alle Formate. Eingetippte Texte des Kunden bleiben; nur unveränderte Beispieltexte übernehmen eine Korrektur.
+let FIXES = {};
+const FIX_ROLES = ['slot', 'frame', 'plate', 'kit', 'deco', 'text'];
+const fixManaged = () => objs().filter((o) => FIX_ROLES.includes(o.role) && !o.custom && !o.fixAdded && (o.role !== 'text' || STD_TEXTS.includes(o.tid)));
+// Kennung je Bestandteil: beim Aufbau nach Reihenfolge vergeben (fixKey) und danach fest – auch wenn eine Korrektur Teile entfernt
+function numberFixKeys() {
+  const n = {};
+  fixManaged().forEach((o) => { const b = o.role + ':' + (o.role === 'text' ? o.tid : o.decoName || o.sid || o.label || ''); n[b] = (n[b] || 0) + 1; o.fixKey = b + '#' + n[b]; });
+}
+function fixKeys() {
+  const m = new Map();
+  fixManaged().forEach((o) => { if (!o.fixKey) numberFixKeys(); m.set(o.fixKey, o); });
+  return m;
+}
+const FIX_GEO = ['left', 'top', 'scaleX', 'scaleY', 'angle', 'opacity', 'visible', 'flipX', 'flipY', 'width', 'height'];
+const FIX_TEXT = ['fontFamily', 'fontWeight', 'fontStyle', 'charSpacing', 'colorKey', 'baseSize', 'defSize', 'fontSize', 'textAlign', 'lineHeight'];
+function captureFix(stylesOnly) {
+  const items = {}, keys = [];
+  fixKeys().forEach((o, k) => {
+    keys.push(k);
+    const p = {};
+    if (!stylesOnly) FIX_GEO.forEach((a) => { if (o[a] !== undefined && !(o.role === 'text' && (a === 'width' || a === 'height'))) p[a] = o[a]; });
+    if (o.role === 'text') { FIX_TEXT.forEach((a) => { if (o[a] !== undefined) p[a] = o[a]; }); if (!stylesOnly) p.text = o.text; }
+    else ['fill', 'stroke'].forEach((a) => { if (typeof o[a] === 'string') p[a] = o[a]; });
+    if (o.strokeWidth !== undefined && o.role !== 'text') p.strokeWidth = o.strokeWidth;
+    items[k] = p;
+  });
+  if (stylesOnly) return { items };
+  const added = objs().filter((o) => (o.custom || o.fixAdded) && ['text', 'shape', 'image'].includes(o.role)).map((o) => o.toObject(PROPS));
+  return { items, keys, added };
+}
+async function applyFix() {
+  const all = FIXES[state.design + '|*'], one = FIXES[state.design + '|' + state.layout];
+  objs().filter((o) => o.fixAdded).forEach((o) => canvas.remove(o));
+  numberFixKeys();
+  if (!all && !one) return;
+  const defText = (tid) => (D().texts.find((t) => t.tid === tid) || {}).text;
+  for (const fx of [all, one]) {
+    if (!fx || !fx.items) continue;
+    const m = fixKeys();
+    Object.entries(fx.items).forEach(([k, p]) => {
+      const o = m.get(k); if (!o) return;
+      const { text, colorKey, ...rest } = p;
+      o.set(rest);
+      if (colorKey !== undefined) o.set({ colorKey, fill: fillFor(colorKey) });
+      if (text !== undefined && o.role === 'text' && o.text === defText(o.tid)) o.set('text', text);
+      o.setCoords();
+    });
+  }
+  if (one && Array.isArray(one.keys)) {
+    const keep = new Set(one.keys);
+    fixKeys().forEach((o, k) => { if (!keep.has(k)) canvas.remove(o); });
+  }
+  if (one && Array.isArray(one.added) && one.added.length) {
+    await new Promise((res) => fabric.util.enlivenObjects(one.added, (list) => { list.forEach((o) => { o.fixAdded = true; o.custom = false; canvas.add(o); }); res(); }));
+  }
+}
+async function loadFixes() {
+  if (!SITE_CFG || !SITE_CFG.supabaseUrl) return;
+  try {
+    const r = await fetch(SITE_CFG.supabaseUrl + '/rest/v1/studio_design_fixes?select=design,layout,data',
+      { headers: { apikey: SITE_CFG.anonKey, Authorization: 'Bearer ' + SITE_CFG.anonKey } });
+    if (r.ok) (await r.json()).forEach((f) => { FIXES[f.design + '|' + f.layout] = f.data; });
+  } catch (e) {}
+}
+
 async function buildDefault() {
   state.restoring = true;
   canvas.clear();
@@ -1458,12 +1532,11 @@ async function buildDefault() {
   await placeDeco();
   D().texts.forEach((d) => canvas.add(makeText(d, L())));
   placeTexts();
+  await applyFix();
   state.restoring = false;
   afterStructureChange();
 }
 
-// Design wechseln: Hintergrund, Rahmen, Textfläche und Schriften kommen vom Design.
-// Texte, die schon geändert wurden, bleiben erhalten.
 // Hashtag aus den Namen (#serhatlisa) – solange der Kunde den Hashtag nicht selbst geändert hat und die Namen schon eingetragen sind
 const tagOf = (name) => '#' + String(name).toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/ß/g, 'ss').replace(/[^a-z0-9]/g, '').slice(0, 24);
 function autoHashtag(prevDesign) {
@@ -1473,6 +1546,8 @@ function autoHashtag(prevDesign) {
   if (name.text === defName || name.text === oldName || tagOf(name.text).length < 3) return;
   tag.set('text', tagOf(name.text)); fitText(tag); tag.initDimensions(); tag.setCoords();
 }
+// Design wechseln: Hintergrund, Rahmen, Textfläche und Schriften kommen vom Design.
+// Texte, die schon geändert wurden, bleiben erhalten.
 async function applyDesign(key) {
   if (key === state.design && objs('bg').length) return;
   const prev = D();
@@ -1495,6 +1570,7 @@ async function applyDesign(key) {
   });
   autoHashtag(prev);
   placeTexts();
+  await applyFix();
   state.restoring = false;
   buildDesigns();
   afterStructureChange();
@@ -1515,6 +1591,7 @@ async function setLayout(key) {
   placeKit();
   await placeDeco();
   placeTexts(before);
+  await applyFix();
   objs().filter((o) => ['image', 'shape'].includes(o.role)).forEach((o) => {
     o.set({ left: Math.min(o.left * layout.W / before.W, layout.W - 20), top: Math.min(o.top * layout.H / before.H, layout.H - 20) }); o.setCoords();
   });
@@ -2486,8 +2563,58 @@ function blocked(msg) {
   d.innerHTML = '<div><b style="font-size:18px">BoothDesigner</b><p class="hint" style="margin-top:8px"></p></div>';
   d.querySelector('p').textContent = msg; document.body.appendChild(d);
 }
+// ---------- Admin: Designs für alle Kunden korrigieren ----------
+// Das Dashboard öffnet …/studio/#admin=<Zugang> (Serverfunktion „studio“, 2 Stunden gültig). Der Zugang wandert in den
+// Sitzungsspeicher und verschwindet aus der Adresse.
+const ADMIN = (() => {
+  let t = (location.hash.match(/admin=([\w.-]+)/) || [])[1];
+  try { if (t) { sessionStorage.setItem('bd-admin', t); history.replaceState(null, '', location.pathname + location.search); } else t = sessionStorage.getItem('bd-admin'); } catch (e) {}
+  return t && SITE_CFG && +String(t).split('.')[1] > Date.now() ? t : null;
+})();
+async function fixApi(body) {
+  const r = await fetch(SITE_CFG.api, { method: 'POST', body: JSON.stringify({ ticket: ADMIN, ...body }),
+    headers: { apikey: SITE_CFG.anonKey, Authorization: 'Bearer ' + SITE_CFG.anonKey, 'Content-Type': 'application/json' } });
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(j.error || `HTTP ${r.status}`);
+  return j;
+}
+function adminBar() {
+  const bar = document.createElement('div'); bar.className = 'admin-bar'; bar.setAttribute('translate', 'no');
+  bar.innerHTML = `<div><b>Admin · Design korrigieren</b><span id="adm-what"></span></div>
+    <div class="row"><button type="button" class="primary" id="adm-save">Für dieses Format speichern</button>
+    <button type="button" id="adm-style">Schrift &amp; Farben für alle Formate</button>
+    <button type="button" id="adm-del">Korrektur entfernen</button><span id="adm-msg"></span></div>`;
+  document.body.appendChild(bar);
+  const msg = (t) => { $('#adm-msg').textContent = t; };
+  const what = () => {
+    const has = [FIXES[state.design + '|' + state.layout] && 'dieses Format', FIXES[state.design + '|*'] && 'alle Formate'].filter(Boolean);
+    $('#adm-what').textContent = ` ${D().name} · ${L().name}${L().sub ? ' · ' + L().sub : ''}${has.length ? ' · korrigiert: ' + has.join(', ') : ''}`;
+  };
+  setInterval(what, 700); what();
+  if (!state.advanced) { $('#advanced').checked = true; $('#advanced').dispatchEvent(new Event('change')); }
+  const save = async (layout, stylesOnly) => {
+    const a = canvas.getActiveObject(); if (a && a.isEditing) a.exitEditing();
+    const data = captureFix(stylesOnly);
+    msg('Wird gespeichert …');
+    try { await fixApi({ action: 'fix-save', design: state.design, layout, data }); FIXES[state.design + '|' + layout] = data; msg('Gespeichert – alle Kunden sehen jetzt diese Fassung.'); }
+    catch (e) { msg(e.message); }
+  };
+  $('#adm-save').onclick = () => save(state.layout, false);
+  $('#adm-style').onclick = () => save('*', true);
+  $('#adm-del').onclick = async () => {
+    if (!confirm(`Korrekturen für „${D().name}“ (dieses Format und „alle Formate“) entfernen? Danach gilt wieder das Original.`)) return;
+    msg('Wird entfernt …');
+    try {
+      for (const layout of [state.layout, '*']) { await fixApi({ action: 'fix-delete', design: state.design, layout }); delete FIXES[state.design + '|' + layout]; }
+      await buildDefault();
+      msg('Entfernt – das Original gilt wieder.');
+    } catch (e) { msg(e.message); }
+  };
+}
+
 async function loadSite() {
   if (!SITE_CFG) return true;
+  if (!SITE_Q.get('b') && ADMIN) return true; // Betreiber korrigiert Designs (aus dem Dashboard geöffnet)
   if (!SITE_Q.get('b')) { blocked('Bitte öffne das Design-Studio über den Link deines Fotobox-Vermieters.'); return false; }
   try { site = await siteApi('site'); } catch (e) { blocked(e.message); return false; }
   const reopen = /^[0-9a-f-]{36}$/i.test(SITE_Q.get('s') || '');
@@ -2599,8 +2726,9 @@ $('#send-close').onclick = $('#send-again').onclick = () => { $('#send-overlay')
 // ---------- Start ----------
 async function start() {
   try { await Promise.all(FONTS.map((f) => document.fonts.load(`40px "${f}"`))); } catch (e) {}
-  const ok = await loadSite();
+  const [ok] = await Promise.all([loadSite(), loadFixes()]);
   if (!ok) return;
+  if (ADMIN) adminBar();
   buildDesigns();
   fit();
   if (ok === 'restored') return;
@@ -2612,6 +2740,8 @@ async function start() {
 }
 // Schnittstelle für Stapel-Exporte (komplette PNG-Sets) und eine spätere Shop-Anbindung
 window.TemplateStudio = {
+  // Design-Korrekturen testen (wirkt nur im eigenen Browser): fixes.capture(nurStil) → Daten, fixes.use('design|format', Daten)
+  fixes: { capture: (stylesOnly) => captureFix(stylesOnly), use: (key, data) => { FIXES[key] = data; } },
   designs: () => Object.keys(DESIGNS),
   layouts: () => Object.keys(LAYOUTS).filter((k) => !LAYOUTS[k].screen),
   screens: () => Object.keys(LAYOUTS).filter((k) => LAYOUTS[k].screen),
