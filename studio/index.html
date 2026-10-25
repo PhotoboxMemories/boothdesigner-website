@@ -2580,7 +2580,7 @@ async function fixApi(body) {
 }
 function adminBar() {
   const bar = document.createElement('div'); bar.className = 'admin-bar'; bar.setAttribute('translate', 'no');
-  bar.innerHTML = `<div><b>Admin · Design korrigieren</b><span id="adm-what"></span></div>
+  bar.innerHTML = `<div><a href="../konto/" style="color:#c9a24d;margin-right:10px">← Mein BoothDesigner</a><b>Admin · Design korrigieren</b><span id="adm-what"></span></div>
     <div class="row"><button type="button" class="primary" id="adm-save">Für dieses Format speichern</button>
     <button type="button" id="adm-style">Schrift &amp; Farben für alle Formate</button>
     <button type="button" id="adm-del">Korrektur entfernen</button><span id="adm-msg"></span></div>`;
