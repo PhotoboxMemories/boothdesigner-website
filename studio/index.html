@@ -367,7 +367,7 @@ input[type=color]::-webkit-color-swatch{border:none;border-radius:50%}
 const $ = (s) => document.querySelector(s);
 const DESIGN_DATA = JSON.parse($('#design-data').textContent);
 const FONTS = ['Great Vibes', 'Dancing Script', 'Pacifico', 'Shrikhand', 'Righteous', 'Playfair Display', 'Bodoni Moda', 'Cormorant Garamond', 'Cinzel', 'Montserrat', 'Manrope'];
-const PROPS = ['role', 'label', 'tid', 'sid', 'uid', 'colorKey', 'baseSize', 'defSize', 'locked', 'custom', 'decoName', 'shape', 'double'];
+const PROPS = ['role', 'label', 'tid', 'sid', 'uid', 'colorKey', 'baseSize', 'defSize', 'locked', 'custom', 'decoName', 'shape', 'double', 'userTag'];
 const SAVED_KEY = 'fotobox-template-studio-designs';
 const UI_KEY = 'fotobox-template-studio-ui';
 const DRAFT_KEY = 'fotobox-template-studio-draft';
@@ -1464,6 +1464,15 @@ async function buildDefault() {
 
 // Design wechseln: Hintergrund, Rahmen, Textfläche und Schriften kommen vom Design.
 // Texte, die schon geändert wurden, bleiben erhalten.
+// Hashtag aus den Namen (#serhatlisa) – solange der Kunde den Hashtag nicht selbst geändert hat und die Namen schon eingetragen sind
+const tagOf = (name) => '#' + String(name).toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/ß/g, 'ss').replace(/[^a-z0-9]/g, '').slice(0, 24);
+function autoHashtag(prevDesign) {
+  const name = objs('text').find((t) => t.tid === 'name'), tag = objs('text').find((t) => t.tid === 'hashtag');
+  if (!name || !tag || tag.userTag) return;
+  const defName = (D().texts.find((t) => t.tid === 'name') || {}).text, oldName = ((prevDesign || D()).texts.find((t) => t.tid === 'name') || {}).text;
+  if (name.text === defName || name.text === oldName || tagOf(name.text).length < 3) return;
+  tag.set('text', tagOf(name.text)); fitText(tag); tag.initDimensions(); tag.setCoords();
+}
 async function applyDesign(key) {
   if (key === state.design && objs('bg').length) return;
   const prev = D();
@@ -1484,6 +1493,7 @@ async function applyDesign(key) {
     o.set({ fontFamily: def.font, fontWeight: def.weight, charSpacing: def.spacing, baseSize: def.size, defSize: def.size,
       fill: fillFor(def.color), colorKey: def.color, text: untouched ? def.text : o.text });
   });
+  autoHashtag(prev);
   placeTexts();
   state.restoring = false;
   buildDesigns();
@@ -1751,7 +1761,12 @@ function buildFields() {
     tb(ICON.right, 'Nach rechts', () => nudge(o, 10, 0));
     const inrow = document.createElement('div'); inrow.className = 'inrow';
     const inp = document.createElement('input'); inp.type = 'text'; inp.id = id; inp.value = o.text;
-    inp.oninput = () => { o.set('text', inp.value); fitText(o); o.initDimensions(); o.setCoords(); canvas.requestRenderAll(); commitSoon(); };
+    inp.oninput = () => {
+      o.set('text', inp.value); fitText(o); o.initDimensions(); o.setCoords();
+      if (o.tid === 'hashtag') o.userTag = true;
+      if (o.tid === 'name') { autoHashtag(); const t = objs('text').find((x) => x.tid === 'hashtag'), f = t && document.getElementById('f-' + t.uid); if (f && !t.userTag) f.value = t.text; }
+      canvas.requestRenderAll(); commitSoon();
+    };
     inp.onfocus = () => f.classList.add('hl');
     inp.onblur = () => f.classList.remove('hl');
     const ab = document.createElement('button'); ab.type = 'button'; ab.className = 'a-btn'; ab.textContent = 'A';
