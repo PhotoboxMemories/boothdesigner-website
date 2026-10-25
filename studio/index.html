@@ -2414,13 +2414,14 @@ document.addEventListener('keydown', (e) => {
 // Auf dem eigenen Server setzt studio-config.js window.STUDIO_CONFIG = { api, anonKey } (Serverfunktion „studio“). Enthält der
 // Link ?b=<Adresse des Vermieters>, gelten dessen Logo, Farbe und Kategorien; statt „Export“ gibt es „Design absenden“.
 // ?s=<Ordner> öffnet eine Einsendung wieder (Link aus dem Dashboard des Vermieters, dann auch mit Export).
+// &e=<Code> = Link für ein bestimmtes Ereignis: das Design landet dort direkt als Fotolayout, das Datum steht schon fest.
 const SITE_Q = new URLSearchParams(location.search);
 const SITE_CFG = window.STUDIO_CONFIG && window.STUDIO_CONFIG.api ? window.STUDIO_CONFIG : null;
 let site = null;
 async function siteApi(action, body = {}) {
   let r;
   try {
-    r = await fetch(SITE_CFG.api, { method: 'POST', body: JSON.stringify({ action, slug: SITE_Q.get('b'), ...body }),
+    r = await fetch(SITE_CFG.api, { method: 'POST', body: JSON.stringify({ action, slug: SITE_Q.get('b'), ...(SITE_Q.get('e') ? { event: SITE_Q.get('e') } : {}), ...body }),
       headers: { apikey: SITE_CFG.anonKey, Authorization: 'Bearer ' + SITE_CFG.anonKey, 'Content-Type': 'application/json' } });
   } catch (e) { throw new Error('Keine Verbindung zum Server. Bitte prüfe deine Internetverbindung und versuche es gleich noch einmal.'); }
   const j = await r.json().catch(() => ({}));
@@ -2491,7 +2492,9 @@ async function openSend() {
   sendBlobs = { print, preview, doc: new Blob([JSON.stringify(portableDoc())], { type: 'application/json' }),
     slots: objs('slot').map((o) => { const r = o.getBoundingRect(true, true); return [r.left, r.top, r.width, r.height]; }) };
   $('#send-thumb').src = URL.createObjectURL(preview);
-  $('#send-what').textContent = `${D().name} · ${L().name}${L().sub ? ' · ' + L().sub : ''}`;
+  $('#send-what').textContent = `${D().name} · ${L().name}${L().sub ? ' · ' + L().sub : ''}${site.event ? ' · für „' + site.event.name + '“' : ''}`;
+  const dt = $('#send-form [name=date]');
+  if (site.event && site.event.date) { dt.value = site.event.date; dt.closest('label').hidden = true; }
   const priv = site.privacy ? `<a href="${encodeURI(site.privacy)}" target="_blank" rel="noopener">Datenschutzerklärung</a>` : 'Datenschutzerklärung';
   $('#send-consent').innerHTML = `Ich bin einverstanden, dass mein Design und meine Angaben an <b></b> übermittelt und zur Bearbeitung meiner Anfrage gespeichert werden. Mehr in der ${priv}.`;
   $('#send-consent b').textContent = site.name || 'meinen Fotobox-Vermieter';
@@ -2517,7 +2520,7 @@ async function submitSend(e) {
     const res = await siteApi('done', { folder: put.folder, ticket: put.ticket, name, email, date: f.get('date') || null,
       message: f.get('message') || '', consent: true, design: state.design, designName: D().name, layout: state.layout,
       layoutName: L().name, w: L().W, h: L().H, slots: sendBlobs.slots });
-    $('#send-done-text').textContent = `${res.name || 'Dein Fotobox-Vermieter'} hat dein Design bekommen und meldet sich bei dir.`;
+    $('#send-done-text').textContent = `${res.name || 'Dein Fotobox-Vermieter'} hat dein Design bekommen${site.event ? ` – es ist für „${site.event.name}“ eingeplant` : ''} und meldet sich bei dir.`;
     $('#send-form').hidden = true; $('#send-done').hidden = false;
   } catch (err) { st.textContent = err.message || 'Das hat nicht geklappt. Bitte noch einmal versuchen.'; }
   go.disabled = false;
