@@ -38,7 +38,45 @@
 [hidden]{display:none!important}
 html,body{height:100%}
 body{background:var(--ink);color:var(--text);font-family:var(--ui);font-size:14px;line-height:1.45}
-.app{display:grid;grid-template-columns:minmax(0,1fr) 360px;grid-template-rows:auto minmax(0,1fr);height:100%}
+.app{display:grid;grid-template-columns:330px minmax(0,1fr) 300px;grid-template-rows:auto auto minmax(0,1fr);height:100%}
+/* Bearbeiten: Texte links, Druckbogen in der Mitte, Designs rechts, Formate klein darüber */
+.app > header{grid-row:1}
+.fstrip{grid-column:2;grid-row:2}
+.stage{grid-column:2;grid-row:3}
+.side-l{grid-column:1;grid-row:2/4;border-left:0!important;border-right:1px solid var(--line)}
+.side-r{grid-column:3;grid-row:2/4}
+.fstrip{display:flex;gap:6px;overflow-x:auto;padding:8px 12px;background:var(--panel);border-bottom:1px solid var(--line);scrollbar-width:thin}
+.fmini{flex:none;display:grid;justify-items:center;gap:3px;padding:5px 6px 4px;background:transparent;border-color:transparent;border-radius:8px;min-width:58px}
+.fmini svg{height:40px;width:auto;max-width:72px;display:block}
+.fmini span{font-size:10px;font-weight:600;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.fmini[aria-pressed="true"]{border-color:var(--gold);background:var(--raise)}
+.fmini[aria-pressed="true"] span{color:var(--gold-hi)}
+.fsep{flex:none;width:1px;background:var(--line);margin:6px 4px}
+.side-r .designs{grid-template-columns:repeat(2,minmax(0,1fr))}
+/* Startseite: erst alle Designs groß, ein Klick öffnet das Bearbeiten */
+.home{grid-column:1/-1;grid-row:2/-1;overflow-y:auto;min-height:0;background:var(--ink)}
+.home-in{max-width:1180px;margin:0 auto;display:grid;gap:14px;padding:26px max(16px,env(safe-area-inset-left,0px)) 40px max(16px,env(safe-area-inset-right,0px))}
+.home h1{margin:0;font-family:var(--brand);font-weight:500;font-size:34px;line-height:1.1}
+.home .lead{margin:0;color:var(--muted);font-size:15px}
+.hgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
+.hcard{display:grid;gap:7px;padding:6px 6px 10px;border-radius:12px;background:var(--panel);text-align:left;align-content:start}
+.hcard img{width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:8px;display:block;background:var(--raise)}
+.hcard b{font-size:13px;font-weight:700;line-height:1.25;padding-inline:3px}
+.hcard span{font-size:11.5px;color:var(--muted);padding-inline:3px}
+.hcard:hover{border-color:var(--gold)}
+.home-draft{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:12px 14px;border:1px solid var(--gold);border-radius:12px;background:var(--panel)}
+.home-draft span{flex:1;min-width:200px}
+.app[data-view="home"] > :is(.fstrip,.stage,aside){display:none}
+.app[data-view="home"] header :is(.group,#format-btn,#save,.switch,#send-top,.menu-wrap){display:none}
+.app:not([data-view="home"]) .home{display:none}
+@media (max-width:1180px) and (min-width:861px){
+  .app{grid-template-columns:minmax(0,1fr) 330px;grid-template-rows:auto auto minmax(0,1fr) minmax(0,1fr)}
+  .fstrip{grid-column:1;grid-row:2}
+  .stage{grid-column:1;grid-row:3/5}
+  .side-l{grid-column:2;grid-row:2/4;border-right:0;border-left:1px solid var(--line)!important}
+  .side-r{grid-column:2;grid-row:4;border-top:1px solid var(--line)}
+  .side-r .designs{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
 header{grid-column:1/-1;display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding-block:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));background:var(--panel);border-bottom:1px solid var(--line)}
 .brand{font-family:var(--brand);font-style:italic;font-weight:500;font-size:23px;color:var(--gold-hi);white-space:nowrap}
 .brand span{font-family:var(--ui);font-style:normal;font-size:10.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-left:10px}
@@ -166,9 +204,13 @@ input[type=color]::-webkit-color-swatch{border:none;border-radius:50%}
 .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%) translateY(20px);background:var(--gold-hi);color:var(--on-gold);font-weight:700;padding:10px 16px;border-radius:9px;opacity:0;transition:opacity .2s,transform .2s;pointer-events:none;z-index:40}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 @media (max-width:860px){
-  .app{grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto auto;height:auto}
-  .stage{height:72vh}
-  aside{border-left:0;border-top:1px solid var(--line)}
+  .app{grid-template-columns:minmax(0,1fr);grid-template-rows:auto;height:auto}
+  .app > *{grid-column:1!important;grid-row:auto!important}
+  .stage{height:62vh}
+  aside{border-left:0;border-right:0!important;border-top:1px solid var(--line)}
+  .side-r .designs{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .hgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .home h1{font-size:28px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 /* Kunden-Modus (Template-Studio auf der Webseite eines Fotobox-Vermieters): Logo, Absenden, kein Export */
@@ -198,6 +240,7 @@ input[type=color]::-webkit-color-swatch{border:none;border-radius:50%}
 <div class="app">
   <header>
     <div class="brand">Template-Studio<span>FotoBox</span></div>
+    <button class="ghost" id="home-btn" hidden><svg class="i" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>Alle Designs</button>
     <div class="group">
       <button id="undo" title="Rückgängig (⌘Z)" aria-label="Rückgängig"><svg class="i" viewBox="0 0 24 24"><path d="M9 14 4 9l5-5"/><path d="M4 9h11a5 5 0 0 1 0 10h-3"/></svg></button>
       <button id="redo" title="Wiederholen (⇧⌘Z)" aria-label="Wiederholen"><svg class="i" viewBox="0 0 24 24"><path d="m15 14 5-5-5-5"/><path d="M20 9H9a5 5 0 0 0 0 10h3"/></svg></button>
@@ -221,6 +264,8 @@ input[type=color]::-webkit-color-swatch{border:none;border-radius:50%}
     </div>
   </header>
 
+  <nav class="fstrip" id="fstrip" aria-label="Format"></nav>
+
   <main class="stage" id="stage">
     <div class="paper" id="paper">
       <div class="photos" id="photos"></div>
@@ -230,13 +275,7 @@ input[type=color]::-webkit-color-swatch{border:none;border-radius:50%}
     <div class="meta" id="meta"></div>
   </main>
 
-  <aside>
-    <section>
-      <h2>Design</h2>
-      <div class="cats" id="cats" role="group" aria-label="Kategorie"></div>
-      <div class="designs" id="designs"></div>
-    </section>
-
+  <aside class="side-l">
     <section id="sec-texts">
       <h2>Text bearbeiten</h2>
       <p class="hint">Tippe unten oder direkt im Bild, das Design ändert sich sofort.</p>
@@ -244,6 +283,13 @@ input[type=color]::-webkit-color-swatch{border:none;border-radius:50%}
       <div class="grid2"><button id="add-text2">+ Text</button><button id="add-text-bg2">+ Text mit Hintergrund</button></div>
       <span class="file"><button class="add-img"><svg class="i" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-9 8"/></svg>Logo oder Bild hinzufügen</button><input type="file" id="add-logo" accept="image/png,image/jpeg,image/webp" aria-label="Logo oder Bild hinzufügen"></span>
       <p class="hint">PNG, JPEG oder WebP, höchstens 3 Bilder.</p>
+    </section>
+
+    <section id="sec-send" hidden>
+      <h2>Fertig?</h2>
+      <p class="hint" id="send-hint">Schick dein Design ab – dein Fotobox-Vermieter bekommt es sofort.</p>
+      <button class="primary" id="send-side">Design absenden</button>
+      <div class="site-foot" id="site-foot"></div>
     </section>
 
     <section id="sec-advanced" hidden>
@@ -279,13 +325,6 @@ input[type=color]::-webkit-color-swatch{border:none;border-radius:50%}
       </div>
     </section>
 
-    <section id="sec-send" hidden>
-      <h2>Fertig?</h2>
-      <p class="hint" id="send-hint">Schick dein Design ab – dein Fotobox-Vermieter bekommt es sofort.</p>
-      <button class="primary" id="send-side">Design absenden</button>
-      <div class="site-foot" id="site-foot"></div>
-    </section>
-
     <section class="nur-studio" id="sec-export">
       <h2>Export</h2>
       <p class="hint" id="export-info"></p>
@@ -300,6 +339,24 @@ input[type=color]::-webkit-color-swatch{border:none;border-radius:50%}
       <button class="ghost danger" id="reset">Neu beginnen</button>
     </section>
   </aside>
+
+  <aside class="side-r">
+    <section>
+      <h2>Design</h2>
+      <div class="cats" id="cats" role="group" aria-label="Kategorie"></div>
+      <div class="designs" id="designs"></div>
+    </section>
+  </aside>
+
+  <div class="home" id="home">
+    <div class="home-in">
+      <h1>Wähle dein Design</h1>
+      <p class="lead">Klicke auf ein Design – danach trägst du Namen und Datum ein und passt Farben, Schriften und das Format an.</p>
+      <div class="home-draft" id="home-draft" hidden><span>Du hast schon einen Entwurf angefangen.</span><button class="primary" id="home-continue">Weiter bearbeiten</button></div>
+      <div class="cats" id="home-cats" role="group" aria-label="Kategorie"></div>
+      <div class="hgrid" id="home-grid"></div>
+    </div>
+  </div>
 </div>
 
 <div class="overlay" id="format-overlay" hidden>
@@ -377,7 +434,7 @@ input[type=color]::-webkit-color-swatch{border:none;border-radius:50%}
 const $ = (s) => document.querySelector(s);
 const DESIGN_DATA = JSON.parse($('#design-data').textContent);
 const FONTS = ['Great Vibes', 'Dancing Script', 'Pacifico', 'Shrikhand', 'Righteous', 'Playfair Display', 'Bodoni Moda', 'Cormorant Garamond', 'Cinzel', 'Montserrat', 'Manrope'];
-const PROPS = ['role', 'label', 'tid', 'sid', 'uid', 'colorKey', 'baseSize', 'defSize', 'locked', 'custom', 'decoName', 'shape', 'double', 'userTag', 'fixAdded', 'fixKey', 'textBg'];
+const PROPS = ['role', 'label', 'tid', 'sid', 'uid', 'colorKey', 'baseSize', 'defSize', 'locked', 'custom', 'decoName', 'shape', 'double', 'userTag', 'fixAdded', 'fixKey', 'textBg', 'autoBg'];
 const SAVED_KEY = 'fotobox-template-studio-designs';
 const UI_KEY = 'fotobox-template-studio-ui';
 const DRAFT_KEY = 'fotobox-template-studio-draft';
@@ -1499,8 +1556,64 @@ const bgSolid = (c) => (c === 'gold' ? '#d4a24c' : c === 'silver' ? '#c9ced8' : 
   P.shouldCache = function () { return this.textBg ? false : sc.call(this); }; // Fläche ragt über den Text hinaus
 })();
 function setTextBg(o, bg) {
-  o.set({ textBg: bg, padding: bg ? o.fontSize * BG_PAD : 0, dirty: true }); o.setCoords();
+  o.set({ textBg: bg, autoBg: false, padding: bg ? o.fontSize * BG_PAD : 0, dirty: true }); o.setCoords();
   canvas.requestRenderAll(); commit(); buildFields(); buildInspector();
+}
+// ---------- Lesbarkeit: Text auf unruhigem Grund bekommt automatisch eine passende Hinterlegung ----------
+// Nach jedem Aufbau wird unter jedem Text grob abgetastet, was darunter liegt (Hintergrund, Deko, Fläche). Ist es dort unruhig
+// (Blumen, Deko) oder zu kontrastarm zur Schrift, kommt die Textfläche über die Deko und wird deckender (in ihrer Designfarbe);
+// Texte ohne Fläche bekommen eine Hinterlegung in der Flächenfarbe des Designs. Vom Kunden gewählte Hinterlegungen bleiben.
+const lumOf = (c) => { const m = /^#([0-9a-f]{6})$/i.exec(bgSolid(c)); if (!m) return 0.5; const n = parseInt(m[1], 16); return (0.2126 * (n >> 16) + 0.7152 * ((n >> 8) & 255) + 0.0722 * (n & 255)) / 255; };
+const READ = { sd: 0.09, contrast: 0.2, deco: 0.03, alpha: 0.86 };
+let readStats = [];
+// Was liegt unter den Texten? Bild ohne Texte (Unruhe, Kontrast) und – nur im ersten Durchgang – Bild nur mit Deko (Anteil Deko)
+function readCheck(texts, withDeco) {
+  const k = 0.2;
+  texts.forEach((o) => { o.visible = false; });
+  const el = renderExact(k), ctx = el.getContext('2d', { willReadFrequently: true });
+  let dctx = null;
+  if (withDeco) {
+    const others = objs().filter((o) => o.visible && o.role !== 'deco'); others.forEach((o) => { o.visible = false; });
+    dctx = renderExact(k).getContext('2d', { willReadFrequently: true });
+    others.forEach((o) => { o.visible = true; });
+  }
+  texts.forEach((o) => { o.visible = true; });
+  return texts.filter((o) => {
+    const b = o.getBoundingRect(true, true);
+    const x = Math.max(0, Math.floor(b.left * k)), y = Math.max(0, Math.floor(b.top * k));
+    const w = Math.min(el.width - x, Math.ceil(b.width * k)), h = Math.min(el.height - y, Math.ceil(b.height * k));
+    if (w < 2 || h < 2) return false;
+    const d = ctx.getImageData(x, y, w, h).data; let n = 0, sum = 0, sq = 0;
+    for (let i = 0; i < d.length; i += 4) { if (d[i + 3] < 128) continue; const l = (0.2126 * d[i] + 0.7152 * d[i + 1] + 0.0722 * d[i + 2]) / 255; n++; sum += l; sq += l * l; }
+    if (n < 6) return false; // liegt über einem Fotofeld (durchsichtig) – darunter kommt erst das Foto
+    let deco = 0;
+    if (dctx) { const dd = dctx.getImageData(x, y, w, h).data; let dn = 0; for (let i = 3; i < dd.length; i += 4) if (dd[i] > 100) dn++; deco = dn / (w * h); }
+    const mean = sum / n, sd = Math.sqrt(Math.max(0, sq / n - mean * mean)), contrast = Math.abs(lumOf(o.colorKey) - mean);
+    readStats.push({ tid: o.tid, pass: withDeco ? 1 : 2, deco: +deco.toFixed(3), sd: +sd.toFixed(3), contrast: +contrast.toFixed(3) });
+    return deco >= READ.deco || sd >= READ.sd || contrast <= READ.contrast;
+  });
+}
+function ensureReadable() {
+  readStats = [];
+  objs('text').forEach((o) => { if (o.autoBg) o.set({ textBg: null, autoBg: false, padding: 0, dirty: true }); });
+  const texts = objs('text').filter((o) => o.visible && String(o.text || '').trim() && !o.textBg); // eigene Hinterlegungen des Kunden bleiben
+  if (!texts.length || D().kit) return; // Bausätze (Zeitung, Kino, Boarding Pass …) haben ihre eigene, bewusst gestaltete Textfläche
+  const back = (o) => o.set({ textBg: { color: (D().plate || {}).color || '#ffffff', opacity: READ.alpha }, autoBg: true, padding: o.fontSize * BG_PAD, dirty: true });
+  const plates = objs('plate').filter((p) => p.visible && !/ · Linie$/.test(p.label || '') && p.label !== 'Abdunklung');
+  const onPlate = (o) => { const c = o.getCenterPoint(); return plates.some((p) => { const r = p.getBoundingRect(true, true); return c.x >= r.left && c.x <= r.left + r.width && c.y >= r.top && c.y <= r.top + r.height; }); };
+  const bad = readCheck(texts, true);
+  bad.filter((o) => !onPlate(o)).forEach(back);
+  const raised = bad.filter(onPlate);
+  if (!raised.length) return;
+  // 1. Textfläche über die Deko legen (unter die Texte) und deckender machen
+  const list = canvas.getObjects(), top = list.reduce((m, o, i) => (o.role === 'deco' ? i : m), -1);
+  objs('plate').forEach((p) => {
+    if (top > list.indexOf(p)) canvas.moveTo(p, top);
+    const m = typeof p.fill === 'string' && /^rgba\(([^)]+),\s*([\d.]+)\)$/.exec(p.fill);
+    if (m && +m[2] < READ.alpha) p.set('fill', `rgba(${m[1]},${READ.alpha})`);
+  });
+  // 2. Was dann noch unruhig ist (z. B. am auslaufenden Rand einer weichen Fläche), bekommt eine eigene Hinterlegung
+  readCheck(raised, false).forEach(back);
 }
 // Ebenen: nach vorne/hinten, aber nie unter Hintergrund und Fotofelder
 function restack(o, dir) {
@@ -1732,6 +1845,7 @@ async function buildDefault() {
   D().texts.forEach((d) => canvas.add(makeText(d, L())));
   placeTexts();
   await applyFix();
+  ensureReadable();
   state.restoring = false;
   afterStructureChange();
 }
@@ -1770,6 +1884,7 @@ async function applyDesign(key) {
   autoHashtag(prev);
   placeTexts();
   await applyFix();
+  ensureReadable();
   state.restoring = false;
   buildDesigns();
   afterStructureChange();
@@ -1794,6 +1909,7 @@ async function setLayout(key) {
   objs().filter((o) => ['image', 'shape'].includes(o.role)).forEach((o) => {
     o.set({ left: Math.min(o.left * layout.W / before.W, layout.W - 20), top: Math.min(o.top * layout.H / before.H, layout.H - 20) }); o.setCoords();
   });
+  ensureReadable();
   state.restoring = false;
   fit();
   afterStructureChange();
@@ -1828,9 +1944,20 @@ function designCard(key, d) {
   b.onclick = () => applyDesign(key);
   return b;
 }
-function buildDesigns() {
-  const entries = Object.entries(DESIGNS);
-  const cats = $('#cats'); cats.innerHTML = '';
+// Startseite: große Vorschau mit Beispielfoto (auf der Webseite beispiele/<design>.jpg, sonst das Design-Vorschaubild)
+const HOME_PIC = (key) => (SITE_CFG ? '../beispiele/' + key + '.jpg' : DESIGN_DATA[key].thumb);
+function homeCard(key, d) {
+  const b = document.createElement('button');
+  b.type = 'button'; b.className = 'hcard';
+  b.innerHTML = '<img alt="" loading="lazy"><b></b><span></span>';
+  const img = b.querySelector('img'); img.src = HOME_PIC(key); img.onerror = () => { img.onerror = null; img.src = DESIGN_DATA[key].thumb; };
+  b.querySelector('b').textContent = d.name;
+  b.querySelector('span').textContent = d.occasion;
+  b.onclick = async () => { showHome(false); await applyDesign(key); };
+  return b;
+}
+function buildCats(cats) {
+  const entries = Object.entries(DESIGNS); cats.innerHTML = '';
   [['Alle', entries.length], ...CATEGORIES.map(([c]) => [c, entries.filter(([, d]) => catOf(d) === c).length])]
     .filter(([, n]) => n).forEach(([c, n]) => {
       const b = document.createElement('button');
@@ -1841,14 +1968,27 @@ function buildDesigns() {
       b.onclick = () => { state.cat = c; try { localStorage.setItem(CAT_KEY, c); } catch (e) {} buildDesigns(); };
       cats.appendChild(b);
     });
-  const box = $('#designs'); box.innerHTML = '';
+}
+function fillDesigns(box, card) {
+  const entries = Object.entries(DESIGNS); box.innerHTML = '';
   CATEGORIES.map(([c]) => c).filter((c) => state.cat === 'Alle' || state.cat === c).forEach((c) => {
     const list = entries.filter(([, d]) => catOf(d) === c);
     if (!list.length) return;
     if (state.cat === 'Alle') { const h = document.createElement('div'); h.className = 'cat-head'; h.textContent = c; box.appendChild(h); }
-    list.forEach(([key, d]) => box.appendChild(designCard(key, d)));
+    list.forEach(([key, d]) => box.appendChild(card(key, d)));
   });
 }
+function buildDesigns() {
+  buildCats($('#cats')); fillDesigns($('#designs'), designCard);
+  if ($('.app').dataset.view === 'home') { buildCats($('#home-cats')); fillDesigns($('#home-grid'), homeCard); }
+}
+function showHome(on) {
+  $('.app').dataset.view = on ? 'home' : 'edit';
+  $('#home-btn').hidden = on;
+  if (on) { buildDesigns(); $('#home').scrollTop = 0; } else requestAnimationFrame(() => { fit(); syncOverlays(); });
+}
+$('#home-btn').onclick = () => showHome(true);
+$('#home-continue').onclick = () => showHome(false);
 
 // ---------- Format-Auswahl ----------
 function sketch(l) {
@@ -1894,6 +2034,28 @@ function buildFormats() {
   $('#tab-print').setAttribute('aria-selected', String(state.tab === 'print'));
   $('#tab-screen').setAttribute('aria-selected', String(state.tab === 'screen'));
 }
+// Formate klein oben über dem Druckbogen (alle Druckformate, dann Startbildschirme)
+function buildStrip() {
+  const box = $('#fstrip'); box.innerHTML = '';
+  [false, true].forEach((screen) => {
+    if (screen) { const d = document.createElement('div'); d.className = 'fsep'; box.appendChild(d); }
+    Object.entries(LAYOUTS).filter(([, l]) => !!l.screen === screen).forEach(([key, l]) => {
+      const b = document.createElement('button');
+      b.type = 'button'; b.className = 'fmini'; b.dataset.key = key;
+      b.title = `${l.name} · ${l.sub}`; b.setAttribute('aria-label', `${l.name}, ${l.sub}`);
+      b.innerHTML = `${sketch(l)}<span></span>`;
+      b.querySelector('span').textContent = l.name.replace(/^2×6 Streifen /, '2×6 ').replace(/^Willkommen /, 'Start ').replace(/^Fotobox-Start /, 'Box ');
+      b.onclick = () => setLayout(key);
+      box.appendChild(b);
+    });
+  });
+}
+function markStrip() {
+  document.querySelectorAll('#fstrip .fmini').forEach((b) => {
+    const on = b.dataset.key === state.layout; b.setAttribute('aria-pressed', String(on));
+    if (on && b.dataset.seen !== state.layout) { b.dataset.seen = state.layout; b.scrollIntoView({ block: 'nearest', inline: 'nearest' }); }
+  });
+}
 function openFormats() { state.tab = L().screen ? 'screen' : 'print'; buildFormats(); $('#format-overlay').hidden = false; $('#format-close').focus(); }
 function closeFormats() { $('#format-overlay').hidden = true; $('#format-btn').focus(); }
 $('#format-btn').onclick = openFormats;
@@ -1913,6 +2075,8 @@ function fit() {
   $('#paper').style.width = Math.round(layout.W * z) + 'px';
   $('#paper').style.height = Math.round(layout.H * z) + 'px';
   $('#format-name').textContent = `${layout.name} · ${layout.sub}`;
+  if (!$('#fstrip').children.length) buildStrip();
+  markStrip();
   $('#meta').textContent = layout.screen
     ? `Willkommensbildschirm · ${layout.W} × ${layout.H} px`
     : `${layout.print} · ${layout.W} × ${layout.H} px · 300 dpi · Fotofelder transparent${layout.double ? ' · Export als 2 Streifen auf 4×6″' : ''}`;
@@ -2965,19 +3129,23 @@ async function start() {
   const [ok] = await Promise.all([loadSite(), loadFixes()]);
   if (!ok) return;
   if (ADMIN) adminBar();
+  // Kunden sehen zuerst alle Designs groß; ein Klick öffnet das Bearbeiten (Betreiber und geöffnete Einsendungen direkt im Bearbeiten)
+  const home = !!site && !ADMIN && ok !== 'restored' && !SITE_Q.get('design');
+  showHome(home);
   buildDesigns();
   fit();
   if (ok === 'restored') return;
   const draft = readDraft();
   if (draft && draft.c && draft.v === 5 && DESIGNS[draft.design]) {
-    try { await restore(draft); commit(); toast('Dein letzter Entwurf ist wieder da.'); return; } catch (e) {}
+    try { await restore(draft); commit(); if (home) $('#home-draft').hidden = false; else toast('Dein letzter Entwurf ist wieder da.'); return; } catch (e) {}
   }
   await buildDefault();
 }
 // Schnittstelle für Stapel-Exporte (komplette PNG-Sets) und eine spätere Shop-Anbindung
 window.TemplateStudio = {
   // Design-Korrekturen testen (wirkt nur im eigenen Browser): fixes.capture(nurStil) → Daten, fixes.use('design|format', Daten)
-  decoStats: () => decoStats.splice(0), // Deko-Abdeckung der Fotofelder seit dem letzten Aufruf (zum Prüfen)
+  decoStats: () => decoStats.splice(0),
+  readStats: () => readStats, // Lesbarkeit je Text beim letzten Aufbau (zum Prüfen) // Deko-Abdeckung der Fotofelder seit dem letzten Aufruf (zum Prüfen)
   fixes: { capture: (stylesOnly) => captureFix(stylesOnly), captureSize: () => captureSizeFix(), sizeKey: () => sizeKey(), use: (key, data) => { FIXES[key] = data; } },
   designs: () => Object.keys(DESIGNS),
   layouts: () => Object.keys(LAYOUTS).filter((k) => !LAYOUTS[k].screen),
