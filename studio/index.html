@@ -2071,7 +2071,24 @@ function removeActive() {
   afterStructureChange();
 }
 
-canvas.on('object:moving', (e) => syncFrame(e.target));
+// Hilfslinien: Beim Verschieben rastet die Mitte eines Elements an der Mitte des Layouts ein – senkrecht (links/rechts mittig)
+// und waagerecht (oben/unten mittig); eine gestrichelte Linie zeigt das an. Beim Loslassen verschwinden die Linien.
+const guides = { v: false, h: false };
+canvas.on('object:moving', (e) => {
+  const o = e.target, { W, H } = L(), tol = 8 / canvas.getZoom(), c = o.getCenterPoint();
+  guides.v = Math.abs(c.x - W / 2) < tol; guides.h = Math.abs(c.y - H / 2) < tol;
+  if (guides.v || guides.h) { o.setPositionByOrigin(new fabric.Point(guides.v ? W / 2 : c.x, guides.h ? H / 2 : c.y), 'center', 'center'); o.setCoords(); }
+  syncFrame(o);
+});
+canvas.on('mouse:up', () => { if (guides.v || guides.h) { guides.v = guides.h = false; canvas.requestRenderAll(); } });
+canvas.on('after:render', (e) => {
+  if (!guides.v && !guides.h) return;
+  const x = e.ctx || canvas.getContext(), z = canvas.getZoom(), t = canvas.viewportTransform, { W, H } = L();
+  x.save(); x.strokeStyle = '#e0337a'; x.lineWidth = 1.5; x.setLineDash([7, 5]);
+  if (guides.v) { const gx = (W / 2) * z + t[4]; x.beginPath(); x.moveTo(gx, t[5]); x.lineTo(gx, H * z + t[5]); x.stroke(); }
+  if (guides.h) { const gy = (H / 2) * z + t[5]; x.beginPath(); x.moveTo(t[4], gy); x.lineTo(W * z + t[4], gy); x.stroke(); }
+  x.restore();
+});
 canvas.on('object:scaling', (e) => syncFrame(e.target));
 canvas.on('object:modified', (e) => {
   const o = e.target;
