@@ -2520,7 +2520,7 @@ async function submitSend(e) {
     const res = await siteApi('done', { folder: put.folder, ticket: put.ticket, name, email, date: f.get('date') || null,
       message: f.get('message') || '', consent: true, design: state.design, designName: D().name, layout: state.layout,
       layoutName: L().name, w: L().W, h: L().H, slots: sendBlobs.slots });
-    $('#send-done-text').textContent = `${res.name || 'Dein Fotobox-Vermieter'} hat dein Design bekommen${site.event ? ` – es ist für „${site.event.name}“ eingeplant` : ''} und meldet sich bei dir.`;
+    $('#send-done-text').textContent = `${res.name || 'Dein Fotobox-Vermieter'} hat dein Design bekommen und meldet sich bei dir.${site.event ? ` Es ist schon für „${site.event.name}“ eingeplant.` : ''}`;
     $('#send-form').hidden = true; $('#send-done').hidden = false;
   } catch (err) { st.textContent = err.message || 'Das hat nicht geklappt. Bitte noch einmal versuchen.'; }
   go.disabled = false;
