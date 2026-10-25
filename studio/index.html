@@ -173,8 +173,9 @@ input[type=color]::-webkit-color-swatch{border:none;border-radius:50%}
 :root[data-kunde] .nur-studio{display:none!important}
 .send-form{display:grid;gap:12px}
 .send-form label{display:grid;gap:5px;font-size:12.5px;font-weight:600;color:var(--muted)}
-.send-form input,.send-form textarea{font:inherit;font-size:15px;color:var(--text);background:var(--raise);border:1px solid var(--line);border-radius:9px;padding:9px 11px}
+.send-form input,.send-form textarea,.send-form select{font:inherit;font-size:15px;color:var(--text);background:var(--raise);border:1px solid var(--line);border-radius:9px;padding:9px 11px}
 .send-form textarea{min-height:76px;resize:vertical}
+.send-form [hidden]{display:none}
 .send-form .check{font-weight:400;color:var(--text);align-items:flex-start;display:flex}
 .send-form .check input{margin-top:3px;flex:none}
 .send-form a,.site-foot a{color:var(--gold-hi)}
@@ -338,6 +339,8 @@ input[type=color]::-webkit-color-swatch{border:none;border-radius:50%}
       <label>Dein Name<input type="text" name="name" autocomplete="name" maxlength="80" required></label>
       <label>Deine E-Mail-Adresse<input type="email" name="email" autocomplete="email" maxlength="200" required></label>
       <label>Datum der Veranstaltung<input type="date" name="date"></label>
+      <label id="send-start-row">Startbildschirm der Fotobox<select name="start">
+        <option value="video">Als Animation – passend zu deinem Design</option><option value="image">Als Bild – passend zu deinem Design</option><option value="none">Keinen</option></select></label>
       <label>Nachricht (freiwillig)<textarea name="message" maxlength="1000" placeholder="z. B. Wünsche zur Farbe oder zur Anzahl der Fotos"></textarea></label>
       <label class="check"><input type="checkbox" name="consent" required><span id="send-consent"></span></label>
       <p class="hint" id="send-status" role="status" aria-live="polite"></p>
@@ -424,6 +427,11 @@ const LAYOUTS = {
     slots: [], plates: [panel(233, 290, 900, 480)], text: TXT(683, 1.2, 1100, { anlass: 380, name: 498, datum: 594, hashtag: 648, start: 716 }) },
   'ws-p': { W: 1024, H: 1366, orient: 'p', screen: true, print: 'Bildschirm', name: 'Willkommen hoch', sub: 'Startbildschirm, Tablet hoch',
     slots: [], plates: [panel(112, 455, 800, 450)], text: TXT(512, 1.05, 860, { anlass: 535, name: 643, datum: 731, hashtag: 782, start: 850 }) },
+  // Bildschirm der Fotobox-Software (Full HD): wird beim Absenden als Startbildschirm (Bild oder Animation) mitgeschickt
+  'fs-p': { W: 1080, H: 1920, orient: 'p', screen: true, print: 'Bildschirm', name: 'Fotobox-Start hoch', sub: 'Startbildschirm der Fotobox, Full HD',
+    slots: [], plates: [panel(100, 700, 880, 520)], text: TXT(540, 1.15, 900, { anlass: 790, name: 918, datum: 1022, hashtag: 1082, start: 1162 }) },
+  'fs-l': { W: 1920, H: 1080, orient: 'l', screen: true, print: 'Bildschirm', name: 'Fotobox-Start quer', sub: 'Startbildschirm der Fotobox, Full HD',
+    slots: [], plates: [panel(470, 290, 980, 520)], text: TXT(960, 1.15, 1200, { anlass: 385, name: 512, datum: 616, hashtag: 676, start: 754 }) },
 };
 
 // ---------- Designs (Hintergründe: fotorealistisch, in Canva erzeugt) ----------
@@ -2078,6 +2086,9 @@ const menu = $('#export-menu');
 function toggleMenu(open) {
   menu.hidden = !open; $('#export-top').setAttribute('aria-expanded', String(open));
   if (open) { const l = L(); $('#m-png-size').textContent = `${isDouble() ? l.W * 2 : l.W} × ${l.H} px${l.screen ? '' : ', Fotofelder transparent'}`; }
+  // Rechtsbündig unter dem Knopf; rutscht der Knopf in eine zweite Zeile (schmale Fenster), linksbündig – sonst ragt das Menü aus dem Bild
+  menu.style.left = ''; menu.style.right = '';
+  if (open && menu.getBoundingClientRect().left < 8) { menu.style.left = '0'; menu.style.right = 'auto'; }
 }
 $('#export-top').onclick = (e) => { e.stopPropagation(); toggleMenu(menu.hidden); };
 document.addEventListener('click', (e) => { if (!menu.hidden && !menu.contains(e.target)) toggleMenu(false); });
@@ -2494,6 +2505,8 @@ async function openSend() {
   $('#send-thumb').src = URL.createObjectURL(preview);
   $('#send-what').textContent = `${D().name} · ${L().name}${L().sub ? ' · ' + L().sub : ''}${site.event ? ' · für „' + site.event.name + '“' : ''}`;
   const dt = $('#send-form [name=date]');
+  $('#send-start-row').hidden = !!L().screen;
+  if (!window.VideoEncoder && !window.MediaRecorder) $('#send-form [name=start]').value = 'image';
   if (site.event && site.event.date) { dt.value = site.event.date; dt.closest('label').hidden = true; }
   const priv = site.privacy ? `<a href="${encodeURI(site.privacy)}" target="_blank" rel="noopener">Datenschutzerklärung</a>` : 'Datenschutzerklärung';
   $('#send-consent').innerHTML = `Ich bin einverstanden, dass mein Design und meine Angaben an <b></b> übermittelt und zur Bearbeitung meiner Anfrage gespeichert werden. Mehr in der ${priv}.`;
@@ -2501,6 +2514,20 @@ async function openSend() {
   $('#send-form').hidden = false; $('#send-done').hidden = true; $('#send-status').textContent = '';
   $('#send-overlay').hidden = false;
   setTimeout(() => $('#send-form [name=name]').focus(), 50);
+}
+// Startbildschirm der Fotobox (Full HD hoch und quer) im selben Design – als Bild oder Animation. Danach ist alles wie vorher.
+async function startFiles(kind, say) {
+  const doc = portableDoc(), saved = { list: hist.list.slice(), i: hist.i }, out = {};
+  try {
+    for (const [o, key] of [['p', 'fs-p'], ['l', 'fs-l']]) {
+      await setLayout(key);
+      if (kind === 'video') {
+        const v = await encodeVideo(buildScene(1), (x) => say(`Startbildschirm ${o === 'p' ? 'hoch' : 'quer'} wird erstellt … ${Math.round(x * 100)} %`));
+        out[`start-${o}.${v.ext}`] = v.blob;
+      } else { say('Startbildschirm wird erstellt …'); out[`start-${o}.jpg`] = await toBlob(renderExact(1), 'image/jpeg', 0.9); }
+    }
+  } finally { await restore(doc); hist.list = saved.list; hist.i = saved.i; updateUndo(); }
+  return out;
 }
 async function submitSend(e) {
   e.preventDefault();
@@ -2511,15 +2538,19 @@ async function submitSend(e) {
   if (!f.get('consent')) { st.textContent = 'Bitte bestätige die Übermittlung.'; return; }
   go.disabled = true; st.textContent = 'Wird gesendet …';
   try {
+    const kind = L().screen ? 'none' : String(f.get('start') || 'none');
+    const start = kind === 'none' ? {} : await startFiles(kind, (t) => { st.textContent = t; });
+    st.textContent = 'Wird gesendet …';
     const put = await siteApi('put');
-    const files = { 'print.png': sendBlobs.print, 'preview.jpg': sendBlobs.preview, 'vorlage.json': sendBlobs.doc };
+    const files = { 'print.png': sendBlobs.print, 'preview.jpg': sendBlobs.preview, 'vorlage.json': sendBlobs.doc, ...start };
     for (const [n, blob] of Object.entries(files)) {
       const r = await fetch(put.urls[n], { method: 'PUT', body: blob, headers: { 'Content-Type': put.types[n] } });
       if (!r.ok) throw new Error('Hochladen fehlgeschlagen. Bitte noch einmal versuchen.');
     }
     const res = await siteApi('done', { folder: put.folder, ticket: put.ticket, name, email, date: f.get('date') || null,
       message: f.get('message') || '', consent: true, design: state.design, designName: D().name, layout: state.layout,
-      layoutName: L().name, w: L().W, h: L().H, slots: sendBlobs.slots });
+      layoutName: L().name, w: L().W, h: L().H, slots: sendBlobs.slots, start: Object.keys(start),
+      occasion: D().occasion, title: (objs('text').find((o) => o.tid === 'name') || {}).text || '' });
     $('#send-done-text').textContent = `${res.name || 'Dein Fotobox-Vermieter'} hat dein Design bekommen und meldet sich bei dir.${site.event ? ` Es ist schon für „${site.event.name}“ eingeplant.` : ''}`;
     $('#send-form').hidden = true; $('#send-done').hidden = false;
   } catch (err) { st.textContent = err.message || 'Das hat nicht geklappt. Bitte noch einmal versuchen.'; }
