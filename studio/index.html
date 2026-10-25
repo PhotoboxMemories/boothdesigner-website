@@ -1321,9 +1321,10 @@ function placePlate() {
 // Ballons und Zweig an den Rändern, leicht über den Fotos. Liegen über Fläche und unter Text.
 const DECO_LABEL = { girlande: 'Blumengirlande', ballons: 'Ballons', zweig: 'Zweig' };
 // ---------- Deko darf die Fotos kaum verdecken ----------
-// Deckende Pixel eines Deko-Elements auf einem groben Raster; daraus der Anteil eines Fotofelds, den es verdeckt.
-// Liegt das über DECO_LIMIT, wird das Element kleiner, kommt in eine andere Ecke oder entfällt in diesem Format.
-const DECO_LIMIT = 0.05, decoMasks = new WeakMap(), decoStats = [];
+// Deckende Pixel eines Deko-Elements auf einem groben Raster; daraus der Anteil eines Fotofelds, den es verdeckt, und wie tief es
+// hineinragt (Anteil der kürzeren Fotoseite). Deko darf ein Foto höchstens am Rand berühren: über DECO_LIMIT Fläche oder
+// DECO_DEPTH Tiefe wird das Element kleiner, kommt in eine andere Ecke oder entfällt in diesem Format.
+const DECO_LIMIT = 0.02, DECO_DEPTH = 0.06, decoMasks = new WeakMap(), decoStats = [];
 function decoMask(img) {
   const el = img.getElement(); let m = decoMasks.get(el);
   if (m) return m;
@@ -1331,18 +1332,26 @@ function decoMask(img) {
   const x = c.getContext('2d'); x.drawImage(el, 0, 0, mw, mh);
   const d = x.getImageData(0, 0, mw, mh).data, cells = [];
   for (let j = 0; j < mh; j++) for (let i = 0; i < mw; i++) if (d[(j * mw + i) * 4 + 3] > 60) cells.push([(i + 0.5) / mw, (j + 0.5) / mh]);
-  m = { cells, mw, mh }; decoMasks.set(el, m); return m;
+  // Gerade (abgeschnittene) Kante: Anteil deckender Pixel in der äußersten Spalte/Zeile je Seite
+  const col = (i) => { let n = 0; for (let j = 0; j < mh; j++) if (d[(j * mw + i) * 4 + 3] > 60) n++; return n / mh; };
+  const row = (j) => { let n = 0; for (let i = 0; i < mw; i++) if (d[(j * mw + i) * 4 + 3] > 60) n++; return n / mw; };
+  m = { cells, mw, mh, edge: { l: col(0), r: col(mw - 1), t: row(0), b: row(mh - 1) } }; decoMasks.set(el, m); return m;
 }
 function decoCover(img, p, slots) {
   if (!slots.length) return 0;
   const m = decoMask(img), w = img.width * p.scale, h = img.height * p.scale;
   const x0 = p.originX === 'center' ? p.left - w / 2 : p.left, y0 = p.originY === 'center' ? p.top - h / 2 : p.top, cell = (w / m.mw) * (h / m.mh);
-  const cov = slots.map(() => 0);
+  const cov = slots.map(() => 0), depth = slots.map(() => 0);
   for (const [u, v] of m.cells) {
-    const x = x0 + (p.flipX ? 1 - u : u) * w, y = y0 + v * h;
-    slots.forEach((s, k) => { if (x > s[0] && x < s[0] + s[2] && y > s[1] && y < s[1] + s[3]) cov[k] += cell; });
+    const x = x0 + (p.flipX ? 1 - u : u) * w, y = y0 + (p.flipY ? 1 - v : v) * h;
+    slots.forEach((s, k) => {
+      if (!(x > s[0] && x < s[0] + s[2] && y > s[1] && y < s[1] + s[3])) return;
+      cov[k] += cell;
+      depth[k] = Math.max(depth[k], Math.min(x - s[0], s[0] + s[2] - x, y - s[1], s[1] + s[3] - y) / Math.min(s[2], s[3]));
+    });
   }
-  return Math.max(...cov.map((c, k) => c / (slots[k][2] * slots[k][3])));
+  // eine Zahl für den Vergleich: über 1 = zu viel (Fläche oder Tiefe)
+  return Math.max(...slots.map((s, k) => Math.max(cov[k] / (s[2] * s[3]) / DECO_LIMIT, depth[k] / DECO_DEPTH)));
 }
 
 async function placeDeco() {
@@ -1374,7 +1383,7 @@ async function placeDeco() {
         const g = gh * k, cy = Math.max(main ? main.y + main.h + g * 0.12 : H - g * 0.3, lastY + g * reach);
         const p = { scale: s * k, left: cx, top: cy, originX: 'center', originY: 'center' };
         if (g < 200 * S) return null;
-        if (decoCover(img, p, slots) <= DECO_LIMIT || k < 0.6 * 1.14) return p;
+        if (decoCover(img, p, slots) <= 1) return p;
       }
       return null;
     },
@@ -1389,8 +1398,13 @@ async function placeDeco() {
     const big = D().decoScale || 1;
     return (big > 1 && cornerAt(img, h * big, order, angle)) || cornerAt(img, h, order, angle);
   }
+  // Die gerade Kante eines Elements zeigt zum Bildrand, nie zum Foto: links/rechts bzw. oben/unten passend spiegeln
+  function straightOut(img, right, bottom, fallbackFlipX) {
+    const e = decoMask(img).edge, D = 0.15;
+    const sr = e.r - e.l > D, sl = e.l - e.r > D, sb = e.b - e.t > D, st = e.t - e.b > D;
+    return { flipX: sr ? !right : sl ? right : fallbackFlipX, flipY: bottom ? st : sb };
+  }
   function cornerAt(img, h0, order, angle) {
-    let best = null;
     for (let k = 1; k >= 0.5; k *= 0.88) { // so groß wie möglich (lieber andere Ecke als kleiner), höchstens DECO_LIMIT eines Fotos verdeckt
       for (const c of order) {
         const h = h0 * k, s = h / img.height, w = img.width * s;
@@ -1402,14 +1416,12 @@ async function placeDeco() {
         if (plates.some((p) => hits(r, p)) || used.some((u) => hits(r, u))) continue;
         const right = c[1] === 'r', bottom = c[0] === 'b';
         const p = { scale: s, left: r.x, top: r.y, originX: 'left', originY: 'top', angle: right ? angle : -angle,
-          flipX: right === (angle < 0), flipY: false, _bottom: bottom, _r: r };
+          ...straightOut(img, right, bottom, right === (angle < 0)), _bottom: bottom, _r: r };
         const cov = decoCover(img, p, slots);
-        if (cov <= DECO_LIMIT) { used.push(r); delete p._r; return p; }
-        if (!best || cov < best.cov) best = { p, cov };
+        if (cov <= 1) { used.push(r); delete p._r; return p; }
       }
     }
-    if (best && best.cov <= DECO_LIMIT * 2) { used.push(best.p._r); delete best.p._r; return best.p; } // knapp drüber: kleinste Fassung
-    return null; // würde die Fotos zu sehr verdecken: in diesem Format ohne dieses Element
+    return null; // würde in die Fotos ragen: in diesem Format ohne dieses Element
   }
   let i = 0;
   for (const n of names) {
@@ -1534,13 +1546,30 @@ function captureFix(stylesOnly) {
   const added = objs().filter((o) => (o.custom || o.fixAdded) && ['text', 'shape', 'image'].includes(o.role)).map((o) => o.toObject(PROPS));
   return { v: 2, items, keys, added };
 }
+// Formate gleicher Größe (z. B. alle 4×6 hoch): Schlüssel „size-1200x1800“
+const sizeKey = (l = L()) => `size-${l.W}x${l.H}`;
+let builtKeys = []; // Bestandteile direkt nach dem Aufbau (vor Korrekturen) – daraus „vom Admin gelöscht“
 async function applyFix() {
-  const all = normalizeFix(FIXES[state.design + '|*']), one = normalizeFix(FIXES[state.design + '|' + state.layout]);
+  const all = normalizeFix(FIXES[state.design + '|*']), size = L().screen ? null : FIXES[state.design + '|' + sizeKey()];
+  const one = normalizeFix(FIXES[state.design + '|' + state.layout]);
   objs().filter((o) => o.fixAdded).forEach((o) => canvas.remove(o));
-  numberFixKeys();
-  if (!all && !one) return;
+  numberFixKeys(); builtKeys = [...fixKeys().keys()];
+  if (!all && !size && !one) return;
   const defText = (tid) => (D().texts.find((t) => t.tid === tid) || {}).text;
-  for (const fx of [all, one]) {
+  if (size && Array.isArray(size.removed)) { const rm = new Set(size.removed); fixKeys().forEach((o, k) => { if (rm.has(k)) canvas.remove(o); }); }
+  // Deko, die der Admin für alle Formate dieser Größe platziert hat, kommt auch dorthin, wo die Automatik sie weggelassen hätte
+  if (size && size.items) {
+    const have = fixKeys(), files = (DESIGN_DATA[state.design] || {}).deco || {};
+    let at = 0; canvas.getObjects().forEach((o, i) => { if (['bg', 'slot', 'frame', 'plate', 'kit', 'deco'].includes(o.role)) at = i + 1; });
+    for (const [k, p] of Object.entries(size.items)) {
+      const name = (/^deco:([^#]+)#/.exec(k) || [])[1];
+      if (!name || have.has(k) || !files[name]) continue;
+      const img = await loadImage(files[name]);
+      img.set({ ...p, role: 'deco', decoName: name, label: (D().deco || {})[name] || DECO_LABEL[name] || name, uid: nextId(), fixKey: k });
+      canvas.insertAt(img, at++);
+    }
+  }
+  for (const fx of [all, size, one]) {
     if (!fx || !fx.items) continue;
     const m = fixKeys();
     Object.entries(fx.items).forEach(([k, p]) => {
@@ -1559,6 +1588,21 @@ async function applyFix() {
   if (one && Array.isArray(one.added) && one.added.length) {
     await new Promise((res) => fabric.util.enlivenObjects(one.added, (list) => { list.forEach((o) => { o.fixAdded = true; o.custom = false; canvas.add(o); }); res(); }));
   }
+}
+// Für alle Formate dieser Größe: Deko mit Lage, Größe, Drehung (und gelöschte Deko), Texte/Textfläche/Bausatz nur Schrift und Farbe.
+// Fotofelder und die Lage der Texte bleiben je Format – dort liegen die Fotos jeweils anders.
+function captureSizeFix() {
+  const full = captureFix(false), items = {};
+  Object.entries(full.items).forEach(([k, p]) => {
+    const role = k.split(':')[0];
+    if (role === 'slot' || role === 'frame') return;
+    if (role === 'deco') { items[k] = p; return; }
+    const st = {}; [...FIX_TEXT, 'fill', 'stroke', 'strokeWidth', 'opacity', 'visible'].forEach((a) => { if (p[a] !== undefined) st[a] = p[a]; });
+    items[k] = st;
+  });
+  const now = new Set(full.keys);
+  const removed = builtKeys.filter((k) => !now.has(k) && /^(deco|kit):/.test(k));
+  return { v: 2, items, removed };
 }
 async function loadFixes() {
   if (!SITE_CFG || !SITE_CFG.supabaseUrl) return;
@@ -2629,32 +2673,45 @@ async function fixApi(body) {
 function adminBar() {
   const bar = document.createElement('div'); bar.className = 'admin-bar'; bar.setAttribute('translate', 'no');
   bar.innerHTML = `<div><a href="../konto/" style="color:#c9a24d;margin-right:10px">← Mein BoothDesigner</a><b>Admin · Design korrigieren</b><span id="adm-what"></span></div>
-    <div class="row"><button type="button" class="primary" id="adm-save">Für dieses Format speichern</button>
+    <div class="row"><button type="button" class="primary" id="adm-size">Für alle Formate dieser Größe speichern</button>
+    <button type="button" id="adm-save">Nur dieses Format</button>
     <button type="button" id="adm-style">Schrift &amp; Farben für alle Formate</button>
     <button type="button" id="adm-del">Korrektur entfernen</button><span id="adm-msg"></span></div>`;
   document.body.appendChild(bar);
   document.body.style.paddingBottom = (bar.offsetHeight + 24) + 'px'; // Leiste verdeckt den unteren Rand des Designs nicht
   const msg = (t) => { $('#adm-msg').textContent = t; };
+  const sizeName = () => String(L().name || '').split(' ')[0]; // „4×6“, „2×6“ …
   const what = () => {
-    const has = [FIXES[state.design + '|' + state.layout] && 'dieses Format', FIXES[state.design + '|*'] && 'alle Formate'].filter(Boolean);
+    $('#adm-size').textContent = `Für alle ${sizeName()}-Formate speichern`; $('#adm-size').hidden = !!L().screen;
+    const has = [FIXES[state.design + '|' + state.layout] && 'dieses Format', !L().screen && FIXES[state.design + '|' + sizeKey()] && `alle ${sizeName()}`, FIXES[state.design + '|*'] && 'alle Formate'].filter(Boolean);
     $('#adm-what').textContent = ` ${D().name} · ${L().name}${L().sub ? ' · ' + L().sub : ''}${has.length ? ' · korrigiert: ' + has.join(', ') : ''}`;
   };
   setInterval(what, 700); what();
   if (!state.advanced) { $('#advanced').checked = true; $('#advanced').dispatchEvent(new Event('change')); }
   const save = async (layout, stylesOnly) => {
     const a = canvas.getActiveObject(); if (a && a.isEditing) a.exitEditing();
-    const data = captureFix(stylesOnly);
+    const data = layout.startsWith('size-') ? captureSizeFix() : captureFix(stylesOnly);
     msg('Wird gespeichert …');
-    try { await fixApi({ action: 'fix-save', design: state.design, layout, data }); FIXES[state.design + '|' + layout] = data; msg('Gespeichert – alle Kunden sehen jetzt diese Fassung.'); }
+    try {
+      await fixApi({ action: 'fix-save', design: state.design, layout, data }); FIXES[state.design + '|' + layout] = data;
+      if (layout.startsWith('size-')) { // ältere Einzelkorrekturen dieser Größe würden die neue überstimmen
+        for (const k of Object.keys(FIXES)) {
+          const [d, l] = k.split('|');
+          if (d === state.design && LAYOUTS[l] && !LAYOUTS[l].screen && sizeKey(LAYOUTS[l]) === layout) { await fixApi({ action: 'fix-delete', design: d, layout: l }); delete FIXES[k]; }
+        }
+      }
+      msg('Gespeichert – alle Kunden sehen jetzt diese Fassung.');
+    }
     catch (e) { msg(e.message); }
   };
   $('#adm-save').onclick = () => save(state.layout, false);
+  $('#adm-size').onclick = () => save(sizeKey(), false);
   $('#adm-style').onclick = () => save('*', true);
   $('#adm-del').onclick = async () => {
-    if (!confirm(`Korrekturen für „${D().name}“ (dieses Format und „alle Formate“) entfernen? Danach gilt wieder das Original.`)) return;
+    if (!confirm(`Korrekturen für „${D().name}“ (dieses Format, alle ${sizeName()}-Formate und „alle Formate“) entfernen? Danach gilt wieder das Original.`)) return;
     msg('Wird entfernt …');
     try {
-      for (const layout of [state.layout, '*']) { await fixApi({ action: 'fix-delete', design: state.design, layout }); delete FIXES[state.design + '|' + layout]; }
+      for (const layout of [state.layout, sizeKey(), '*']) { await fixApi({ action: 'fix-delete', design: state.design, layout }); delete FIXES[state.design + '|' + layout]; }
       await buildDefault();
       msg('Entfernt – das Original gilt wieder.');
     } catch (e) { msg(e.message); }
@@ -2791,7 +2848,7 @@ async function start() {
 window.TemplateStudio = {
   // Design-Korrekturen testen (wirkt nur im eigenen Browser): fixes.capture(nurStil) → Daten, fixes.use('design|format', Daten)
   decoStats: () => decoStats.splice(0), // Deko-Abdeckung der Fotofelder seit dem letzten Aufruf (zum Prüfen)
-  fixes: { capture: (stylesOnly) => captureFix(stylesOnly), use: (key, data) => { FIXES[key] = data; } },
+  fixes: { capture: (stylesOnly) => captureFix(stylesOnly), captureSize: () => captureSizeFix(), sizeKey: () => sizeKey(), use: (key, data) => { FIXES[key] = data; } },
   designs: () => Object.keys(DESIGNS),
   layouts: () => Object.keys(LAYOUTS).filter((k) => !LAYOUTS[k].screen),
   screens: () => Object.keys(LAYOUTS).filter((k) => LAYOUTS[k].screen),
