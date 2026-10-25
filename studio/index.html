@@ -204,11 +204,31 @@ input[type=color]::-webkit-color-swatch{border:none;border-radius:50%}
 .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%) translateY(20px);background:var(--gold-hi);color:var(--on-gold);font-weight:700;padding:10px 16px;border-radius:9px;opacity:0;transition:opacity .2s,transform .2s;pointer-events:none;z-index:40}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 @media (max-width:860px){
+  /* Handy: Kopfzeile kompakt, dann Formate, Vorschau, Designs als Wischleiste, darunter die Texte */
   .app{grid-template-columns:minmax(0,1fr);grid-template-rows:auto;height:auto}
   .app > *{grid-column:1!important;grid-row:auto!important}
-  .stage{height:62vh}
-  aside{border-left:0;border-right:0!important;border-top:1px solid var(--line)}
-  .side-r .designs{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .app > header{order:0;position:sticky;top:0;z-index:20;gap:6px 8px;padding-block:8px}
+  .fstrip{order:1;position:sticky;top:var(--head-h,52px);z-index:19;padding:6px 10px}
+  .stage{order:2;height:auto;min-height:0;padding:14px 12px 10px}
+  .side-r{order:3}
+  .side-l{order:4}
+  .home{order:5}
+  header .brand{font-size:19px;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis}
+  header .brand span,#format-btn,.switch,#theme,.app[data-view="edit"] [data-lang-picker]{display:none!important}
+  #home-btn,#my-designs,#save{font-size:0;gap:0;padding:8px}
+  #home-btn svg,#my-designs svg,#save svg{width:18px;height:18px}
+  #send-top{padding:8px 12px}
+  .fmini{min-width:50px;padding:4px}
+  .fmini svg{height:32px}
+  aside{border-left:0;border-right:0!important;border-top:1px solid var(--line);overflow:visible}
+  .side-r section{gap:8px;padding-block:12px}
+  .side-r .cats{flex-wrap:nowrap;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}
+  .side-r .cat{flex:none}
+  .side-r .designs{display:grid;grid-auto-flow:column;grid-auto-columns:92px;grid-template-columns:none;overflow-x:auto;padding-bottom:4px;scroll-snap-type:x proximity}
+  .side-r .design{scroll-snap-align:start}
+  .side-r .cat-head{display:none}
+  .side-r .design span{display:none}
+  .inrow input{font-size:16px} /* kein automatisches Hineinzoomen beim Tippen (iOS) */
   .hgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
   .home h1{font-size:28px}
 }
@@ -2068,7 +2088,11 @@ $('#tab-screen').onclick = () => { state.tab = 'screen'; buildFormats(); };
 function fit() {
   const layout = L();
   const r = $('#stage').getBoundingClientRect();
-  const z = Math.max(0.05, Math.min((r.width - 48) / layout.W, (r.height - 70) / layout.H));
+  // Handy: Vorschau so breit wie möglich, höchstens 60 % der Bildschirmhöhe (die Bühne wächst mit, statt die Größe vorzugeben)
+  const phone = matchMedia('(max-width:860px)').matches;
+  if (phone) document.documentElement.style.setProperty('--head-h', $('.app > header').offsetHeight + 'px');
+  const z = Math.max(0.05, phone ? Math.min((r.width - 24) / layout.W, (innerHeight * 0.6) / layout.H)
+    : Math.min((r.width - 48) / layout.W, (r.height - 70) / layout.H));
   state.z = z;
   canvas.setDimensions({ width: Math.round(layout.W * z), height: Math.round(layout.H * z) });
   canvas.setZoom(z);
