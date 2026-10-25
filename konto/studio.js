@@ -195,7 +195,8 @@
     return `<div class="card"><div class="grid2">
       <div><b>Link für deine Kunden</b><p class="small muted" style="margin:4px 0 8px">Z. B. in die Buchungsbestätigung oder per WhatsApp.</p>
         <div class="code">${esc(url)}</div>
-        <div class="row" style="margin-top:8px"><button class="btn small" data-a="copy" data-v="${esc(url)}">Link kopieren</button><a class="btn small" href="${esc(url)}" target="_blank" rel="noopener">Studio öffnen</a></div></div>
+        <div class="row" style="margin-top:8px"><button class="btn small" data-a="copy" data-v="${esc(url)}">Link kopieren</button><a class="btn small" href="${esc(url)}" target="_blank" rel="noopener">${ctx.standalone ? 'Selbst gestalten' : 'Studio öffnen'}</a></div>
+        ${ctx.standalone ? '<p class="small muted" style="margin:8px 0 0">„Selbst gestalten“: Angemeldet kannst du im Studio auch eigene Vorlagen erstellen und als PNG herunterladen – ohne Einsendung.</p>' : ''}</div>
       <div><b>Einbettungscode für deine Webseite</b><p class="small muted" style="margin:4px 0 8px">In WordPress, Wix, Jimdo, Shopware … als „HTML“-Block einfügen.</p>
         <div class="code">${esc(code)}</div>
         <div class="row" style="margin-top:8px"><button class="btn small" data-a="copy" data-v="${esc(code)}">Code kopieren</button></div></div>

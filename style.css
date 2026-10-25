@@ -39,6 +39,13 @@ section.alt{background:var(--paper);border-block:1px solid var(--line)}
 h2{font:500 clamp(30px,3.6vw,44px)/1.1 var(--serif);margin:0 0 10px}
 .sub{color:var(--muted);margin:0 0 34px;max-width:40em}
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.steps4{grid-template-columns:repeat(4,1fr)}
+@media (max-width:1100px){.steps4{grid-template-columns:repeat(2,1fr)}}
+.embed-how{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:28px}
+.embed-how ul{margin:10px 0 0;padding-left:20px;color:var(--muted);font-size:15px}
+.embed-how li{margin:6px 0}
+.embed-how li b{color:var(--ink,inherit)}
+.code-ex{background:#1d1a14;color:#f3dc9a;border-radius:12px;padding:14px 16px;margin:10px 0 8px;font:13px/1.55 ui-monospace,Menlo,Consolas,monospace;white-space:pre-wrap;word-break:break-all}
 .step{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:22px}
 section.alt .step{background:var(--bg)}
 .step b{display:block;font-size:17px;margin:10px 0 6px}
@@ -78,7 +85,7 @@ footer nav{display:flex;gap:16px;margin-left:auto}
 .legal h2{font-size:26px;margin-top:30px}
 .legal .todo{background:#fff4d6;color:#6b4e00;border-radius:8px;padding:10px 14px;font-size:14px}
 @media (max-width:860px){
-  .hero .wrap,.steps,.feat,.dsgvo{grid-template-columns:1fr}
+  .hero .wrap,.steps,.feat,.dsgvo,.embed-how{grid-template-columns:1fr}
   .prices{grid-template-columns:1fr}
   nav.links{display:none}
   .logo{font-size:21px;white-space:nowrap}
