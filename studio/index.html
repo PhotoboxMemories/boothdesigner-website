@@ -1320,6 +1320,31 @@ function placePlate() {
 // Deko-Ebenen (Aquarell-Elemente) wie bei Druckvorlagen-Shops: Girlande am Fuß der Textfläche,
 // Ballons und Zweig an den Rändern, leicht über den Fotos. Liegen über Fläche und unter Text.
 const DECO_LABEL = { girlande: 'Blumengirlande', ballons: 'Ballons', zweig: 'Zweig' };
+// ---------- Deko darf die Fotos kaum verdecken ----------
+// Deckende Pixel eines Deko-Elements auf einem groben Raster; daraus der Anteil eines Fotofelds, den es verdeckt.
+// Liegt das über DECO_LIMIT, wird das Element kleiner, kommt in eine andere Ecke oder entfällt in diesem Format.
+const DECO_LIMIT = 0.05, decoMasks = new WeakMap(), decoStats = [];
+function decoMask(img) {
+  const el = img.getElement(); let m = decoMasks.get(el);
+  if (m) return m;
+  const mw = 40, mh = Math.max(1, Math.round(mw * img.height / img.width)), c = document.createElement('canvas'); c.width = mw; c.height = mh;
+  const x = c.getContext('2d'); x.drawImage(el, 0, 0, mw, mh);
+  const d = x.getImageData(0, 0, mw, mh).data, cells = [];
+  for (let j = 0; j < mh; j++) for (let i = 0; i < mw; i++) if (d[(j * mw + i) * 4 + 3] > 60) cells.push([(i + 0.5) / mw, (j + 0.5) / mh]);
+  m = { cells, mw, mh }; decoMasks.set(el, m); return m;
+}
+function decoCover(img, p, slots) {
+  if (!slots.length) return 0;
+  const m = decoMask(img), w = img.width * p.scale, h = img.height * p.scale;
+  const x0 = p.originX === 'center' ? p.left - w / 2 : p.left, y0 = p.originY === 'center' ? p.top - h / 2 : p.top, cell = (w / m.mw) * (h / m.mh);
+  const cov = slots.map(() => 0);
+  for (const [u, v] of m.cells) {
+    const x = x0 + (p.flipX ? 1 - u : u) * w, y = y0 + v * h;
+    slots.forEach((s, k) => { if (x > s[0] && x < s[0] + s[2] && y > s[1] && y < s[1] + s[3]) cov[k] += cell; });
+  }
+  return Math.max(...cov.map((c, k) => c / (slots[k][2] * slots[k][3])));
+}
+
 async function placeDeco() {
   objs('deco').forEach((o) => canvas.remove(o));
   const files = DESIGN_DATA[state.design].deco, layout = L();
@@ -1329,6 +1354,7 @@ async function placeDeco() {
   const { W, H } = layout;
   const S = Math.sqrt(W * H) / 1470;
   const plates = (layout.plates || []).filter((p) => p.shape !== 'fade');
+  const slots = layout.slots || [];
   const main = plates.reduce((a, p) => (!a || p.y + p.h > a.y + a.h ? p : a), null);
   let at = 0; canvas.getObjects().forEach((o, i) => { if (['bg', 'slot', 'frame', 'plate', 'kit'].includes(o.role)) at = i + 1; });
   const place = {
@@ -1344,8 +1370,13 @@ async function placeDeco() {
       if (gh < 200 * S) return null;
       const s = gh / img.height;
       const cx = main ? main.x + main.w / 2 : W / 2;
-      const cy = Math.max(main ? main.y + main.h + gh * 0.12 : H - gh * 0.3, lastY + gh * reach);
-      return { scale: s, left: cx, top: cy, originX: 'center', originY: 'center' };
+      for (let k = 1; k >= 0.6; k *= 0.88) { // Fotos frei halten: kleiner, bis höchstens DECO_LIMIT verdeckt ist
+        const g = gh * k, cy = Math.max(main ? main.y + main.h + g * 0.12 : H - g * 0.3, lastY + g * reach);
+        const p = { scale: s * k, left: cx, top: cy, originX: 'center', originY: 'center' };
+        if (g < 200 * S) return null;
+        if (decoCover(img, p, slots) <= DECO_LIMIT || k < 0.6 * 1.14) return p;
+      }
+      return null;
     },
     ballons: (img) => corner(img, 560 * S, ['tr', 'tl', 'br'], 6),
     zweig: (img) => corner(img, 640 * S, ['tl', 'tr', 'bl'], -8),
@@ -1358,21 +1389,27 @@ async function placeDeco() {
     const big = D().decoScale || 1;
     return (big > 1 && cornerAt(img, h * big, order, angle)) || cornerAt(img, h, order, angle);
   }
-  function cornerAt(img, h, order, angle) {
-    const s = h / img.height, w = img.width * s;
-    const box = {
-      tl: { x: -0.18 * w, y: -0.06 * h }, tr: { x: W - 0.82 * w, y: -0.06 * h },
-      bl: { x: -0.18 * w, y: H - 0.94 * h }, br: { x: W - 0.82 * w, y: H - 0.94 * h },
-    };
-    for (const c of order) {
-      const r = { ...box[c], w, h };
-      if (plates.some((p) => hits(r, p)) || used.some((u) => hits(r, u))) continue;
-      used.push(r);
-      const right = c[1] === 'r', bottom = c[0] === 'b';
-      return { scale: s, left: r.x, top: r.y, originX: 'left', originY: 'top', angle: right ? angle : -angle,
-        flipX: right === (angle < 0), flipY: false, _bottom: bottom };
+  function cornerAt(img, h0, order, angle) {
+    let best = null;
+    for (let k = 1; k >= 0.5; k *= 0.88) { // so groß wie möglich (lieber andere Ecke als kleiner), höchstens DECO_LIMIT eines Fotos verdeckt
+      for (const c of order) {
+        const h = h0 * k, s = h / img.height, w = img.width * s;
+        const box = {
+          tl: { x: -0.18 * w, y: -0.06 * h }, tr: { x: W - 0.82 * w, y: -0.06 * h },
+          bl: { x: -0.18 * w, y: H - 0.94 * h }, br: { x: W - 0.82 * w, y: H - 0.94 * h },
+        };
+        const r = { ...box[c], w, h };
+        if (plates.some((p) => hits(r, p)) || used.some((u) => hits(r, u))) continue;
+        const right = c[1] === 'r', bottom = c[0] === 'b';
+        const p = { scale: s, left: r.x, top: r.y, originX: 'left', originY: 'top', angle: right ? angle : -angle,
+          flipX: right === (angle < 0), flipY: false, _bottom: bottom, _r: r };
+        const cov = decoCover(img, p, slots);
+        if (cov <= DECO_LIMIT) { used.push(r); delete p._r; return p; }
+        if (!best || cov < best.cov) best = { p, cov };
+      }
     }
-    return null;
+    if (best && best.cov <= DECO_LIMIT * 2) { used.push(best.p._r); delete best.p._r; return best.p; } // knapp drüber: kleinste Fassung
+    return null; // würde die Fotos zu sehr verdecken: in diesem Format ohne dieses Element
   }
   let i = 0;
   for (const n of names) {
@@ -1382,6 +1419,7 @@ async function placeDeco() {
     const p = place[n](img);
     if (!p) continue; // keine freie Stelle in diesem Format
     delete p._bottom;
+    decoStats.push({ design: state.design, layout: state.layout, deco: n, cover: decoCover(img, p, slots) });
     img.set({ ...p, scaleX: p.scale, scaleY: p.scale, role: 'deco', label: labels[n] || DECO_LABEL[n] || n, decoName: n, uid: nextId() });
     canvas.insertAt(img, at + i++);
   }
@@ -2752,6 +2790,7 @@ async function start() {
 // Schnittstelle für Stapel-Exporte (komplette PNG-Sets) und eine spätere Shop-Anbindung
 window.TemplateStudio = {
   // Design-Korrekturen testen (wirkt nur im eigenen Browser): fixes.capture(nurStil) → Daten, fixes.use('design|format', Daten)
+  decoStats: () => decoStats.splice(0), // Deko-Abdeckung der Fotofelder seit dem letzten Aufruf (zum Prüfen)
   fixes: { capture: (stylesOnly) => captureFix(stylesOnly), use: (key, data) => { FIXES[key] = data; } },
   designs: () => Object.keys(DESIGNS),
   layouts: () => Object.keys(LAYOUTS).filter((k) => !LAYOUTS[k].screen),
