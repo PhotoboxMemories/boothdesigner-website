@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Mein BoothDesigner</title>
+<link rel="icon" href="../favicon.svg">
+<link rel="stylesheet" href="../style.css">
+<style>
+/* Eigener Bereich für Fotobox-Vermieter: Anmeldung und Verwaltung (studio.js wie im Dashboard von Photobox Memories) */
+:root{--card:var(--paper)}
+[hidden]{display:none!important}
+main.konto{padding:36px 0 80px}
+.auth{max-width:420px;margin:40px auto;background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:28px;display:grid;gap:14px}
+.auth h1{font-size:38px;margin:0}
+.auth p{margin:0;color:var(--muted)}
+label{display:grid;gap:5px;font-size:13px;font-weight:600;color:var(--muted)}
+input,select,textarea{font:inherit;font-size:15px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:9px 11px;width:100%}
+input[type=checkbox],input[type=color],input[type=file]{width:auto}
+.auth .links{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:14px}
+.auth .links a{color:var(--gold);cursor:pointer}
+.msg{font-size:14px;border-radius:9px;padding:9px 12px}.msg:empty{display:none}
+.msg.ok{background:#e3f4e6;color:#1f5e2c}.msg.err{background:#fde8e6;color:#8a2a20}
+.check{display:flex;gap:8px;align-items:flex-start;font-weight:400;color:var(--ink)}
+.acct{margin-left:auto;display:flex;align-items:center;gap:10px;font-size:14px;color:var(--muted)}
+.acct .btn{padding:7px 12px;font-size:14px}
+/* Bausteine, die studio.js aus dem Dashboard mitbringt */
+.card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.muted{color:var(--muted)}.small{font-size:13px}.hidden{display:none!important}
+.pagehead{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}.pagehead h1{font-size:42px;margin:0}
+#studioRoot h2{font:500 28px var(--serif)}
+.btn.primary{background:var(--gold);border-color:var(--gold);color:#fff}
+.btn.small{padding:6px 11px;font-size:13px}
+.btn.danger{color:#a3261c;border-color:#e9c4bf}
+.btn[disabled]{opacity:.55;cursor:not-allowed}
+.badge{display:inline-block;border-radius:999px;padding:1px 9px;font-size:12px;font-weight:700;background:var(--gold-soft);color:var(--gold)}
+.toast{position:fixed;left:50%;bottom:24px;translate:-50% 0;z-index:200;background:var(--dark);color:var(--on-dark);border-radius:10px;padding:10px 16px;font-size:14px;max-width:min(560px,92vw);box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.toast[hidden]{display:none}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="logo" href="../"><img src="../favicon.svg" alt="">BoothDesigner</a>
+  <span data-lang-picker></span>
+  <div class="acct" id="acct" hidden><span id="acctMail" translate="no"></span><button class="btn" id="logout" type="button">Abmelden</button></div>
+</div></header>
+
+<main class="wrap konto">
+  <!-- Anmelden -->
+  <form class="auth" id="vLogin" hidden novalidate>
+    <h1>Anmelden</h1>
+    <p>Verwalte dein BoothDesigner: Einstellungen, Link für deine Kunden und die eingegangenen Designs.</p>
+    <label>E-Mail-Adresse<input type="email" name="email" autocomplete="email" required></label>
+    <label>Passwort<input type="password" name="password" autocomplete="current-password" required></label>
+    <div class="msg" id="mLogin" role="status"></div>
+    <button class="btn gold" type="submit">Anmelden</button>
+    <div class="links"><a data-go="vSignup">Neues Konto erstellen</a><a data-go="vForgot">Passwort vergessen?</a></div>
+  </form>
+
+  <!-- Registrieren -->
+  <form class="auth" id="vSignup" hidden novalidate>
+    <h1>Konto erstellen</h1>
+    <p>14 Tage kostenlos testen, ohne Zahlungsdaten. Für Fotobox-Vermieter, Fotografen und Eventagenturen.</p>
+    <label>E-Mail-Adresse<input type="email" name="email" autocomplete="email" required></label>
+    <label>Passwort (mindestens 8 Zeichen)<input type="password" name="password" autocomplete="new-password" minlength="8" required></label>
+    <label class="check"><input type="checkbox" name="terms" required><span>Ich bin Unternehmer und akzeptiere die <a href="../agb.html" target="_blank">AGB</a>. Hinweise zum Datenschutz: <a href="../datenschutz.html" target="_blank">Datenschutzerklärung</a></span></label>
+    <div class="msg" id="mSignup" role="status"></div>
+    <button class="btn gold" type="submit">Konto erstellen</button>
+    <div class="links"><a data-go="vLogin">Ich habe schon ein Konto</a></div>
+  </form>
+
+  <!-- Passwort vergessen -->
+  <form class="auth" id="vForgot" hidden novalidate>
+    <h1>Passwort vergessen</h1>
+    <p>Wir schicken dir einen Link, mit dem du ein neues Passwort festlegst.</p>
+    <label>E-Mail-Adresse<input type="email" name="email" autocomplete="email" required></label>
+    <div class="msg" id="mForgot" role="status"></div>
+    <button class="btn gold" type="submit">Link schicken</button>
+    <div class="links"><a data-go="vLogin">Zurück zur Anmeldung</a></div>
+  </form>
+
+  <!-- Neues Passwort (nach dem Link aus der Mail) -->
+  <form class="auth" id="vReset" hidden novalidate>
+    <h1>Neues Passwort</h1>
+    <label>Neues Passwort (mindestens 8 Zeichen)<input type="password" name="password" autocomplete="new-password" minlength="8" required></label>
+    <div class="msg" id="mReset" role="status"></div>
+    <button class="btn gold" type="submit">Passwort speichern</button>
+  </form>
+
+  <!-- Betreiber-Konto: Code aus der Authenticator-App (Zwei-Faktor, wie im Dashboard von Photobox Memories) -->
+  <form class="auth" id="vMfa" hidden novalidate>
+    <h1>Admin-Bestätigung</h1>
+    <p>Dein Konto hat Betreiber-Rechte. Gib den 6-stelligen Code aus deiner Authenticator-App ein, um Designs für alle Kunden zu korrigieren.</p>
+    <label>Code<input name="code" inputmode="numeric" autocomplete="one-time-code" maxlength="6" pattern="[0-9]{6}" required></label>
+    <div class="msg" id="mMfa" role="status"></div>
+    <button class="btn gold" type="submit">Bestätigen</button>
+    <div class="links"><a id="mfaSkip">Ohne Admin-Funktionen weiter</a></div>
+  </form>
+
+  <!-- Angemeldet: BoothDesigner verwalten -->
+  <section id="vApp" hidden><div id="studioRoot"></div></section>
+</main>
+
+<footer><div class="wrap"><span>BoothDesigner</span><nav><a href="../impressum.html">Impressum</a><a href="../datenschutz.html">Datenschutz</a><a href="../agb.html">AGB</a></nav></div></footer>
+<div class="toast" id="toast" hidden role="status" aria-live="polite"></div>
+
+<script src="../studio-config.js"></script>
+<script src="../vendor/supabase.js"></script>
+<script src="studio.js"></script>
+<script>
+(() => {
+  'use strict';
+  const C = window.STUDIO_CONFIG, $ = (s) => document.querySelector(s);
+  // studio.js erwartet die Einstellungen des Dashboards: Foto-Speicher (Einsendungen) und Adresse des Studios (diese Seite)
+  window.FOTOBOX_CONFIG = { photoStore: C.photoStore, studioUrl: location.origin };
+  const sb = supabase.createClient(C.supabaseUrl, C.anonKey, { auth: { storageKey: 'boothdesigner-anmeldung' } });
+  const here = location.origin + location.pathname; // Rückkehr aus Bestätigungs- und Passwort-Mails
+  let me = null, tier = {}, toastT;
+
+  const toast = (t, ms = 3500) => { const e = $('#toast'); e.textContent = t; e.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => { e.hidden = true; }, ms); };
+  const show = (id) => { ['vLogin', 'vSignup', 'vForgot', 'vReset', 'vMfa', 'vApp'].forEach((v) => { $('#' + v).hidden = v !== id; }); };
+  const say = (id, t, ok) => { const m = $('#' + id); m.textContent = t; m.className = 'msg ' + (ok ? 'ok' : 'err'); };
+  // Fehlermeldungen von Supabase (englisch) verständlich – wie im Dashboard
+  const ERR = (m) => /Invalid login credentials/i.test(m) ? 'E-Mail oder Passwort falsch.'
+    : /not confirmed/i.test(m) ? 'Deine E-Mail-Adresse ist noch nicht bestätigt. Bitte klicke auf den Link in unserer Mail (auch im Spam-Ordner nachsehen).'
+    : /already registered|already been registered/i.test(m) ? 'Für diese E-Mail-Adresse gibt es schon ein Konto – bitte anmelden.'
+    : /rate limit|too many/i.test(m) ? 'Gerade wurden zu viele Mails verschickt. Bitte in ein paar Minuten noch einmal versuchen.'
+    : /expired|invalid.*link/i.test(m) ? 'Der Link ist abgelaufen. Bitte noch einmal anfordern.'
+    : /different from the old/i.test(m) ? 'Das neue Passwort muss sich vom alten unterscheiden.'
+    : /password.*(short|least|weak)/i.test(m) ? 'Das Passwort ist zu kurz oder zu einfach.' : m;
+
+  document.querySelectorAll('[data-go]').forEach((a) => { a.onclick = (e) => { e.preventDefault(); show(a.dataset.go); }; });
+
+  $('#vLogin').onsubmit = async (e) => {
+    e.preventDefault(); const f = e.target, email = f.email.value.trim(), password = f.password.value;
+    if (!email || !password) return say('mLogin', 'Bitte E-Mail und Passwort eingeben.');
+    f.querySelector('button').disabled = true;
+    const { error } = await sb.auth.signInWithPassword({ email, password });
+    f.querySelector('button').disabled = false;
+    if (error) say('mLogin', ERR(error.message));
+  };
+  $('#vSignup').onsubmit = async (e) => {
+    e.preventDefault(); const f = e.target, email = f.email.value.trim(), password = f.password.value;
+    if (!email || password.length < 8) return say('mSignup', 'Bitte E-Mail und ein Passwort mit mindestens 8 Zeichen eingeben.');
+    if (!f.terms.checked) return say('mSignup', 'Bitte bestätige die AGB.');
+    f.querySelector('button').disabled = true;
+    const { data, error } = await sb.auth.signUp({ email, password, options: { emailRedirectTo: here, data: { signup_source: 'boothdesigner' } } });
+    f.querySelector('button').disabled = false;
+    if (error) return say('mSignup', ERR(error.message));
+    if (!data.session) say('mSignup', 'Fast geschafft! Bitte bestätige deine E-Mail über den Link, den wir dir geschickt haben. Keine Mail da? Bitte auch im Spam-Ordner nachsehen.', true);
+  };
+  $('#vForgot').onsubmit = async (e) => {
+    e.preventDefault(); const email = e.target.email.value.trim();
+    if (!email) return say('mForgot', 'Bitte deine E-Mail-Adresse eingeben.');
+    const { error } = await sb.auth.resetPasswordForEmail(email, { redirectTo: here });
+    error ? say('mForgot', ERR(error.message)) : say('mForgot', 'Wir haben dir einen Link zum Zurücksetzen geschickt.', true);
+  };
+  $('#vReset').onsubmit = async (e) => {
+    e.preventDefault(); const password = e.target.password.value;
+    if (password.length < 8) return say('mReset', 'Bitte ein Passwort mit mindestens 8 Zeichen eingeben.');
+    const { error } = await sb.auth.updateUser({ password });
+    if (error) return say('mReset', ERR(error.message));
+    toast('Neues Passwort gespeichert.'); history.replaceState(null, '', here); start();
+  };
+  $('#logout').onclick = async () => { await sb.auth.signOut(); location.replace(here); };
+
+  // Logo hochladen wie im Dashboard (Bucket „logos“, große Bilder verkleinert)
+  async function uploadFile(file) {
+    let blob = file, ext = (file.name.split('.').pop() || 'png').toLowerCase();
+    if (file.type.startsWith('image/') && file.type !== 'image/gif' && file.type !== 'image/svg+xml') {
+      const img = await new Promise((res, rej) => { const i = new Image(); i.onload = () => res(i); i.onerror = rej; i.src = URL.createObjectURL(file); });
+      const k = Math.min(1, 2400 / Math.max(img.width, img.height));
+      if (k < 1) {
+        const c = document.createElement('canvas'); c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
+        c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+        const png = file.type === 'image/png';
+        blob = await new Promise((r) => c.toBlob(r, png ? 'image/png' : 'image/jpeg', 0.9)); ext = png ? 'png' : 'jpg';
+      }
+    }
+    const path = `${me.id}/${Date.now()}-${Math.random().toString(36).slice(2, 8)}.${ext}`;
+    const { error } = await sb.storage.from('logos').upload(path, blob, { contentType: blob.type || file.type, upsert: false });
+    if (error) throw error;
+    return sb.storage.from('logos').getPublicUrl(path).data.publicUrl;
+  }
+  const loadTier = async () => { tier = (await sb.rpc('my_tier')).data || {}; };
+
+  // Betreiber-Konto (profiles.is_admin): Admin-Funktionen erst nach dem Code aus der Authenticator-App (Stufe aal2) – der Server
+  // prüft das selbst (is_admin()). Ohne Code geht es als normaler Vermieter weiter. Nach 30 Minuten ohne Bedienung: abmelden.
+  async function adminCheck() {
+    const prof = (await sb.from('profiles').select('is_admin').eq('id', me.id).maybeSingle()).data;
+    if (!prof || !prof.is_admin) return false;
+    const aal = (await sb.auth.mfa.getAuthenticatorAssuranceLevel()).data;
+    if (aal && aal.currentLevel === 'aal2') return true;
+    const totp = (((await sb.auth.mfa.listFactors()).data || {}).totp || []).find((f) => f.status === 'verified');
+    if (!totp) { toast('Für die Admin-Funktionen bitte zuerst im Dashboard die Zwei-Faktor-Anmeldung einrichten.', 8000); return false; }
+    show('vMfa'); $('#vMfa').code.value = ''; setTimeout(() => $('#vMfa').code.focus(), 50);
+    return new Promise((res) => {
+      $('#mfaSkip').onclick = (e) => { e.preventDefault(); res(false); };
+      $('#vMfa').onsubmit = async (e) => {
+        e.preventDefault(); const code = e.target.code.value.replace(/\D/g, '');
+        if (code.length !== 6) return say('mMfa', 'Bitte den 6-stelligen Code eingeben.');
+        const { error } = await sb.auth.mfa.challengeAndVerify({ factorId: totp.id, code });
+        if (error) return say('mMfa', /invalid|expired/i.test(error.message) ? 'Der Code stimmt nicht oder ist abgelaufen. Bitte den aktuellen Code eingeben.' : ERR(error.message));
+        res(true);
+      };
+    });
+  }
+  function idleLogout() {
+    let last = Date.now();
+    ['pointerdown', 'keydown', 'wheel', 'touchstart'].forEach((t) => addEventListener(t, () => { last = Date.now(); }, { passive: true }));
+    setInterval(async () => {
+      if (Date.now() - last < 30 * 60e3) return;
+      await sb.auth.signOut(); alert('Aus Sicherheitsgründen abgemeldet: 30 Minuten ohne Bedienung. Bitte neu anmelden.'); location.replace(here);
+    }, 30e3);
+  }
+
+  let opened = false;
+  async function start() {
+    const { data: { session } } = await sb.auth.getSession();
+    if (!session) { $('#acct').hidden = true; me = null; opened = false; show(new URLSearchParams(location.search).get('konto') === 'neu' ? 'vSignup' : 'vLogin'); return; }
+    me = session.user; $('#acctMail').textContent = me.email; $('#acct').hidden = false;
+    if (opened) return; opened = true;
+    const admin = await adminCheck();
+    if (admin) idleLogout();
+    show('vApp');
+    await loadTier();
+    window.StudioPage.open({
+      sb, me, toast, uploadFile, standalone: true, admin, demo: false,
+      extra: (k) => (tier.extras || []).includes(k), tier: () => tier, reloadTier: loadTier,
+      events: () => [], reloadEvents: async () => {}
+    });
+  }
+  sb.auth.onAuthStateChange((ev) => {
+    if (ev === 'PASSWORD_RECOVERY') { show('vReset'); return; }
+    if (ev === 'SIGNED_IN' || ev === 'SIGNED_OUT' || ev === 'INITIAL_SESSION') setTimeout(start, 0);
+  });
+})();
+</script>
+<script src="../i18n.js?v=20261025-5"></script>
+<script src="../sprache.js?v=20261025-5" data-base="../"></script>
+</body>
+</html>
