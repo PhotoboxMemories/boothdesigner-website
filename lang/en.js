@@ -1145,4 +1145,7 @@ I18N.add('en', {
 "Wildblumen": "Wildflowers",
 "Dein eigenes Studio: Du kannst Vorlagen selbst gestalten und oben über „Export“ als PNG herunterladen.": "Your own studio: you can design templates yourself and download them as PNG via “Export” at the top.",
 "„Selbst gestalten“: Angemeldet kannst du im Studio auch eigene Vorlagen erstellen und als PNG herunterladen – ohne Einsendung.": "“Design it yourself”: when logged in, you can create your own templates in the studio and download them as PNG – no submission needed.",
+"BoothDesigner in 2 Minuten erklärt": "BoothDesigner explained in 2 minutes",
+"Mit Ton – das Video ist auf Deutsch.": "With sound – the video is in German.",
+"BoothDesigner erklärt": "BoothDesigner explained",
 });

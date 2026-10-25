@@ -1145,4 +1145,7 @@ I18N.add('it', {
 "Wildblumen": "Fiori di campo",
 "Dein eigenes Studio: Du kannst Vorlagen selbst gestalten und oben über „Export“ als PNG herunterladen.": "Il tuo studio: puoi creare modelli da solo e scaricarli in PNG tramite «Export» in alto.",
 "„Selbst gestalten“: Angemeldet kannst du im Studio auch eigene Vorlagen erstellen und als PNG herunterladen – ohne Einsendung.": "«Crea tu stesso»: da connesso puoi creare i tuoi modelli nello studio e scaricarli in PNG – senza invio.",
+"BoothDesigner in 2 Minuten erklärt": "BoothDesigner spiegato in 2 minuti",
+"Mit Ton – das Video ist auf Deutsch.": "Con audio – il video è in tedesco.",
+"BoothDesigner erklärt": "BoothDesigner spiegato",
 });

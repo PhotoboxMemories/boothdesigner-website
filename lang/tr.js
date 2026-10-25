@@ -1145,4 +1145,7 @@ I18N.add('tr', {
 "Wildblumen": "Kır çiçekleri",
 "Dein eigenes Studio: Du kannst Vorlagen selbst gestalten und oben über „Export“ als PNG herunterladen.": "Kendi stüdyon: şablonları kendin tasarlayıp üstteki “Dışa aktar” ile PNG olarak indirebilirsin.",
 "„Selbst gestalten“: Angemeldet kannst du im Studio auch eigene Vorlagen erstellen und als PNG herunterladen – ohne Einsendung.": "“Kendin tasarla”: giriş yaptığında stüdyoda kendi şablonlarını oluşturup PNG olarak indirebilirsin – gönderim gerekmez.",
+"BoothDesigner in 2 Minuten erklärt": "2 dakikada BoothDesigner",
+"Mit Ton – das Video ist auf Deutsch.": "Sesli – video Almanca.",
+"BoothDesigner erklärt": "BoothDesigner anlatımı",
 });
