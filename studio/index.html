@@ -2585,6 +2585,7 @@ function adminBar() {
     <button type="button" id="adm-style">Schrift &amp; Farben für alle Formate</button>
     <button type="button" id="adm-del">Korrektur entfernen</button><span id="adm-msg"></span></div>`;
   document.body.appendChild(bar);
+  document.body.style.paddingBottom = (bar.offsetHeight + 24) + 'px'; // Leiste verdeckt den unteren Rand des Designs nicht
   const msg = (t) => { $('#adm-msg').textContent = t; };
   const what = () => {
     const has = [FIXES[state.design + '|' + state.layout] && 'dieses Format', FIXES[state.design + '|*'] && 'alle Formate'].filter(Boolean);
