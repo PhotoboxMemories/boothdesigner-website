@@ -1171,4 +1171,11 @@ I18N.add('en', {
 "Smaragd Gala": "Emerald Gala",
 "Goldener Eukalyptus": "Golden eucalyptus",
 "Goldzweige in Smaragdvase": "Golden branches in emerald vase",
+"Mit Ton – auf Deutsch, Englisch, Türkisch, Französisch, Spanisch und Italienisch.": "With sound – in German, English, Turkish, French, Spanish and Italian.",
+"Welche Varianten möchtest du?": "Which variants would you like?",
+"Deine Fotobox kann mehrere Layouts gleichzeitig anbieten. Dein Design wird in jedem gewählten Format mitgeschickt (bis zu 6).": "Your photo booth can offer several layouts at the same time. Your design is sent along in every format you choose (up to 6).",
+"Dein aktuelles Format – ist immer dabei": "Your current format – always included",
+"Druckvorlagen der Varianten:": "Print templates of the variants:",
+"Formate": "Formats",
+"Bitte mindestens ein Format wählen.": "Please choose at least one format.",
 });

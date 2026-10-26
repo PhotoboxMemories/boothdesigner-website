@@ -1171,4 +1171,11 @@ I18N.add('it', {
 "Smaragd Gala": "Gala Smeraldo",
 "Goldener Eukalyptus": "Eucalipto dorato",
 "Goldzweige in Smaragdvase": "Rami dorati in vaso smeraldo",
+"Mit Ton – auf Deutsch, Englisch, Türkisch, Französisch, Spanisch und Italienisch.": "Con audio – in tedesco, inglese, turco, francese, spagnolo e italiano.",
+"Welche Varianten möchtest du?": "Quali varianti vuoi?",
+"Deine Fotobox kann mehrere Layouts gleichzeitig anbieten. Dein Design wird in jedem gewählten Format mitgeschickt (bis zu 6).": "Il tuo photo booth può offrire più layout contemporaneamente. Il tuo design viene inviato in ogni formato scelto (fino a 6).",
+"Dein aktuelles Format – ist immer dabei": "Il tuo formato attuale – sempre incluso",
+"Druckvorlagen der Varianten:": "Modelli di stampa delle varianti:",
+"Formate": "Formati",
+"Bitte mindestens ein Format wählen.": "Scegli almeno un formato.",
 });

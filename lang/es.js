@@ -1171,4 +1171,11 @@ I18N.add('es', {
 "Smaragd Gala": "Gala Esmeralda",
 "Goldener Eukalyptus": "Eucalipto dorado",
 "Goldzweige in Smaragdvase": "Ramas doradas en jarrón esmeralda",
+"Mit Ton – auf Deutsch, Englisch, Türkisch, Französisch, Spanisch und Italienisch.": "Con sonido – en alemán, inglés, turco, francés, español e italiano.",
+"Welche Varianten möchtest du?": "¿Qué variantes quieres?",
+"Deine Fotobox kann mehrere Layouts gleichzeitig anbieten. Dein Design wird in jedem gewählten Format mitgeschickt (bis zu 6).": "Tu fotomatón puede ofrecer varios diseños a la vez. Tu diseño se envía en cada formato que elijas (hasta 6).",
+"Dein aktuelles Format – ist immer dabei": "Tu formato actual – siempre incluido",
+"Druckvorlagen der Varianten:": "Plantillas de impresión de las variantes:",
+"Formate": "Formatos",
+"Bitte mindestens ein Format wählen.": "Elige al menos un formato.",
 });

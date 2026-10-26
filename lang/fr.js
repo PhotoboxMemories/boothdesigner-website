@@ -1171,4 +1171,11 @@ I18N.add('fr', {
 "Smaragd Gala": "Gala Émeraude",
 "Goldener Eukalyptus": "Eucalyptus doré",
 "Goldzweige in Smaragdvase": "Branches dorées dans un vase émeraude",
+"Mit Ton – auf Deutsch, Englisch, Türkisch, Französisch, Spanisch und Italienisch.": "Avec le son – en allemand, anglais, turc, français, espagnol et italien.",
+"Welche Varianten möchtest du?": "Quelles variantes veux-tu ?",
+"Deine Fotobox kann mehrere Layouts gleichzeitig anbieten. Dein Design wird in jedem gewählten Format mitgeschickt (bis zu 6).": "Ton photobooth peut proposer plusieurs mises en page en même temps. Ton design est envoyé dans chaque format choisi (jusqu'à 6).",
+"Dein aktuelles Format – ist immer dabei": "Ton format actuel – toujours inclus",
+"Druckvorlagen der Varianten:": "Modèles d'impression des variantes :",
+"Formate": "Formats",
+"Bitte mindestens ein Format wählen.": "Choisis au moins un format.",
 });

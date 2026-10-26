@@ -1171,4 +1171,11 @@ I18N.add('tr', {
 "Smaragd Gala": "Zümrüt Gala",
 "Goldener Eukalyptus": "Altın okaliptüs",
 "Goldzweige in Smaragdvase": "Zümrüt vazoda altın dallar",
+"Mit Ton – auf Deutsch, Englisch, Türkisch, Französisch, Spanisch und Italienisch.": "Sesli – Almanca, İngilizce, Türkçe, Fransızca, İspanyolca ve İtalyanca.",
+"Welche Varianten möchtest du?": "Hangi varyantları istiyorsun?",
+"Deine Fotobox kann mehrere Layouts gleichzeitig anbieten. Dein Design wird in jedem gewählten Format mitgeschickt (bis zu 6).": "Fotoğraf kabinin aynı anda birden fazla düzen sunabilir. Tasarımın seçtiğin her formatta gönderilir (en fazla 6).",
+"Dein aktuelles Format – ist immer dabei": "Mevcut formatın – her zaman dahil",
+"Druckvorlagen der Varianten:": "Varyantların baskı şablonları:",
+"Formate": "Formatlar",
+"Bitte mindestens ein Format wählen.": "Lütfen en az bir format seç.",
 });
