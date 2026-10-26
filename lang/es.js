@@ -1186,4 +1186,5 @@ I18N.add('es', {
 "Rosen & Olive in blauer Vase": "Rosas y olivo en jarrón azul",
 "MEINE KONFIRMATION": "MI CONFIRMACIÓN",
 "WINTERZAUBER": "MAGIA DE INVIERNO",
+"Zur Fotobox-Software →": "Ver el software de fotomatón →",
 });

@@ -1186,4 +1186,5 @@ I18N.add('it', {
 "Rosen & Olive in blauer Vase": "Rose & ulivo in vaso blu",
 "MEINE KONFIRMATION": "LA MIA CRESIMA",
 "WINTERZAUBER": "MAGIA D'INVERNO",
+"Zur Fotobox-Software →": "Al software per photo booth →",
 });

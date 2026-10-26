@@ -1186,4 +1186,5 @@ I18N.add('tr', {
 "Rosen & Olive in blauer Vase": "Mavi Vazoda Güller & Zeytin",
 "MEINE KONFIRMATION": "KONFİRMASYONUM",
 "WINTERZAUBER": "KIŞ BÜYÜSÜ",
+"Zur Fotobox-Software →": "Fotoğraf kabini yazılımına →",
 });
