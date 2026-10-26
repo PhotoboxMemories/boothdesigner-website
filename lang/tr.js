@@ -1178,4 +1178,12 @@ I18N.add('tr', {
 "Druckvorlagen der Varianten:": "Varyantların baskı şablonları:",
 "Formate": "Formatlar",
 "Bitte mindestens ein Format wählen.": "Lütfen en az bir format seç.",
+"Silberfrost": "Gümüş Ayaz",
+"Frosttanne & Schneebeeren": "Karlı Köknar & Kar Meyveleri",
+"Birkenzweige in weißer Vase": "Beyaz Vazoda Huş Dalları",
+"Taubenblau": "Güvercin Mavisi",
+"Rosen & Rittersporn": "Güller & Hezaren",
+"Rosen & Olive in blauer Vase": "Mavi Vazoda Güller & Zeytin",
+"MEINE KONFIRMATION": "KONFİRMASYONUM",
+"WINTERZAUBER": "KIŞ BÜYÜSÜ",
 });

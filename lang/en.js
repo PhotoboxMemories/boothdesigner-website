@@ -1178,4 +1178,12 @@ I18N.add('en', {
 "Druckvorlagen der Varianten:": "Print templates of the variants:",
 "Formate": "Formats",
 "Bitte mindestens ein Format wählen.": "Please choose at least one format.",
+"Silberfrost": "Silver Frost",
+"Frosttanne & Schneebeeren": "Frosted Fir & Snowberries",
+"Birkenzweige in weißer Vase": "Birch Branches in White Vase",
+"Taubenblau": "Dove Blue",
+"Rosen & Rittersporn": "Roses & Delphinium",
+"Rosen & Olive in blauer Vase": "Roses & Olive in Blue Vase",
+"MEINE KONFIRMATION": "MY CONFIRMATION",
+"WINTERZAUBER": "WINTER MAGIC",
 });

@@ -1178,4 +1178,12 @@ I18N.add('it', {
 "Druckvorlagen der Varianten:": "Modelli di stampa delle varianti:",
 "Formate": "Formati",
 "Bitte mindestens ein Format wählen.": "Scegli almeno un formato.",
+"Silberfrost": "Brina d'argento",
+"Frosttanne & Schneebeeren": "Abete brinato & bacche di neve",
+"Birkenzweige in weißer Vase": "Rami di betulla in vaso bianco",
+"Taubenblau": "Blu colomba",
+"Rosen & Rittersporn": "Rose & speronella",
+"Rosen & Olive in blauer Vase": "Rose & ulivo in vaso blu",
+"MEINE KONFIRMATION": "LA MIA CRESIMA",
+"WINTERZAUBER": "MAGIA D'INVERNO",
 });

@@ -1178,4 +1178,12 @@ I18N.add('es', {
 "Druckvorlagen der Varianten:": "Plantillas de impresión de las variantes:",
 "Formate": "Formatos",
 "Bitte mindestens ein Format wählen.": "Elige al menos un formato.",
+"Silberfrost": "Escarcha plateada",
+"Frosttanne & Schneebeeren": "Abeto escarchado y bayas de nieve",
+"Birkenzweige in weißer Vase": "Ramas de abedul en jarrón blanco",
+"Taubenblau": "Azul paloma",
+"Rosen & Rittersporn": "Rosas y espuelas de caballero",
+"Rosen & Olive in blauer Vase": "Rosas y olivo en jarrón azul",
+"MEINE KONFIRMATION": "MI CONFIRMACIÓN",
+"WINTERZAUBER": "MAGIA DE INVIERNO",
 });

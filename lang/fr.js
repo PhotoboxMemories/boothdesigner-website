@@ -1178,4 +1178,12 @@ I18N.add('fr', {
 "Druckvorlagen der Varianten:": "Modèles d'impression des variantes :",
 "Formate": "Formats",
 "Bitte mindestens ein Format wählen.": "Choisis au moins un format.",
+"Silberfrost": "Givre argenté",
+"Frosttanne & Schneebeeren": "Sapin givré & symphorines",
+"Birkenzweige in weißer Vase": "Branches de bouleau dans un vase blanc",
+"Taubenblau": "Bleu colombe",
+"Rosen & Rittersporn": "Roses & delphiniums",
+"Rosen & Olive in blauer Vase": "Roses & olivier dans un vase bleu",
+"MEINE KONFIRMATION": "MA CONFIRMATION",
+"WINTERZAUBER": "MAGIE D'HIVER",
 });
