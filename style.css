@@ -98,3 +98,18 @@ footer nav{display:flex;gap:16px;margin-left:auto}
   .hero{padding-top:40px}
   .hero-art{max-width:420px}
 }
+
+/* Glücksrad (#gluecksrad): Neukunden drehen einmal je E-Mail-Adresse, der Server lost aus */
+.wheel-wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:center}
+.wheel{position:relative;width:min(400px,100%);aspect-ratio:1;margin:0 auto}
+.wheel svg{width:100%;height:100%;display:block;transition:transform 5s cubic-bezier(.15,.85,.12,1);filter:drop-shadow(0 14px 30px rgba(29,26,20,.18))}
+.wheel .pin{position:absolute;left:50%;top:-6px;transform:translateX(-50%);width:0;height:0;border-left:16px solid transparent;border-right:16px solid transparent;border-top:30px solid var(--ink);z-index:2}
+.wheel-form{display:grid;gap:12px;max-width:420px}
+.wheel-form input[type=email]{font:inherit;font-size:16px;padding:11px 13px;border-radius:10px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.wheel-form .check{display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--muted)}
+.wheel-form .check input{margin-top:3px}
+.wheel-msg{font-size:15px;border-radius:10px;padding:12px 14px}.wheel-msg:empty{display:none}
+.wheel-msg.ok{background:var(--gold-soft);border:1px solid var(--gold)}.wheel-msg.err{background:#fde8e6;color:#8a2a20}
+.wheel-msg b{display:block;font-size:22px;color:var(--gold);margin:2px 0 6px}
+.hero-rad{display:inline-flex;margin-top:12px;font-size:14px;font-weight:700;color:var(--gold);text-decoration:none}
+@media (max-width:760px){.wheel-wrap{grid-template-columns:1fr;gap:24px}.wheel{width:min(320px,100%)}}

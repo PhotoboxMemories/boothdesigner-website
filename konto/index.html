@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex">
 <title>Mein BoothDesigner</title>
 <link rel="icon" href="../favicon.svg">
-<link rel="stylesheet" href="../style.css?v=20261026-3">
+<link rel="stylesheet" href="../style.css?v=20261026-4">
 <style>
 /* Eigener Bereich für Fotobox-Vermieter: Anmeldung und Verwaltung (studio.js wie im Dashboard von Photobox Memories) */
 :root{--card:var(--paper)}
@@ -21,6 +21,8 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
 .auth .links{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:14px}
 .auth .links a{color:var(--gold);cursor:pointer}
 .msg{font-size:14px;border-radius:9px;padding:9px 12px}.msg:empty{display:none}
+.rad-stats{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:baseline;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:20px 0 0;font-size:14px}.rad-stats[hidden]{display:none}.rad-stats #radPer{color:var(--muted)}
+.win{max-width:900px;margin:24px auto 0;display:flex;flex-wrap:wrap;gap:6px;align-items:baseline;justify-content:center;background:var(--gold-soft);border:1px solid var(--gold);border-radius:12px;padding:12px 16px;font-size:15px;text-align:center}.win[hidden]{display:none}
 .msg.ok{background:#e3f4e6;color:#1f5e2c}.msg.err{background:#fde8e6;color:#8a2a20}
 .check{display:flex;gap:8px;align-items:flex-start;font-weight:400;color:var(--ink)}
 .acct{margin-left:auto;display:flex;align-items:center;gap:10px;font-size:14px;color:var(--muted)}
@@ -48,6 +50,8 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
 </div></header>
 
 <main class="wrap konto">
+  <!-- Glücksrad-Gewinn (Startseite #gluecksrad, Serverfunktion „gluecksrad“): wird beim ersten Abo automatisch abgezogen -->
+  <div class="win" id="win" hidden><span>🎁</span><span>Dein Glücksrad-Gewinn:</span><b id="winPrize"></b><span>Wird beim ersten Abo automatisch abgezogen.</span></div>
   <!-- Anmelden -->
   <form class="auth" id="vLogin" hidden novalidate>
     <h1>Anmelden</h1>
@@ -100,7 +104,11 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
   </form>
 
   <!-- Angemeldet: BoothDesigner verwalten -->
-  <section id="vApp" hidden><div id="studioRoot"></div></section>
+  <section id="vApp" hidden>
+    <!-- Nur für den Betreiber: Zähler des Glücksrads (Serverfunktion „gluecksrad“, Aktion stats) -->
+    <div class="rad-stats" id="radStats" hidden><b>Glücksrad</b><span id="radTotal"></span><span id="radPer"></span></div>
+    <div id="studioRoot"></div>
+  </section>
 </main>
 
 <footer><div class="wrap"><span>BoothDesigner</span><nav><a href="mailto:info@boothdesigner.de">info@boothdesigner.de</a><a href="../impressum.html">Impressum</a><a href="../datenschutz.html">Datenschutz</a><a href="../agb.html">AGB</a></nav></div></footer>
@@ -108,7 +116,7 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
 
 <script src="../studio-config.js?v=20261025-2"></script>
 <script src="../vendor/supabase.js?v=2.118.0"></script>
-<script src="studio.js?v=20261026-3"></script><!-- website.py kopiert dashboard/studio.js hierher; Version wie in dashboard/index.html mitziehen -->
+<script src="studio.js?v=20261026-4"></script><!-- website.py kopiert dashboard/studio.js hierher; Version wie in dashboard/index.html mitziehen -->
 <script>
 (() => {
   'use strict';
@@ -216,14 +224,42 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
     }, 30e3);
   }
 
+  // Glücksrad: gedreht auf der Startseite (gespeichert unter „bd-rad“) bzw. nach der Anmeldung vom Server zur eigenen E-Mail-Adresse
+  const RAD = { p10: '10 % Rabatt', p20: '20 % Rabatt', p30: '30 % Rabatt', m1: '1 Monat kostenlos', m2: '2 Monate kostenlos', y1: '1 Jahr kostenlos' };
+  const win = (prize) => { $('#win').hidden = !RAD[prize]; if (RAD[prize]) $('#winPrize').textContent = RAD[prize]; };
+  let rad = null; try { rad = JSON.parse(localStorage.getItem('bd-rad') || 'null'); } catch (e) {}
+
+  // Zähler des Glücksrads für den Betreiber: Drehungen gesamt und letzte 7 Tage, je Gewinn, beim Kauf angewendet
+  async function radStats(token) {
+    try {
+      const r = await fetch(C.supabaseUrl + '/functions/v1/gluecksrad', { method: 'POST', headers: { 'Content-Type': 'application/json', apikey: C.anonKey, Authorization: 'Bearer ' + token },
+        body: JSON.stringify({ action: 'stats' }) });
+      if (!r.ok) return;
+      const d = await r.json();
+      $('#radTotal').textContent = `${d.total} Drehungen · ${d.week} in den letzten 7 Tagen · ${d.applied} beim Abo-Kauf angewendet`;
+      $('#radPer').textContent = Object.values(d.per || {}).map((p) => `${p.label}: ${p.spins}`).join(' · ');
+      $('#radStats').hidden = false;
+    } catch (e) {}
+  }
+
   let opened = false;
   async function start() {
     const { data: { session } } = await sb.auth.getSession();
-    if (!session) { $('#acct').hidden = true; me = null; opened = false; show(new URLSearchParams(location.search).get('konto') === 'neu' ? 'vSignup' : 'vLogin'); return; }
+    if (!session) {
+      $('#acct').hidden = true; me = null; opened = false;
+      const neu = new URLSearchParams(location.search).get('konto') === 'neu';
+      show(neu ? 'vSignup' : 'vLogin');
+      if (rad && rad.prize) { win(rad.prize); if (rad.email) document.querySelectorAll('#vSignup [name=email], #vLogin [name=email]').forEach((i) => { if (!i.value) i.value = rad.email; }); }
+      return;
+    }
     me = session.user; $('#acctMail').textContent = me.email; $('#acct').hidden = false;
+    win(null);
+    fetch(C.supabaseUrl + '/functions/v1/gluecksrad', { method: 'POST', headers: { 'Content-Type': 'application/json', apikey: C.anonKey, Authorization: 'Bearer ' + session.access_token },
+      body: JSON.stringify({ action: 'mine' }) }).then((r) => r.ok ? r.json() : {}).then((d) => win(d && d.prize)).catch(() => {});
     if (opened) return; opened = true;
     const admin = await adminCheck();
     if (admin) idleLogout();
+    if (admin) radStats(session.access_token);
     show('vApp');
     await loadTier();
     window.StudioPage.open({
@@ -238,7 +274,7 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
   });
 })();
 </script>
-<script src="../i18n.js?v=20261026-3"></script>
-<script src="../sprache.js?v=20261026-3" data-base="../"></script>
+<script src="../i18n.js?v=20261026-4"></script>
+<script src="../sprache.js?v=20261026-4" data-base="../"></script>
 </body>
 </html>
