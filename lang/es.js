@@ -1187,4 +1187,13 @@ I18N.add('es', {
 "MEINE KONFIRMATION": "MI CONFIRMACIÓN",
 "WINTERZAUBER": "MAGIA DE INVIERNO",
 "Zur Fotobox-Software →": "Ver el software de fotomatón →",
+"Weißes Relief": "Relieve Blanco",
+"Schleierkraut & Röschen": "Paniculata y rosas mini",
+"Schleierkraut in Glasvase": "Paniculata en jarrón de cristal",
+"Perlen & Bütten": "Perlas y Papel de Tina",
+"Perlenschnüre mit Schleife": "Hilos de perlas con lazo",
+"Perlweiß": "Blanco Perla",
+"Perlweiße Ballons": "Globos blanco perla",
+"Weiße Prägung": "Relieve en Seco Blanco",
+"Eukalyptus in weißer Vase": "Eucalipto en jarrón blanco",
 });

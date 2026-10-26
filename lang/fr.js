@@ -1187,4 +1187,13 @@ I18N.add('fr', {
 "MEINE KONFIRMATION": "MA CONFIRMATION",
 "WINTERZAUBER": "MAGIE D'HIVER",
 "Zur Fotobox-Software →": "Voir le logiciel photobooth →",
+"Weißes Relief": "Relief Blanc",
+"Schleierkraut & Röschen": "Gypsophile & petites roses",
+"Schleierkraut in Glasvase": "Gypsophile dans un vase en verre",
+"Perlen & Bütten": "Perles & Papier à la cuve",
+"Perlenschnüre mit Schleife": "Rangs de perles avec nœud",
+"Perlweiß": "Blanc Nacré",
+"Perlweiße Ballons": "Ballons blanc nacré",
+"Weiße Prägung": "Gaufrage Blanc",
+"Eukalyptus in weißer Vase": "Eucalyptus dans un vase blanc",
 });

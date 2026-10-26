@@ -1187,4 +1187,13 @@ I18N.add('en', {
 "MEINE KONFIRMATION": "MY CONFIRMATION",
 "WINTERZAUBER": "WINTER MAGIC",
 "Zur Fotobox-Software →": "To the photo booth software →",
+"Weißes Relief": "White Relief",
+"Schleierkraut & Röschen": "Baby's breath & spray roses",
+"Schleierkraut in Glasvase": "Baby's breath in glass vase",
+"Perlen & Bütten": "Pearls & Deckle Paper",
+"Perlenschnüre mit Schleife": "Pearl strands with bow",
+"Perlweiß": "Pearl White",
+"Perlweiße Ballons": "Pearl-white balloons",
+"Weiße Prägung": "White Embossing",
+"Eukalyptus in weißer Vase": "Eucalyptus in white vase",
 });

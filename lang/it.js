@@ -1187,4 +1187,13 @@ I18N.add('it', {
 "MEINE KONFIRMATION": "LA MIA CRESIMA",
 "WINTERZAUBER": "MAGIA D'INVERNO",
 "Zur Fotobox-Software →": "Al software per photo booth →",
+"Weißes Relief": "Rilievo Bianco",
+"Schleierkraut & Röschen": "Gypsophila & roselline",
+"Schleierkraut in Glasvase": "Gypsophila in vaso di vetro",
+"Perlen & Bütten": "Perle & Carta a Mano",
+"Perlenschnüre mit Schleife": "Fili di perle con fiocco",
+"Perlweiß": "Bianco Perla",
+"Perlweiße Ballons": "Palloncini bianco perla",
+"Weiße Prägung": "Goffratura Bianca",
+"Eukalyptus in weißer Vase": "Eucalipto in vaso bianco",
 });

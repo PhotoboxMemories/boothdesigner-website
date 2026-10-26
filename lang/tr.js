@@ -1187,4 +1187,13 @@ I18N.add('tr', {
 "MEINE KONFIRMATION": "KONFİRMASYONUM",
 "WINTERZAUBER": "KIŞ BÜYÜSÜ",
 "Zur Fotobox-Software →": "Fotoğraf kabini yazılımına →",
+"Weißes Relief": "Beyaz Kabartma",
+"Schleierkraut & Röschen": "Cipsofilya & küçük güller",
+"Schleierkraut in Glasvase": "Cam vazoda cipsofilya",
+"Perlen & Bütten": "İnciler & El Yapımı Kağıt",
+"Perlenschnüre mit Schleife": "Fiyonklu inci dizileri",
+"Perlweiß": "İnci Beyazı",
+"Perlweiße Ballons": "İnci beyazı balonlar",
+"Weiße Prägung": "Beyaz Kabartma Baskı",
+"Eukalyptus in weißer Vase": "Beyaz vazoda okaliptüs",
 });
