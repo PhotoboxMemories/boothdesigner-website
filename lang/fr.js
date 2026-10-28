@@ -1239,4 +1239,13 @@ I18N.add('fr', {
 "Für Hochzeit, Geburtstag, Party, Sommerfest, Abschluss und Einschulung, JGA, Babyparty, Taufe, Kommunion und Konfirmation, Firmenfeier, Weihnachten und Winter sowie Silvester, Halloween, Karneval und Ostern. Insgesamt über 140 Fotobox-Layouts – und laufend kommen neue dazu.": "Pour les mariages, anniversaires, fêtes, fêtes d'été, remises de diplômes et rentrées scolaires, EVJF/EVG, baby showers, baptêmes, communions et confirmations, fêtes d'entreprise, Noël et l'hiver ainsi que le Nouvel An, Halloween, le carnaval et Pâques. Plus de 140 mises en page de photobooth au total – et de nouvelles s'ajoutent régulièrement.",
 "Fotobox mieten und Fotobox-Software": "Location de photobooth et logiciel photobooth",
 "Nein danke, ich schaue mich erst um": "Non merci, je regarde d'abord",
+"Waffelpiqué & Schleife": "Piqué gaufré & Nœud",
+"Satinschleife mit Perlen": "Nœud en satin avec perles",
+"Wolle & Zimt": "Laine & Cannelle",
+"Orangen-Zimt-Girlande": "Guirlande orange-cannelle",
+"Tanne & Zimt im Krug": "Sapin & cannelle dans une cruche",
+"Aquarell Schulstart": "Rentrée aquarelle",
+"Schultüte Mint": "Cornet de rentrée menthe",
+"WINTERZEIT": "TEMPS D'HIVER",
+"MEIN ERSTER SCHULTAG": "MON PREMIER JOUR D'ÉCOLE",
 });

@@ -1239,4 +1239,13 @@ I18N.add('it', {
 "Für Hochzeit, Geburtstag, Party, Sommerfest, Abschluss und Einschulung, JGA, Babyparty, Taufe, Kommunion und Konfirmation, Firmenfeier, Weihnachten und Winter sowie Silvester, Halloween, Karneval und Ostern. Insgesamt über 140 Fotobox-Layouts – und laufend kommen neue dazu.": "Per matrimoni, compleanni, feste, feste estive, lauree e primo giorno di scuola, addii al nubilato e celibato, baby shower, battesimi, comunioni e cresime, feste aziendali, Natale e inverno, oltre a Capodanno, Halloween, Carnevale e Pasqua. In totale oltre 140 layout per photo booth – e se ne aggiungono continuamente di nuovi.",
 "Fotobox mieten und Fotobox-Software": "Noleggio photo booth e software per photo booth",
 "Nein danke, ich schaue mich erst um": "No grazie, prima do un'occhiata",
+"Waffelpiqué & Schleife": "Piqué a nido d'ape & Fiocco",
+"Satinschleife mit Perlen": "Fiocco di raso con perle",
+"Wolle & Zimt": "Lana & Cannella",
+"Orangen-Zimt-Girlande": "Ghirlanda arancia e cannella",
+"Tanne & Zimt im Krug": "Abete & cannella nella brocca",
+"Aquarell Schulstart": "Primo giorno acquerello",
+"Schultüte Mint": "Cono scolastico menta",
+"WINTERZEIT": "TEMPO D'INVERNO",
+"MEIN ERSTER SCHULTAG": "IL MIO PRIMO GIORNO DI SCUOLA",
 });

@@ -1239,4 +1239,13 @@ I18N.add('es', {
 "Für Hochzeit, Geburtstag, Party, Sommerfest, Abschluss und Einschulung, JGA, Babyparty, Taufe, Kommunion und Konfirmation, Firmenfeier, Weihnachten und Winter sowie Silvester, Halloween, Karneval und Ostern. Insgesamt über 140 Fotobox-Layouts – und laufend kommen neue dazu.": "Para bodas, cumpleaños, fiestas, fiestas de verano, graduaciones y comienzo de curso, despedidas de soltero/a, baby showers, bautizos, comuniones y confirmaciones, fiestas de empresa, Navidad e invierno, así como Nochevieja, Halloween, carnaval y Pascua. En total, más de 140 diseños de fotomatón, y se añaden nuevos continuamente.",
 "Fotobox mieten und Fotobox-Software": "Alquiler de fotomatón y software de fotomatón",
 "Nein danke, ich schaue mich erst um": "No, gracias, primero quiero echar un vistazo",
+"Waffelpiqué & Schleife": "Piqué de nido de abeja y Lazo",
+"Satinschleife mit Perlen": "Lazo de satén con perlas",
+"Wolle & Zimt": "Lana y Canela",
+"Orangen-Zimt-Girlande": "Guirnalda de naranja y canela",
+"Tanne & Zimt im Krug": "Abeto y canela en jarra",
+"Aquarell Schulstart": "Inicio escolar acuarela",
+"Schultüte Mint": "Cono escolar menta",
+"WINTERZEIT": "TIEMPO DE INVIERNO",
+"MEIN ERSTER SCHULTAG": "MI PRIMER DÍA DE COLEGIO",
 });

@@ -1239,4 +1239,13 @@ I18N.add('tr', {
 "Für Hochzeit, Geburtstag, Party, Sommerfest, Abschluss und Einschulung, JGA, Babyparty, Taufe, Kommunion und Konfirmation, Firmenfeier, Weihnachten und Winter sowie Silvester, Halloween, Karneval und Ostern. Insgesamt über 140 Fotobox-Layouts – und laufend kommen neue dazu.": "Düğün, doğum günü, parti, yaz şenliği, mezuniyet ve okula başlama, bekarlığa veda, baby shower, vaftiz, komünyon ve konfirmasyon, şirket partisi, Noel ve kış ile yılbaşı, Cadılar Bayramı, karnaval ve Paskalya için. Toplamda 140'ı aşkın fotoğraf kabini düzeni – ve sürekli yenileri ekleniyor.",
 "Fotobox mieten und Fotobox-Software": "Fotoğraf kabini kiralama ve fotoğraf kabini yazılımı",
 "Nein danke, ich schaue mich erst um": "Hayır teşekkürler, önce bir bakayım",
+"Waffelpiqué & Schleife": "Waffle Pike & Fiyonk",
+"Satinschleife mit Perlen": "İncili saten fiyonk",
+"Wolle & Zimt": "Yün & Tarçın",
+"Orangen-Zimt-Girlande": "Portakal ve tarçın girlandı",
+"Tanne & Zimt im Krug": "Testide köknar ve tarçın",
+"Aquarell Schulstart": "Suluboya Okula Başlangıç",
+"Schultüte Mint": "Mint okul külahı",
+"WINTERZEIT": "KIŞ ZAMANI",
+"MEIN ERSTER SCHULTAG": "OKULDAKİ İLK GÜNÜM",
 });

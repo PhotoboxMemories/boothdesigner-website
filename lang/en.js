@@ -1239,4 +1239,13 @@ I18N.add('en', {
 "Für Hochzeit, Geburtstag, Party, Sommerfest, Abschluss und Einschulung, JGA, Babyparty, Taufe, Kommunion und Konfirmation, Firmenfeier, Weihnachten und Winter sowie Silvester, Halloween, Karneval und Ostern. Insgesamt über 140 Fotobox-Layouts – und laufend kommen neue dazu.": "For weddings, birthdays, parties, summer parties, graduations and school starts, hen and stag parties, baby showers, christenings, communions and confirmations, company parties, Christmas and winter as well as New Year's Eve, Halloween, carnival and Easter. Over 140 photo booth layouts in total – and new ones are added all the time.",
 "Fotobox mieten und Fotobox-Software": "Photo booth rental and photo booth software",
 "Nein danke, ich schaue mich erst um": "No thanks, I'll look around first",
+"Waffelpiqué & Schleife": "Waffle Piqué & Bow",
+"Satinschleife mit Perlen": "Satin bow with pearls",
+"Wolle & Zimt": "Wool & Cinnamon",
+"Orangen-Zimt-Girlande": "Orange & cinnamon garland",
+"Tanne & Zimt im Krug": "Fir & cinnamon in a jug",
+"Aquarell Schulstart": "Watercolor School Start",
+"Schultüte Mint": "Mint school cone",
+"WINTERZEIT": "WINTERTIME",
+"MEIN ERSTER SCHULTAG": "MY FIRST DAY OF SCHOOL",
 });
