@@ -1261,4 +1261,5 @@ I18N.add('tr', {
 "Federn in Goldvase": "Altın vazoda tüyler",
 "WIR HABEN ES GESCHAFFT": "BAŞARDIK",
 "MASKENBALL": "MASKELİ BALO",
+"Du hast dich mit einem Einmal-Passwort angemeldet. Bitte lege jetzt dein eigenes Passwort fest.": "Tek kullanımlık bir şifreyle giriş yaptın. Lütfen şimdi kendi şifreni belirle.",
 });

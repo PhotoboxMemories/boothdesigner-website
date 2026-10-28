@@ -1261,4 +1261,5 @@ I18N.add('fr', {
 "Federn in Goldvase": "Plumes dans un vase doré",
 "WIR HABEN ES GESCHAFFT": "NOUS AVONS RÉUSSI",
 "MASKENBALL": "BAL MASQUÉ",
+"Du hast dich mit einem Einmal-Passwort angemeldet. Bitte lege jetzt dein eigenes Passwort fest.": "Tu t'es connecté avec un mot de passe à usage unique. Définis maintenant ton propre mot de passe.",
 });

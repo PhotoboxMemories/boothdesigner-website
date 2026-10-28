@@ -1261,4 +1261,5 @@ I18N.add('en', {
 "Federn in Goldvase": "Feathers in gold vase",
 "WIR HABEN ES GESCHAFFT": "WE DID IT",
 "MASKENBALL": "MASQUERADE BALL",
+"Du hast dich mit einem Einmal-Passwort angemeldet. Bitte lege jetzt dein eigenes Passwort fest.": "You signed in with a one-time password. Please set your own password now.",
 });
