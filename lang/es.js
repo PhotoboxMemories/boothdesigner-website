@@ -1262,4 +1262,6 @@ I18N.add('es', {
 "WIR HABEN ES GESCHAFFT": "LO HEMOS LOGRADO",
 "MASKENBALL": "BAILE DE MÁSCARAS",
 "Du hast dich mit einem Einmal-Passwort angemeldet. Bitte lege jetzt dein eigenes Passwort fest.": "Has iniciado sesión con una contraseña de un solo uso. Establece ahora tu propia contraseña.",
+"Im Fotobox-Abo enthalten": "Incluido en tu suscripción de fotomatón",
+"Du hast zusätzlich noch ein eigenes BoothDesigner-Abo. Das brauchst du nicht mehr – du kannst es unter „Abo & Rechnungen verwalten“ kündigen.": "Además todavía tienes una suscripción propia a BoothDesigner. Ya no la necesitas: puedes cancelarla en «Gestionar suscripción y facturas».",
 });

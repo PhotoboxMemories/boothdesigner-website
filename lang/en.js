@@ -1262,4 +1262,6 @@ I18N.add('en', {
 "WIR HABEN ES GESCHAFFT": "WE DID IT",
 "MASKENBALL": "MASQUERADE BALL",
 "Du hast dich mit einem Einmal-Passwort angemeldet. Bitte lege jetzt dein eigenes Passwort fest.": "You signed in with a one-time password. Please set your own password now.",
+"Im Fotobox-Abo enthalten": "Included in your photo booth subscription",
+"Du hast zusätzlich noch ein eigenes BoothDesigner-Abo. Das brauchst du nicht mehr – du kannst es unter „Abo & Rechnungen verwalten“ kündigen.": "You also still have a separate BoothDesigner subscription. You no longer need it – you can cancel it under “Manage subscription & invoices”.",
 });

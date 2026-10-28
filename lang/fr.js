@@ -1262,4 +1262,6 @@ I18N.add('fr', {
 "WIR HABEN ES GESCHAFFT": "NOUS AVONS RÉUSSI",
 "MASKENBALL": "BAL MASQUÉ",
 "Du hast dich mit einem Einmal-Passwort angemeldet. Bitte lege jetzt dein eigenes Passwort fest.": "Tu t'es connecté avec un mot de passe à usage unique. Définis maintenant ton propre mot de passe.",
+"Im Fotobox-Abo enthalten": "Inclus dans ton abonnement photobooth",
+"Du hast zusätzlich noch ein eigenes BoothDesigner-Abo. Das brauchst du nicht mehr – du kannst es unter „Abo & Rechnungen verwalten“ kündigen.": "Tu as encore un abonnement BoothDesigner séparé. Tu n'en as plus besoin – tu peux le résilier sous « Gérer l'abonnement et les factures ».",
 });

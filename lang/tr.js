@@ -1262,4 +1262,6 @@ I18N.add('tr', {
 "WIR HABEN ES GESCHAFFT": "BAŞARDIK",
 "MASKENBALL": "MASKELİ BALO",
 "Du hast dich mit einem Einmal-Passwort angemeldet. Bitte lege jetzt dein eigenes Passwort fest.": "Tek kullanımlık bir şifreyle giriş yaptın. Lütfen şimdi kendi şifreni belirle.",
+"Im Fotobox-Abo enthalten": "Fotoğraf kabini aboneliğine dahil",
+"Du hast zusätzlich noch ein eigenes BoothDesigner-Abo. Das brauchst du nicht mehr – du kannst es unter „Abo & Rechnungen verwalten“ kündigen.": "Ayrıca hâlâ ayrı bir BoothDesigner aboneliğin var. Artık buna ihtiyacın yok – “Abonelik ve faturaları yönet” bölümünden iptal edebilirsin.",
 });
