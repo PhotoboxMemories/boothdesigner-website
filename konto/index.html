@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex">
 <title>Mein BoothDesigner</title>
 <link rel="icon" href="../favicon.svg">
-<link rel="stylesheet" href="../style.css?v=20261028-7">
+<link rel="stylesheet" href="../style.css?v=20261028-8">
 <style>
 /* Eigener Bereich für Fotobox-Vermieter: Anmeldung und Verwaltung (studio.js wie im Dashboard von Photobox Memories) */
 :root{--card:var(--paper)}
@@ -111,12 +111,13 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
   </section>
 </main>
 
-<footer><div class="wrap"><span>BoothDesigner</span><nav><a href="mailto:info@boothdesigner.de">info@boothdesigner.de</a><a href="../impressum.html">Impressum</a><a href="../datenschutz.html">Datenschutz</a><a href="../agb.html">AGB</a></nav></div></footer>
+<footer><div class="wrap"><span>BoothDesigner</span><nav><a href="mailto:info@boothdesigner.de">info@boothdesigner.de</a><a href="../impressum.html">Impressum</a><a href="../datenschutz.html">Datenschutz</a><a href="../agb.html">AGB</a><a href="../datenschutz.html#cookies" data-cookie-settings>Cookie-Einstellungen</a></nav></div></footer>
 <div class="toast" id="toast" hidden role="status" aria-live="polite"></div>
 
-<script src="../studio-config.js?v=20261025-2"></script>
+<script src="../studio-config.js?v=20261028-1"></script>
+<script src="../einwilligung.js?v=20261028-1"></script>
 <script src="../vendor/supabase.js?v=2.118.0"></script>
-<script src="studio.js?v=20261028-7"></script><!-- website.py kopiert dashboard/studio.js hierher; Version wie in dashboard/index.html mitziehen -->
+<script src="studio.js?v=20261028-8"></script><!-- website.py kopiert dashboard/studio.js hierher; Version wie in dashboard/index.html mitziehen -->
 <script>
 (() => {
   'use strict';
@@ -125,6 +126,16 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
   window.FOTOBOX_CONFIG = { photoStore: C.photoStore, studioUrl: location.origin };
   const sb = supabase.createClient(C.supabaseUrl, C.anonKey, { auth: { storageKey: 'boothdesigner-anmeldung' } });
   const here = location.origin + location.pathname; // Rückkehr aus Bestätigungs- und Passwort-Mails
+  // Google-Ads-Messung (einwilligung.js, nur mit Zustimmung): Abo-Kauf = Rückkehr von Stripe mit ?lizenz=ok (studio.js entfernt den
+  // Parameter danach) – Wert aus dem zuletzt geklickten Tarif; jeder Kauf zählt nur einmal (Merker je Tarif und Tag)
+  const PRICE = { 'studio-monat': 10, 'studio-jahr': 100 };
+  document.addEventListener('click', (e) => { const b = e.target.closest && e.target.closest('[data-a="buy"]'); if (b) try { sessionStorage.setItem('bd-kauf', b.dataset.plan || ''); } catch (x) {} }, true);
+  if (new URLSearchParams(location.search).get('lizenz') === 'ok') {
+    let plan = ''; try { plan = sessionStorage.getItem('bd-kauf') || ''; sessionStorage.removeItem('bd-kauf'); } catch (x) {}
+    const once = 'bd-kauf-gemeldet-' + plan + '-' + new Date().toISOString().slice(0, 10);
+    let seen = false; try { seen = !!localStorage.getItem(once); localStorage.setItem(once, '1'); } catch (x) {}
+    if (!seen) window.bdConversion('purchase', PRICE[plan] || 0);
+  }
   let me = null, tier = {}, toastT;
 
   const toast = (t, ms = 3500) => { const e = $('#toast'); e.textContent = t; e.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => { e.hidden = true; }, ms); };
@@ -157,6 +168,7 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
     const { data, error } = await sb.auth.signUp({ email, password, options: { emailRedirectTo: here, data: { signup_source: 'boothdesigner' } } });
     f.querySelector('button').disabled = false;
     if (error) return say('mSignup', ERR(error.message));
+    window.bdConversion('signup'); // Registrierung (nur mit Zustimmung)
     if (!data.session) say('mSignup', 'Fast geschafft! Bitte bestätige deine E-Mail über den Link, den wir dir geschickt haben. Keine Mail da? Bitte auch im Spam-Ordner nachsehen.', true);
   };
   $('#vForgot').onsubmit = async (e) => {
@@ -278,7 +290,7 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
   });
 })();
 </script>
-<script src="../i18n.js?v=20261028-7"></script>
-<script src="../sprache.js?v=20261028-7" data-base="../"></script>
+<script src="../i18n.js?v=20261028-8"></script>
+<script src="../sprache.js?v=20261028-8" data-base="../"></script>
 </body>
 </html>
