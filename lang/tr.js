@@ -1371,4 +1371,6 @@ I18N.add('tr', {
 "Zeigt uns, ob jemand über unsere Anzeige gekommen ist und sich danach registriert oder ein Abo bucht. Google setzt dafür Cookies (bis zu 90 Tage). Keine personalisierte Werbung.": "Birinin reklamımız üzerinden gelip gelmediğini ve ardından kayıt olup olmadığını ya da abonelik alıp almadığını gösterir. Google bunun için çerez kullanır (en fazla 90 gün). Kişiselleştirilmiş reklam yok.",
 "Auswahl speichern": "Seçimi kaydet",
 "Wähle ein Design – es startet ohne die alten Texte.": "Bir tasarım seç – eski metinler olmadan başlar.",
+"Alle Preise zzgl. gesetzlicher Umsatzsteuer.": "Tüm fiyatlara yasal KDV eklenir.",
+". Alle Preise zzgl. gesetzlicher Umsatzsteuer.": ". Tüm fiyatlara yasal KDV eklenir.",
 });

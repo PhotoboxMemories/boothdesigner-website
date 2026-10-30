@@ -1371,4 +1371,6 @@ I18N.add('en', {
 "Zeigt uns, ob jemand über unsere Anzeige gekommen ist und sich danach registriert oder ein Abo bucht. Google setzt dafür Cookies (bis zu 90 Tage). Keine personalisierte Werbung.": "Shows us whether someone came via our ad and then signed up or booked a subscription. Google sets cookies for this (up to 90 days). No personalised advertising.",
 "Auswahl speichern": "Save selection",
 "Wähle ein Design – es startet ohne die alten Texte.": "Choose a design – it starts without the old texts.",
+"Alle Preise zzgl. gesetzlicher Umsatzsteuer.": "All prices plus statutory VAT.",
+". Alle Preise zzgl. gesetzlicher Umsatzsteuer.": ". All prices plus statutory VAT.",
 });

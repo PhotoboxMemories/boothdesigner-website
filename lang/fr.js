@@ -1371,4 +1371,6 @@ I18N.add('fr', {
 "Zeigt uns, ob jemand über unsere Anzeige gekommen ist und sich danach registriert oder ein Abo bucht. Google setzt dafür Cookies (bis zu 90 Tage). Keine personalisierte Werbung.": "Nous indique si quelqu'un est venu par notre annonce puis s'est inscrit ou a souscrit un abonnement. Google place pour cela des cookies (jusqu'à 90 jours). Pas de publicité personnalisée.",
 "Auswahl speichern": "Enregistrer la sélection",
 "Wähle ein Design – es startet ohne die alten Texte.": "Choisis un design – il démarre sans les anciens textes.",
+"Alle Preise zzgl. gesetzlicher Umsatzsteuer.": "Tous les prix s’entendent hors TVA légale.",
+". Alle Preise zzgl. gesetzlicher Umsatzsteuer.": ". Tous les prix s’entendent hors TVA légale.",
 });
