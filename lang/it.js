@@ -1370,4 +1370,5 @@ I18N.add('it', {
 "Werbung messen (Google Ads)": "Misurare la pubblicità (Google Ads)",
 "Zeigt uns, ob jemand über unsere Anzeige gekommen ist und sich danach registriert oder ein Abo bucht. Google setzt dafür Cookies (bis zu 90 Tage). Keine personalisierte Werbung.": "Ci mostra se qualcuno è arrivato tramite il nostro annuncio e poi si è registrato o ha sottoscritto un abbonamento. Google usa per questo dei cookie (fino a 90 giorni). Nessuna pubblicità personalizzata.",
 "Auswahl speichern": "Salva selezione",
+"Wähle ein Design – es startet ohne die alten Texte.": "Scegli un design: parte senza i testi precedenti.",
 });
