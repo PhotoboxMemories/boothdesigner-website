@@ -1355,4 +1355,8 @@ I18N.add('tr', {
 "Kräuter in Apothekerflasche": "Eczane şişesinde otlar",
 "HEXENNACHT": "CADILAR GECESİ",
 "Hexenparty": "Cadı Partisi",
+"Ansicht": "Görünüm",
+"Hochformat": "Dikey",
+"Querformat mit mehreren Fotos": "Birden fazla fotoğraflı yatay",
+"Startbildschirm als Animation": "Animasyonlu başlangıç ekranı",
 });

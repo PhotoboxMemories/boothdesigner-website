@@ -1355,4 +1355,8 @@ I18N.add('it', {
 "Kräuter in Apothekerflasche": "Erbe in bottiglia da speziale",
 "HEXENNACHT": "NOTTE DELLE STREGHE",
 "Hexenparty": "Festa delle streghe",
+"Ansicht": "Vista",
+"Hochformat": "Verticale",
+"Querformat mit mehreren Fotos": "Orizzontale con più foto",
+"Startbildschirm als Animation": "Schermata iniziale animata",
 });

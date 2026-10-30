@@ -1355,4 +1355,8 @@ I18N.add('fr', {
 "Kräuter in Apothekerflasche": "Herbes dans un flacon d'apothicaire",
 "HEXENNACHT": "NUIT DES SORCIÈRES",
 "Hexenparty": "Soirée sorcières",
+"Ansicht": "Affichage",
+"Hochformat": "Portrait",
+"Querformat mit mehreren Fotos": "Paysage avec plusieurs photos",
+"Startbildschirm als Animation": "Écran d'accueil animé",
 });

@@ -1355,4 +1355,8 @@ I18N.add('es', {
 "Kräuter in Apothekerflasche": "Hierbas en frasco de boticario",
 "HEXENNACHT": "NOCHE DE BRUJAS",
 "Hexenparty": "Fiesta de brujas",
+"Ansicht": "Vista",
+"Hochformat": "Vertical",
+"Querformat mit mehreren Fotos": "Horizontal con varias fotos",
+"Startbildschirm als Animation": "Pantalla de inicio animada",
 });

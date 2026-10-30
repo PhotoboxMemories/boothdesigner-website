@@ -1355,4 +1355,8 @@ I18N.add('en', {
 "Kräuter in Apothekerflasche": "Herbs in an apothecary bottle",
 "HEXENNACHT": "WITCHES' NIGHT",
 "Hexenparty": "Witch Party",
+"Ansicht": "View",
+"Hochformat": "Portrait",
+"Querformat mit mehreren Fotos": "Landscape with several photos",
+"Startbildschirm als Animation": "Animated start screen",
 });
