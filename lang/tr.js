@@ -1405,4 +1405,9 @@ I18N.add('tr', {
 "Frosttanne in Champagnervase": "Şampanya vazoda karlı köknar",
 "Familie Becker": "Becker Ailesi",
 "24. Dezember 2026": "24 Aralık 2026",
+"Pfauenfeder": "Tavus Tüyü",
+"Pfauenfedern & Goldluftschlangen": "Tavus tüyleri ve altın serpantinler",
+"Ballons Petrol, Gold & Creme": "Petrol, altın ve krem balonlar",
+"Maskenball": "Maskeli Balo",
+"6. Februar 2027": "6 Şubat 2027",
 });

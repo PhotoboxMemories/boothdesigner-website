@@ -1405,4 +1405,9 @@ I18N.add('es', {
 "Frosttanne in Champagnervase": "Abeto escarchado en jarrón champán",
 "Familie Becker": "Familia Becker",
 "24. Dezember 2026": "24 de diciembre de 2026",
+"Pfauenfeder": "Pluma de pavo real",
+"Pfauenfedern & Goldluftschlangen": "Plumas de pavo real y serpentinas doradas",
+"Ballons Petrol, Gold & Creme": "Globos petróleo, dorados y crema",
+"Maskenball": "Baile de máscaras",
+"6. Februar 2027": "6 de febrero de 2027",
 });

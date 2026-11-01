@@ -1405,4 +1405,9 @@ I18N.add('en', {
 "Frosttanne in Champagnervase": "Frosted fir in champagne vase",
 "Familie Becker": "The Becker Family",
 "24. Dezember 2026": "24 December 2026",
+"Pfauenfeder": "Peacock Feather",
+"Pfauenfedern & Goldluftschlangen": "Peacock feathers & gold streamers",
+"Ballons Petrol, Gold & Creme": "Teal, gold & cream balloons",
+"Maskenball": "Masquerade Ball",
+"6. Februar 2027": "6 February 2027",
 });

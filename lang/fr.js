@@ -1405,4 +1405,9 @@ I18N.add('fr', {
 "Frosttanne in Champagnervase": "Sapin givré dans un vase champagne",
 "Familie Becker": "Famille Becker",
 "24. Dezember 2026": "24 décembre 2026",
+"Pfauenfeder": "Plume de paon",
+"Pfauenfedern & Goldluftschlangen": "Plumes de paon et serpentins dorés",
+"Ballons Petrol, Gold & Creme": "Ballons bleu canard, or et crème",
+"Maskenball": "Bal masqué",
+"6. Februar 2027": "6 février 2027",
 });
