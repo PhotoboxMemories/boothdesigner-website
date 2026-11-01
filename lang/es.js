@@ -1414,4 +1414,8 @@ I18N.add('es', {
 "Samtgras & Strohblumen": "Cola de conejo & siemprevivas",
 "Samtgras in weißer Vase": "Cola de conejo en jarrón blanco",
 "14. März 2027": "14 de marzo de 2027",
+"Cognac & Messing": "Coñac & Latón",
+"Blaufichte & Messingsterne": "Pícea azul & estrellas de latón",
+"Blaufichte in Messingvase": "Pícea azul en jarrón de latón",
+"18. Dezember 2026": "18 de diciembre de 2026",
 });

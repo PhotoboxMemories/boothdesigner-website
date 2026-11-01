@@ -1414,4 +1414,8 @@ I18N.add('it', {
 "Samtgras & Strohblumen": "Coda di lepre & elicrisi",
 "Samtgras in weißer Vase": "Coda di lepre in vaso bianco",
 "14. März 2027": "14 marzo 2027",
+"Cognac & Messing": "Cognac & Ottone",
+"Blaufichte & Messingsterne": "Abete blu & stelle in ottone",
+"Blaufichte in Messingvase": "Abete blu in vaso d'ottone",
+"18. Dezember 2026": "18 dicembre 2026",
 });

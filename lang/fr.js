@@ -1414,4 +1414,8 @@ I18N.add('fr', {
 "Samtgras & Strohblumen": "Queues de lièvre & immortelles",
 "Samtgras in weißer Vase": "Queues de lièvre dans un vase blanc",
 "14. März 2027": "14 mars 2027",
+"Cognac & Messing": "Cognac & Laiton",
+"Blaufichte & Messingsterne": "Épicéa bleu & étoiles en laiton",
+"Blaufichte in Messingvase": "Épicéa bleu dans un vase en laiton",
+"18. Dezember 2026": "18 décembre 2026",
 });

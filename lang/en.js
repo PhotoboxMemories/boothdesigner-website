@@ -1414,4 +1414,8 @@ I18N.add('en', {
 "Samtgras & Strohblumen": "Bunny tail grass & strawflowers",
 "Samtgras in weißer Vase": "Bunny tails in a white vase",
 "14. März 2027": "14 March 2027",
+"Cognac & Messing": "Cognac & Brass",
+"Blaufichte & Messingsterne": "Blue spruce & brass stars",
+"Blaufichte in Messingvase": "Blue spruce in a brass vase",
+"18. Dezember 2026": "18 December 2026",
 });

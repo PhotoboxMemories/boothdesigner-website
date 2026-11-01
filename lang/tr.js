@@ -1414,4 +1414,8 @@ I18N.add('tr', {
 "Samtgras & Strohblumen": "Tavşan kuyruğu otu & saman çiçekleri",
 "Samtgras in weißer Vase": "Beyaz vazoda tavşan kuyruğu",
 "14. März 2027": "14 Mart 2027",
+"Cognac & Messing": "Konyak & Pirinç",
+"Blaufichte & Messingsterne": "Mavi ladin & pirinç yıldızlar",
+"Blaufichte in Messingvase": "Pirinç vazoda mavi ladin",
+"18. Dezember 2026": "18 Aralık 2026",
 });
