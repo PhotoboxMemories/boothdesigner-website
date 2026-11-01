@@ -1418,4 +1418,9 @@ I18N.add('en', {
 "Blaufichte & Messingsterne": "Blue spruce & brass stars",
 "Blaufichte in Messingvase": "Blue spruce in a brass vase",
 "18. Dezember 2026": "18 December 2026",
+"Kaschmir & Birke": "Cashmere & Birch",
+"Birke & Schneebeeren": "Birch & snowberries",
+"Birke in weißer Vase": "Birch in a white vase",
+"Hüttenabend": "Cabin Night",
+"23. Januar 2027": "23 January 2027",
 });

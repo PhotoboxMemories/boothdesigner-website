@@ -1418,4 +1418,9 @@ I18N.add('fr', {
 "Blaufichte & Messingsterne": "Épicéa bleu & étoiles en laiton",
 "Blaufichte in Messingvase": "Épicéa bleu dans un vase en laiton",
 "18. Dezember 2026": "18 décembre 2026",
+"Kaschmir & Birke": "Cachemire & Bouleau",
+"Birke & Schneebeeren": "Bouleau & symphorines",
+"Birke in weißer Vase": "Bouleau dans un vase blanc",
+"Hüttenabend": "Soirée au chalet",
+"23. Januar 2027": "23 janvier 2027",
 });

@@ -1418,4 +1418,9 @@ I18N.add('es', {
 "Blaufichte & Messingsterne": "Pícea azul & estrellas de latón",
 "Blaufichte in Messingvase": "Pícea azul en jarrón de latón",
 "18. Dezember 2026": "18 de diciembre de 2026",
+"Kaschmir & Birke": "Cachemira & Abedul",
+"Birke & Schneebeeren": "Abedul & bayas de nieve",
+"Birke in weißer Vase": "Abedul en jarrón blanco",
+"Hüttenabend": "Noche en la cabaña",
+"23. Januar 2027": "23 de enero de 2027",
 });

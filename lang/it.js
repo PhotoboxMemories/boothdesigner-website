@@ -1418,4 +1418,9 @@ I18N.add('it', {
 "Blaufichte & Messingsterne": "Abete blu & stelle in ottone",
 "Blaufichte in Messingvase": "Abete blu in vaso d'ottone",
 "18. Dezember 2026": "18 dicembre 2026",
+"Kaschmir & Birke": "Cashmere & Betulla",
+"Birke & Schneebeeren": "Betulla & bacche di neve",
+"Birke in weißer Vase": "Betulla in vaso bianco",
+"Hüttenabend": "Serata in baita",
+"23. Januar 2027": "23 gennaio 2027",
 });

@@ -1418,4 +1418,9 @@ I18N.add('tr', {
 "Blaufichte & Messingsterne": "Mavi ladin & pirinç yıldızlar",
 "Blaufichte in Messingvase": "Pirinç vazoda mavi ladin",
 "18. Dezember 2026": "18 Aralık 2026",
+"Kaschmir & Birke": "Kaşmir & Huş",
+"Birke & Schneebeeren": "Huş & kar meyveleri",
+"Birke in weißer Vase": "Beyaz vazoda huş",
+"Hüttenabend": "Dağ Evi Akşamı",
+"23. Januar 2027": "23 Ocak 2027",
 });
