@@ -143,7 +143,8 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
   const show = (id) => { ['vLogin', 'vSignup', 'vForgot', 'vReset', 'vMfa', 'vApp'].forEach((v) => { $('#' + v).hidden = v !== id; }); };
   const say = (id, t, ok) => { const m = $('#' + id); m.textContent = t; m.className = 'msg ' + (ok ? 'ok' : 'err'); };
   // Fehlermeldungen von Supabase (englisch) verständlich – wie im Dashboard
-  const ERR = (m) => /Invalid login credentials/i.test(m) ? 'E-Mail oder Passwort falsch.'
+  const ERR = (m) => /captcha/i.test(m) ? 'Das hat nicht geklappt. Bitte noch einmal versuchen.'
+    : /Invalid login credentials/i.test(m) ? 'E-Mail oder Passwort falsch.'
     : /not confirmed/i.test(m) ? 'Deine E-Mail-Adresse ist noch nicht bestätigt. Bitte klicke auf den Link in unserer Mail (auch im Spam-Ordner nachsehen).'
     : /already registered|already been registered/i.test(m) ? 'Für diese E-Mail-Adresse gibt es schon ein Konto – bitte anmelden.'
     : /rate limit|too many/i.test(m) ? 'Gerade wurden zu viele Mails verschickt. Bitte in ein paar Minuten noch einmal versuchen.'
@@ -151,13 +152,37 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
     : /different from the old/i.test(m) ? 'Das neue Passwort muss sich vom alten unterscheiden.'
     : /password.*(short|least|weak)/i.test(m) ? 'Das Passwort ist zu kurz oder zu einfach.' : m;
 
+  // Schutz gegen Bots (01.11.2026): Cloudflare Turnstile – meist unsichtbar; Supabase verlangt das Token für Anmelden, Registrieren
+  // und Passwort vergessen. Je Formular ein Kästchen direkt über dem Knopf (erscheint nur, wenn Cloudflare nachfragen muss).
+  const TS_KEY = '0x4AAAAAAFvZRBRU8_Vr1VLM', tsIds = new Map(), tsTok = new Map();
+  let tsWait = null;
+  const tsLoad = () => window.turnstile ? Promise.resolve() : (tsWait ||= new Promise((res, rej) => {
+    const s = document.createElement('script'); s.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit'; s.async = true;
+    s.onload = res; s.onerror = () => { tsWait = null; rej(new Error('Turnstile')); }; document.head.appendChild(s);
+  }));
+  async function tsRender(f) {
+    if (tsIds.has(f)) return;
+    try { await tsLoad(); } catch { return; }
+    if (tsIds.has(f) || !window.turnstile) return;
+    const box = document.createElement('div'); box.className = 'ts'; f.querySelector('button[type=submit],button:not([type])')?.before(box);
+    tsIds.set(f, turnstile.render(box, { sitekey: TS_KEY, appearance: 'interaction-only', callback: (t) => tsTok.set(f, t),
+      'expired-callback': () => tsTok.delete(f), 'error-callback': () => tsTok.delete(f) }));
+  }
+  async function captcha(f) { // frisches Token für genau eine Anfrage
+    await tsRender(f);
+    const box = f.querySelector('.ts');
+    for (let i = 0; i < 450 && !tsTok.get(f) && tsIds.has(f) && (i < 60 || box?.querySelector('iframe')?.offsetHeight > 0); i++) await new Promise((r) => setTimeout(r, 200));
+    const t = tsTok.get(f); tsTok.delete(f); if (tsIds.has(f)) try { turnstile.reset(tsIds.get(f)); } catch {}
+    return t || undefined;
+  }
+  ['#vLogin', '#vSignup', '#vForgot'].forEach((id) => { const f = $(id); f?.addEventListener('focusin', () => tsRender(f)); });
   document.querySelectorAll('[data-go]').forEach((a) => { a.onclick = (e) => { e.preventDefault(); show(a.dataset.go); }; });
 
   $('#vLogin').onsubmit = async (e) => {
     e.preventDefault(); const f = e.target, email = f.email.value.trim(), password = f.password.value;
     if (!email || !password) return say('mLogin', 'Bitte E-Mail und Passwort eingeben.');
     f.querySelector('button').disabled = true;
-    const { error } = await sb.auth.signInWithPassword({ email, password });
+    const { error } = await sb.auth.signInWithPassword({ email, password, options: { captchaToken: await captcha(f) } });
     f.querySelector('button').disabled = false;
     if (error) say('mLogin', ERR(error.message));
   };
@@ -166,7 +191,7 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
     if (!email || password.length < 8) return say('mSignup', 'Bitte E-Mail und ein Passwort mit mindestens 8 Zeichen eingeben.');
     if (!f.terms.checked) return say('mSignup', 'Bitte bestätige die AGB.');
     f.querySelector('button').disabled = true;
-    const { data, error } = await sb.auth.signUp({ email, password, options: { emailRedirectTo: here, data: { signup_source: 'boothdesigner' } } });
+    const { data, error } = await sb.auth.signUp({ email, password, options: { emailRedirectTo: here, data: { signup_source: 'boothdesigner' }, captchaToken: await captcha(f) } });
     f.querySelector('button').disabled = false;
     if (error) return say('mSignup', ERR(error.message));
     window.bdConversion('signup'); // Registrierung (nur mit Zustimmung)
@@ -175,7 +200,7 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
   $('#vForgot').onsubmit = async (e) => {
     e.preventDefault(); const email = e.target.email.value.trim();
     if (!email) return say('mForgot', 'Bitte deine E-Mail-Adresse eingeben.');
-    const { error } = await sb.auth.resetPasswordForEmail(email, { redirectTo: here });
+    const { error } = await sb.auth.resetPasswordForEmail(email, { redirectTo: here, captchaToken: await captcha(e.target) });
     error ? say('mForgot', ERR(error.message)) : say('mForgot', 'Wir haben dir einen Link zum Zurücksetzen geschickt.', true);
   };
   $('#vReset').onsubmit = async (e) => {
