@@ -7,7 +7,8 @@
   const C = window.STUDIO_CONFIG || {};
   if (!C.supabaseUrl || !C.anonKey || !/(^|\.)boothdesigner\.de$/.test(location.hostname)) return;
   if (navigator.webdriver || /bot|crawl|spider|slurp|headless|lighthouse|preview/i.test(navigator.userAgent)) return;
-  const p = location.pathname.replace(/index\.html$/, '');
+  // Cloudflare Pages kürzt /agb.html zu /agb (seit dem Umzug 01.11.) – beide Schreibweisen zählen als dieselbe Seite
+  const p = location.pathname.replace(/index\.html$/, '').replace(/^\/(agb|impressum|datenschutz)$/, '/$1.html');
   const seite = p.startsWith('/konto') ? '/konto/' : ['/', '/agb.html', '/impressum.html', '/datenschutz.html'].includes(p) ? p : null;
   if (!seite) return;
 
