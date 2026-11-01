@@ -1410,4 +1410,8 @@ I18N.add('tr', {
 "Ballons Petrol, Gold & Creme": "Petrol, altın ve krem balonlar",
 "Maskenball": "Maskeli Balo",
 "6. Februar 2027": "6 Şubat 2027",
+"Musselin & Samtgras": "Müslin & Tavşan Kuyruğu",
+"Samtgras & Strohblumen": "Tavşan kuyruğu otu & saman çiçekleri",
+"Samtgras in weißer Vase": "Beyaz vazoda tavşan kuyruğu",
+"14. März 2027": "14 Mart 2027",
 });

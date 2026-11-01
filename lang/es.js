@@ -1410,4 +1410,8 @@ I18N.add('es', {
 "Ballons Petrol, Gold & Creme": "Globos petróleo, dorados y crema",
 "Maskenball": "Baile de máscaras",
 "6. Februar 2027": "6 de febrero de 2027",
+"Musselin & Samtgras": "Muselina & Cola de conejo",
+"Samtgras & Strohblumen": "Cola de conejo & siemprevivas",
+"Samtgras in weißer Vase": "Cola de conejo en jarrón blanco",
+"14. März 2027": "14 de marzo de 2027",
 });

@@ -1410,4 +1410,8 @@ I18N.add('en', {
 "Ballons Petrol, Gold & Creme": "Teal, gold & cream balloons",
 "Maskenball": "Masquerade Ball",
 "6. Februar 2027": "6 February 2027",
+"Musselin & Samtgras": "Muslin & Bunny Tails",
+"Samtgras & Strohblumen": "Bunny tail grass & strawflowers",
+"Samtgras in weißer Vase": "Bunny tails in a white vase",
+"14. März 2027": "14 March 2027",
 });

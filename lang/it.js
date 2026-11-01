@@ -1410,4 +1410,8 @@ I18N.add('it', {
 "Ballons Petrol, Gold & Creme": "Palloncini ottanio, oro e crema",
 "Maskenball": "Ballo in maschera",
 "6. Februar 2027": "6 febbraio 2027",
+"Musselin & Samtgras": "Mussola & Coda di lepre",
+"Samtgras & Strohblumen": "Coda di lepre & elicrisi",
+"Samtgras in weißer Vase": "Coda di lepre in vaso bianco",
+"14. März 2027": "14 marzo 2027",
 });

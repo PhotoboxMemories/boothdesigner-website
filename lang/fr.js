@@ -1410,4 +1410,8 @@ I18N.add('fr', {
 "Ballons Petrol, Gold & Creme": "Ballons bleu canard, or et crème",
 "Maskenball": "Bal masqué",
 "6. Februar 2027": "6 février 2027",
+"Musselin & Samtgras": "Mousseline & Queues de lièvre",
+"Samtgras & Strohblumen": "Queues de lièvre & immortelles",
+"Samtgras in weißer Vase": "Queues de lièvre dans un vase blanc",
+"14. März 2027": "14 mars 2027",
 });
