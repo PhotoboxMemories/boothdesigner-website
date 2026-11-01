@@ -1423,4 +1423,8 @@ I18N.add('tr', {
 "Birke in weißer Vase": "Beyaz vazoda huş",
 "Hüttenabend": "Dağ Evi Akşamı",
 "23. Januar 2027": "23 Ocak 2027",
+"Olivenzweig & Relief": "Zeytin Dalı & Kabartma",
+"Olivengirlande mit Schleierkraut": "Cipsofilli zeytin girlandı",
+"Olivenzweige in weißer Vase": "Beyaz vazoda zeytin dalları",
+"9. Mai 2027": "9 Mayıs 2027",
 });

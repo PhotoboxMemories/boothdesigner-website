@@ -1423,4 +1423,8 @@ I18N.add('fr', {
 "Birke in weißer Vase": "Bouleau dans un vase blanc",
 "Hüttenabend": "Soirée au chalet",
 "23. Januar 2027": "23 janvier 2027",
+"Olivenzweig & Relief": "Rameau d'olivier & relief",
+"Olivengirlande mit Schleierkraut": "Guirlande d'olivier et gypsophile",
+"Olivenzweige in weißer Vase": "Branches d'olivier dans un vase blanc",
+"9. Mai 2027": "9 mai 2027",
 });

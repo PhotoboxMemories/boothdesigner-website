@@ -1423,4 +1423,8 @@ I18N.add('es', {
 "Birke in weißer Vase": "Abedul en jarrón blanco",
 "Hüttenabend": "Noche en la cabaña",
 "23. Januar 2027": "23 de enero de 2027",
+"Olivenzweig & Relief": "Rama de olivo y relieve",
+"Olivengirlande mit Schleierkraut": "Guirnalda de olivo con paniculata",
+"Olivenzweige in weißer Vase": "Ramas de olivo en jarrón blanco",
+"9. Mai 2027": "9 de mayo de 2027",
 });

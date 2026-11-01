@@ -1423,4 +1423,8 @@ I18N.add('en', {
 "Birke in weißer Vase": "Birch in a white vase",
 "Hüttenabend": "Cabin Night",
 "23. Januar 2027": "23 January 2027",
+"Olivenzweig & Relief": "Olive Branch & Relief",
+"Olivengirlande mit Schleierkraut": "Olive garland with baby's breath",
+"Olivenzweige in weißer Vase": "Olive branches in white vase",
+"9. Mai 2027": "9 May 2027",
 });

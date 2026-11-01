@@ -1423,4 +1423,8 @@ I18N.add('it', {
 "Birke in weißer Vase": "Betulla in vaso bianco",
 "Hüttenabend": "Serata in baita",
 "23. Januar 2027": "23 gennaio 2027",
+"Olivenzweig & Relief": "Ramo d'ulivo e rilievo",
+"Olivengirlande mit Schleierkraut": "Ghirlanda d'ulivo con gipsofila",
+"Olivenzweige in weißer Vase": "Rami d'ulivo in vaso bianco",
+"9. Mai 2027": "9 maggio 2027",
 });
