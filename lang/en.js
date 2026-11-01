@@ -1427,4 +1427,7 @@ I18N.add('en', {
 "Olivengirlande mit Schleierkraut": "Olive garland with baby's breath",
 "Olivenzweige in weißer Vase": "Olive branches in white vase",
 "9. Mai 2027": "9 May 2027",
+"Tulpenbeet": "Tulip Bed",
+"Familie Wagner": "The Wagner Family",
+"28. März 2027": "28 March 2027",
 });

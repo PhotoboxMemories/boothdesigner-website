@@ -1427,4 +1427,7 @@ I18N.add('tr', {
 "Olivengirlande mit Schleierkraut": "Cipsofilli zeytin girlandı",
 "Olivenzweige in weißer Vase": "Beyaz vazoda zeytin dalları",
 "9. Mai 2027": "9 Mayıs 2027",
+"Tulpenbeet": "Lale Tarhı",
+"Familie Wagner": "Wagner Ailesi",
+"28. März 2027": "28 Mart 2027",
 });

@@ -1427,4 +1427,7 @@ I18N.add('es', {
 "Olivengirlande mit Schleierkraut": "Guirnalda de olivo con paniculata",
 "Olivenzweige in weißer Vase": "Ramas de olivo en jarrón blanco",
 "9. Mai 2027": "9 de mayo de 2027",
+"Tulpenbeet": "Macizo de tulipanes",
+"Familie Wagner": "Familia Wagner",
+"28. März 2027": "28 de marzo de 2027",
 });
