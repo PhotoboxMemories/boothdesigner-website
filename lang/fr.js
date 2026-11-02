@@ -1488,4 +1488,7 @@ I18N.add('fr', {
 "Plissee": "Plissé",
 "Herbarium": "Herbier",
 "Tintenblau": "Bleu d'Encre",
+"Après-Ski": "Après-Ski",
+"Hüttengaudi": "Fête au chalet",
+"20. Februar 2027": "20 février 2027",
 });

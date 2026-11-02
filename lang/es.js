@@ -1488,4 +1488,7 @@ I18N.add('es', {
 "Plissee": "Plisado",
 "Herbarium": "Herbario",
 "Tintenblau": "Azul Tinta",
+"Après-Ski": "Après-Ski",
+"Hüttengaudi": "Fiesta en la cabaña",
+"20. Februar 2027": "20 de febrero de 2027",
 });

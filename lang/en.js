@@ -1488,4 +1488,7 @@ I18N.add('en', {
 "Plissee": "Plissé",
 "Herbarium": "Herbarium",
 "Tintenblau": "Ink Blue",
+"Après-Ski": "Après-Ski",
+"Hüttengaudi": "Cabin Party",
+"20. Februar 2027": "20 February 2027",
 });

@@ -1488,4 +1488,7 @@ I18N.add('it', {
 "Plissee": "Plissé",
 "Herbarium": "Erbario",
 "Tintenblau": "Blu Inchiostro",
+"Après-Ski": "Après-Ski",
+"Hüttengaudi": "Festa in baita",
+"20. Februar 2027": "20 febbraio 2027",
 });

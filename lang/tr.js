@@ -1488,4 +1488,7 @@ I18N.add('tr', {
 "Plissee": "Pliseli",
 "Herbarium": "Herbaryum",
 "Tintenblau": "Mürekkep Mavisi",
+"Après-Ski": "Après-Ski",
+"Hüttengaudi": "Dağ Evi Partisi",
+"20. Februar 2027": "20 Şubat 2027",
 });
