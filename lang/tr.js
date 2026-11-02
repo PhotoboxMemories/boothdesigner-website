@@ -1478,4 +1478,6 @@ I18N.add('tr', {
 "Pierrotball": "Pierrot Balosu",
 "Gartenfest": "Bahçe Partisi",
 "3. Juli 2027": "3 Temmuz 2027",
+"Kirchenfenster": "Vitray",
+"18. April 2027": "18 Nisan 2027",
 });

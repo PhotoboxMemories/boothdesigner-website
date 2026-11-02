@@ -1478,4 +1478,6 @@ I18N.add('fr', {
 "Pierrotball": "Bal de Pierrot",
 "Gartenfest": "Fête au jardin",
 "3. Juli 2027": "3 juillet 2027",
+"Kirchenfenster": "Vitrail",
+"18. April 2027": "18 avril 2027",
 });
