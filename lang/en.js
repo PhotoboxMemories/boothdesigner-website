@@ -1480,4 +1480,6 @@ I18N.add('en', {
 "3. Juli 2027": "3 July 2027",
 "Kirchenfenster": "Stained Glass",
 "18. April 2027": "18 April 2027",
+"Papierwald": "Paper Forest",
+"17. Dezember 2026": "17 December 2026",
 });

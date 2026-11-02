@@ -1480,4 +1480,6 @@ I18N.add('tr', {
 "3. Juli 2027": "3 Temmuz 2027",
 "Kirchenfenster": "Vitray",
 "18. April 2027": "18 Nisan 2027",
+"Papierwald": "Kâğıt Orman",
+"17. Dezember 2026": "17 Aralık 2026",
 });
