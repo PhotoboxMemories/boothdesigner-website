@@ -1458,4 +1458,6 @@ I18N.add('it', {
 "WIR HABEN ES GESCHAFFT": "CE L’ABBIAMO FATTA",
 "Abi 2027": "Maturità 2027",
 "25. Juni 2027": "25 giugno 2027",
+"Hahnentritt": "Pied-de-poule",
+"11. Dezember 2026": "11 dicembre 2026",
 });

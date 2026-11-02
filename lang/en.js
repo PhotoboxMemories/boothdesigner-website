@@ -1458,4 +1458,6 @@ I18N.add('en', {
 "WIR HABEN ES GESCHAFFT": "WE DID IT",
 "Abi 2027": "Class of 2027",
 "25. Juni 2027": "25 June 2027",
+"Hahnentritt": "Houndstooth",
+"11. Dezember 2026": "11 December 2026",
 });

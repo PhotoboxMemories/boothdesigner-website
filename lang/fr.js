@@ -1458,4 +1458,6 @@ I18N.add('fr', {
 "WIR HABEN ES GESCHAFFT": "ON L’A FAIT",
 "Abi 2027": "Bac 2027",
 "25. Juni 2027": "25 juin 2027",
+"Hahnentritt": "Pied-de-poule",
+"11. Dezember 2026": "11 décembre 2026",
 });

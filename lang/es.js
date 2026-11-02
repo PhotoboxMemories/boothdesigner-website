@@ -1458,4 +1458,6 @@ I18N.add('es', {
 "WIR HABEN ES GESCHAFFT": "LO LOGRAMOS",
 "Abi 2027": "Graduación 2027",
 "25. Juni 2027": "25 de junio de 2027",
+"Hahnentritt": "Pata de gallo",
+"11. Dezember 2026": "11 de diciembre de 2026",
 });
