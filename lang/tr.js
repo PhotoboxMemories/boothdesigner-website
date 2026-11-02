@@ -1476,4 +1476,6 @@ I18N.add('tr', {
 "Familie Roth": "Roth Ailesi",
 "Pierrot": "Pierrot",
 "Pierrotball": "Pierrot Balosu",
+"Gartenfest": "Bahçe Partisi",
+"3. Juli 2027": "3 Temmuz 2027",
 });

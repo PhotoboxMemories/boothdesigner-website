@@ -1476,4 +1476,6 @@ I18N.add('fr', {
 "Familie Roth": "Famille Roth",
 "Pierrot": "Pierrot",
 "Pierrotball": "Bal de Pierrot",
+"Gartenfest": "Fête au jardin",
+"3. Juli 2027": "3 juillet 2027",
 });
