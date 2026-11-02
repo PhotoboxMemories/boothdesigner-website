@@ -1446,4 +1446,11 @@ I18N.add('fr', {
 "16. Mai 2027": "16 mai 2027",
 "Formenspiel": "Jeu de formes",
 "4. September 2027": "4 septembre 2027",
+"Papierkraniche": "Grues en papier",
+"Mobile aus Papierkranichen": "Mobile de grues en papier",
+"21. März 2027": "21 mars 2027",
+"Eis am Stiel": "Glace à l’eau",
+"Hoffest": "Fête de la cour",
+"SOMMERFEST": "FÊTE D’ÉTÉ",
+"10. Juli 2027": "10 juillet 2027",
 });

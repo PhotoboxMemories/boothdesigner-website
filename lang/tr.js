@@ -1446,4 +1446,11 @@ I18N.add('tr', {
 "16. Mai 2027": "16 Mayıs 2027",
 "Formenspiel": "Şekil Oyunu",
 "4. September 2027": "4 Eylül 2027",
+"Papierkraniche": "Kağıt Turnalar",
+"Mobile aus Papierkranichen": "Kağıt turna dönencesi",
+"21. März 2027": "21 Mart 2027",
+"Eis am Stiel": "Buzlu Dondurma",
+"Hoffest": "Avlu Partisi",
+"SOMMERFEST": "YAZ ŞENLİĞİ",
+"10. Juli 2027": "10 Temmuz 2027",
 });

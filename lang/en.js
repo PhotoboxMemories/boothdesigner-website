@@ -1446,4 +1446,11 @@ I18N.add('en', {
 "16. Mai 2027": "16 May 2027",
 "Formenspiel": "Shape Play",
 "4. September 2027": "4 September 2027",
+"Papierkraniche": "Paper Cranes",
+"Mobile aus Papierkranichen": "Paper crane mobile",
+"21. März 2027": "21 March 2027",
+"Eis am Stiel": "Ice Lolly",
+"Hoffest": "Courtyard Party",
+"SOMMERFEST": "SUMMER PARTY",
+"10. Juli 2027": "10 July 2027",
 });

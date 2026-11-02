@@ -1446,4 +1446,11 @@ I18N.add('it', {
 "16. Mai 2027": "16 maggio 2027",
 "Formenspiel": "Gioco di forme",
 "4. September 2027": "4 settembre 2027",
+"Papierkraniche": "Gru di carta",
+"Mobile aus Papierkranichen": "Giostrina di gru di carta",
+"21. März 2027": "21 marzo 2027",
+"Eis am Stiel": "Ghiacciolo",
+"Hoffest": "Festa in cortile",
+"SOMMERFEST": "FESTA D’ESTATE",
+"10. Juli 2027": "10 luglio 2027",
 });

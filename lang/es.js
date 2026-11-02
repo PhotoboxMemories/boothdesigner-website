@@ -1446,4 +1446,11 @@ I18N.add('es', {
 "16. Mai 2027": "16 de mayo de 2027",
 "Formenspiel": "Juego de formas",
 "4. September 2027": "4 de septiembre de 2027",
+"Papierkraniche": "Grullas de papel",
+"Mobile aus Papierkranichen": "Móvil de grullas de papel",
+"21. März 2027": "21 de marzo de 2027",
+"Eis am Stiel": "Polo de hielo",
+"Hoffest": "Fiesta en el patio",
+"SOMMERFEST": "FIESTA DE VERANO",
+"10. Juli 2027": "10 de julio de 2027",
 });
