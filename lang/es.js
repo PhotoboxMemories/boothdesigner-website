@@ -1472,4 +1472,6 @@ I18N.add('es', {
 "Spiegelkugel": "Bola de espejos",
 "Discokugeln": "Bolas de espejos",
 "Disco 2027": "Disco 2027",
+"Zuckerstange": "Bastón de caramelo",
+"Familie Roth": "Familia Roth",
 });

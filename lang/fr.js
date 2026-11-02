@@ -1472,4 +1472,6 @@ I18N.add('fr', {
 "Spiegelkugel": "Boule à facettes",
 "Discokugeln": "Boules à facettes",
 "Disco 2027": "Disco 2027",
+"Zuckerstange": "Sucre d'orge",
+"Familie Roth": "Famille Roth",
 });

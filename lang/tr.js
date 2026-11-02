@@ -1472,4 +1472,6 @@ I18N.add('tr', {
 "Spiegelkugel": "Disko Topu",
 "Discokugeln": "Disko topları",
 "Disco 2027": "Disko 2027",
+"Zuckerstange": "Baston Şeker",
+"Familie Roth": "Roth Ailesi",
 });

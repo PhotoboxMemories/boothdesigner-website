@@ -1472,4 +1472,6 @@ I18N.add('en', {
 "Spiegelkugel": "Mirror Ball",
 "Discokugeln": "Disco balls",
 "Disco 2027": "Disco 2027",
+"Zuckerstange": "Candy Cane",
+"Familie Roth": "The Roth Family",
 });
