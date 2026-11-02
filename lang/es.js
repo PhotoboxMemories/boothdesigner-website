@@ -1453,4 +1453,9 @@ I18N.add('es', {
 "Hoffest": "Fiesta en el patio",
 "SOMMERFEST": "FIESTA DE VERANO",
 "10. Juli 2027": "10 de julio de 2027",
+"Abendrot": "Atardecer",
+"Geworfene Abschlusshüte": "Birretes lanzados al aire",
+"WIR HABEN ES GESCHAFFT": "LO LOGRAMOS",
+"Abi 2027": "Graduación 2027",
+"25. Juni 2027": "25 de junio de 2027",
 });

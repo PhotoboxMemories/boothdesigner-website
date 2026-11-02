@@ -1453,4 +1453,9 @@ I18N.add('fr', {
 "Hoffest": "Fête de la cour",
 "SOMMERFEST": "FÊTE D’ÉTÉ",
 "10. Juli 2027": "10 juillet 2027",
+"Abendrot": "Coucher de soleil",
+"Geworfene Abschlusshüte": "Toques de diplômés lancées",
+"WIR HABEN ES GESCHAFFT": "ON L’A FAIT",
+"Abi 2027": "Bac 2027",
+"25. Juni 2027": "25 juin 2027",
 });

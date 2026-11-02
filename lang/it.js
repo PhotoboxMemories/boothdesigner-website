@@ -1453,4 +1453,9 @@ I18N.add('it', {
 "Hoffest": "Festa in cortile",
 "SOMMERFEST": "FESTA D’ESTATE",
 "10. Juli 2027": "10 luglio 2027",
+"Abendrot": "Tramonto",
+"Geworfene Abschlusshüte": "Tocchi di laurea lanciati",
+"WIR HABEN ES GESCHAFFT": "CE L’ABBIAMO FATTA",
+"Abi 2027": "Maturità 2027",
+"25. Juni 2027": "25 giugno 2027",
 });

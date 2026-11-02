@@ -1453,4 +1453,9 @@ I18N.add('en', {
 "Hoffest": "Courtyard Party",
 "SOMMERFEST": "SUMMER PARTY",
 "10. Juli 2027": "10 July 2027",
+"Abendrot": "Sunset Glow",
+"Geworfene Abschlusshüte": "Thrown graduation caps",
+"WIR HABEN ES GESCHAFFT": "WE DID IT",
+"Abi 2027": "Class of 2027",
+"25. Juni 2027": "25 June 2027",
 });

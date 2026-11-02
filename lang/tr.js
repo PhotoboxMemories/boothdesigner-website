@@ -1453,4 +1453,9 @@ I18N.add('tr', {
 "Hoffest": "Avlu Partisi",
 "SOMMERFEST": "YAZ ŞENLİĞİ",
 "10. Juli 2027": "10 Temmuz 2027",
+"Abendrot": "Gün Batımı",
+"Geworfene Abschlusshüte": "Havaya atılan mezuniyet kepleri",
+"WIR HABEN ES GESCHAFFT": "BAŞARDIK",
+"Abi 2027": "Mezuniyet 2027",
+"25. Juni 2027": "25 Haziran 2027",
 });
