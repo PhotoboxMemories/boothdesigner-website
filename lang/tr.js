@@ -1474,4 +1474,6 @@ I18N.add('tr', {
 "Disco 2027": "Disko 2027",
 "Zuckerstange": "Baston Şeker",
 "Familie Roth": "Roth Ailesi",
+"Pierrot": "Pierrot",
+"Pierrotball": "Pierrot Balosu",
 });

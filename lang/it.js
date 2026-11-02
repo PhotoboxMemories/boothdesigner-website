@@ -1474,4 +1474,6 @@ I18N.add('it', {
 "Disco 2027": "Disco 2027",
 "Zuckerstange": "Bastoncino di zucchero",
 "Familie Roth": "Famiglia Roth",
+"Pierrot": "Pierrot",
+"Pierrotball": "Ballo di Pierrot",
 });
