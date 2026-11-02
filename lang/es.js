@@ -1469,4 +1469,7 @@ I18N.add('es', {
 "Kreuzstich": "Punto de cruz",
 "Hüttenzauber": "Magia de cabaña",
 "16. Januar 2027": "16 de enero de 2027",
+"Spiegelkugel": "Bola de espejos",
+"Discokugeln": "Bolas de espejos",
+"Disco 2027": "Disco 2027",
 });

@@ -1469,4 +1469,7 @@ I18N.add('it', {
 "Kreuzstich": "Punto croce",
 "Hüttenzauber": "Magia in baita",
 "16. Januar 2027": "16 gennaio 2027",
+"Spiegelkugel": "Sfera a specchi",
+"Discokugeln": "Sfere a specchi",
+"Disco 2027": "Disco 2027",
 });

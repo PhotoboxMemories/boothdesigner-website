@@ -1469,4 +1469,7 @@ I18N.add('en', {
 "Kreuzstich": "Cross Stitch",
 "Hüttenzauber": "Cabin Magic",
 "16. Januar 2027": "16 January 2027",
+"Spiegelkugel": "Mirror Ball",
+"Discokugeln": "Disco balls",
+"Disco 2027": "Disco 2027",
 });

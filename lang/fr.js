@@ -1469,4 +1469,7 @@ I18N.add('fr', {
 "Kreuzstich": "Point de croix",
 "Hüttenzauber": "Magie du chalet",
 "16. Januar 2027": "16 janvier 2027",
+"Spiegelkugel": "Boule à facettes",
+"Discokugeln": "Boules à facettes",
+"Disco 2027": "Disco 2027",
 });

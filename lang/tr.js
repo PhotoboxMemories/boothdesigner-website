@@ -1469,4 +1469,7 @@ I18N.add('tr', {
 "Kreuzstich": "Kanaviçe",
 "Hüttenzauber": "Dağ Evi Büyüsü",
 "16. Januar 2027": "16 Ocak 2027",
+"Spiegelkugel": "Disko Topu",
+"Discokugeln": "Disko topları",
+"Disco 2027": "Disko 2027",
 });
