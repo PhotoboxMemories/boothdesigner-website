@@ -1460,4 +1460,6 @@ I18N.add('tr', {
 "25. Juni 2027": "25 Haziran 2027",
 "Hahnentritt": "Kaz Ayağı",
 "11. Dezember 2026": "11 Aralık 2026",
+"Linoldruck": "Linol Baskı",
+"2. Mai 2027": "2 Mayıs 2027",
 });

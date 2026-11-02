@@ -1460,4 +1460,6 @@ I18N.add('fr', {
 "25. Juni 2027": "25 juin 2027",
 "Hahnentritt": "Pied-de-poule",
 "11. Dezember 2026": "11 décembre 2026",
+"Linoldruck": "Linogravure",
+"2. Mai 2027": "2 mai 2027",
 });

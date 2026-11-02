@@ -1460,4 +1460,6 @@ I18N.add('es', {
 "25. Juni 2027": "25 de junio de 2027",
 "Hahnentritt": "Pata de gallo",
 "11. Dezember 2026": "11 de diciembre de 2026",
+"Linoldruck": "Linograbado",
+"2. Mai 2027": "2 de mayo de 2027",
 });

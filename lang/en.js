@@ -1460,4 +1460,6 @@ I18N.add('en', {
 "25. Juni 2027": "25 June 2027",
 "Hahnentritt": "Houndstooth",
 "11. Dezember 2026": "11 December 2026",
+"Linoldruck": "Linocut",
+"2. Mai 2027": "2 May 2027",
 });
