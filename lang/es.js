@@ -1441,4 +1441,5 @@ I18N.add('es', {
 "Polarlicht": "Aurora boreal",
 "Nordlichtnacht": "Noche de auroras",
 "Ähre & Traube": "Espiga y Uva",
+"11. April 2027": "11 de abril de 2027",
 });

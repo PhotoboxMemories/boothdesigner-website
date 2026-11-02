@@ -1441,4 +1441,5 @@ I18N.add('fr', {
 "Polarlicht": "Aurore boréale",
 "Nordlichtnacht": "Nuit boréale",
 "Ähre & Traube": "Épi & Raisin",
+"11. April 2027": "11 avril 2027",
 });

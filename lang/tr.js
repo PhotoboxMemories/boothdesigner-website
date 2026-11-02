@@ -1441,4 +1441,5 @@ I18N.add('tr', {
 "Polarlicht": "Kutup Işıkları",
 "Nordlichtnacht": "Kuzey Işıkları Gecesi",
 "Ähre & Traube": "Başak & Üzüm",
+"11. April 2027": "11 Nisan 2027",
 });

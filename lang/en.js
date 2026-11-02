@@ -1441,4 +1441,5 @@ I18N.add('en', {
 "Polarlicht": "Northern Lights",
 "Nordlichtnacht": "Aurora Night",
 "Ähre & Traube": "Wheat & Grapes",
+"11. April 2027": "April 11, 2027",
 });
