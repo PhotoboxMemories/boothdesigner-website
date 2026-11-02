@@ -1482,4 +1482,10 @@ I18N.add('it', {
 "18. April 2027": "18 aprile 2027",
 "Papierwald": "Foresta di carta",
 "17. Dezember 2026": "17 dicembre 2026",
+"WIR HEIRATEN": "CI SPOSIAMO",
+"Goldnaht": "Cucitura d'Oro",
+"Eine Linie": "Una Linea",
+"Plissee": "Plissé",
+"Herbarium": "Erbario",
+"Tintenblau": "Blu Inchiostro",
 });

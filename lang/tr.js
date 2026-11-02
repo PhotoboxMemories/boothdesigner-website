@@ -1482,4 +1482,10 @@ I18N.add('tr', {
 "18. April 2027": "18 Nisan 2027",
 "Papierwald": "Kâğıt Orman",
 "17. Dezember 2026": "17 Aralık 2026",
+"WIR HEIRATEN": "EVLENİYORUZ",
+"Goldnaht": "Altın Dikiş",
+"Eine Linie": "Tek Çizgi",
+"Plissee": "Pliseli",
+"Herbarium": "Herbaryum",
+"Tintenblau": "Mürekkep Mavisi",
 });

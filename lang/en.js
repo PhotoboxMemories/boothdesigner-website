@@ -1482,4 +1482,10 @@ I18N.add('en', {
 "18. April 2027": "18 April 2027",
 "Papierwald": "Paper Forest",
 "17. Dezember 2026": "17 December 2026",
+"WIR HEIRATEN": "WE'RE GETTING MARRIED",
+"Goldnaht": "Golden Seam",
+"Eine Linie": "One Line",
+"Plissee": "Plissé",
+"Herbarium": "Herbarium",
+"Tintenblau": "Ink Blue",
 });

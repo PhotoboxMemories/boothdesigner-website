@@ -1482,4 +1482,10 @@ I18N.add('fr', {
 "18. April 2027": "18 avril 2027",
 "Papierwald": "Forêt de papier",
 "17. Dezember 2026": "17 décembre 2026",
+"WIR HEIRATEN": "NOUS NOUS MARIONS",
+"Goldnaht": "Couture d'Or",
+"Eine Linie": "Une Seule Ligne",
+"Plissee": "Plissé",
+"Herbarium": "Herbier",
+"Tintenblau": "Bleu d'Encre",
 });
