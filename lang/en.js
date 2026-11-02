@@ -1462,4 +1462,6 @@ I18N.add('en', {
 "11. Dezember 2026": "11 December 2026",
 "Linoldruck": "Linocut",
 "2. Mai 2027": "2 May 2027",
+"Aperitivo": "Aperitivo",
+"12. Juni 2027": "12 June 2027",
 });

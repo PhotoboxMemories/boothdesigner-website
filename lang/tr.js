@@ -1462,4 +1462,6 @@ I18N.add('tr', {
 "11. Dezember 2026": "11 Aralık 2026",
 "Linoldruck": "Linol Baskı",
 "2. Mai 2027": "2 Mayıs 2027",
+"Aperitivo": "Aperitif",
+"12. Juni 2027": "12 Haziran 2027",
 });
