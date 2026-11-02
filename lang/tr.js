@@ -1438,4 +1438,6 @@ I18N.add('tr', {
 "31. Dezember 2026": "31 Aralık 2026",
 "Retro-Tannen": "Retro Çamlar",
 "Familie Krause": "Krause Ailesi",
+"Polarlicht": "Kutup Işıkları",
+"Nordlichtnacht": "Kuzey Işıkları Gecesi",
 });

@@ -1438,4 +1438,6 @@ I18N.add('it', {
 "31. Dezember 2026": "31 dicembre 2026",
 "Retro-Tannen": "Abeti rétro",
 "Familie Krause": "Famiglia Krause",
+"Polarlicht": "Aurora boreale",
+"Nordlichtnacht": "Notte boreale",
 });
