@@ -1466,4 +1466,7 @@ I18N.add('tr', {
 "12. Juni 2027": "12 Haziran 2027",
 "Flieder-Eier": "Leylak Yumurtalar",
 "Osterbrunch": "Paskalya Brunch",
+"Kreuzstich": "Kanaviçe",
+"Hüttenzauber": "Dağ Evi Büyüsü",
+"16. Januar 2027": "16 Ocak 2027",
 });

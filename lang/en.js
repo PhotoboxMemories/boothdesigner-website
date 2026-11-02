@@ -1466,4 +1466,7 @@ I18N.add('en', {
 "12. Juni 2027": "12 June 2027",
 "Flieder-Eier": "Lilac Eggs",
 "Osterbrunch": "Easter Brunch",
+"Kreuzstich": "Cross Stitch",
+"Hüttenzauber": "Cabin Magic",
+"16. Januar 2027": "16 January 2027",
 });

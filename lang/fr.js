@@ -1466,4 +1466,7 @@ I18N.add('fr', {
 "12. Juni 2027": "12 juin 2027",
 "Flieder-Eier": "Œufs lilas",
 "Osterbrunch": "Brunch de Pâques",
+"Kreuzstich": "Point de croix",
+"Hüttenzauber": "Magie du chalet",
+"16. Januar 2027": "16 janvier 2027",
 });
