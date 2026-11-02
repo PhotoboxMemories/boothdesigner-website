@@ -1440,4 +1440,5 @@ I18N.add('fr', {
 "Familie Krause": "Famille Krause",
 "Polarlicht": "Aurore boréale",
 "Nordlichtnacht": "Nuit boréale",
+"Ähre & Traube": "Épi & Raisin",
 });

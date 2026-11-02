@@ -1440,4 +1440,5 @@ I18N.add('en', {
 "Familie Krause": "The Krause Family",
 "Polarlicht": "Northern Lights",
 "Nordlichtnacht": "Aurora Night",
+"Ähre & Traube": "Wheat & Grapes",
 });

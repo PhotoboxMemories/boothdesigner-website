@@ -1440,4 +1440,5 @@ I18N.add('tr', {
 "Familie Krause": "Krause Ailesi",
 "Polarlicht": "Kutup Işıkları",
 "Nordlichtnacht": "Kuzey Işıkları Gecesi",
+"Ähre & Traube": "Başak & Üzüm",
 });

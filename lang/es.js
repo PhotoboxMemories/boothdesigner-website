@@ -1440,4 +1440,5 @@ I18N.add('es', {
 "Familie Krause": "Familia Krause",
 "Polarlicht": "Aurora boreal",
 "Nordlichtnacht": "Noche de auroras",
+"Ähre & Traube": "Espiga y Uva",
 });
