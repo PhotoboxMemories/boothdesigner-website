@@ -1430,4 +1430,7 @@ I18N.add('fr', {
 "Tulpenbeet": "Parterre de tulipes",
 "Familie Wagner": "La famille Wagner",
 "28. März 2027": "28 mars 2027",
+"Luftschlangen-Regen": "Pluie de serpentins",
+"Narrenball": "Bal des fous",
+"13. Februar 2027": "13 février 2027",
 });

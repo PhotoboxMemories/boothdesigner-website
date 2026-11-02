@@ -1430,4 +1430,7 @@ I18N.add('en', {
 "Tulpenbeet": "Tulip Bed",
 "Familie Wagner": "The Wagner Family",
 "28. März 2027": "28 March 2027",
+"Luftschlangen-Regen": "Streamer Shower",
+"Narrenball": "Fools' Ball",
+"13. Februar 2027": "13 February 2027",
 });

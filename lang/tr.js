@@ -1430,4 +1430,7 @@ I18N.add('tr', {
 "Tulpenbeet": "Lale Tarhı",
 "Familie Wagner": "Wagner Ailesi",
 "28. März 2027": "28 Mart 2027",
+"Luftschlangen-Regen": "Serpantin Yağmuru",
+"Narrenball": "Karnaval Balosu",
+"13. Februar 2027": "13 Şubat 2027",
 });
