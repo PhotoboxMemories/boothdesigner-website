@@ -1436,4 +1436,6 @@ I18N.add('fr', {
 "Goldfunken": "Étincelles d'or",
 "Prosit 2027": "Santé 2027",
 "31. Dezember 2026": "31 décembre 2026",
+"Retro-Tannen": "Sapins rétro",
+"Familie Krause": "Famille Krause",
 });

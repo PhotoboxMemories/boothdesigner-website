@@ -1436,4 +1436,6 @@ I18N.add('it', {
 "Goldfunken": "Scintille d'oro",
 "Prosit 2027": "Cin cin 2027",
 "31. Dezember 2026": "31 dicembre 2026",
+"Retro-Tannen": "Abeti rétro",
+"Familie Krause": "Famiglia Krause",
 });

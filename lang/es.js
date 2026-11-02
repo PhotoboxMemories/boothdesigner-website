@@ -1436,4 +1436,6 @@ I18N.add('es', {
 "Goldfunken": "Chispas doradas",
 "Prosit 2027": "Salud 2027",
 "31. Dezember 2026": "31 de diciembre de 2026",
+"Retro-Tannen": "Abetos retro",
+"Familie Krause": "Familia Krause",
 });
