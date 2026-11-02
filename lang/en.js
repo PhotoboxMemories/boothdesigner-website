@@ -1444,4 +1444,6 @@ I18N.add('en', {
 "11. April 2027": "11 April 2027",
 "Tusche & Welle": "Ink & Wave",
 "16. Mai 2027": "16 May 2027",
+"Formenspiel": "Shape Play",
+"4. September 2027": "4 September 2027",
 });

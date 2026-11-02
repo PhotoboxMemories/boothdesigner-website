@@ -1444,4 +1444,6 @@ I18N.add('it', {
 "11. April 2027": "11 aprile 2027",
 "Tusche & Welle": "Inchiostro & Onda",
 "16. Mai 2027": "16 maggio 2027",
+"Formenspiel": "Gioco di forme",
+"4. September 2027": "4 settembre 2027",
 });

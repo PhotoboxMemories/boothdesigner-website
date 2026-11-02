@@ -1444,4 +1444,6 @@ I18N.add('tr', {
 "11. April 2027": "11 Nisan 2027",
 "Tusche & Welle": "Mürekkep & Dalga",
 "16. Mai 2027": "16 Mayıs 2027",
+"Formenspiel": "Şekil Oyunu",
+"4. September 2027": "4 Eylül 2027",
 });
