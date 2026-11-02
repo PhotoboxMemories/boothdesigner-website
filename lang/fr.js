@@ -1433,4 +1433,7 @@ I18N.add('fr', {
 "Luftschlangen-Regen": "Pluie de serpentins",
 "Narrenball": "Bal des fous",
 "13. Februar 2027": "13 février 2027",
+"Goldfunken": "Étincelles d'or",
+"Prosit 2027": "Santé 2027",
+"31. Dezember 2026": "31 décembre 2026",
 });

@@ -1433,4 +1433,7 @@ I18N.add('tr', {
 "Luftschlangen-Regen": "Serpantin Yağmuru",
 "Narrenball": "Karnaval Balosu",
 "13. Februar 2027": "13 Şubat 2027",
+"Goldfunken": "Altın Kıvılcımlar",
+"Prosit 2027": "Şerefe 2027",
+"31. Dezember 2026": "31 Aralık 2026",
 });

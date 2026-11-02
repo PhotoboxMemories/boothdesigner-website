@@ -1433,4 +1433,7 @@ I18N.add('es', {
 "Luftschlangen-Regen": "Lluvia de serpentinas",
 "Narrenball": "Baile de carnaval",
 "13. Februar 2027": "13 de febrero de 2027",
+"Goldfunken": "Chispas doradas",
+"Prosit 2027": "Salud 2027",
+"31. Dezember 2026": "31 de diciembre de 2026",
 });

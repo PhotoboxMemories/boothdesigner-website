@@ -1433,4 +1433,7 @@ I18N.add('en', {
 "Luftschlangen-Regen": "Streamer Shower",
 "Narrenball": "Fools' Ball",
 "13. Februar 2027": "13 February 2027",
+"Goldfunken": "Golden Sparks",
+"Prosit 2027": "Cheers to 2027",
+"31. Dezember 2026": "31 December 2026",
 });

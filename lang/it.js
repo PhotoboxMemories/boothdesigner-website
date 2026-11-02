@@ -1433,4 +1433,7 @@ I18N.add('it', {
 "Luftschlangen-Regen": "Pioggia di stelle filanti",
 "Narrenball": "Ballo in maschera",
 "13. Februar 2027": "13 febbraio 2027",
+"Goldfunken": "Scintille d'oro",
+"Prosit 2027": "Cin cin 2027",
+"31. Dezember 2026": "31 dicembre 2026",
 });
