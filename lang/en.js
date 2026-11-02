@@ -1464,4 +1464,6 @@ I18N.add('en', {
 "2. Mai 2027": "2 May 2027",
 "Aperitivo": "Aperitivo",
 "12. Juni 2027": "12 June 2027",
+"Flieder-Eier": "Lilac Eggs",
+"Osterbrunch": "Easter Brunch",
 });

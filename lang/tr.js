@@ -1464,4 +1464,6 @@ I18N.add('tr', {
 "2. Mai 2027": "2 Mayıs 2027",
 "Aperitivo": "Aperitif",
 "12. Juni 2027": "12 Haziran 2027",
+"Flieder-Eier": "Leylak Yumurtalar",
+"Osterbrunch": "Paskalya Brunch",
 });
