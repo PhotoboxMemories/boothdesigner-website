@@ -1442,4 +1442,6 @@ I18N.add('en', {
 "Nordlichtnacht": "Aurora Night",
 "Ähre & Traube": "Wheat & Grapes",
 "11. April 2027": "11 April 2027",
+"Tusche & Welle": "Ink & Wave",
+"16. Mai 2027": "16 May 2027",
 });

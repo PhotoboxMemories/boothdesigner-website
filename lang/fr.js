@@ -1442,4 +1442,6 @@ I18N.add('fr', {
 "Nordlichtnacht": "Nuit boréale",
 "Ähre & Traube": "Épi & Raisin",
 "11. April 2027": "11 avril 2027",
+"Tusche & Welle": "Encre & Vague",
+"16. Mai 2027": "16 mai 2027",
 });

@@ -1442,4 +1442,6 @@ I18N.add('es', {
 "Nordlichtnacht": "Noche de auroras",
 "Ähre & Traube": "Espiga y Uva",
 "11. April 2027": "11 de abril de 2027",
+"Tusche & Welle": "Tinta y Ola",
+"16. Mai 2027": "16 de mayo de 2027",
 });

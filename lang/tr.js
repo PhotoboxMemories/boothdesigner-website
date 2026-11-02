@@ -1442,4 +1442,6 @@ I18N.add('tr', {
 "Nordlichtnacht": "Kuzey Işıkları Gecesi",
 "Ähre & Traube": "Başak & Üzüm",
 "11. April 2027": "11 Nisan 2027",
+"Tusche & Welle": "Mürekkep & Dalga",
+"16. Mai 2027": "16 Mayıs 2027",
 });
