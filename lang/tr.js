@@ -1502,4 +1502,7 @@ I18N.add('tr', {
 "Familie Vogel": "Vogel Ailesi",
 "25. Dezember 2026": "25 Aralık 2026",
 "Azulejo": "Azulejo",
+"Schleifenband": "Fiyonklar",
+"Team Lena": "Team Lena",
+"19. Juni 2027": "19 Haziran 2027",
 });

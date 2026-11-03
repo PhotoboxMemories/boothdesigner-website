@@ -1502,4 +1502,7 @@ I18N.add('en', {
 "Familie Vogel": "The Vogel Family",
 "25. Dezember 2026": "25 December 2026",
 "Azulejo": "Azulejo",
+"Schleifenband": "Ribbon Bows",
+"Team Lena": "Team Lena",
+"19. Juni 2027": "19 June 2027",
 });

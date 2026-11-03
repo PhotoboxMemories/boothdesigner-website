@@ -1502,4 +1502,7 @@ I18N.add('fr', {
 "Familie Vogel": "Famille Vogel",
 "25. Dezember 2026": "25 décembre 2026",
 "Azulejo": "Azulejo",
+"Schleifenband": "Rubans noués",
+"Team Lena": "Team Lena",
+"19. Juni 2027": "19 juin 2027",
 });
