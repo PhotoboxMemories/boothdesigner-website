@@ -1635,4 +1635,7 @@ I18N.add('en', {
 "18. Juni 2027": "18 June 2027",
 "7. August 2027": "7 August 2027",
 "Team Braut": "Team Bride",
+"Osterstrauch": "Easter Branches",
+"Osterstrauch mit Eiern": "Easter branch with eggs",
+"Ostertafel": "Easter Table",
 });

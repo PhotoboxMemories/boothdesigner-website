@@ -1635,4 +1635,7 @@ I18N.add('tr', {
 "18. Juni 2027": "18 Haziran 2027",
 "7. August 2027": "7 Ağustos 2027",
 "Team Braut": "Gelin Takımı",
+"Osterstrauch": "Paskalya Dalları",
+"Osterstrauch mit Eiern": "Yumurtalı Paskalya dalı",
+"Ostertafel": "Paskalya Sofrası",
 });

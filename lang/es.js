@@ -1635,4 +1635,7 @@ I18N.add('es', {
 "18. Juni 2027": "18 de junio de 2027",
 "7. August 2027": "7 de agosto de 2027",
 "Team Braut": "Team Novia",
+"Osterstrauch": "Ramas de Pascua",
+"Osterstrauch mit Eiern": "Rama de Pascua con huevos",
+"Ostertafel": "Mesa de Pascua",
 });
