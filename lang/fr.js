@@ -1538,4 +1538,7 @@ I18N.add('fr', {
 "Blutnacht": "Nuit de Sang",
 "Schädel & Rosen": "Crâne & Roses",
 "Blutspritzer": "Éclaboussures de Sang",
+"Retro-Bögen": "Arcs Rétro",
+"JAHRESFEIER 2027": "FÊTE ANNUELLE 2027",
+"22. Januar 2027": "22 janvier 2027",
 });

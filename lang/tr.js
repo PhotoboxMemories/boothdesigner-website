@@ -1538,4 +1538,7 @@ I18N.add('tr', {
 "Blutnacht": "Kan Gecesi",
 "Schädel & Rosen": "Kafatası ve Güller",
 "Blutspritzer": "Kan Sıçraması",
+"Retro-Bögen": "Retro Kemerler",
+"JAHRESFEIER 2027": "YILLIK KUTLAMA 2027",
+"22. Januar 2027": "22 Ocak 2027",
 });

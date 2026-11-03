@@ -1538,4 +1538,7 @@ I18N.add('es', {
 "Blutnacht": "Noche de Sangre",
 "Schädel & Rosen": "Calavera y Rosas",
 "Blutspritzer": "Salpicaduras de Sangre",
+"Retro-Bögen": "Arcos Retro",
+"JAHRESFEIER 2027": "FIESTA ANUAL 2027",
+"22. Januar 2027": "22 de enero de 2027",
 });

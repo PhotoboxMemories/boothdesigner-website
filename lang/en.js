@@ -1538,4 +1538,7 @@ I18N.add('en', {
 "Blutnacht": "Blood Night",
 "Schädel & Rosen": "Skull & Roses",
 "Blutspritzer": "Blood Splatter",
+"Retro-Bögen": "Retro Arches",
+"JAHRESFEIER 2027": "ANNUAL PARTY 2027",
+"22. Januar 2027": "22 January 2027",
 });

@@ -1538,4 +1538,7 @@ I18N.add('it', {
 "Blutnacht": "Notte di Sangue",
 "Schädel & Rosen": "Teschio e Rose",
 "Blutspritzer": "Schizzi di Sangue",
+"Retro-Bögen": "Archi Retrò",
+"JAHRESFEIER 2027": "FESTA ANNUALE 2027",
+"22. Januar 2027": "22 gennaio 2027",
 });
