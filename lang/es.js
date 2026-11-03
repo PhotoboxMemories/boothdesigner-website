@@ -1519,4 +1519,6 @@ I18N.add('es', {
 "24. April 2027": "24 de abril de 2027",
 "Sternenmobile": "Móvil de estrellas",
 "Filz-Mobile": "Móvil de fieltro",
+"Fischlein": "Pececitos",
+"25. April 2027": "25 de abril de 2027",
 });

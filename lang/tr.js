@@ -1519,4 +1519,6 @@ I18N.add('tr', {
 "24. April 2027": "24 Nisan 2027",
 "Sternenmobile": "Yıldız Dönencesi",
 "Filz-Mobile": "Keçe Dönence",
+"Fischlein": "Küçük Balıklar",
+"25. April 2027": "25 Nisan 2027",
 });

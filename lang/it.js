@@ -1519,4 +1519,6 @@ I18N.add('it', {
 "24. April 2027": "24 aprile 2027",
 "Sternenmobile": "Giostrina di stelle",
 "Filz-Mobile": "Giostrina di feltro",
+"Fischlein": "Pesciolini",
+"25. April 2027": "25 aprile 2027",
 });
