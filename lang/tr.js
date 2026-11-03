@@ -1493,4 +1493,9 @@ I18N.add('tr', {
 "20. Februar 2027": "20 Şubat 2027",
 "Papierflieger": "Kağıt Uçak",
 "11. September 2027": "11 Eylül 2027",
+"Karoheft": "Kareli Defter",
+"Quasten": "Püsküller",
+"ABSCHLUSS 2027": "MEZUNİYET 2027",
+"Klasse 10b": "10B Sınıfı",
+"2. Juli 2027": "2 Temmuz 2027",
 });

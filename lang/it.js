@@ -1493,4 +1493,9 @@ I18N.add('it', {
 "20. Februar 2027": "20 febbraio 2027",
 "Papierflieger": "Aeroplanino di carta",
 "11. September 2027": "11 settembre 2027",
+"Karoheft": "Quaderno a Quadretti",
+"Quasten": "Nappe",
+"ABSCHLUSS 2027": "DIPLOMA 2027",
+"Klasse 10b": "Classe 10b",
+"2. Juli 2027": "2 luglio 2027",
 });
