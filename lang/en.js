@@ -1505,4 +1505,6 @@ I18N.add('en', {
 "Schleifenband": "Ribbon Bows",
 "Team Lena": "Team Lena",
 "19. Juni 2027": "19 June 2027",
+"Über den Dächern": "Above the Rooftops",
+"Dachparty": "Rooftop Party",
 });

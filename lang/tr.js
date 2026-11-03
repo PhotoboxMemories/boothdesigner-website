@@ -1505,4 +1505,6 @@ I18N.add('tr', {
 "Schleifenband": "Fiyonklar",
 "Team Lena": "Team Lena",
 "19. Juni 2027": "19 Haziran 2027",
+"Über den Dächern": "Çatıların Üzerinde",
+"Dachparty": "Çatı Partisi",
 });

@@ -1505,4 +1505,6 @@ I18N.add('es', {
 "Schleifenband": "Lazos",
 "Team Lena": "Team Lena",
 "19. Juni 2027": "19 de junio de 2027",
+"Über den Dächern": "Sobre los tejados",
+"Dachparty": "Fiesta en la azotea",
 });

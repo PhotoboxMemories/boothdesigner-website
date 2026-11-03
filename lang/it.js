@@ -1505,4 +1505,6 @@ I18N.add('it', {
 "Schleifenband": "Fiocchi",
 "Team Lena": "Team Lena",
 "19. Juni 2027": "19 giugno 2027",
+"Über den Dächern": "Sopra i tetti",
+"Dachparty": "Festa sul tetto",
 });
