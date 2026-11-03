@@ -1534,4 +1534,8 @@ I18N.add('en', {
 "Monsterparty": "Monster Party",
 "Vampirball": "Vampire Ball",
 "TRICK OR TREAT": "TRICK OR TREAT",
+"HALLOWEEN PARTY": "HALLOWEEN PARTY",
+"Blutnacht": "Blood Night",
+"Schädel & Rosen": "Skull & Roses",
+"Blutspritzer": "Blood Splatter",
 });

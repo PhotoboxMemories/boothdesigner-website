@@ -1534,4 +1534,8 @@ I18N.add('tr', {
 "Monsterparty": "Canavar Partisi",
 "Vampirball": "Vampir Balosu",
 "TRICK OR TREAT": "ŞAKA MI ŞEKER Mİ",
+"HALLOWEEN PARTY": "CADILAR BAYRAMI PARTİSİ",
+"Blutnacht": "Kan Gecesi",
+"Schädel & Rosen": "Kafatası ve Güller",
+"Blutspritzer": "Kan Sıçraması",
 });

@@ -1534,4 +1534,8 @@ I18N.add('es', {
 "Monsterparty": "Fiesta de monstruos",
 "Vampirball": "Baile de vampiros",
 "TRICK OR TREAT": "TRUCO O TRATO",
+"HALLOWEEN PARTY": "FIESTA DE HALLOWEEN",
+"Blutnacht": "Noche de Sangre",
+"Schädel & Rosen": "Calavera y Rosas",
+"Blutspritzer": "Salpicaduras de Sangre",
 });
