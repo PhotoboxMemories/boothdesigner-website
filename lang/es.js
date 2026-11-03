@@ -1543,4 +1543,7 @@ I18N.add('es', {
 "22. Januar 2027": "22 de enero de 2027",
 "Stempelsterne": "Estrellas de Sello",
 "Familie Lorenz": "Familia Lorenz",
+"Glücksbringer": "Amuletos",
+"GUTEN RUTSCH": "FELIZ NOCHEVIEJA",
+"Glücksnacht": "Noche de la Suerte",
 });

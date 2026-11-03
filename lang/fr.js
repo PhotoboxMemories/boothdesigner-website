@@ -1543,4 +1543,7 @@ I18N.add('fr', {
 "22. Januar 2027": "22 janvier 2027",
 "Stempelsterne": "Étoiles Tampons",
 "Familie Lorenz": "Famille Lorenz",
+"Glücksbringer": "Porte-Bonheur",
+"GUTEN RUTSCH": "BON RÉVEILLON",
+"Glücksnacht": "Nuit de la Chance",
 });

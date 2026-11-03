@@ -1543,4 +1543,7 @@ I18N.add('tr', {
 "22. Januar 2027": "22 Ocak 2027",
 "Stempelsterne": "Damga Yıldızlar",
 "Familie Lorenz": "Lorenz Ailesi",
+"Glücksbringer": "Uğur Getirenler",
+"GUTEN RUTSCH": "İYİ YILLAR",
+"Glücksnacht": "Şans Gecesi",
 });

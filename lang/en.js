@@ -1543,4 +1543,7 @@ I18N.add('en', {
 "22. Januar 2027": "22 January 2027",
 "Stempelsterne": "Stamped Stars",
 "Familie Lorenz": "The Lorenz Family",
+"Glücksbringer": "Lucky Charms",
+"GUTEN RUTSCH": "HAPPY NEW YEAR'S EVE",
+"Glücksnacht": "Lucky Night",
 });

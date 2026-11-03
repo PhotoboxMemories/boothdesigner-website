@@ -1543,4 +1543,7 @@ I18N.add('it', {
 "22. Januar 2027": "22 gennaio 2027",
 "Stempelsterne": "Stelle a Timbro",
 "Familie Lorenz": "Famiglia Lorenz",
+"Glücksbringer": "Portafortuna",
+"GUTEN RUTSCH": "BUON SAN SILVESTRO",
+"Glücksnacht": "Notte Fortunata",
 });
