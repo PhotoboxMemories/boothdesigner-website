@@ -27,6 +27,8 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
 .check{display:flex;gap:8px;align-items:flex-start;font-weight:400;color:var(--ink)}
 .acct{margin-left:auto;display:flex;align-items:center;gap:10px;font-size:14px;color:var(--muted)}
 .acct .btn{padding:7px 12px;font-size:14px}
+@media (max-width:640px){.acct #acctMail{display:none}} /* Handy: nur „Abmelden“ */
+#vApp{padding:0} /* Abstand kommt von main.konto, nicht von section */
 /* Bausteine, die studio.js aus dem Dashboard mitbringt */
 .card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px}
 .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
@@ -118,7 +120,7 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
 <script src="../einwilligung.js?v=20261030-3"></script>
 <script src="../zaehler.js?v=20261102-3"></script>
 <script src="../vendor/supabase.js?v=2.118.0"></script>
-<script src="studio.js?v=20261030-1"></script><!-- website.py kopiert dashboard/studio.js hierher; Version wie in dashboard/index.html mitziehen -->
+<script src="studio.js?v=20261103-1"></script><!-- website.py kopiert dashboard/studio.js hierher; Version wie in dashboard/index.html mitziehen -->
 <script>
 (() => {
   'use strict';
@@ -317,6 +319,6 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
 })();
 </script>
 <script src="../i18n.js?v=20261103-19"></script>
-<script src="../sprache.js?v=20261103-19" data-base="../"></script>
+<script src="../sprache.js?v=20261103-20" data-base="../"></script>
 </body>
 </html>
