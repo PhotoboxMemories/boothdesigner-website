@@ -1515,4 +1515,6 @@ I18N.add('en', {
 "Hasenfest": "Bunny Party",
 "Korallenblatt": "Coral Leaf",
 "17. Juli 2027": "17 July 2027",
+"Schäfchen": "Little Sheep",
+"24. April 2027": "24 April 2027",
 });

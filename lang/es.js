@@ -1515,4 +1515,6 @@ I18N.add('es', {
 "Hasenfest": "Fiesta del conejo",
 "Korallenblatt": "Hoja de coral",
 "17. Juli 2027": "17 de julio de 2027",
+"Schäfchen": "Ovejitas",
+"24. April 2027": "24 de abril de 2027",
 });
