@@ -1541,4 +1541,6 @@ I18N.add('tr', {
 "Retro-Bögen": "Retro Kemerler",
 "JAHRESFEIER 2027": "YILLIK KUTLAMA 2027",
 "22. Januar 2027": "22 Ocak 2027",
+"Stempelsterne": "Damga Yıldızlar",
+"Familie Lorenz": "Lorenz Ailesi",
 });

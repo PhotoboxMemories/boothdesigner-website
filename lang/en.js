@@ -1541,4 +1541,6 @@ I18N.add('en', {
 "Retro-Bögen": "Retro Arches",
 "JAHRESFEIER 2027": "ANNUAL PARTY 2027",
 "22. Januar 2027": "22 January 2027",
+"Stempelsterne": "Stamped Stars",
+"Familie Lorenz": "The Lorenz Family",
 });

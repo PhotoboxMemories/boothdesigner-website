@@ -1541,4 +1541,6 @@ I18N.add('fr', {
 "Retro-Bögen": "Arcs Rétro",
 "JAHRESFEIER 2027": "FÊTE ANNUELLE 2027",
 "22. Januar 2027": "22 janvier 2027",
+"Stempelsterne": "Étoiles Tampons",
+"Familie Lorenz": "Famille Lorenz",
 });

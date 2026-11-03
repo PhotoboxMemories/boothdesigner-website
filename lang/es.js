@@ -1541,4 +1541,6 @@ I18N.add('es', {
 "Retro-Bögen": "Arcos Retro",
 "JAHRESFEIER 2027": "FIESTA ANUAL 2027",
 "22. Januar 2027": "22 de enero de 2027",
+"Stempelsterne": "Estrellas de Sello",
+"Familie Lorenz": "Familia Lorenz",
 });

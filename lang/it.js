@@ -1541,4 +1541,6 @@ I18N.add('it', {
 "Retro-Bögen": "Archi Retrò",
 "JAHRESFEIER 2027": "FESTA ANNUALE 2027",
 "22. Januar 2027": "22 gennaio 2027",
+"Stempelsterne": "Stelle a Timbro",
+"Familie Lorenz": "Famiglia Lorenz",
 });
