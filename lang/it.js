@@ -1619,4 +1619,7 @@ I18N.add('it', {
 "Sprache wählen": "Scegli la lingua",
 "Pausenapfel": "Mela della ricreazione",
 "9. September 2027": "9 settembre 2027",
+"Kreidetafel": "Lavagna",
+"SCHULE AUS": "SCUOLA FINITA",
+"Jahrgang 27": "Classe 27",
 });

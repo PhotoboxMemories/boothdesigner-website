@@ -1619,4 +1619,7 @@ I18N.add('tr', {
 "Sprache wählen": "Dil seç",
 "Pausenapfel": "Teneffüs Elması",
 "9. September 2027": "9 Eylül 2027",
+"Kreidetafel": "Kara Tahta",
+"SCHULE AUS": "OKUL BİTTİ",
+"Jahrgang 27": "2027 Dönemi",
 });

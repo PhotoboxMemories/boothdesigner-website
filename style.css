@@ -108,7 +108,7 @@ section.alt .step{background:var(--bg)}
 .cat-menu .cat-n{font-size:12px;font-weight:700;min-width:30px;text-align:center;padding:2px 8px;border-radius:999px;background:var(--gold-soft);color:var(--gold-deep)}
 .cat-menu .fmt-opt{padding:9px 10px}
 .cat-menu .fmt-opt[aria-selected="true"] .cat-n{background:rgba(255,255,255,.25);color:#fff}
-.gallery img,.gallery video{display:block;width:100%;aspect-ratio:var(--ar,2/3);object-fit:cover;background:var(--gold-soft)}
+.gallery img,.gallery video{display:block;width:100%;height:auto;aspect-ratio:var(--ar,2/3);object-fit:cover;background:var(--gold-soft)}
 .gallery[data-shape="strip"]{grid-template-columns:repeat(auto-fill,minmax(110px,1fr))}
 .gallery[data-shape="quadrat"]{grid-template-columns:repeat(auto-fill,minmax(190px,1fr))}
 .gallery[data-shape="quer"]{grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}

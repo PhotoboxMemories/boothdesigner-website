@@ -1619,4 +1619,7 @@ I18N.add('es', {
 "Sprache wählen": "Elegir idioma",
 "Pausenapfel": "Manzana del recreo",
 "9. September 2027": "9 de septiembre de 2027",
+"Kreidetafel": "Pizarra",
+"SCHULE AUS": "FIN DEL COLE",
+"Jahrgang 27": "Promoción 27",
 });

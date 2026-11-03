@@ -1619,4 +1619,7 @@ I18N.add('en', {
 "Sprache wählen": "Choose language",
 "Pausenapfel": "Snack Apple",
 "9. September 2027": "9 September 2027",
+"Kreidetafel": "Chalkboard",
+"SCHULE AUS": "SCHOOL'S OUT",
+"Jahrgang 27": "Class of 27",
 });
