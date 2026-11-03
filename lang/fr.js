@@ -1521,4 +1521,7 @@ I18N.add('fr', {
 "Filz-Mobile": "Mobile en feutre",
 "Fischlein": "Petits poissons",
 "25. April 2027": "25 avril 2027",
+"Kamelle": "Bonbons de carnaval",
+"Rosenmontag": "Lundi des Roses",
+"8. Februar 2027": "8 février 2027",
 });

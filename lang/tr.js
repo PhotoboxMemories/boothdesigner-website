@@ -1521,4 +1521,7 @@ I18N.add('tr', {
 "Filz-Mobile": "Keçe Dönence",
 "Fischlein": "Küçük Balıklar",
 "25. April 2027": "25 Nisan 2027",
+"Kamelle": "Karnaval Şekerleri",
+"Rosenmontag": "Karnaval Pazartesisi",
+"8. Februar 2027": "8 Şubat 2027",
 });

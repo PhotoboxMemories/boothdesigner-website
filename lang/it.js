@@ -1521,4 +1521,7 @@ I18N.add('it', {
 "Filz-Mobile": "Giostrina di feltro",
 "Fischlein": "Pesciolini",
 "25. April 2027": "25 aprile 2027",
+"Kamelle": "Caramelle di carnevale",
+"Rosenmontag": "Lunedì delle Rose",
+"8. Februar 2027": "8 febbraio 2027",
 });

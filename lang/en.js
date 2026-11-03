@@ -1521,4 +1521,7 @@ I18N.add('en', {
 "Filz-Mobile": "Felt Mobile",
 "Fischlein": "Little Fish",
 "25. April 2027": "25 April 2027",
+"Kamelle": "Carnival Sweets",
+"Rosenmontag": "Rose Monday",
+"8. Februar 2027": "8 February 2027",
 });
