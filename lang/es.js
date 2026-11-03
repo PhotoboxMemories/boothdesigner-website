@@ -1546,4 +1546,7 @@ I18N.add('es', {
 "Glücksbringer": "Amuletos",
 "GUTEN RUTSCH": "FELIZ NOCHEVIEJA",
 "Glücksnacht": "Noche de la Suerte",
+"Glühwein": "Vino caliente",
+"Glühweinzeit": "Hora del vino caliente",
+"12. Dezember 2026": "12 de diciembre de 2026",
 });

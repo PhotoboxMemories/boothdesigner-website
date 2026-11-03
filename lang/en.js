@@ -1546,4 +1546,7 @@ I18N.add('en', {
 "Glücksbringer": "Lucky Charms",
 "GUTEN RUTSCH": "HAPPY NEW YEAR'S EVE",
 "Glücksnacht": "Lucky Night",
+"Glühwein": "Mulled Wine",
+"Glühweinzeit": "Mulled Wine Time",
+"12. Dezember 2026": "12 December 2026",
 });

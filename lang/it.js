@@ -1546,4 +1546,7 @@ I18N.add('it', {
 "Glücksbringer": "Portafortuna",
 "GUTEN RUTSCH": "BUON SAN SILVESTRO",
 "Glücksnacht": "Notte Fortunata",
+"Glühwein": "Vin brulé",
+"Glühweinzeit": "Ora del vin brulé",
+"12. Dezember 2026": "12 dicembre 2026",
 });

@@ -1546,4 +1546,7 @@ I18N.add('fr', {
 "Glücksbringer": "Porte-Bonheur",
 "GUTEN RUTSCH": "BON RÉVEILLON",
 "Glücksnacht": "Nuit de la Chance",
+"Glühwein": "Vin chaud",
+"Glühweinzeit": "Heure du vin chaud",
+"12. Dezember 2026": "12 décembre 2026",
 });

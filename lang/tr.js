@@ -1546,4 +1546,7 @@ I18N.add('tr', {
 "Glücksbringer": "Uğur Getirenler",
 "GUTEN RUTSCH": "İYİ YILLAR",
 "Glücksnacht": "Şans Gecesi",
+"Glühwein": "Sıcak Şarap",
+"Glühweinzeit": "Sıcak Şarap Zamanı",
+"12. Dezember 2026": "12 Aralık 2026",
 });
