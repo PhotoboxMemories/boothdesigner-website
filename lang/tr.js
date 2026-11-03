@@ -1513,4 +1513,6 @@ I18N.add('tr', {
 "30. Oktober 2027": "30 Ekim 2027",
 "Hasenohren": "Tavşan Kulakları",
 "Hasenfest": "Tavşan Şenliği",
+"Korallenblatt": "Mercan Yaprağı",
+"17. Juli 2027": "17 Temmuz 2027",
 });

@@ -1513,4 +1513,6 @@ I18N.add('it', {
 "30. Oktober 2027": "30 ottobre 2027",
 "Hasenohren": "Orecchie da coniglio",
 "Hasenfest": "Festa dei coniglietti",
+"Korallenblatt": "Foglia di corallo",
+"17. Juli 2027": "17 luglio 2027",
 });

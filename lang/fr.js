@@ -1513,4 +1513,6 @@ I18N.add('fr', {
 "30. Oktober 2027": "30 octobre 2027",
 "Hasenohren": "Oreilles de lapin",
 "Hasenfest": "Fête des lapins",
+"Korallenblatt": "Feuille de corail",
+"17. Juli 2027": "17 juillet 2027",
 });

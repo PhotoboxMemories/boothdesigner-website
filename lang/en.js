@@ -1513,4 +1513,6 @@ I18N.add('en', {
 "30. Oktober 2027": "30 October 2027",
 "Hasenohren": "Bunny Ears",
 "Hasenfest": "Bunny Party",
+"Korallenblatt": "Coral Leaf",
+"17. Juli 2027": "17 July 2027",
 });
