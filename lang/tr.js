@@ -1507,4 +1507,10 @@ I18N.add('tr', {
 "19. Juni 2027": "19 Haziran 2027",
 "Über den Dächern": "Çatıların Üzerinde",
 "Dachparty": "Çatı Partisi",
+"Süßes oder Saures": "Şeker mi Şaka mı",
+"Spukparty": "Hayalet Partisi",
+"HAPPY HALLOWEEN": "MUTLU CADILAR BAYRAMI",
+"30. Oktober 2027": "30 Ekim 2027",
+"Hasenohren": "Tavşan Kulakları",
+"Hasenfest": "Tavşan Şenliği",
 });

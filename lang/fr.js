@@ -1507,4 +1507,10 @@ I18N.add('fr', {
 "19. Juni 2027": "19 juin 2027",
 "Über den Dächern": "Au-dessus des toits",
 "Dachparty": "Fête sur le toit",
+"Süßes oder Saures": "Des bonbons ou un sort",
+"Spukparty": "Fête hantée",
+"HAPPY HALLOWEEN": "JOYEUX HALLOWEEN",
+"30. Oktober 2027": "30 octobre 2027",
+"Hasenohren": "Oreilles de lapin",
+"Hasenfest": "Fête des lapins",
 });

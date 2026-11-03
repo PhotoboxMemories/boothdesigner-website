@@ -1507,4 +1507,10 @@ I18N.add('it', {
 "19. Juni 2027": "19 giugno 2027",
 "Über den Dächern": "Sopra i tetti",
 "Dachparty": "Festa sul tetto",
+"Süßes oder Saures": "Dolcetto o scherzetto",
+"Spukparty": "Festa stregata",
+"HAPPY HALLOWEEN": "BUON HALLOWEEN",
+"30. Oktober 2027": "30 ottobre 2027",
+"Hasenohren": "Orecchie da coniglio",
+"Hasenfest": "Festa dei coniglietti",
 });

@@ -1507,4 +1507,10 @@ I18N.add('es', {
 "19. Juni 2027": "19 de junio de 2027",
 "Über den Dächern": "Sobre los tejados",
 "Dachparty": "Fiesta en la azotea",
+"Süßes oder Saures": "Truco o trato",
+"Spukparty": "Fiesta embrujada",
+"HAPPY HALLOWEEN": "FELIZ HALLOWEEN",
+"30. Oktober 2027": "30 de octubre de 2027",
+"Hasenohren": "Orejas de conejo",
+"Hasenfest": "Fiesta del conejo",
 });

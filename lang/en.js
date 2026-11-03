@@ -1507,4 +1507,10 @@ I18N.add('en', {
 "19. Juni 2027": "19 June 2027",
 "Über den Dächern": "Above the Rooftops",
 "Dachparty": "Rooftop Party",
+"Süßes oder Saures": "Trick or Treat",
+"Spukparty": "Spooky Party",
+"HAPPY HALLOWEEN": "HAPPY HALLOWEEN",
+"30. Oktober 2027": "30 October 2027",
+"Hasenohren": "Bunny Ears",
+"Hasenfest": "Bunny Party",
 });
