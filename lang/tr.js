@@ -1638,4 +1638,7 @@ I18N.add('tr', {
 "Osterstrauch": "Paskalya Dalları",
 "Osterstrauch mit Eiern": "Yumurtalı Paskalya dalı",
 "Ostertafel": "Paskalya Sofrası",
+"Federtanz": "Tüy Dansı",
+"Federball": "Tüy Balosu",
+"5. Februar 2027": "5 Şubat 2027",
 });

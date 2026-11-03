@@ -1638,4 +1638,7 @@ I18N.add('it', {
 "Osterstrauch": "Rami di Pasqua",
 "Osterstrauch mit Eiern": "Ramo di Pasqua con uova",
 "Ostertafel": "Tavola di Pasqua",
+"Federtanz": "Danza di piume",
+"Federball": "Ballo di piume",
+"5. Februar 2027": "5 febbraio 2027",
 });

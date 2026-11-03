@@ -1638,4 +1638,7 @@ I18N.add('en', {
 "Osterstrauch": "Easter Branches",
 "Osterstrauch mit Eiern": "Easter branch with eggs",
 "Ostertafel": "Easter Table",
+"Federtanz": "Feather Dance",
+"Federball": "Feather Ball",
+"5. Februar 2027": "5 February 2027",
 });

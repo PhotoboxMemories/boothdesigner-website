@@ -1638,4 +1638,7 @@ I18N.add('fr', {
 "Osterstrauch": "Branches de Pâques",
 "Osterstrauch mit Eiern": "Branche de Pâques avec œufs",
 "Ostertafel": "Table de Pâques",
+"Federtanz": "Danse des plumes",
+"Federball": "Bal des plumes",
+"5. Februar 2027": "5 février 2027",
 });

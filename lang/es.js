@@ -1638,4 +1638,7 @@ I18N.add('es', {
 "Osterstrauch": "Ramas de Pascua",
 "Osterstrauch mit Eiern": "Rama de Pascua con huevos",
 "Ostertafel": "Mesa de Pascua",
+"Federtanz": "Danza de plumas",
+"Federball": "Baile de plumas",
+"5. Februar 2027": "5 de febrero de 2027",
 });
