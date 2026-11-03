@@ -1,4 +1,7 @@
+# boothdesigner.de – alles darf gelesen werden, bis auf den Kundenbereich und die alte Weiterleitung
 User-agent: *
 Allow: /
+Disallow: /konto/
+Disallow: /defaultsite/
 
 Sitemap: https://boothdesigner.de/sitemap.xml

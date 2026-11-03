@@ -4,9 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Mein BoothDesigner</title>
-<link rel="icon" href="../favicon.svg">
-<link rel="stylesheet" href="../style.css?v=20261028-8">
+<title>Mein BoothDesigner – Anmelden</title>
+<meta name="description" content="Anmeldung für Fotobox-Vermieter: BoothDesigner einrichten, Link für Kunden und eingegangene Designs verwalten.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/vendor/fonts/fonts.css?v=20261103-1">
+<link rel="stylesheet" href="/style.css?v=20261103-1">
 <style>
 /* Eigener Bereich für Fotobox-Vermieter: Anmeldung und Verwaltung (studio.js wie im Dashboard von Photobox Memories) */
 :root{--card:var(--paper)}
@@ -45,13 +49,14 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
 </style>
 </head>
 <body>
+<a class="skip" href="#main">Zum Inhalt springen</a>
 <header class="top"><div class="wrap">
-  <a class="logo" href="../"><img src="../favicon.svg" alt="">BoothDesigner</a>
+  <a class="logo" href="/" aria-label="BoothDesigner – Startseite"><img src="/favicon.svg" alt="" width="30" height="30">BoothDesigner</a>
   <span data-lang-picker></span>
   <div class="acct" id="acct" hidden><span id="acctMail" translate="no"></span><button class="btn" id="logout" type="button">Abmelden</button></div>
 </div></header>
 
-<main class="wrap konto">
+<main class="wrap konto" id="main">
   <!-- Glücksrad-Gewinn (Startseite #gluecksrad, Serverfunktion „gluecksrad“): wird beim ersten Abo automatisch abgezogen -->
   <div class="win" id="win" hidden><span>🎁</span><span>Dein Glücksrad-Gewinn:</span><b id="winPrize"></b><span>Wird beim ersten Abo automatisch abgezogen.</span></div>
   <!-- Anmelden -->
@@ -71,7 +76,7 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
     <p>14 Tage kostenlos testen, ohne Zahlungsdaten. Für Fotobox-Vermieter, Fotografen und Eventagenturen.</p>
     <label>E-Mail-Adresse<input type="email" name="email" autocomplete="email" required></label>
     <label>Passwort (mindestens 8 Zeichen)<input type="password" name="password" autocomplete="new-password" minlength="8" required></label>
-    <label class="check"><input type="checkbox" name="terms" required><span>Ich bin Unternehmer und akzeptiere die <a href="../agb.html" target="_blank">AGB</a>. Hinweise zum Datenschutz: <a href="../datenschutz.html" target="_blank">Datenschutzerklärung</a></span></label>
+    <label class="check"><input type="checkbox" name="terms" required><span>Ich bin Unternehmer und akzeptiere die <a href="/agb" target="_blank">AGB</a>. Hinweise zum Datenschutz: <a href="/datenschutz" target="_blank">Datenschutzerklärung</a></span></label>
     <div class="msg" id="mSignup" role="status"></div>
     <button class="btn gold" type="submit">Konto erstellen</button>
     <div class="links"><a data-go="vLogin">Ich habe schon ein Konto</a></div>
@@ -113,12 +118,12 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
   </section>
 </main>
 
-<footer><div class="wrap"><span>BoothDesigner</span><nav><a href="mailto:info@boothdesigner.de">info@boothdesigner.de</a><a href="../impressum.html">Impressum</a><a href="../datenschutz.html">Datenschutz</a><a href="../agb.html">AGB</a><a href="../datenschutz.html#cookies" data-cookie-settings>Cookie-Einstellungen</a></nav></div></footer>
+<footer><div class="wrap"><span>BoothDesigner</span><nav><a href="mailto:info@boothdesigner.de">info@boothdesigner.de</a><a href="/impressum">Impressum</a><a href="/datenschutz">Datenschutz</a><a href="/agb">AGB</a><a href="/datenschutz#cookies" data-cookie-settings>Cookie-Einstellungen</a></nav></div></footer>
 <div class="toast" id="toast" hidden role="status" aria-live="polite"></div>
 
-<script src="../studio-config.js?v=20261030-2"></script>
-<script src="../einwilligung.js?v=20261030-3"></script>
-<script src="../zaehler.js?v=20261102-3"></script>
+<script src="/studio-config.js?v=20261103-1"></script>
+<script src="../einwilligung.js?v=20261103-1"></script>
+<script src="../zaehler.js?v=20261103-1"></script>
 <script src="../vendor/supabase.js?v=2.118.0"></script>
 <script src="studio.js?v=20261103-1"></script><!-- website.py kopiert dashboard/studio.js hierher; Version wie in dashboard/index.html mitziehen -->
 <script>
@@ -318,7 +323,7 @@ input[type=checkbox],input[type=color],input[type=file]{width:auto}
   });
 })();
 </script>
-<script src="../i18n.js?v=20261103-19"></script>
+<script src="../i18n.js?v=20261103-20"></script>
 <script src="../sprache.js?v=20261103-20" data-base="../"></script>
 </body>
 </html>

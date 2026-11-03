@@ -1,0 +1,4 @@
+# Cloudflare Pages: Weiterleitungen (seit 03.11.2026) – nur eine Adresse je Seite für Suchmaschinen
+https://www.boothdesigner.de/* https://boothdesigner.de/:splat 301
+https://boothdesigner.pages.dev/* https://boothdesigner.de/:splat 301
+/defaultsite/* / 301
