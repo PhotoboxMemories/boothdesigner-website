@@ -1498,4 +1498,7 @@ I18N.add('fr', {
 "ABSCHLUSS 2027": "DIPLÔME 2027",
 "Klasse 10b": "Classe 10b",
 "2. Juli 2027": "2 juillet 2027",
+"Rosé-Kugeln": "Boules rosées",
+"Familie Vogel": "Famille Vogel",
+"25. Dezember 2026": "25 décembre 2026",
 });

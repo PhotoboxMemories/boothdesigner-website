@@ -1498,4 +1498,7 @@ I18N.add('en', {
 "ABSCHLUSS 2027": "GRADUATION 2027",
 "Klasse 10b": "Class 10b",
 "2. Juli 2027": "2 July 2027",
+"Rosé-Kugeln": "Rosé Baubles",
+"Familie Vogel": "The Vogel Family",
+"25. Dezember 2026": "25 December 2026",
 });

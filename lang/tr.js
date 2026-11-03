@@ -1498,4 +1498,7 @@ I18N.add('tr', {
 "ABSCHLUSS 2027": "MEZUNİYET 2027",
 "Klasse 10b": "10B Sınıfı",
 "2. Juli 2027": "2 Temmuz 2027",
+"Rosé-Kugeln": "Pembe Toplar",
+"Familie Vogel": "Vogel Ailesi",
+"25. Dezember 2026": "25 Aralık 2026",
 });
