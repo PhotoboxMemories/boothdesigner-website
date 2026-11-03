@@ -1491,4 +1491,6 @@ I18N.add('en', {
 "Après-Ski": "Après-Ski",
 "Hüttengaudi": "Cabin Party",
 "20. Februar 2027": "20 February 2027",
+"Papierflieger": "Paper Plane",
+"11. September 2027": "11 September 2027",
 });

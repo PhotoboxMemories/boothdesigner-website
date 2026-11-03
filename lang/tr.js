@@ -1491,4 +1491,6 @@ I18N.add('tr', {
 "Après-Ski": "Après-Ski",
 "Hüttengaudi": "Dağ Evi Partisi",
 "20. Februar 2027": "20 Şubat 2027",
+"Papierflieger": "Kağıt Uçak",
+"11. September 2027": "11 Eylül 2027",
 });
