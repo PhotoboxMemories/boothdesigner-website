@@ -1622,4 +1622,5 @@ I18N.add('tr', {
 "Kreidetafel": "Kara Tahta",
 "SCHULE AUS": "OKUL BİTTİ",
 "Jahrgang 27": "2027 Dönemi",
+"Morgenstrahlen": "Sabah Işınları",
 });

@@ -1622,4 +1622,5 @@ I18N.add('en', {
 "Kreidetafel": "Chalkboard",
 "SCHULE AUS": "SCHOOL'S OUT",
 "Jahrgang 27": "Class of 27",
+"Morgenstrahlen": "Morning Rays",
 });

@@ -1622,4 +1622,5 @@ I18N.add('fr', {
 "Kreidetafel": "Tableau noir",
 "SCHULE AUS": "FIN DE L'ÉCOLE",
 "Jahrgang 27": "Promo 27",
+"Morgenstrahlen": "Rayons du matin",
 });

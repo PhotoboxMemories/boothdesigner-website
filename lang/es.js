@@ -1622,4 +1622,5 @@ I18N.add('es', {
 "Kreidetafel": "Pizarra",
 "SCHULE AUS": "FIN DEL COLE",
 "Jahrgang 27": "Promoción 27",
+"Morgenstrahlen": "Rayos de la mañana",
 });

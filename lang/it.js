@@ -1622,4 +1622,5 @@ I18N.add('it', {
 "Kreidetafel": "Lavagna",
 "SCHULE AUS": "SCUOLA FINITA",
 "Jahrgang 27": "Classe 27",
+"Morgenstrahlen": "Raggi del mattino",
 });
