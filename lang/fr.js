@@ -1617,4 +1617,6 @@ I18N.add('fr', {
 "Fotobox-Layout-Template": "Template de layout photobooth",
 "Startbildschirm-Animation": "Animation d'écran d'accueil",
 "Sprache wählen": "Choisir la langue",
+"Pausenapfel": "Pomme de la récré",
+"9. September 2027": "9 septembre 2027",
 });

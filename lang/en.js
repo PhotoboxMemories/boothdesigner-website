@@ -1617,4 +1617,6 @@ I18N.add('en', {
 "Fotobox-Layout-Template": "Photo booth layout template",
 "Startbildschirm-Animation": "Start screen animation",
 "Sprache wählen": "Choose language",
+"Pausenapfel": "Snack Apple",
+"9. September 2027": "9 September 2027",
 });

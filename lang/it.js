@@ -1617,4 +1617,6 @@ I18N.add('it', {
 "Fotobox-Layout-Template": "Template di layout photo booth",
 "Startbildschirm-Animation": "Animazione schermata iniziale",
 "Sprache wählen": "Scegli la lingua",
+"Pausenapfel": "Mela della ricreazione",
+"9. September 2027": "9 settembre 2027",
 });

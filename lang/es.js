@@ -1617,4 +1617,6 @@ I18N.add('es', {
 "Fotobox-Layout-Template": "Plantilla de layout de fotomatón",
 "Startbildschirm-Animation": "Animación de pantalla de inicio",
 "Sprache wählen": "Elegir idioma",
+"Pausenapfel": "Manzana del recreo",
+"9. September 2027": "9 de septiembre de 2027",
 });

@@ -1617,4 +1617,6 @@ I18N.add('tr', {
 "Fotobox-Layout-Template": "Fotoğraf kabini düzen şablonu",
 "Startbildschirm-Animation": "Başlangıç ekranı animasyonu",
 "Sprache wählen": "Dil seç",
+"Pausenapfel": "Teneffüs Elması",
+"9. September 2027": "9 Eylül 2027",
 });
