@@ -1501,4 +1501,5 @@ I18N.add('tr', {
 "Rosé-Kugeln": "Pembe Toplar",
 "Familie Vogel": "Vogel Ailesi",
 "25. Dezember 2026": "25 Aralık 2026",
+"Azulejo": "Azulejo",
 });

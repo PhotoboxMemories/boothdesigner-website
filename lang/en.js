@@ -1501,4 +1501,5 @@ I18N.add('en', {
 "Rosé-Kugeln": "Rosé Baubles",
 "Familie Vogel": "The Vogel Family",
 "25. Dezember 2026": "25 December 2026",
+"Azulejo": "Azulejo",
 });
