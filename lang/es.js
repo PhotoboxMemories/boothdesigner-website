@@ -1517,4 +1517,6 @@ I18N.add('es', {
 "17. Juli 2027": "17 de julio de 2027",
 "Schäfchen": "Ovejitas",
 "24. April 2027": "24 de abril de 2027",
+"Sternenmobile": "Móvil de estrellas",
+"Filz-Mobile": "Móvil de fieltro",
 });

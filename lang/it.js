@@ -1517,4 +1517,6 @@ I18N.add('it', {
 "17. Juli 2027": "17 luglio 2027",
 "Schäfchen": "Pecorelle",
 "24. April 2027": "24 aprile 2027",
+"Sternenmobile": "Giostrina di stelle",
+"Filz-Mobile": "Giostrina di feltro",
 });

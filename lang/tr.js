@@ -1517,4 +1517,6 @@ I18N.add('tr', {
 "17. Juli 2027": "17 Temmuz 2027",
 "Schäfchen": "Kuzucuklar",
 "24. April 2027": "24 Nisan 2027",
+"Sternenmobile": "Yıldız Dönencesi",
+"Filz-Mobile": "Keçe Dönence",
 });

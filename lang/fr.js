@@ -1517,4 +1517,6 @@ I18N.add('fr', {
 "17. Juli 2027": "17 juillet 2027",
 "Schäfchen": "Petits moutons",
 "24. April 2027": "24 avril 2027",
+"Sternenmobile": "Mobile d'étoiles",
+"Filz-Mobile": "Mobile en feutre",
 });

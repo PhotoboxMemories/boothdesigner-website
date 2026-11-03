@@ -1517,4 +1517,6 @@ I18N.add('en', {
 "17. Juli 2027": "17 July 2027",
 "Schäfchen": "Little Sheep",
 "24. April 2027": "24 April 2027",
+"Sternenmobile": "Star Mobile",
+"Filz-Mobile": "Felt Mobile",
 });
