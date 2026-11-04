@@ -1671,4 +1671,6 @@ I18N.add('es', {
 "6. Juni 2027": "6 de junio de 2027",
 "Pappnase": "Nariz de payaso",
 "Nasenball": "Baile de narices",
+"Lametta": "Espumillón",
+"Silbernacht": "Noche de plata",
 });

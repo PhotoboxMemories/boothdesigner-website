@@ -1671,4 +1671,6 @@ I18N.add('fr', {
 "6. Juni 2027": "6 juin 2027",
 "Pappnase": "Nez de clown",
 "Nasenball": "Bal des nez",
+"Lametta": "Guirlande argentée",
+"Silbernacht": "Nuit d'argent",
 });

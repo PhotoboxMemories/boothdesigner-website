@@ -1672,4 +1672,6 @@ I18N.add('tr', {
 "6. Juni 2027": "6 Haziran 2027",
 "Pappnase": "Palyaço Burnu",
 "Nasenball": "Burun Balosu",
+"Lametta": "Gümüş Sim",
+"Silbernacht": "Gümüş Gece",
 });

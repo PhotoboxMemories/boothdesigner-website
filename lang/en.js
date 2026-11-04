@@ -1671,4 +1671,6 @@ I18N.add('en', {
 "6. Juni 2027": "6 June 2027",
 "Pappnase": "Clown Nose",
 "Nasenball": "Nose Ball",
+"Lametta": "Tinsel",
+"Silbernacht": "Silver Night",
 });
