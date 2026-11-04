@@ -1650,4 +1650,7 @@ I18N.add('es', {
 "Schwarzkirsche": "Cereza negra",
 "LETZTE RUNDE": "ÚLTIMA RONDA",
 "Kirschnacht": "Noche de cerezas",
+"Fäustlinge": "Manoplas",
+"Fäustlinge an der Kordel": "Manoplas con cordón",
+"Schneetag": "Día de nieve",
 });

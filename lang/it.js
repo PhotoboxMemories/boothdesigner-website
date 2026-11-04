@@ -1650,4 +1650,7 @@ I18N.add('it', {
 "Schwarzkirsche": "Ciliegia nera",
 "LETZTE RUNDE": "ULTIMO GIRO",
 "Kirschnacht": "Notte delle ciliegie",
+"Fäustlinge": "Muffole",
+"Fäustlinge an der Kordel": "Muffole con cordoncino",
+"Schneetag": "Giorno di neve",
 });

@@ -1650,4 +1650,7 @@ I18N.add('fr', {
 "Schwarzkirsche": "Cerise noire",
 "LETZTE RUNDE": "DERNIÈRE TOURNÉE",
 "Kirschnacht": "Nuit des cerises",
+"Fäustlinge": "Moufles",
+"Fäustlinge an der Kordel": "Moufles sur un cordon",
+"Schneetag": "Jour de neige",
 });

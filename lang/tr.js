@@ -1651,4 +1651,7 @@ I18N.add('tr', {
 "Schwarzkirsche": "Kara Kiraz",
 "LETZTE RUNDE": "SON TUR",
 "Kirschnacht": "Kiraz Gecesi",
+"Fäustlinge": "Eldivenler",
+"Fäustlinge an der Kordel": "İpe bağlı eldivenler",
+"Schneetag": "Kar Günü",
 });

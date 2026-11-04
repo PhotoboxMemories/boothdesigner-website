@@ -1650,4 +1650,7 @@ I18N.add('en', {
 "Schwarzkirsche": "Black Cherry",
 "LETZTE RUNDE": "LAST ROUND",
 "Kirschnacht": "Cherry Night",
+"Fäustlinge": "Mittens",
+"Fäustlinge an der Kordel": "Mittens on a cord",
+"Schneetag": "Snow Day",
 });
