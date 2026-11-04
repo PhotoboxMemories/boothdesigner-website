@@ -1677,4 +1677,7 @@ I18N.add('tr', {
 "Kussecht": "Öpücük İzi",
 "TEAM BRAUT": "GELİN TAKIMI",
 "Küsschen": "Öpücükler",
+"Pinguin-Bande": "Penguen Çetesi",
+"Winterball": "Kış Balosu",
+"30. Januar 2027": "30 Ocak 2027",
 });

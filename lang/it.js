@@ -1676,4 +1676,7 @@ I18N.add('it', {
 "Kussecht": "A prova di bacio",
 "TEAM BRAUT": "TEAM SPOSA",
 "Küsschen": "Bacetti",
+"Pinguin-Bande": "Banda di pinguini",
+"Winterball": "Ballo d'inverno",
+"30. Januar 2027": "30 gennaio 2027",
 });

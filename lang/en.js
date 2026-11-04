@@ -1676,4 +1676,7 @@ I18N.add('en', {
 "Kussecht": "Smudge-Proof",
 "TEAM BRAUT": "TEAM BRIDE",
 "Küsschen": "Little Kisses",
+"Pinguin-Bande": "Penguin Gang",
+"Winterball": "Winter Ball",
+"30. Januar 2027": "30 January 2027",
 });
