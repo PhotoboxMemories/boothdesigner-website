@@ -1668,4 +1668,6 @@ I18N.add('tr', {
 "Badetag": "Plaj Günü",
 "Ausgelernt": "Mezun Oldum",
 "Schwalbenflug": "Kırlangıç Uçuşu",
+"Regenbogen": "Gökkuşağı",
+"6. Juni 2027": "6 Haziran 2027",
 });

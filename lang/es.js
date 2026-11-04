@@ -1667,4 +1667,6 @@ I18N.add('es', {
 "Badetag": "Día de baño",
 "Ausgelernt": "Graduado",
 "Schwalbenflug": "Vuelo de golondrinas",
+"Regenbogen": "Arcoíris",
+"6. Juni 2027": "6 de junio de 2027",
 });

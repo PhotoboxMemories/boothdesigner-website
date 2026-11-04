@@ -1667,4 +1667,6 @@ I18N.add('en', {
 "Badetag": "Beach Day",
 "Ausgelernt": "Graduated",
 "Schwalbenflug": "Swallow Flight",
+"Regenbogen": "Rainbow",
+"6. Juni 2027": "6 June 2027",
 });

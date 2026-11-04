@@ -1667,4 +1667,6 @@ I18N.add('fr', {
 "Badetag": "Jour de baignade",
 "Ausgelernt": "Diplômé",
 "Schwalbenflug": "Vol d'hirondelles",
+"Regenbogen": "Arc-en-ciel",
+"6. Juni 2027": "6 juin 2027",
 });

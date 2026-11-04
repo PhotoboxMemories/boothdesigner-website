@@ -1667,4 +1667,6 @@ I18N.add('it', {
 "Badetag": "Giornata al mare",
 "Ausgelernt": "Diplomato",
 "Schwalbenflug": "Volo di rondini",
+"Regenbogen": "Arcobaleno",
+"6. Juni 2027": "6 giugno 2027",
 });
