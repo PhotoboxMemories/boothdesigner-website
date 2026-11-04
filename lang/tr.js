@@ -1643,4 +1643,7 @@ I18N.add('tr', {
 "5. Februar 2027": "5 Şubat 2027",
 "Wasserringe": "Su Halkaları",
 "13. Juni 2027": "13 Haziran 2027",
+"Kleine Füße": "Minik Ayaklar",
+"17. April 2027": "17 Nisan 2027",
+"BABY SHOWER": "BEBEK PARTİSİ",
 });

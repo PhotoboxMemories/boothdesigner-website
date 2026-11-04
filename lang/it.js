@@ -1643,4 +1643,6 @@ I18N.add('it', {
 "5. Februar 2027": "5 febbraio 2027",
 "Wasserringe": "Cerchi d'acqua",
 "13. Juni 2027": "13 giugno 2027",
+"Kleine Füße": "Piedini",
+"17. April 2027": "17 aprile 2027",
 });
