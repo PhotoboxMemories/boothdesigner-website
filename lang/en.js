@@ -1641,4 +1641,6 @@ I18N.add('en', {
 "Federtanz": "Feather Dance",
 "Federball": "Feather Ball",
 "5. Februar 2027": "5 February 2027",
+"Wasserringe": "Water Rings",
+"13. Juni 2027": "13 June 2027",
 });

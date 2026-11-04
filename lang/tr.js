@@ -1641,4 +1641,6 @@ I18N.add('tr', {
 "Federtanz": "Tüy Dansı",
 "Federball": "Tüy Balosu",
 "5. Februar 2027": "5 Şubat 2027",
+"Wasserringe": "Su Halkaları",
+"13. Juni 2027": "13 Haziran 2027",
 });

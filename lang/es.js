@@ -1641,4 +1641,6 @@ I18N.add('es', {
 "Federtanz": "Danza de plumas",
 "Federball": "Baile de plumas",
 "5. Februar 2027": "5 de febrero de 2027",
+"Wasserringe": "Ondas de agua",
+"13. Juni 2027": "13 de junio de 2027",
 });
