@@ -1673,4 +1673,7 @@ I18N.add('en', {
 "Nasenball": "Nose Ball",
 "Lametta": "Tinsel",
 "Silbernacht": "Silver Night",
+"Kussecht": "Smudge-Proof",
+"TEAM BRAUT": "TEAM BRIDE",
+"Küsschen": "Little Kisses",
 });

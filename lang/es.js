@@ -1673,4 +1673,7 @@ I18N.add('es', {
 "Nasenball": "Baile de narices",
 "Lametta": "Espumillón",
 "Silbernacht": "Noche de plata",
+"Kussecht": "A prueba de besos",
+"TEAM BRAUT": "TEAM NOVIA",
+"Küsschen": "Besitos",
 });

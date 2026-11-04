@@ -1673,4 +1673,7 @@ I18N.add('fr', {
 "Nasenball": "Bal des nez",
 "Lametta": "Guirlande argentée",
 "Silbernacht": "Nuit d'argent",
+"Kussecht": "Longue tenue",
+"TEAM BRAUT": "TEAM MARIÉE",
+"Küsschen": "Petits bisous",
 });

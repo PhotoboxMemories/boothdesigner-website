@@ -1674,4 +1674,7 @@ I18N.add('tr', {
 "Nasenball": "Burun Balosu",
 "Lametta": "Gümüş Sim",
 "Silbernacht": "Gümüş Gece",
+"Kussecht": "Öpücük İzi",
+"TEAM BRAUT": "GELİN TAKIMI",
+"Küsschen": "Öpücükler",
 });
