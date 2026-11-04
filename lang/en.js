@@ -1654,4 +1654,8 @@ I18N.add('en', {
 "Fäustlinge an der Kordel": "Mittens on a cord",
 "Schneetag": "Snow Day",
 "Lichtkerzen": "Candlelight",
+"Feldhase": "Brown Hare",
+"Hasenbrunch": "Bunny Brunch",
+"Dino-Schulweg": "Dino School Run",
+"2. September 2027": "2 September 2027",
 });

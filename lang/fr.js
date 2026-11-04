@@ -1654,4 +1654,8 @@ I18N.add('fr', {
 "Fäustlinge an der Kordel": "Moufles sur un cordon",
 "Schneetag": "Jour de neige",
 "Lichtkerzen": "Cierges de lumière",
+"Feldhase": "Lièvre",
+"Hasenbrunch": "Brunch des lapins",
+"Dino-Schulweg": "Dino en route pour l'école",
+"2. September 2027": "2 septembre 2027",
 });

@@ -1654,4 +1654,8 @@ I18N.add('it', {
 "Fäustlinge an der Kordel": "Muffole con cordoncino",
 "Schneetag": "Giorno di neve",
 "Lichtkerzen": "Candele di luce",
+"Feldhase": "Lepre",
+"Hasenbrunch": "Brunch dei coniglietti",
+"Dino-Schulweg": "Dino verso la scuola",
+"2. September 2027": "2 settembre 2027",
 });

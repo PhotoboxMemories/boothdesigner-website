@@ -1655,4 +1655,8 @@ I18N.add('tr', {
 "Fäustlinge an der Kordel": "İpe bağlı eldivenler",
 "Schneetag": "Kar Günü",
 "Lichtkerzen": "Işık Mumları",
+"Feldhase": "Yaban Tavşanı",
+"Hasenbrunch": "Tavşan Brunch'ı",
+"Dino-Schulweg": "Dino Okul Yolu",
+"2. September 2027": "2 Eylül 2027",
 });
