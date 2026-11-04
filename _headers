@@ -7,6 +7,9 @@
   Cache-Control: public, max-age=31536000, immutable
 /studio/media/*
   Cache-Control: public, max-age=31536000, immutable
+# Design-Katalog in Dashboard und Fotobox (dashboard/designs.js) liest die Liste von dort
+/studio/katalog.json
+  Access-Control-Allow-Origin: *
 /studio/assets/*
   Cache-Control: public, max-age=86400
 /beispiele/*

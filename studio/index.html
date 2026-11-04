@@ -3453,7 +3453,7 @@ document.addEventListener('keydown', (e) => {
 // Link ?b=<Adresse des Vermieters>, gelten dessen Logo, Farbe und Kategorien; statt „Export“ gibt es „Design absenden“.
 // ?s=<Ordner> öffnet eine Einsendung wieder (Link aus dem Dashboard des Vermieters, dann auch mit Export).
 // &e=<Code> = Link für ein bestimmtes Ereignis: das Design landet dort direkt als Fotolayout, das Datum steht schon fest.
-const SITE_Q = new URLSearchParams(location.search);
+const SITE_Q = new URLSearchParams(location.search), INSTALL = SITE_Q.get('install') === '1' && window.parent !== window;
 const SITE_CFG = window.STUDIO_CONFIG && window.STUDIO_CONFIG.api ? window.STUDIO_CONFIG : null;
 let site = null;
 async function siteApi(action, body = {}) {
@@ -3542,6 +3542,7 @@ function adminBar() {
 
 async function loadSite() {
   if (!SITE_CFG) return true;
+  if (INSTALL) return true; // unsichtbar in Dashboard und Fotobox: zeichnet nur Designs (siehe unten), ohne Vermieter-Link
   if (!SITE_Q.get('b') && ADMIN) return true; // Betreiber korrigiert Designs (aus dem Dashboard geöffnet)
   if (!SITE_Q.get('b')) { blocked('Bitte öffne das Design-Studio über den Link deines Fotobox-Vermieters.'); return false; }
   // Angemeldet in Mein BoothDesigner (gleiche Seite, gleicher Browser)? Dann prüft der Server, ob das hier das eigene Studio ist.
@@ -3736,6 +3737,7 @@ async function start() {
   if (ADMIN) adminBar();
   if (site && site.owner) toast('Dein eigenes Studio: Du kannst Vorlagen selbst gestalten und oben über „Export“ als PNG herunterladen.');
   // Kunden sehen zuerst alle Designs groß; ein Klick öffnet das Bearbeiten (Betreiber und geöffnete Einsendungen direkt im Bearbeiten)
+  if (INSTALL) { buildDesigns(); fit(); await buildDefault(); window.parent.postMessage({ type: 'bd-install-ready' }, '*'); return; }
   const home = !!site && !ADMIN && ok !== 'restored' && !SITE_Q.get('design');
   showHome(home);
   buildDesigns();
@@ -3747,6 +3749,25 @@ async function start() {
   }
   await buildDefault();
 }
+// „Design installieren“ im Dashboard und in der Fotobox (dashboard/designs.js): zeichnet ein Design in den gewünschten Formaten und schickt
+// Vorlage ohne Texte, Textebenen und Fotofelder zurück. Die Designs sind öffentlich, darum darf jede Seite fragen.
+if (INSTALL) window.addEventListener('message', async (ev) => {
+  const m = ev.data; if (!m || m.type !== 'bd-install' || !DESIGNS[m.design]) return;
+  const reply = (o) => ev.source.postMessage({ ...o, id: m.id }, '*');
+  try {
+    await applyDesign(m.design);
+    const parts = [], keys = [].concat(m.layouts).filter((k) => LAYOUTS[k] && !LAYOUTS[k].screen).slice(0, MAX_VARIANTS);
+    for (const [i, key] of keys.entries()) {
+      reply({ type: 'bd-install-step', i: i + 1, n: keys.length });
+      await setLayout(key);
+      canvas.discardActiveObject(); canvas.renderAll();
+      const l = L();
+      parts.push({ key, name: l.sub ? `${l.print || l.name} · ${l.sub}` : l.print || l.name, w: l.W, h: l.H, base: await baseWithoutTexts(), texts: textLayers(),
+        slots: objs('slot').map((o) => { const r = o.getBoundingRect(true, true); return [r.left, r.top, r.width, r.height]; }) });
+    }
+    reply({ type: 'bd-install-done', parts });
+  } catch (e) { reply({ type: 'bd-install-error', error: e.message }); }
+});
 // Schnittstelle für Stapel-Exporte (komplette PNG-Sets) und eine spätere Shop-Anbindung
 window.TemplateStudio = {
   // Design-Korrekturen testen (wirkt nur im eigenen Browser): fixes.capture(nurStil) → Daten, fixes.use('design|format', Daten)
