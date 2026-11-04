@@ -1647,4 +1647,7 @@ I18N.add('it', {
 "17. April 2027": "17 aprile 2027",
 "Wichtelpaar": "Coppia di gnomi",
 "Wichtelabend": "Serata degli gnomi",
+"Schwarzkirsche": "Ciliegia nera",
+"LETZTE RUNDE": "ULTIMO GIRO",
+"Kirschnacht": "Notte delle ciliegie",
 });

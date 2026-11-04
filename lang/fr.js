@@ -1647,4 +1647,7 @@ I18N.add('fr', {
 "17. April 2027": "17 avril 2027",
 "Wichtelpaar": "Duo de lutins",
 "Wichtelabend": "Soirée des lutins",
+"Schwarzkirsche": "Cerise noire",
+"LETZTE RUNDE": "DERNIÈRE TOURNÉE",
+"Kirschnacht": "Nuit des cerises",
 });

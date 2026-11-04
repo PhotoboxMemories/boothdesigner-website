@@ -1647,4 +1647,7 @@ I18N.add('en', {
 "17. April 2027": "17 April 2027",
 "Wichtelpaar": "Gnome Pair",
 "Wichtelabend": "Gnome Night",
+"Schwarzkirsche": "Black Cherry",
+"LETZTE RUNDE": "LAST ROUND",
+"Kirschnacht": "Cherry Night",
 });

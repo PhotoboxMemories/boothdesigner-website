@@ -1648,4 +1648,7 @@ I18N.add('tr', {
 "BABY SHOWER": "BEBEK PARTİSİ",
 "Wichtelpaar": "Cüce Çifti",
 "Wichtelabend": "Cüce Gecesi",
+"Schwarzkirsche": "Kara Kiraz",
+"LETZTE RUNDE": "SON TUR",
+"Kirschnacht": "Kiraz Gecesi",
 });

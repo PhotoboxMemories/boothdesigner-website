@@ -1647,4 +1647,7 @@ I18N.add('es', {
 "17. April 2027": "17 de abril de 2027",
 "Wichtelpaar": "Pareja de duendes",
 "Wichtelabend": "Noche de duendes",
+"Schwarzkirsche": "Cereza negra",
+"LETZTE RUNDE": "ÚLTIMA RONDA",
+"Kirschnacht": "Noche de cerezas",
 });
