@@ -1660,4 +1660,7 @@ I18N.add('tr', {
 "Dino-Schulweg": "Dino Okul Yolu",
 "2. September 2027": "2 Eylül 2027",
 "Geschenkeberg": "Hediye Dağı",
+"Funkenspur": "Kıvılcım İzi",
+"PROSIT NEUJAHR": "MUTLU YILLAR",
+"Funkennacht": "Kıvılcım Gecesi",
 });

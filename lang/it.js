@@ -1659,4 +1659,7 @@ I18N.add('it', {
 "Dino-Schulweg": "Dino verso la scuola",
 "2. September 2027": "2 settembre 2027",
 "Geschenkeberg": "Montagna di regali",
+"Funkenspur": "Scia di scintille",
+"PROSIT NEUJAHR": "BUON ANNO",
+"Funkennacht": "Notte di scintille",
 });

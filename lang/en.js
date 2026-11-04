@@ -1659,4 +1659,7 @@ I18N.add('en', {
 "Dino-Schulweg": "Dino School Run",
 "2. September 2027": "2 September 2027",
 "Geschenkeberg": "Gift Mountain",
+"Funkenspur": "Spark Trail",
+"PROSIT NEUJAHR": "HAPPY NEW YEAR",
+"Funkennacht": "Night of Sparks",
 });
