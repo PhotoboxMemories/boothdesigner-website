@@ -1653,4 +1653,5 @@ I18N.add('fr', {
 "Fäustlinge": "Moufles",
 "Fäustlinge an der Kordel": "Moufles sur un cordon",
 "Schneetag": "Jour de neige",
+"Lichtkerzen": "Cierges de lumière",
 });

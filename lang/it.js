@@ -1653,4 +1653,5 @@ I18N.add('it', {
 "Fäustlinge": "Muffole",
 "Fäustlinge an der Kordel": "Muffole con cordoncino",
 "Schneetag": "Giorno di neve",
+"Lichtkerzen": "Candele di luce",
 });

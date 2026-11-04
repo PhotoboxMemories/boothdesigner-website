@@ -1654,4 +1654,5 @@ I18N.add('tr', {
 "Fäustlinge": "Eldivenler",
 "Fäustlinge an der Kordel": "İpe bağlı eldivenler",
 "Schneetag": "Kar Günü",
+"Lichtkerzen": "Işık Mumları",
 });

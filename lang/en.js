@@ -1653,4 +1653,5 @@ I18N.add('en', {
 "Fäustlinge": "Mittens",
 "Fäustlinge an der Kordel": "Mittens on a cord",
 "Schneetag": "Snow Day",
+"Lichtkerzen": "Candlelight",
 });

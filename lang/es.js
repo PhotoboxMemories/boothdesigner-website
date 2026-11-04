@@ -1653,4 +1653,5 @@ I18N.add('es', {
 "Fäustlinge": "Manoplas",
 "Fäustlinge an der Kordel": "Manoplas con cordón",
 "Schneetag": "Día de nieve",
+"Lichtkerzen": "Velas de luz",
 });
