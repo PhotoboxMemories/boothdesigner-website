@@ -1645,4 +1645,6 @@ I18N.add('es', {
 "13. Juni 2027": "13 de junio de 2027",
 "Kleine Füße": "Piececitos",
 "17. April 2027": "17 de abril de 2027",
+"Wichtelpaar": "Pareja de duendes",
+"Wichtelabend": "Noche de duendes",
 });

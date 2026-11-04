@@ -1645,4 +1645,6 @@ I18N.add('en', {
 "13. Juni 2027": "13 June 2027",
 "Kleine Füße": "Little Feet",
 "17. April 2027": "17 April 2027",
+"Wichtelpaar": "Gnome Pair",
+"Wichtelabend": "Gnome Night",
 });

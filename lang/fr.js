@@ -1645,4 +1645,6 @@ I18N.add('fr', {
 "13. Juni 2027": "13 juin 2027",
 "Kleine Füße": "Petits pieds",
 "17. April 2027": "17 avril 2027",
+"Wichtelpaar": "Duo de lutins",
+"Wichtelabend": "Soirée des lutins",
 });

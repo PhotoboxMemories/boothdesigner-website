@@ -1646,4 +1646,6 @@ I18N.add('tr', {
 "Kleine Füße": "Minik Ayaklar",
 "17. April 2027": "17 Nisan 2027",
 "BABY SHOWER": "BEBEK PARTİSİ",
+"Wichtelpaar": "Cüce Çifti",
+"Wichtelabend": "Cüce Gecesi",
 });

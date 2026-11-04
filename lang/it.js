@@ -1645,4 +1645,6 @@ I18N.add('it', {
 "13. Juni 2027": "13 giugno 2027",
 "Kleine Füße": "Piedini",
 "17. April 2027": "17 aprile 2027",
+"Wichtelpaar": "Coppia di gnomi",
+"Wichtelabend": "Serata degli gnomi",
 });
