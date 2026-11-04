@@ -1670,4 +1670,6 @@ I18N.add('tr', {
 "Schwalbenflug": "Kırlangıç Uçuşu",
 "Regenbogen": "Gökkuşağı",
 "6. Juni 2027": "6 Haziran 2027",
+"Pappnase": "Palyaço Burnu",
+"Nasenball": "Burun Balosu",
 });

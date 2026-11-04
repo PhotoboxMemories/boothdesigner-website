@@ -1669,4 +1669,6 @@ I18N.add('it', {
 "Schwalbenflug": "Volo di rondini",
 "Regenbogen": "Arcobaleno",
 "6. Juni 2027": "6 giugno 2027",
+"Pappnase": "Naso da clown",
+"Nasenball": "Ballo dei nasi",
 });

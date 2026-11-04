@@ -1669,4 +1669,6 @@ I18N.add('en', {
 "Schwalbenflug": "Swallow Flight",
 "Regenbogen": "Rainbow",
 "6. Juni 2027": "6 June 2027",
+"Pappnase": "Clown Nose",
+"Nasenball": "Nose Ball",
 });
