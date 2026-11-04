@@ -1665,4 +1665,5 @@ I18N.add('it', {
 "Wäscheleine": "Stendibiancheria",
 "Wäscheleine mit Badesachen": "Filo del bucato con costumi da bagno",
 "Badetag": "Giornata al mare",
+"Ausgelernt": "Diplomato",
 });

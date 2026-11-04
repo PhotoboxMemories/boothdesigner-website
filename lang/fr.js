@@ -1665,4 +1665,5 @@ I18N.add('fr', {
 "Wäscheleine": "Corde à linge",
 "Wäscheleine mit Badesachen": "Corde à linge avec maillots de bain",
 "Badetag": "Jour de baignade",
+"Ausgelernt": "Diplômé",
 });

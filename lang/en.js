@@ -1665,4 +1665,5 @@ I18N.add('en', {
 "Wäscheleine": "Washing Line",
 "Wäscheleine mit Badesachen": "Washing line with swimwear",
 "Badetag": "Beach Day",
+"Ausgelernt": "Graduated",
 });

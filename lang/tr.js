@@ -1666,4 +1666,5 @@ I18N.add('tr', {
 "Wäscheleine": "Çamaşır İpi",
 "Wäscheleine mit Badesachen": "Mayolu çamaşır ipi",
 "Badetag": "Plaj Günü",
+"Ausgelernt": "Mezun Oldum",
 });

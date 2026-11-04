@@ -1665,4 +1665,5 @@ I18N.add('es', {
 "Wäscheleine": "Tendedero",
 "Wäscheleine mit Badesachen": "Tendedero con bañadores",
 "Badetag": "Día de baño",
+"Ausgelernt": "Graduado",
 });
