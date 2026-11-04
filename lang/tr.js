@@ -1659,4 +1659,5 @@ I18N.add('tr', {
 "Hasenbrunch": "Tavşan Brunch'ı",
 "Dino-Schulweg": "Dino Okul Yolu",
 "2. September 2027": "2 Eylül 2027",
+"Geschenkeberg": "Hediye Dağı",
 });

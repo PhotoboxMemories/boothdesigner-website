@@ -1658,4 +1658,5 @@ I18N.add('en', {
 "Hasenbrunch": "Bunny Brunch",
 "Dino-Schulweg": "Dino School Run",
 "2. September 2027": "2 September 2027",
+"Geschenkeberg": "Gift Mountain",
 });

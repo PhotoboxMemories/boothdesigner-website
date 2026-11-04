@@ -1658,4 +1658,5 @@ I18N.add('fr', {
 "Hasenbrunch": "Brunch des lapins",
 "Dino-Schulweg": "Dino en route pour l'école",
 "2. September 2027": "2 septembre 2027",
+"Geschenkeberg": "Montagne de cadeaux",
 });
