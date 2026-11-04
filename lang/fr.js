@@ -1666,4 +1666,5 @@ I18N.add('fr', {
 "Wäscheleine mit Badesachen": "Corde à linge avec maillots de bain",
 "Badetag": "Jour de baignade",
 "Ausgelernt": "Diplômé",
+"Schwalbenflug": "Vol d'hirondelles",
 });

@@ -1666,4 +1666,5 @@ I18N.add('es', {
 "Wäscheleine mit Badesachen": "Tendedero con bañadores",
 "Badetag": "Día de baño",
 "Ausgelernt": "Graduado",
+"Schwalbenflug": "Vuelo de golondrinas",
 });

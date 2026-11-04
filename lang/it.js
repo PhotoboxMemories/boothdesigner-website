@@ -1666,4 +1666,5 @@ I18N.add('it', {
 "Wäscheleine mit Badesachen": "Filo del bucato con costumi da bagno",
 "Badetag": "Giornata al mare",
 "Ausgelernt": "Diplomato",
+"Schwalbenflug": "Volo di rondini",
 });
