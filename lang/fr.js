@@ -1662,4 +1662,7 @@ I18N.add('fr', {
 "Funkenspur": "Traînée d'étincelles",
 "PROSIT NEUJAHR": "BONNE ANNÉE",
 "Funkennacht": "Nuit d'étincelles",
+"Wäscheleine": "Corde à linge",
+"Wäscheleine mit Badesachen": "Corde à linge avec maillots de bain",
+"Badetag": "Jour de baignade",
 });

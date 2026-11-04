@@ -1663,4 +1663,7 @@ I18N.add('tr', {
 "Funkenspur": "Kıvılcım İzi",
 "PROSIT NEUJAHR": "MUTLU YILLAR",
 "Funkennacht": "Kıvılcım Gecesi",
+"Wäscheleine": "Çamaşır İpi",
+"Wäscheleine mit Badesachen": "Mayolu çamaşır ipi",
+"Badetag": "Plaj Günü",
 });

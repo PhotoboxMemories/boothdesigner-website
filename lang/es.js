@@ -1662,4 +1662,7 @@ I18N.add('es', {
 "Funkenspur": "Estela de chispas",
 "PROSIT NEUJAHR": "FELIZ AÑO NUEVO",
 "Funkennacht": "Noche de chispas",
+"Wäscheleine": "Tendedero",
+"Wäscheleine mit Badesachen": "Tendedero con bañadores",
+"Badetag": "Día de baño",
 });

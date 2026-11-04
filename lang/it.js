@@ -1662,4 +1662,7 @@ I18N.add('it', {
 "Funkenspur": "Scia di scintille",
 "PROSIT NEUJAHR": "BUON ANNO",
 "Funkennacht": "Notte di scintille",
+"Wäscheleine": "Stendibiancheria",
+"Wäscheleine mit Badesachen": "Filo del bucato con costumi da bagno",
+"Badetag": "Giornata al mare",
 });

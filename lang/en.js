@@ -1662,4 +1662,7 @@ I18N.add('en', {
 "Funkenspur": "Spark Trail",
 "PROSIT NEUJAHR": "HAPPY NEW YEAR",
 "Funkennacht": "Night of Sparks",
+"Wäscheleine": "Washing Line",
+"Wäscheleine mit Badesachen": "Washing line with swimwear",
+"Badetag": "Beach Day",
 });
