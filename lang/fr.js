@@ -1679,4 +1679,6 @@ I18N.add('fr', {
 "Pinguin-Bande": "La bande de manchots",
 "Winterball": "Bal d'hiver",
 "30. Januar 2027": "30 janvier 2027",
+"Glockenklang": "Carillon",
+"Glockenpaar": "Paire de cloches",
 });

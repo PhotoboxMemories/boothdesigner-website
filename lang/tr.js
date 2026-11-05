@@ -1680,4 +1680,6 @@ I18N.add('tr', {
 "Pinguin-Bande": "Penguen Çetesi",
 "Winterball": "Kış Balosu",
 "30. Januar 2027": "30 Ocak 2027",
+"Glockenklang": "Çan Sesi",
+"Glockenpaar": "Çan çifti",
 });

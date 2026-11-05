@@ -1679,4 +1679,6 @@ I18N.add('en', {
 "Pinguin-Bande": "Penguin Gang",
 "Winterball": "Winter Ball",
 "30. Januar 2027": "30 January 2027",
+"Glockenklang": "Bell Chime",
+"Glockenpaar": "Pair of bells",
 });

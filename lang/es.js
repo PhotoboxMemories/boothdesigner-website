@@ -1679,4 +1679,6 @@ I18N.add('es', {
 "Pinguin-Bande": "Pandilla de pingüinos",
 "Winterball": "Baile de invierno",
 "30. Januar 2027": "30 de enero de 2027",
+"Glockenklang": "Repique de campanas",
+"Glockenpaar": "Par de campanas",
 });
