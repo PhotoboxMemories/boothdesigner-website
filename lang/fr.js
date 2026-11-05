@@ -1727,4 +1727,6 @@ I18N.add('fr', {
 "Holo-Karte": "Carte Holo",
 "Schneekugel": "Boule à Neige",
 "Winterfest": "Fête d'Hiver",
+"Saustark": "Trop Cochon",
+"Glücksschwein mit Ballons": "Cochon porte-bonheur aux ballons",
 });

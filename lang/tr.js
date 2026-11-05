@@ -1728,4 +1728,6 @@ I18N.add('tr', {
 "Holo-Karte": "Holo Kart",
 "Schneekugel": "Kar Küresi",
 "Winterfest": "Kış Şenliği",
+"Saustark": "Şahane Şans",
+"Glücksschwein mit Ballons": "Balonlu Şans Domuzu",
 });

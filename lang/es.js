@@ -1727,4 +1727,6 @@ I18N.add('es', {
 "Holo-Karte": "Tarjeta Holo",
 "Schneekugel": "Bola de Nieve",
 "Winterfest": "Fiesta de Invierno",
+"Saustark": "Cerdito Suertudo",
+"Glücksschwein mit Ballons": "Cerdito de la suerte con globos",
 });

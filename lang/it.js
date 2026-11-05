@@ -1727,4 +1727,6 @@ I18N.add('it', {
 "Holo-Karte": "Carta Olografica",
 "Schneekugel": "Palla di Neve",
 "Winterfest": "Festa d'Inverno",
+"Saustark": "Porcellino Portafortuna",
+"Glücksschwein mit Ballons": "Porcellino portafortuna con palloncini",
 });

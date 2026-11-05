@@ -1727,4 +1727,6 @@ I18N.add('en', {
 "Holo-Karte": "Holo Card",
 "Schneekugel": "Snow Globe",
 "Winterfest": "Winter Party",
+"Saustark": "Hog Wild",
+"Glücksschwein mit Ballons": "Lucky Pig with Balloons",
 });
