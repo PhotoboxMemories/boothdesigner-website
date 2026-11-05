@@ -1708,4 +1708,5 @@ I18N.add('tr', {
 "Zarenei": "Çar Yumurtası",
 "Osterball": "Paskalya Balosu",
 "27. März 2027": "27 Mart 2027",
+"Kornblume": "Peygamber Çiçeği",
 });

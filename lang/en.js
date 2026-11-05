@@ -1707,4 +1707,5 @@ I18N.add('en', {
 "Zarenei": "Tsar Egg",
 "Osterball": "Easter Ball",
 "27. März 2027": "27 March 2027",
+"Kornblume": "Cornflower",
 });

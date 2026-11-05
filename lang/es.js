@@ -1707,4 +1707,5 @@ I18N.add('es', {
 "Zarenei": "Huevo imperial",
 "Osterball": "Baile de Pascua",
 "27. März 2027": "27 de marzo de 2027",
+"Kornblume": "Aciano",
 });
