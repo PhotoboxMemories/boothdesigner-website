@@ -1722,4 +1722,10 @@ I18N.add('tr', {
 "Bildschirm quer": "Ekran yatay",
 "Dein Design ist im Querformat – es passt nicht zu einer Fotobox im Hochformat. Wähle oben unter „Format“ ein Format im Hochformat.": "Tasarımın yatay – dikey bir fotoğraf kabinine uymuyor. Yukarıda “Format” altından dikey bir format seç.",
 "Dein Design ist im Hochformat – es passt nicht zu einer Fotobox im Querformat. Wähle oben unter „Format“ ein Format im Querformat.": "Tasarımın dikey – yatay bir fotoğraf kabinine uymuyor. Yukarıda “Format” altından yatay bir format seç.",
+"Goldpalme": "Altın Palmiye",
+"Kraftpapier & Schleierkraut": "Kraft Kâğıt ve Cipsofila",
+"Goldrahmen Noir": "Altın Çerçeve Noir",
+"Holo-Karte": "Holo Kart",
+"Schneekugel": "Kar Küresi",
+"Winterfest": "Kış Şenliği",
 });

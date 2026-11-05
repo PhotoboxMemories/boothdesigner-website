@@ -1721,4 +1721,10 @@ I18N.add('es', {
 "Bildschirm quer": "Pantalla horizontal",
 "Dein Design ist im Querformat – es passt nicht zu einer Fotobox im Hochformat. Wähle oben unter „Format“ ein Format im Hochformat.": "Tu diseño está en horizontal: no encaja con un fotomatón vertical. Elige arriba en «Formato» un formato vertical.",
 "Dein Design ist im Hochformat – es passt nicht zu einer Fotobox im Querformat. Wähle oben unter „Format“ ein Format im Querformat.": "Tu diseño está en vertical: no encaja con un fotomatón horizontal. Elige arriba en «Formato» un formato horizontal.",
+"Goldpalme": "Palma Dorada",
+"Kraftpapier & Schleierkraut": "Papel Kraft y Paniculata",
+"Goldrahmen Noir": "Marco Dorado Noir",
+"Holo-Karte": "Tarjeta Holo",
+"Schneekugel": "Bola de Nieve",
+"Winterfest": "Fiesta de Invierno",
 });

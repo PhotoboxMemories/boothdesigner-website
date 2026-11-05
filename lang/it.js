@@ -1721,4 +1721,10 @@ I18N.add('it', {
 "Bildschirm quer": "Schermo orizzontale",
 "Dein Design ist im Querformat – es passt nicht zu einer Fotobox im Hochformat. Wähle oben unter „Format“ ein Format im Hochformat.": "Il tuo design è orizzontale: non è adatto a una cabina foto verticale. Scegli in alto sotto «Formato» un formato verticale.",
 "Dein Design ist im Hochformat – es passt nicht zu einer Fotobox im Querformat. Wähle oben unter „Format“ ein Format im Querformat.": "Il tuo design è verticale: non è adatto a una cabina foto orizzontale. Scegli in alto sotto «Formato» un formato orizzontale.",
+"Goldpalme": "Palma Dorata",
+"Kraftpapier & Schleierkraut": "Carta Kraft e Gipsofila",
+"Goldrahmen Noir": "Cornice Dorata Noir",
+"Holo-Karte": "Carta Olografica",
+"Schneekugel": "Palla di Neve",
+"Winterfest": "Festa d'Inverno",
 });

@@ -1721,4 +1721,10 @@ I18N.add('fr', {
 "Bildschirm quer": "Écran horizontal",
 "Dein Design ist im Querformat – es passt nicht zu einer Fotobox im Hochformat. Wähle oben unter „Format“ ein Format im Hochformat.": "Ton design est en paysage – il ne convient pas à un photobooth en portrait. Choisis un format portrait en haut sous « Format ».",
 "Dein Design ist im Hochformat – es passt nicht zu einer Fotobox im Querformat. Wähle oben unter „Format“ ein Format im Querformat.": "Ton design est en portrait – il ne convient pas à un photobooth en paysage. Choisis un format paysage en haut sous « Format ».",
+"Goldpalme": "Palme Dorée",
+"Kraftpapier & Schleierkraut": "Papier Kraft & Gypsophile",
+"Goldrahmen Noir": "Cadre Doré Noir",
+"Holo-Karte": "Carte Holo",
+"Schneekugel": "Boule à Neige",
+"Winterfest": "Fête d'Hiver",
 });

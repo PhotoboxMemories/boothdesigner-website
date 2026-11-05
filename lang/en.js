@@ -1721,4 +1721,10 @@ I18N.add('en', {
 "Bildschirm quer": "Screen landscape",
 "Dein Design ist im Querformat – es passt nicht zu einer Fotobox im Hochformat. Wähle oben unter „Format“ ein Format im Hochformat.": "Your design is landscape – it does not fit a portrait photo booth. Choose a portrait format above under “Format”.",
 "Dein Design ist im Hochformat – es passt nicht zu einer Fotobox im Querformat. Wähle oben unter „Format“ ein Format im Querformat.": "Your design is portrait – it does not fit a landscape photo booth. Choose a landscape format above under “Format”.",
+"Goldpalme": "Golden Palm",
+"Kraftpapier & Schleierkraut": "Kraft Paper & Baby's Breath",
+"Goldrahmen Noir": "Gold Frame Noir",
+"Holo-Karte": "Holo Card",
+"Schneekugel": "Snow Globe",
+"Winterfest": "Winter Party",
 });
