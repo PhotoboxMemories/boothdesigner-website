@@ -1698,4 +1698,7 @@ I18N.add('es', {
 "10. Dezember 2026": "10 de diciembre de 2026",
 "Raketenstart": "Despegue del cohete",
 "26. August 2027": "26 de agosto de 2027",
+"Fifties-Stern": "Estrella Fifties",
+"Adventsball": "Baile de Adviento",
+"19. Dezember 2026": "19 de diciembre de 2026",
 });

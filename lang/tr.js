@@ -1699,4 +1699,7 @@ I18N.add('tr', {
 "10. Dezember 2026": "10 Aralık 2026",
 "Raketenstart": "Roket Fırlatışı",
 "26. August 2027": "26 Ağustos 2027",
+"Fifties-Stern": "Fifties Yıldızı",
+"Adventsball": "Advent Balosu",
+"19. Dezember 2026": "19 Aralık 2026",
 });

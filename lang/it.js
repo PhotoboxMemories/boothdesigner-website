@@ -1698,4 +1698,7 @@ I18N.add('it', {
 "10. Dezember 2026": "10 dicembre 2026",
 "Raketenstart": "Lancio del razzo",
 "26. August 2027": "26 agosto 2027",
+"Fifties-Stern": "Stella Fifties",
+"Adventsball": "Ballo dell'Avvento",
+"19. Dezember 2026": "19 dicembre 2026",
 });

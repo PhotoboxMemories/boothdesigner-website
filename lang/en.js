@@ -1698,4 +1698,7 @@ I18N.add('en', {
 "10. Dezember 2026": "10 December 2026",
 "Raketenstart": "Rocket Launch",
 "26. August 2027": "26 August 2027",
+"Fifties-Stern": "Fifties Star",
+"Adventsball": "Advent Ball",
+"19. Dezember 2026": "19 December 2026",
 });

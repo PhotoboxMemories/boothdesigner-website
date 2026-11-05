@@ -1698,4 +1698,7 @@ I18N.add('fr', {
 "10. Dezember 2026": "10 décembre 2026",
 "Raketenstart": "Décollage de fusée",
 "26. August 2027": "26 août 2027",
+"Fifties-Stern": "Étoile Fifties",
+"Adventsball": "Bal de l'Avent",
+"19. Dezember 2026": "19 décembre 2026",
 });
