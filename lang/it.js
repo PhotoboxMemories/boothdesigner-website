@@ -1681,4 +1681,7 @@ I18N.add('it', {
 "30. Januar 2027": "30 gennaio 2027",
 "Glockenklang": "Rintocco",
 "Glockenpaar": "Coppia di campane",
+"Hutwurf": "Lancio del tocco",
+"Lampionnacht": "Notte delle lanterne",
+"Lampions": "Lanterne",
 });

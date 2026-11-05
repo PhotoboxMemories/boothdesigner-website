@@ -1681,4 +1681,7 @@ I18N.add('es', {
 "30. Januar 2027": "30 de enero de 2027",
 "Glockenklang": "Repique de campanas",
 "Glockenpaar": "Par de campanas",
+"Hutwurf": "Lanzamiento de birretes",
+"Lampionnacht": "Noche de farolillos",
+"Lampions": "Farolillos",
 });

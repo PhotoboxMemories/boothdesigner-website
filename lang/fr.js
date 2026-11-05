@@ -1681,4 +1681,7 @@ I18N.add('fr', {
 "30. Januar 2027": "30 janvier 2027",
 "Glockenklang": "Carillon",
 "Glockenpaar": "Paire de cloches",
+"Hutwurf": "Lancer de toques",
+"Lampionnacht": "Nuit des lampions",
+"Lampions": "Lampions",
 });
