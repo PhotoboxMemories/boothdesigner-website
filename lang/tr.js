@@ -1685,4 +1685,6 @@ I18N.add('tr', {
 "Hutwurf": "Kep Atma",
 "Lampionnacht": "Fener Gecesi",
 "Lampions": "Kağıt fenerler",
+"Farbrausch": "Renk Coşkusu",
+"Feuerzauber": "Havai Fişek Büyüsü",
 });

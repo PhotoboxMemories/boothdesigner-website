@@ -1684,4 +1684,6 @@ I18N.add('es', {
 "Hutwurf": "Lanzamiento de birretes",
 "Lampionnacht": "Noche de farolillos",
 "Lampions": "Farolillos",
+"Farbrausch": "Explosión de color",
+"Feuerzauber": "Magia de fuegos",
 });

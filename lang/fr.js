@@ -1684,4 +1684,6 @@ I18N.add('fr', {
 "Hutwurf": "Lancer de toques",
 "Lampionnacht": "Nuit des lampions",
 "Lampions": "Lampions",
+"Farbrausch": "Ivresse de couleurs",
+"Feuerzauber": "Magie du feu d'artifice",
 });

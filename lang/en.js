@@ -1684,4 +1684,6 @@ I18N.add('en', {
 "Hutwurf": "Cap Toss",
 "Lampionnacht": "Lantern Night",
 "Lampions": "Lanterns",
+"Farbrausch": "Colour Rush",
+"Feuerzauber": "Firework Magic",
 });
