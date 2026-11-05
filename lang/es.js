@@ -1696,4 +1696,6 @@ I18N.add('es', {
 "Feuerzauber": "Magia de fuegos",
 "Schlips": "Corbata",
 "10. Dezember 2026": "10 de diciembre de 2026",
+"Raketenstart": "Despegue del cohete",
+"26. August 2027": "26 de agosto de 2027",
 });

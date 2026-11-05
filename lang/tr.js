@@ -1697,4 +1697,6 @@ I18N.add('tr', {
 "Feuerzauber": "Havai Fişek Büyüsü",
 "Schlips": "Kravat",
 "10. Dezember 2026": "10 Aralık 2026",
+"Raketenstart": "Roket Fırlatışı",
+"26. August 2027": "26 Ağustos 2027",
 });

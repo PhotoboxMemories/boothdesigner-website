@@ -1696,4 +1696,6 @@ I18N.add('it', {
 "Feuerzauber": "Magia di fuochi",
 "Schlips": "Cravatta",
 "10. Dezember 2026": "10 dicembre 2026",
+"Raketenstart": "Lancio del razzo",
+"26. August 2027": "26 agosto 2027",
 });

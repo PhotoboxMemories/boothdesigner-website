@@ -1696,4 +1696,6 @@ I18N.add('en', {
 "Feuerzauber": "Firework Magic",
 "Schlips": "Tie",
 "10. Dezember 2026": "10 December 2026",
+"Raketenstart": "Rocket Launch",
+"26. August 2027": "26 August 2027",
 });

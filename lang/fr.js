@@ -1696,4 +1696,6 @@ I18N.add('fr', {
 "Feuerzauber": "Magie du feu d'artifice",
 "Schlips": "Cravate",
 "10. Dezember 2026": "10 décembre 2026",
+"Raketenstart": "Décollage de fusée",
+"26. August 2027": "26 août 2027",
 });
