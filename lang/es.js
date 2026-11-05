@@ -1686,4 +1686,6 @@ I18N.add('es', {
 "Lampions": "Farolillos",
 "Farbrausch": "Explosión de color",
 "Feuerzauber": "Magia de fuegos",
+"Schlips": "Corbata",
+"10. Dezember 2026": "10 de diciembre de 2026",
 });

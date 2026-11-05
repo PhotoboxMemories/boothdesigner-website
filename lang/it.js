@@ -1686,4 +1686,6 @@ I18N.add('it', {
 "Lampions": "Lanterne",
 "Farbrausch": "Ebbrezza di colori",
 "Feuerzauber": "Magia di fuochi",
+"Schlips": "Cravatta",
+"10. Dezember 2026": "10 dicembre 2026",
 });

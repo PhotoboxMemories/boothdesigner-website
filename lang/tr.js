@@ -1687,4 +1687,6 @@ I18N.add('tr', {
 "Lampions": "Kağıt fenerler",
 "Farbrausch": "Renk Coşkusu",
 "Feuerzauber": "Havai Fişek Büyüsü",
+"Schlips": "Kravat",
+"10. Dezember 2026": "10 Aralık 2026",
 });

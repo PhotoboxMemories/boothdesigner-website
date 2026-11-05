@@ -1686,4 +1686,6 @@ I18N.add('en', {
 "Lampions": "Lanterns",
 "Farbrausch": "Colour Rush",
 "Feuerzauber": "Firework Magic",
+"Schlips": "Tie",
+"10. Dezember 2026": "10 December 2026",
 });
