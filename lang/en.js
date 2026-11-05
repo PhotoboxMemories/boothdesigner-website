@@ -1,7 +1,11 @@
 // Übersetzung „en“ – BoothDesigner (Webseite und Studio), Schlüssel = deutscher Text aus sprachen/texte.json (sprachen/sammeln.py)
 I18N.add('en', {
+"Abgelaufen": "Past",
+"Als Nächstes": "Coming up next",
 "BoothDesigner – Fotobox-Layouts, die deine Kunden selbst gestalten": "BoothDesigner – photo booth layouts your customers design themselves",
 "BoothDesigner": "BoothDesigner",
+"In Zukunft": "Later",
+"Ohne Datum": "No date",
 "So geht's": "How it works",
 "Designs": "Designs",
 "Preise": "Pricing",
@@ -11,7 +15,11 @@ I18N.add('en', {
 "Kostenlos testen": "Try for free",
 "BoothDesigner · Für Fotobox-Vermieter": "BoothDesigner · For photo booth rental businesses",
 "Deine Kunden gestalten ihr Fotobox-Layout": "Your customers design their photo booth layout",
+"gestern": "yesterday",
+"in {x} Tagen": "in {x} days",
+"morgen": "tomorrow",
 "selbst": "themselves",
+"vor {x} Tagen": "{x} days ago",
 "Über 100 hochwertige Designs für Hochzeit, Geburtstag, Taufe, Firmenfeier und mehr – direkt auf deiner Webseite, mit deinem Logo. Das Brautpaar trägt Namen und Datum ein, passt das Design an und schickt es ab. Du übernimmst es mit einem Klick in die Fotobox.": "Over 100 high-quality designs for weddings, birthdays, christenings, company parties and more – right on your website, with your logo. The couple enters their names and the date, adjusts the design and sends it off. You transfer it to the photo booth with one click.",
 "14 Tage kostenlos testen": "Try it free for 14 days",
 "Designs ansehen": "View designs",

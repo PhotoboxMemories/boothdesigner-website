@@ -1,7 +1,11 @@
 // Übersetzung „fr“ – BoothDesigner (Webseite und Studio), Schlüssel = deutscher Text aus sprachen/texte.json (sprachen/sammeln.py)
 I18N.add('fr', {
+"Abgelaufen": "Passés",
+"Als Nächstes": "À venir bientôt",
 "BoothDesigner – Fotobox-Layouts, die deine Kunden selbst gestalten": "BoothDesigner – des mises en page photobooth que tes clients créent eux-mêmes",
 "BoothDesigner": "BoothDesigner",
+"In Zukunft": "Plus tard",
+"Ohne Datum": "Sans date",
 "So geht's": "Comment ça marche",
 "Designs": "Designs",
 "Preise": "Tarifs",
@@ -11,7 +15,11 @@ I18N.add('fr', {
 "Kostenlos testen": "Essai gratuit",
 "BoothDesigner · Für Fotobox-Vermieter": "BoothDesigner · Pour les loueurs de photobooth",
 "Deine Kunden gestalten ihr Fotobox-Layout": "Tes clients créent leur mise en page photobooth",
+"gestern": "hier",
+"in {x} Tagen": "dans {x} jours",
+"morgen": "demain",
 "selbst": "eux-mêmes",
+"vor {x} Tagen": "il y a {x} jours",
 "Über 100 hochwertige Designs für Hochzeit, Geburtstag, Taufe, Firmenfeier und mehr – direkt auf deiner Webseite, mit deinem Logo. Das Brautpaar trägt Namen und Datum ein, passt das Design an und schickt es ab. Du übernimmst es mit einem Klick in die Fotobox.": "Plus de 100 designs de qualité pour mariages, anniversaires, baptêmes, fêtes d'entreprise et plus encore – directement sur ton site web, avec ton logo. Les mariés saisissent leurs prénoms et la date, adaptent le design et l'envoient. Tu le reprends en un clic dans le photobooth.",
 "14 Tage kostenlos testen": "14 jours d'essai gratuit",
 "Designs ansehen": "Voir les designs",

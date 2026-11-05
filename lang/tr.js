@@ -1,7 +1,11 @@
 // Übersetzung „tr“ – BoothDesigner (Webseite und Studio), Schlüssel = deutscher Text aus sprachen/texte.json (sprachen/sammeln.py)
 I18N.add('tr', {
+"Abgelaufen": "Geçmiş",
+"Als Nächstes": "Sıradakiler",
 "BoothDesigner – Fotobox-Layouts, die deine Kunden selbst gestalten": "BoothDesigner – müşterilerinin kendi tasarladığı fotoğraf kabini düzenleri",
 "BoothDesigner": "BoothDesigner",
+"In Zukunft": "Daha sonra",
+"Ohne Datum": "Tarihsiz",
 "So geht's": "Nasıl çalışır",
 "Designs": "Tasarımlar",
 "Preise": "Fiyatlar",
@@ -11,7 +15,11 @@ I18N.add('tr', {
 "Kostenlos testen": "Ücretsiz dene",
 "BoothDesigner · Für Fotobox-Vermieter": "BoothDesigner · Fotoğraf kabini kiralama firmaları için",
 "Deine Kunden gestalten ihr Fotobox-Layout": "Müşterilerin fotoğraf kabini düzenlerini",
+"gestern": "dün",
+"in {x} Tagen": "{x} gün sonra",
+"morgen": "yarın",
 "selbst": "kendileri tasarlıyor",
+"vor {x} Tagen": "{x} gün önce",
 "Über 100 hochwertige Designs für Hochzeit, Geburtstag, Taufe, Firmenfeier und mehr – direkt auf deiner Webseite, mit deinem Logo. Das Brautpaar trägt Namen und Datum ein, passt das Design an und schickt es ab. Du übernimmst es mit einem Klick in die Fotobox.": "Düğün, doğum günü, vaftiz, şirket partisi ve daha fazlası için 100'ü aşkın kaliteli tasarım – doğrudan web sitende, senin logonla. Gelin ve damat isimlerini ve tarihi girer, tasarımı uyarlar ve gönderir. Sen de tek tıkla fotoğraf kabinine aktarırsın.",
 "14 Tage kostenlos testen": "14 gün ücretsiz deneme",
 "Designs ansehen": "Tasarımları gör",
