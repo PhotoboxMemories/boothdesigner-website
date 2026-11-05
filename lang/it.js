@@ -1711,4 +1711,6 @@ I18N.add('it', {
 "Ringelschal": "Sciarpa a righe",
 "HALLO WINTER": "CIAO INVERNO",
 "Rodelspaß": "Slittino in festa",
+"Verbindung unterbrochen – neuer Versuch …": "Connessione interrotta – nuovo tentativo …",
+"Das Hochladen hat nicht geklappt – die Internetverbindung ist abgebrochen. Bitte Verbindung prüfen und noch einmal „Jetzt absenden“ tippen. Auch ein Werbeblocker kann das Hochladen verhindern.": "Il caricamento non è riuscito: la connessione internet si è interrotta. Controlla la connessione e tocca di nuovo «Invia ora». Anche un blocco pubblicità può impedire il caricamento.",
 });

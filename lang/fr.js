@@ -1711,4 +1711,6 @@ I18N.add('fr', {
 "Ringelschal": "Écharpe rayée",
 "HALLO WINTER": "BONJOUR L’HIVER",
 "Rodelspaß": "Joies de la luge",
+"Verbindung unterbrochen – neuer Versuch …": "Connexion interrompue – nouvel essai …",
+"Das Hochladen hat nicht geklappt – die Internetverbindung ist abgebrochen. Bitte Verbindung prüfen und noch einmal „Jetzt absenden“ tippen. Auch ein Werbeblocker kann das Hochladen verhindern.": "Le téléversement n’a pas fonctionné – la connexion internet a été interrompue. Vérifie ta connexion et appuie à nouveau sur « Envoyer maintenant ». Un bloqueur de publicité peut aussi empêcher le téléversement.",
 });

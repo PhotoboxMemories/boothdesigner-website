@@ -1711,4 +1711,6 @@ I18N.add('es', {
 "Ringelschal": "Bufanda a rayas",
 "HALLO WINTER": "HOLA INVIERNO",
 "Rodelspaß": "Diversión en trineo",
+"Verbindung unterbrochen – neuer Versuch …": "Conexión interrumpida: volviendo a intentarlo …",
+"Das Hochladen hat nicht geklappt – die Internetverbindung ist abgebrochen. Bitte Verbindung prüfen und noch einmal „Jetzt absenden“ tippen. Auch ein Werbeblocker kann das Hochladen verhindern.": "La subida no ha funcionado: se ha interrumpido la conexión a internet. Comprueba tu conexión y vuelve a pulsar «Enviar ahora». Un bloqueador de anuncios también puede impedir la subida.",
 });

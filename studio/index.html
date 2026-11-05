@@ -3755,10 +3755,7 @@ async function submitSend(e) {
       ...Object.fromEntries(variants.map((v) => [v.file, v.blob])),
       ...(withBase ? { 'base.png': sendBlobs.base, ...Object.fromEntries(variants.filter((v) => v.base).map((v) => [v.file.replace('print', 'base'), v.base])),
         'ebenen.json': new Blob([JSON.stringify({ v: 1, texts: sendBlobs.texts, variants: variants.map((v) => ({ file: v.file, texts: v.texts })) })], { type: 'application/json' }) } : {}) };
-    for (const [n, blob] of Object.entries(files)) {
-      const r = await fetch(put.urls[n], { method: 'PUT', body: blob, headers: { 'Content-Type': put.types[n] } });
-      if (!r.ok) throw new Error('Hochladen fehlgeschlagen. Bitte noch einmal versuchen.');
-    }
+    for (const [n, blob] of Object.entries(files)) await putFile(put.urls[n], blob, put.types[n], (t) => { st.textContent = t; });
     const res = await siteApi('done', { folder: put.folder, ticket: put.ticket, name, email, date: f.get('date') || null,
       message: f.get('message') || '', consent: true, design: state.design, designName: D().name, layout: state.layout,
       layoutName: L().name, w: L().W, h: L().H, slots: sendBlobs.slots, start: Object.keys(start), texts: withBase ? sendBlobs.texts : [],
@@ -3766,8 +3763,26 @@ async function submitSend(e) {
       occasion: D().occasion, title: (objs('text').find((o) => o.tid === 'name') || {}).text || '' });
     $('#send-done-text').textContent = `${res.name || 'Dein Fotobox-Vermieter'} hat dein Design bekommen und meldet sich bei dir.${site.event ? ` Es ist schon für „${site.event.name}“ eingeplant.` : ''}`;
     $('#send-form').hidden = true; $('#send-done').hidden = false;
-  } catch (err) { st.textContent = err.message || 'Das hat nicht geklappt. Bitte noch einmal versuchen.'; }
+  } catch (err) { // „Load failed“ (Safari), „Failed to fetch“ (Chrome), „NetworkError“ (Firefox): kein englischer Fehlertext für Kunden
+    st.textContent = /load failed|failed to fetch|networkerror|network error/i.test(err.message || '')
+      ? 'Keine Verbindung zum Server. Bitte prüfe deine Internetverbindung und versuche es gleich noch einmal.' : err.message || 'Das hat nicht geklappt. Bitte noch einmal versuchen.';
+  }
   go.disabled = false;
+}
+// Eine Datei in den Speicher hochladen, bis zu 3 Versuche (Kunde 05.11.2026: Safari zeigte nur „Load failed“ – die großen Bilddateien
+// brechen bei schwachem WLAN ab, und es gab keinen zweiten Versuch). Fehler sind danach auf Deutsch und sagen, was zu tun ist.
+async function putFile(url, blob, type, say) {
+  let status = 0;
+  for (let i = 1; i <= 3; i++) {
+    if (i > 1) { say('Verbindung unterbrochen – neuer Versuch …'); await new Promise((r) => setTimeout(r, 1500 * i)); }
+    try {
+      const r = await fetch(url, { method: 'PUT', body: blob, headers: { 'Content-Type': type } });
+      if (r.ok) return;
+      status = r.status;
+    } catch (e) { status = 0; }
+  }
+  throw new Error(status ? 'Hochladen fehlgeschlagen. Bitte noch einmal versuchen.'
+    : 'Das Hochladen hat nicht geklappt – die Internetverbindung ist abgebrochen. Bitte Verbindung prüfen und noch einmal „Jetzt absenden“ tippen. Auch ein Werbeblocker kann das Hochladen verhindern.');
 }
 $('#send-top').onclick = openSend; $('#send-side').onclick = openSend;
 $('#send-form').onsubmit = submitSend;

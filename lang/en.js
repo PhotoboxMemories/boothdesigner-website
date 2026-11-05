@@ -1711,4 +1711,6 @@ I18N.add('en', {
 "Ringelschal": "Striped Scarf",
 "HALLO WINTER": "HELLO WINTER",
 "Rodelspaß": "Sledding Fun",
+"Verbindung unterbrochen – neuer Versuch …": "Connection interrupted – trying again …",
+"Das Hochladen hat nicht geklappt – die Internetverbindung ist abgebrochen. Bitte Verbindung prüfen und noch einmal „Jetzt absenden“ tippen. Auch ein Werbeblocker kann das Hochladen verhindern.": "The upload did not work – the internet connection was interrupted. Please check your connection and tap “Submit now” again. An ad blocker can also prevent the upload.",
 });

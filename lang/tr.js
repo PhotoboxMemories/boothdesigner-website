@@ -1712,4 +1712,6 @@ I18N.add('tr', {
 "Ringelschal": "Çizgili Atkı",
 "HALLO WINTER": "MERHABA KIŞ",
 "Rodelspaß": "Kızak Keyfi",
+"Verbindung unterbrochen – neuer Versuch …": "Bağlantı kesildi – yeniden deneniyor …",
+"Das Hochladen hat nicht geklappt – die Internetverbindung ist abgebrochen. Bitte Verbindung prüfen und noch einmal „Jetzt absenden“ tippen. Auch ein Werbeblocker kann das Hochladen verhindern.": "Yükleme olmadı – internet bağlantısı kesildi. Lütfen bağlantını kontrol et ve “Şimdi gönder”e tekrar dokun. Bir reklam engelleyici de yüklemeyi engelleyebilir.",
 });
