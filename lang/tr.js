@@ -1714,4 +1714,12 @@ I18N.add('tr', {
 "Rodelspaß": "Kızak Keyfi",
 "Verbindung unterbrochen – neuer Versuch …": "Bağlantı kesildi – yeniden deneniyor …",
 "Das Hochladen hat nicht geklappt – die Internetverbindung ist abgebrochen. Bitte Verbindung prüfen und noch einmal „Jetzt absenden“ tippen. Auch ein Werbeblocker kann das Hochladen verhindern.": "Yükleme olmadı – internet bağlantısı kesildi. Lütfen bağlantını kontrol et ve “Şimdi gönder”e tekrar dokun. Bir reklam engelleyici de yüklemeyi engelleyebilir.",
+"Deine Fotobox": "Fotoğraf kabinin",
+"Steht der Bildschirm der Fotobox hochkant oder quer? Alle Formate und der Startbildschirm passen dann dazu – gemischt geht nicht.": "Fotoğraf kabininin ekranı dikey mi, yatay mı? Tüm formatlar ve açılış ekranı buna uyar – karışık olmaz.",
+"Hochformat": "Dikey",
+"Querformat": "Yatay",
+"Bildschirm hochkant": "Ekran dikey",
+"Bildschirm quer": "Ekran yatay",
+"Dein Design ist im Querformat – es passt nicht zu einer Fotobox im Hochformat. Wähle oben unter „Format“ ein Format im Hochformat.": "Tasarımın yatay – dikey bir fotoğraf kabinine uymuyor. Yukarıda “Format” altından dikey bir format seç.",
+"Dein Design ist im Hochformat – es passt nicht zu einer Fotobox im Querformat. Wähle oben unter „Format“ ein Format im Querformat.": "Tasarımın dikey – yatay bir fotoğraf kabinine uymuyor. Yukarıda “Format” altından yatay bir format seç.",
 });

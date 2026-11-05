@@ -1713,4 +1713,12 @@ I18N.add('en', {
 "Rodelspaß": "Sledding Fun",
 "Verbindung unterbrochen – neuer Versuch …": "Connection interrupted – trying again …",
 "Das Hochladen hat nicht geklappt – die Internetverbindung ist abgebrochen. Bitte Verbindung prüfen und noch einmal „Jetzt absenden“ tippen. Auch ein Werbeblocker kann das Hochladen verhindern.": "The upload did not work – the internet connection was interrupted. Please check your connection and tap “Submit now” again. An ad blocker can also prevent the upload.",
+"Deine Fotobox": "Your photo booth",
+"Steht der Bildschirm der Fotobox hochkant oder quer? Alle Formate und der Startbildschirm passen dann dazu – gemischt geht nicht.": "Is the photo booth screen upright or landscape? All formats and the start screen will then match – mixing is not possible.",
+"Hochformat": "Portrait",
+"Querformat": "Landscape",
+"Bildschirm hochkant": "Screen upright",
+"Bildschirm quer": "Screen landscape",
+"Dein Design ist im Querformat – es passt nicht zu einer Fotobox im Hochformat. Wähle oben unter „Format“ ein Format im Hochformat.": "Your design is landscape – it does not fit a portrait photo booth. Choose a portrait format above under “Format”.",
+"Dein Design ist im Hochformat – es passt nicht zu einer Fotobox im Querformat. Wähle oben unter „Format“ ein Format im Querformat.": "Your design is portrait – it does not fit a landscape photo booth. Choose a landscape format above under “Format”.",
 });

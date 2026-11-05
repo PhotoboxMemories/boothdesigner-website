@@ -435,6 +435,11 @@ input[type=color]::-webkit-color-swatch{border:none;border-radius:50%}
       <label>Dein Name<input type="text" name="name" autocomplete="name" maxlength="80" required></label>
       <label>Deine E-Mail-Adresse<input type="email" name="email" autocomplete="email" maxlength="200" required></label>
       <label>Datum der Veranstaltung<input type="date" name="date"></label>
+      <fieldset class="send-var" id="send-model"><legend>Deine Fotobox</legend>
+        <p class="hint" style="margin:0">Steht der Bildschirm der Fotobox hochkant oder quer? Alle Formate und der Startbildschirm passen dann dazu – gemischt geht nicht.</p>
+        <div class="vlist"><label class="vopt"><input type="radio" name="model" value="p"><span><b>Hochformat</b><br>Bildschirm hochkant</span></label>
+          <label class="vopt"><input type="radio" name="model" value="l"><span><b>Querformat</b><br>Bildschirm quer</span></label></div>
+        <p class="hint" id="send-model-warn" style="margin:0;color:#c0392b" hidden></p></fieldset>
       <fieldset class="send-var" id="send-var"><legend>Welche Varianten möchtest du?</legend>
         <p class="hint" style="margin:0">Deine Fotobox kann mehrere Layouts gleichzeitig anbieten. Dein Design wird in jedem gewählten Format mitgeschickt (bis zu 6).</p>
         <div class="vlist" id="send-var-list"></div></fieldset>
@@ -3645,8 +3650,10 @@ async function openSend() {
   $('#send-thumb').src = URL.createObjectURL(preview);
   $('#send-what').textContent = `${D().name} · ${L().name}${L().sub ? ' · ' + L().sub : ''}${site.event ? ' · für „' + site.event.name + '“' : ''}`;
   const dt = $('#send-form [name=date]');
-  $('#send-start-row').hidden = !!L().screen;
-  buildVariants();
+  $('#send-start-row').hidden = $('#send-model').hidden = !!L().screen;
+  const m = orientOf(L()) || state.model || 'p'; // Vorauswahl: die Ausrichtung des Designs (quadratisch: zuletzt gewählte)
+  $(`#send-form [name=model][value=${m}]`).checked = true; state.model = m;
+  buildVariants(); checkModel();
   if (!window.VideoEncoder && !window.MediaRecorder) $('#send-form [name=start]').value = 'image';
   if (site.event && site.event.date) { dt.value = site.event.date; dt.closest('label').hidden = true; }
   const priv = site.privacy ? `<a href="${encodeURI(site.privacy)}" target="_blank" rel="noopener">Datenschutzerklärung</a>` : 'Datenschutzerklärung';
@@ -3689,9 +3696,23 @@ async function baseWithoutTexts() { // Druckvorlage ohne die bearbeitbaren Texte
 // Varianten: dasselbe Design zusätzlich in weiteren Druckformaten (die Fotobox kann mehrere Layouts gleichzeitig anbieten).
 // Nur Formate mit Fotobox-Papierformat (2×6, 4×6 hoch/quer, 5×5); das aktuelle ist immer dabei. Höchstens 6 zusammen.
 const PAPER = ['600x1800', '1200x1800', '1800x1200', '1500x1500'], MAX_VARIANTS = 6;
+// Fotobox-Modell (Betreiber 05.11.2026: „entweder Hochformat oder Querformat, gemischt geht nicht“): Die Fotobox nimmt nur Layouts in
+// der Ausrichtung ihres Bildschirms (render.js layoutOrient: höher als breit = Hochformat, quadratisch passt zu beiden). Deshalb
+// gibt es nur Varianten dieser Ausrichtung und nur den passenden Startbildschirm; ein Design in der anderen Ausrichtung geht nicht ab.
+const orientOf = (l) => l.screen ? l.orient : l.H > l.W * 1.02 ? 'p' : l.W > l.H * 1.02 ? 'l' : '';
+const sendModel = () => ($('#send-form [name=model]:checked') || {}).value || 'p';
+function checkModel() {
+  const o = orientOf(L()), m = sendModel(), bad = !L().screen && !!o && o !== m, w = $('#send-model-warn');
+  w.hidden = !bad;
+  w.textContent = !bad ? '' : o === 'l' ? 'Dein Design ist im Querformat – es passt nicht zu einer Fotobox im Hochformat. Wähle oben unter „Format“ ein Format im Hochformat.'
+    : 'Dein Design ist im Hochformat – es passt nicht zu einer Fotobox im Querformat. Wähle oben unter „Format“ ein Format im Querformat.';
+  $('#send-go').disabled = bad;
+  return !bad;
+}
+document.querySelectorAll('#send-form [name=model]').forEach((r) => { r.onchange = () => { state.model = sendModel(); buildVariants(); checkModel(); }; });
 function buildVariants() {
   const box = $('#send-var-list'); box.innerHTML = '';
-  const list = Object.entries(LAYOUTS).filter(([, l]) => !l.screen && PAPER.includes(`${l.W}x${l.H}`));
+  const m = sendModel(), list = Object.entries(LAYOUTS).filter(([k, l]) => !l.screen && PAPER.includes(`${l.W}x${l.H}`) && (k === state.layout || !orientOf(l) || orientOf(l) === m));
   $('#send-var').hidden = !!L().screen || list.length < 2;
   const limit = () => { const on = box.querySelectorAll('input:checked').length; box.querySelectorAll('input').forEach((i) => { if (i.value !== state.layout) i.disabled = !i.checked && on >= MAX_VARIANTS; }); };
   list.forEach(([key, l]) => {
@@ -3721,10 +3742,10 @@ async function variantFiles(keys, say) {
   return out;
 }
 // Startbildschirm der Fotobox (Full HD hoch und quer) im selben Design – als Bild oder Animation. Danach ist alles wie vorher.
-async function startFiles(kind, say) {
+async function startFiles(kind, say, model) {
   const doc = portableDoc(), saved = { list: hist.list.slice(), i: hist.i }, out = {};
   try {
-    for (const [o, key] of [['p', 'fs-p'], ['l', 'fs-l']]) {
+    for (const [o, key] of [['p', 'fs-p'], ['l', 'fs-l']].filter(([o]) => !model || o === model)) { // nur der Startbildschirm des Fotobox-Modells
       await setLayout(key);
       if (kind === 'video') {
         const v = await encodeVideo(buildScene(1), (x) => say((o === 'p' ? 'Startbildschirm hoch wird erstellt … ' : 'Startbildschirm quer wird erstellt … ') + Math.round(x * 100) + ' %'));
@@ -3741,12 +3762,14 @@ async function submitSend(e) {
   if (name.length < 2) { st.textContent = 'Bitte deinen Namen angeben.'; return; }
   if (!/^[^@\s]+@[^@\s]+\.[a-z]{2,}$/i.test(email)) { st.textContent = 'Bitte eine gültige E-Mail-Adresse angeben.'; return; }
   if (!f.get('consent')) { st.textContent = 'Bitte bestätige die Übermittlung.'; return; }
+  if (!checkModel()) return;
+  const model = L().screen ? '' : sendModel();
   go.disabled = true; st.textContent = 'Wird gesendet …';
   try {
     const kind = L().screen ? 'none' : String(f.get('start') || 'none');
     const extra = $('#send-var').hidden ? [] : [...document.querySelectorAll('#send-var-list input:checked')].map((i) => i.value).filter((k) => k !== state.layout).slice(0, MAX_VARIANTS - 1);
     let variants = await variantFiles(extra, (t) => { st.textContent = t; });
-    const start = kind === 'none' ? {} : await startFiles(kind, (t) => { st.textContent = t; });
+    const start = kind === 'none' ? {} : await startFiles(kind, (t) => { st.textContent = t; }, model);
     st.textContent = 'Wird gesendet …';
     const put = await siteApi('put');
     variants = variants.filter((v) => put.urls[v.file]); // Server ohne Varianten: nur das Hauptformat schicken
@@ -3757,7 +3780,7 @@ async function submitSend(e) {
         'ebenen.json': new Blob([JSON.stringify({ v: 1, texts: sendBlobs.texts, variants: variants.map((v) => ({ file: v.file, texts: v.texts })) })], { type: 'application/json' }) } : {}) };
     for (const [n, blob] of Object.entries(files)) await putFile(put.urls[n], blob, put.types[n], (t) => { st.textContent = t; });
     const res = await siteApi('done', { folder: put.folder, ticket: put.ticket, name, email, date: f.get('date') || null,
-      message: f.get('message') || '', consent: true, design: state.design, designName: D().name, layout: state.layout,
+      message: (model ? `Fotobox: ${model === 'p' ? 'Hochformat (Bildschirm hochkant)' : 'Querformat (Bildschirm quer)'}\n` : '') + (f.get('message') || ''), consent: true, design: state.design, designName: D().name, layout: state.layout,
       layoutName: L().name, w: L().W, h: L().H, slots: sendBlobs.slots, start: Object.keys(start), texts: withBase ? sendBlobs.texts : [],
       variants: variants.map(({ key, file, layoutName, w, h, slots, texts }) => ({ layout: key, layoutName, file, w, h, slots, texts: withBase ? texts : [] })),
       occasion: D().occasion, title: (objs('text').find((o) => o.tid === 'name') || {}).text || '' });

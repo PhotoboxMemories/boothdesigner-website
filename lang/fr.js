@@ -1713,4 +1713,12 @@ I18N.add('fr', {
 "Rodelspaß": "Joies de la luge",
 "Verbindung unterbrochen – neuer Versuch …": "Connexion interrompue – nouvel essai …",
 "Das Hochladen hat nicht geklappt – die Internetverbindung ist abgebrochen. Bitte Verbindung prüfen und noch einmal „Jetzt absenden“ tippen. Auch ein Werbeblocker kann das Hochladen verhindern.": "Le téléversement n’a pas fonctionné – la connexion internet a été interrompue. Vérifie ta connexion et appuie à nouveau sur « Envoyer maintenant ». Un bloqueur de publicité peut aussi empêcher le téléversement.",
+"Deine Fotobox": "Ton photobooth",
+"Steht der Bildschirm der Fotobox hochkant oder quer? Alle Formate und der Startbildschirm passen dann dazu – gemischt geht nicht.": "L’écran du photobooth est-il vertical ou horizontal ? Tous les formats et l’écran d’accueil s’y adaptent – pas de mélange possible.",
+"Hochformat": "Portrait",
+"Querformat": "Paysage",
+"Bildschirm hochkant": "Écran vertical",
+"Bildschirm quer": "Écran horizontal",
+"Dein Design ist im Querformat – es passt nicht zu einer Fotobox im Hochformat. Wähle oben unter „Format“ ein Format im Hochformat.": "Ton design est en paysage – il ne convient pas à un photobooth en portrait. Choisis un format portrait en haut sous « Format ».",
+"Dein Design ist im Hochformat – es passt nicht zu einer Fotobox im Querformat. Wähle oben unter „Format“ ein Format im Querformat.": "Ton design est en portrait – il ne convient pas à un photobooth en paysage. Choisis un format paysage en haut sous « Format ».",
 });

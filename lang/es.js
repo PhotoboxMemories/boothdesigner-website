@@ -1713,4 +1713,12 @@ I18N.add('es', {
 "Rodelspaß": "Diversión en trineo",
 "Verbindung unterbrochen – neuer Versuch …": "Conexión interrumpida: volviendo a intentarlo …",
 "Das Hochladen hat nicht geklappt – die Internetverbindung ist abgebrochen. Bitte Verbindung prüfen und noch einmal „Jetzt absenden“ tippen. Auch ein Werbeblocker kann das Hochladen verhindern.": "La subida no ha funcionado: se ha interrumpido la conexión a internet. Comprueba tu conexión y vuelve a pulsar «Enviar ahora». Un bloqueador de anuncios también puede impedir la subida.",
+"Deine Fotobox": "Tu fotomatón",
+"Steht der Bildschirm der Fotobox hochkant oder quer? Alle Formate und der Startbildschirm passen dann dazu – gemischt geht nicht.": "¿La pantalla del fotomatón está en vertical u horizontal? Todos los formatos y la pantalla de inicio se adaptan a ello; no se pueden mezclar.",
+"Hochformat": "Vertical",
+"Querformat": "Horizontal",
+"Bildschirm hochkant": "Pantalla vertical",
+"Bildschirm quer": "Pantalla horizontal",
+"Dein Design ist im Querformat – es passt nicht zu einer Fotobox im Hochformat. Wähle oben unter „Format“ ein Format im Hochformat.": "Tu diseño está en horizontal: no encaja con un fotomatón vertical. Elige arriba en «Formato» un formato vertical.",
+"Dein Design ist im Hochformat – es passt nicht zu einer Fotobox im Querformat. Wähle oben unter „Format“ ein Format im Querformat.": "Tu diseño está en vertical: no encaja con un fotomatón horizontal. Elige arriba en «Formato» un formato horizontal.",
 });

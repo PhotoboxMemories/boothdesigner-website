@@ -1713,4 +1713,12 @@ I18N.add('it', {
 "Rodelspaß": "Slittino in festa",
 "Verbindung unterbrochen – neuer Versuch …": "Connessione interrotta – nuovo tentativo …",
 "Das Hochladen hat nicht geklappt – die Internetverbindung ist abgebrochen. Bitte Verbindung prüfen und noch einmal „Jetzt absenden“ tippen. Auch ein Werbeblocker kann das Hochladen verhindern.": "Il caricamento non è riuscito: la connessione internet si è interrotta. Controlla la connessione e tocca di nuovo «Invia ora». Anche un blocco pubblicità può impedire il caricamento.",
+"Deine Fotobox": "La tua cabina foto",
+"Steht der Bildschirm der Fotobox hochkant oder quer? Alle Formate und der Startbildschirm passen dann dazu – gemischt geht nicht.": "Lo schermo della cabina foto è verticale o orizzontale? Tutti i formati e la schermata iniziale si adattano – non si possono mescolare.",
+"Hochformat": "Verticale",
+"Querformat": "Orizzontale",
+"Bildschirm hochkant": "Schermo verticale",
+"Bildschirm quer": "Schermo orizzontale",
+"Dein Design ist im Querformat – es passt nicht zu einer Fotobox im Hochformat. Wähle oben unter „Format“ ein Format im Hochformat.": "Il tuo design è orizzontale: non è adatto a una cabina foto verticale. Scegli in alto sotto «Formato» un formato verticale.",
+"Dein Design ist im Hochformat – es passt nicht zu einer Fotobox im Querformat. Wähle oben unter „Format“ ein Format im Querformat.": "Il tuo design è verticale: non è adatto a una cabina foto orizzontale. Scegli in alto sotto «Formato» un formato orizzontale.",
 });
