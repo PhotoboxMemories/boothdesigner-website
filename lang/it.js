@@ -1708,4 +1708,7 @@ I18N.add('it', {
 "Osterball": "Ballo di Pasqua",
 "27. März 2027": "27 marzo 2027",
 "Kornblume": "Fiordaliso",
+"Ringelschal": "Sciarpa a righe",
+"HALLO WINTER": "CIAO INVERNO",
+"Rodelspaß": "Slittino in festa",
 });

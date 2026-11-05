@@ -1709,4 +1709,7 @@ I18N.add('tr', {
 "Osterball": "Paskalya Balosu",
 "27. März 2027": "27 Mart 2027",
 "Kornblume": "Peygamber Çiçeği",
+"Ringelschal": "Çizgili Atkı",
+"HALLO WINTER": "MERHABA KIŞ",
+"Rodelspaß": "Kızak Keyfi",
 });

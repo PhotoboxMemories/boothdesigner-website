@@ -1708,4 +1708,7 @@ I18N.add('en', {
 "Osterball": "Easter Ball",
 "27. März 2027": "27 March 2027",
 "Kornblume": "Cornflower",
+"Ringelschal": "Striped Scarf",
+"HALLO WINTER": "HELLO WINTER",
+"Rodelspaß": "Sledding Fun",
 });

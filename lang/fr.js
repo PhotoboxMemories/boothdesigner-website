@@ -1708,4 +1708,7 @@ I18N.add('fr', {
 "Osterball": "Bal de Pâques",
 "27. März 2027": "27 mars 2027",
 "Kornblume": "Bleuet",
+"Ringelschal": "Écharpe rayée",
+"HALLO WINTER": "BONJOUR L’HIVER",
+"Rodelspaß": "Joies de la luge",
 });
