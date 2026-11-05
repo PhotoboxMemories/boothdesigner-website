@@ -1701,4 +1701,7 @@ I18N.add('en', {
 "Fifties-Stern": "Fifties Star",
 "Adventsball": "Advent Ball",
 "19. Dezember 2026": "19 December 2026",
+"Storchenflug": "Stork Flight",
+"Storch mit Bündel": "Stork with bundle",
+"8. Mai 2027": "8 May 2027",
 });

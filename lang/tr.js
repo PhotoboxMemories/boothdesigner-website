@@ -1702,4 +1702,7 @@ I18N.add('tr', {
 "Fifties-Stern": "Fifties Yıldızı",
 "Adventsball": "Advent Balosu",
 "19. Dezember 2026": "19 Aralık 2026",
+"Storchenflug": "Leylek Uçuşu",
+"Storch mit Bündel": "Bohçalı leylek",
+"8. Mai 2027": "8 Mayıs 2027",
 });

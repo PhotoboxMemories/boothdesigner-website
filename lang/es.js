@@ -1701,4 +1701,7 @@ I18N.add('es', {
 "Fifties-Stern": "Estrella Fifties",
 "Adventsball": "Baile de Adviento",
 "19. Dezember 2026": "19 de diciembre de 2026",
+"Storchenflug": "Vuelo de cigüeña",
+"Storch mit Bündel": "Cigüeña con hatillo",
+"8. Mai 2027": "8 de mayo de 2027",
 });

@@ -1701,4 +1701,7 @@ I18N.add('it', {
 "Fifties-Stern": "Stella Fifties",
 "Adventsball": "Ballo dell'Avvento",
 "19. Dezember 2026": "19 dicembre 2026",
+"Storchenflug": "Volo della cicogna",
+"Storch mit Bündel": "Cicogna con fagotto",
+"8. Mai 2027": "8 maggio 2027",
 });

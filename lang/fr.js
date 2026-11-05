@@ -1701,4 +1701,7 @@ I18N.add('fr', {
 "Fifties-Stern": "Étoile Fifties",
 "Adventsball": "Bal de l'Avent",
 "19. Dezember 2026": "19 décembre 2026",
+"Storchenflug": "Vol de cigogne",
+"Storch mit Bündel": "Cigogne avec baluchon",
+"8. Mai 2027": "8 mai 2027",
 });
