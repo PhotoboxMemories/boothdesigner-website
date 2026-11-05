@@ -1704,4 +1704,7 @@ I18N.add('es', {
 "Storchenflug": "Vuelo de cigüeña",
 "Storch mit Bündel": "Cigüeña con hatillo",
 "8. Mai 2027": "8 de mayo de 2027",
+"Zarenei": "Huevo imperial",
+"Osterball": "Baile de Pascua",
+"27. März 2027": "27 de marzo de 2027",
 });

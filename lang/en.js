@@ -1704,4 +1704,7 @@ I18N.add('en', {
 "Storchenflug": "Stork Flight",
 "Storch mit Bündel": "Stork with bundle",
 "8. Mai 2027": "8 May 2027",
+"Zarenei": "Tsar Egg",
+"Osterball": "Easter Ball",
+"27. März 2027": "27 March 2027",
 });

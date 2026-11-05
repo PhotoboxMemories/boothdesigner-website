@@ -1705,4 +1705,7 @@ I18N.add('tr', {
 "Storchenflug": "Leylek Uçuşu",
 "Storch mit Bündel": "Bohçalı leylek",
 "8. Mai 2027": "8 Mayıs 2027",
+"Zarenei": "Çar Yumurtası",
+"Osterball": "Paskalya Balosu",
+"27. März 2027": "27 Mart 2027",
 });

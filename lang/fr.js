@@ -1704,4 +1704,7 @@ I18N.add('fr', {
 "Storchenflug": "Vol de cigogne",
 "Storch mit Bündel": "Cigogne avec baluchon",
 "8. Mai 2027": "8 mai 2027",
+"Zarenei": "Œuf impérial",
+"Osterball": "Bal de Pâques",
+"27. März 2027": "27 mars 2027",
 });
