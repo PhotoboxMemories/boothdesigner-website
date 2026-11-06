@@ -1729,4 +1729,5 @@ I18N.add('fr', {
 "Winterfest": "Fête d'Hiver",
 "Saustark": "Trop Cochon",
 "Glücksschwein mit Ballons": "Cochon porte-bonheur aux ballons",
+"Mistelzweig": "Brin de gui",
 });

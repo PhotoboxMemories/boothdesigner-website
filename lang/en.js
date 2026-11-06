@@ -1729,4 +1729,5 @@ I18N.add('en', {
 "Winterfest": "Winter Party",
 "Saustark": "Hog Wild",
 "Glücksschwein mit Ballons": "Lucky Pig with Balloons",
+"Mistelzweig": "Mistletoe",
 });

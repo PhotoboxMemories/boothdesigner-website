@@ -1729,4 +1729,5 @@ I18N.add('es', {
 "Winterfest": "Fiesta de Invierno",
 "Saustark": "Cerdito Suertudo",
 "Glücksschwein mit Ballons": "Cerdito de la suerte con globos",
+"Mistelzweig": "Muérdago",
 });

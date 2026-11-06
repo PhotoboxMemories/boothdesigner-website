@@ -1729,4 +1729,5 @@ I18N.add('it', {
 "Winterfest": "Festa d'Inverno",
 "Saustark": "Porcellino Portafortuna",
 "Glücksschwein mit Ballons": "Porcellino portafortuna con palloncini",
+"Mistelzweig": "Vischio",
 });

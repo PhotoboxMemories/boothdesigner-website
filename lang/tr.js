@@ -1730,4 +1730,5 @@ I18N.add('tr', {
 "Winterfest": "Kış Şenliği",
 "Saustark": "Şahane Şans",
 "Glücksschwein mit Ballons": "Balonlu Şans Domuzu",
+"Mistelzweig": "Ökseotu",
 });
