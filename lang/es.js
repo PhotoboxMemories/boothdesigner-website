@@ -1736,4 +1736,6 @@ I18N.add('es', {
 "11. November 2027": "11 de noviembre de 2027",
 "Korkenknall": "Descorche",
 "Perlmutt": "Nácar",
+"Kaktus-Ballett": "Ballet de cactus",
+"Kaktusklub": "Club de los cactus",
 });

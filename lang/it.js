@@ -1736,4 +1736,6 @@ I18N.add('it', {
 "11. November 2027": "11 novembre 2027",
 "Korkenknall": "Stappo",
 "Perlmutt": "Madreperla",
+"Kaktus-Ballett": "Balletto di cactus",
+"Kaktusklub": "Club dei cactus",
 });

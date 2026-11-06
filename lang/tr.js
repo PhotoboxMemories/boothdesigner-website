@@ -1737,4 +1737,6 @@ I18N.add('tr', {
 "11. November 2027": "11 Kasım 2027",
 "Korkenknall": "Mantar Patlaması",
 "Perlmutt": "Sedef",
+"Kaktus-Ballett": "Kaktüs Balesi",
+"Kaktusklub": "Kaktüs Kulübü",
 });
