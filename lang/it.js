@@ -1746,4 +1746,5 @@ I18N.add('it', {
 "Eigene Gestaltung": "Design personale",
 "Kupferstich": "Incisione",
 "Jugendstil": "Liberty",
+"Wegzeichen": "Segnavia",
 });

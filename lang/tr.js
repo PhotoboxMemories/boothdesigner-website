@@ -1747,4 +1747,5 @@ I18N.add('tr', {
 "Eigene Gestaltung": "Kendi tasarımın",
 "Kupferstich": "Bakır Gravür",
 "Jugendstil": "Art Nouveau",
+"Wegzeichen": "Yol İşaretleri",
 });

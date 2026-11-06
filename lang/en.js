@@ -1746,4 +1746,5 @@ I18N.add('en', {
 "Eigene Gestaltung": "Your own design",
 "Kupferstich": "Copperplate",
 "Jugendstil": "Art Nouveau",
+"Wegzeichen": "Waymarks",
 });

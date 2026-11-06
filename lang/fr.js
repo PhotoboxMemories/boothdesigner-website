@@ -1746,4 +1746,5 @@ I18N.add('fr', {
 "Eigene Gestaltung": "Votre propre design",
 "Kupferstich": "Gravure sur cuivre",
 "Jugendstil": "Art nouveau",
+"Wegzeichen": "Cairns",
 });

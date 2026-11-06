@@ -1746,4 +1746,5 @@ I18N.add('es', {
 "Eigene Gestaltung": "Diseño propio",
 "Kupferstich": "Grabado",
 "Jugendstil": "Modernismo",
+"Wegzeichen": "Hitos",
 });
