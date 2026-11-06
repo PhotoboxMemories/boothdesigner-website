@@ -1754,4 +1754,6 @@ I18N.add('tr', {
 "Perlage": "Şampanya Köpüğü",
 "SILVESTER 2026": "YILBAŞI 2026",
 "Perlennacht": "Köpüklü Gece",
+"Wachsmalkreide": "Pastel Boya",
+"3. September 2027": "3 Eylül 2027",
 });

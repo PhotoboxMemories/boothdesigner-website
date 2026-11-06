@@ -1753,4 +1753,6 @@ I18N.add('it', {
 "Perlage": "Perlage",
 "SILVESTER 2026": "CAPODANNO 2026",
 "Perlennacht": "Notte frizzante",
+"Wachsmalkreide": "Pastelli a cera",
+"3. September 2027": "3 settembre 2027",
 });

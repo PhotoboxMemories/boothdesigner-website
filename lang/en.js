@@ -1753,4 +1753,6 @@ I18N.add('en', {
 "Perlage": "Perlage",
 "SILVESTER 2026": "NEW YEAR'S EVE 2026",
 "Perlennacht": "Bubble Night",
+"Wachsmalkreide": "Wax Crayons",
+"3. September 2027": "3 September 2027",
 });

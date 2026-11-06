@@ -1753,4 +1753,6 @@ I18N.add('fr', {
 "Perlage": "Perlage",
 "SILVESTER 2026": "RÉVEILLON 2026",
 "Perlennacht": "Nuit pétillante",
+"Wachsmalkreide": "Craies grasses",
+"3. September 2027": "3 septembre 2027",
 });
