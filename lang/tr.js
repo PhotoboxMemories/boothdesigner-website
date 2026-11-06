@@ -1732,4 +1732,7 @@ I18N.add('tr', {
 "Glücksschwein mit Ballons": "Balonlu Şans Domuzu",
 "Mistelzweig": "Ökseotu",
 "Papierschiffchen": "Kâğıt Gemiler",
+"Narrenorden": "Karnaval Madalyaları",
+"Ordensfest": "Madalya Partisi",
+"11. November 2027": "11 Kasım 2027",
 });

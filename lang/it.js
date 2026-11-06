@@ -1731,4 +1731,7 @@ I18N.add('it', {
 "Glücksschwein mit Ballons": "Porcellino portafortuna con palloncini",
 "Mistelzweig": "Vischio",
 "Papierschiffchen": "Barchette di carta",
+"Narrenorden": "Medaglie di carnevale",
+"Ordensfest": "Festa delle medaglie",
+"11. November 2027": "11 novembre 2027",
 });

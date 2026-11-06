@@ -1731,4 +1731,7 @@ I18N.add('fr', {
 "Glücksschwein mit Ballons": "Cochon porte-bonheur aux ballons",
 "Mistelzweig": "Brin de gui",
 "Papierschiffchen": "Bateaux en papier",
+"Narrenorden": "Médailles du carnaval",
+"Ordensfest": "Fête des médailles",
+"11. November 2027": "11 novembre 2027",
 });

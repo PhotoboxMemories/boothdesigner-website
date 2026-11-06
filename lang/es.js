@@ -1731,4 +1731,7 @@ I18N.add('es', {
 "Glücksschwein mit Ballons": "Cerdito de la suerte con globos",
 "Mistelzweig": "Muérdago",
 "Papierschiffchen": "Barquitos de papel",
+"Narrenorden": "Medallas de carnaval",
+"Ordensfest": "Fiesta de medallas",
+"11. November 2027": "11 de noviembre de 2027",
 });

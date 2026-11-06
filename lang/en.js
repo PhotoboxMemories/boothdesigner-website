@@ -1731,4 +1731,7 @@ I18N.add('en', {
 "Glücksschwein mit Ballons": "Lucky Pig with Balloons",
 "Mistelzweig": "Mistletoe",
 "Papierschiffchen": "Paper Boats",
+"Narrenorden": "Carnival Medals",
+"Ordensfest": "Medal Party",
+"11. November 2027": "11 November 2027",
 });
