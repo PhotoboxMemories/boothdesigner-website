@@ -1738,4 +1738,7 @@ I18N.add('it', {
 "Perlmutt": "Madreperla",
 "Kaktus-Ballett": "Balletto di cactus",
 "Kaktusklub": "Club dei cactus",
+"Diplomrolle": "Rotolo del diploma",
+"Osterrallye": "Rally di Pasqua",
+"ABIBALL": "GRAN BALLO",
 });

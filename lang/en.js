@@ -1738,4 +1738,7 @@ I18N.add('en', {
 "Perlmutt": "Mother of Pearl",
 "Kaktus-Ballett": "Cactus Ballet",
 "Kaktusklub": "Cactus Club",
+"Diplomrolle": "Diploma Scroll",
+"Osterrallye": "Easter Rally",
+"ABIBALL": "PROM",
 });

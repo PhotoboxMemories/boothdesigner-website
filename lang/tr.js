@@ -1739,4 +1739,7 @@ I18N.add('tr', {
 "Perlmutt": "Sedef",
 "Kaktus-Ballett": "Kaktüs Balesi",
 "Kaktusklub": "Kaktüs Kulübü",
+"Diplomrolle": "Diploma Rulosu",
+"Osterrallye": "Paskalya Rallisi",
+"ABIBALL": "BALO",
 });

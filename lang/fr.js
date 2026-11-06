@@ -1738,4 +1738,7 @@ I18N.add('fr', {
 "Perlmutt": "Nacre",
 "Kaktus-Ballett": "Ballet de cactus",
 "Kaktusklub": "Club des cactus",
+"Diplomrolle": "Rouleau de diplôme",
+"Osterrallye": "Rallye de Pâques",
+"ABIBALL": "LE BAL",
 });
