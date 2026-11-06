@@ -1735,4 +1735,5 @@ I18N.add('en', {
 "Ordensfest": "Medal Party",
 "11. November 2027": "11 November 2027",
 "Korkenknall": "Popping Cork",
+"Perlmutt": "Mother of Pearl",
 });

@@ -1735,4 +1735,5 @@ I18N.add('es', {
 "Ordensfest": "Fiesta de medallas",
 "11. November 2027": "11 de noviembre de 2027",
 "Korkenknall": "Descorche",
+"Perlmutt": "Nácar",
 });

@@ -1736,4 +1736,5 @@ I18N.add('tr', {
 "Ordensfest": "Madalya Partisi",
 "11. November 2027": "11 Kasım 2027",
 "Korkenknall": "Mantar Patlaması",
+"Perlmutt": "Sedef",
 });
