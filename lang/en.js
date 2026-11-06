@@ -1730,4 +1730,5 @@ I18N.add('en', {
 "Saustark": "Hog Wild",
 "Glücksschwein mit Ballons": "Lucky Pig with Balloons",
 "Mistelzweig": "Mistletoe",
+"Papierschiffchen": "Paper Boats",
 });

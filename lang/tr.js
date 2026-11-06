@@ -1731,4 +1731,5 @@ I18N.add('tr', {
 "Saustark": "Şahane Şans",
 "Glücksschwein mit Ballons": "Balonlu Şans Domuzu",
 "Mistelzweig": "Ökseotu",
+"Papierschiffchen": "Kâğıt Gemiler",
 });

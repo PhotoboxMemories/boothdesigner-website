@@ -1730,4 +1730,5 @@ I18N.add('it', {
 "Saustark": "Porcellino Portafortuna",
 "Glücksschwein mit Ballons": "Porcellino portafortuna con palloncini",
 "Mistelzweig": "Vischio",
+"Papierschiffchen": "Barchette di carta",
 });

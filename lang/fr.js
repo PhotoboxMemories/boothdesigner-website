@@ -1730,4 +1730,5 @@ I18N.add('fr', {
 "Saustark": "Trop Cochon",
 "Glücksschwein mit Ballons": "Cochon porte-bonheur aux ballons",
 "Mistelzweig": "Brin de gui",
+"Papierschiffchen": "Bateaux en papier",
 });

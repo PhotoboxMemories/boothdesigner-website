@@ -1730,4 +1730,5 @@ I18N.add('es', {
 "Saustark": "Cerdito Suertudo",
 "Glücksschwein mit Ballons": "Cerdito de la suerte con globos",
 "Mistelzweig": "Muérdago",
+"Papierschiffchen": "Barquitos de papel",
 });
