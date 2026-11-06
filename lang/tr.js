@@ -1748,4 +1748,10 @@ I18N.add('tr', {
 "Kupferstich": "Bakır Gravür",
 "Jugendstil": "Art Nouveau",
 "Wegzeichen": "Yol İşaretleri",
+"Rentier-Abfahrt": "Ren Geyiği Kayağı",
+"WINTERFEST": "KIŞ ŞENLİĞİ",
+"Schneesause": "Kar Coşkusu",
+"Perlage": "Şampanya Köpüğü",
+"SILVESTER 2026": "YILBAŞI 2026",
+"Perlennacht": "Köpüklü Gece",
 });

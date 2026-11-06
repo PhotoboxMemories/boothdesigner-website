@@ -1747,4 +1747,10 @@ I18N.add('es', {
 "Kupferstich": "Grabado",
 "Jugendstil": "Modernismo",
 "Wegzeichen": "Hitos",
+"Rentier-Abfahrt": "Descenso de renos",
+"WINTERFEST": "FIESTA DE INVIERNO",
+"Schneesause": "Carrera en la nieve",
+"Perlage": "Perlage",
+"SILVESTER 2026": "NOCHEVIEJA 2026",
+"Perlennacht": "Noche burbujeante",
 });

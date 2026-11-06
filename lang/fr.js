@@ -1747,4 +1747,10 @@ I18N.add('fr', {
 "Kupferstich": "Gravure sur cuivre",
 "Jugendstil": "Art nouveau",
 "Wegzeichen": "Cairns",
+"Rentier-Abfahrt": "Descente des rennes",
+"WINTERFEST": "FÊTE D'HIVER",
+"Schneesause": "Ruée sur la neige",
+"Perlage": "Perlage",
+"SILVESTER 2026": "RÉVEILLON 2026",
+"Perlennacht": "Nuit pétillante",
 });

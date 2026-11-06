@@ -1747,4 +1747,10 @@ I18N.add('it', {
 "Kupferstich": "Incisione",
 "Jugendstil": "Liberty",
 "Wegzeichen": "Segnavia",
+"Rentier-Abfahrt": "Discesa delle renne",
+"WINTERFEST": "FESTA D'INVERNO",
+"Schneesause": "Corsa sulla neve",
+"Perlage": "Perlage",
+"SILVESTER 2026": "CAPODANNO 2026",
+"Perlennacht": "Notte frizzante",
 });

@@ -1747,4 +1747,10 @@ I18N.add('en', {
 "Kupferstich": "Copperplate",
 "Jugendstil": "Art Nouveau",
 "Wegzeichen": "Waymarks",
+"Rentier-Abfahrt": "Reindeer Downhill",
+"WINTERFEST": "WINTER PARTY",
+"Schneesause": "Snow Rush",
+"Perlage": "Perlage",
+"SILVESTER 2026": "NEW YEAR'S EVE 2026",
+"Perlennacht": "Bubble Night",
 });
