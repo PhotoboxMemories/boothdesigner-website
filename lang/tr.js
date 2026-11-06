@@ -1745,4 +1745,6 @@ I18N.add('tr', {
 "Strandfest": "Plaj Şenliği",
 "Leer – selbst gestalten": "Boş – kendin tasarla",
 "Eigene Gestaltung": "Kendi tasarımın",
+"Kupferstich": "Bakır Gravür",
+"Jugendstil": "Art Nouveau",
 });

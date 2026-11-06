@@ -1744,4 +1744,6 @@ I18N.add('en', {
 "Strandfest": "Beach Party",
 "Leer – selbst gestalten": "Blank – design it yourself",
 "Eigene Gestaltung": "Your own design",
+"Kupferstich": "Copperplate",
+"Jugendstil": "Art Nouveau",
 });

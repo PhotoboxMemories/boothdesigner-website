@@ -1744,4 +1744,6 @@ I18N.add('es', {
 "Strandfest": "Fiesta en la playa",
 "Leer – selbst gestalten": "En blanco – diseña tú mismo",
 "Eigene Gestaltung": "Diseño propio",
+"Kupferstich": "Grabado",
+"Jugendstil": "Modernismo",
 });

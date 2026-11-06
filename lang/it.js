@@ -1744,4 +1744,6 @@ I18N.add('it', {
 "Strandfest": "Festa in spiaggia",
 "Leer – selbst gestalten": "Vuoto – crealo tu",
 "Eigene Gestaltung": "Design personale",
+"Kupferstich": "Incisione",
+"Jugendstil": "Liberty",
 });

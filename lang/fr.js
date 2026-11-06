@@ -1744,4 +1744,6 @@ I18N.add('fr', {
 "Strandfest": "Fête de plage",
 "Leer – selbst gestalten": "Vierge – à créer soi-même",
 "Eigene Gestaltung": "Votre propre design",
+"Kupferstich": "Gravure sur cuivre",
+"Jugendstil": "Art nouveau",
 });
