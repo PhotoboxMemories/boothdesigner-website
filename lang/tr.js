@@ -1743,4 +1743,6 @@ I18N.add('tr', {
 "Osterrallye": "Paskalya Rallisi",
 "ABIBALL": "BALO",
 "Strandfest": "Plaj Şenliği",
+"Leer – selbst gestalten": "Boş – kendin tasarla",
+"Eigene Gestaltung": "Kendi tasarımın",
 });

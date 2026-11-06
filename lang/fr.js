@@ -1742,4 +1742,6 @@ I18N.add('fr', {
 "Osterrallye": "Rallye de Pâques",
 "ABIBALL": "LE BAL",
 "Strandfest": "Fête de plage",
+"Leer – selbst gestalten": "Vierge – à créer soi-même",
+"Eigene Gestaltung": "Votre propre design",
 });

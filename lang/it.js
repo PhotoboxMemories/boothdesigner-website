@@ -1742,4 +1742,6 @@ I18N.add('it', {
 "Osterrallye": "Rally di Pasqua",
 "ABIBALL": "GRAN BALLO",
 "Strandfest": "Festa in spiaggia",
+"Leer – selbst gestalten": "Vuoto – crealo tu",
+"Eigene Gestaltung": "Design personale",
 });

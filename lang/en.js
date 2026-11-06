@@ -1742,4 +1742,6 @@ I18N.add('en', {
 "Osterrallye": "Easter Rally",
 "ABIBALL": "PROM",
 "Strandfest": "Beach Party",
+"Leer – selbst gestalten": "Blank – design it yourself",
+"Eigene Gestaltung": "Your own design",
 });

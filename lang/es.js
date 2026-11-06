@@ -1742,4 +1742,6 @@ I18N.add('es', {
 "Osterrallye": "Rally de Pascua",
 "ABIBALL": "BAILE",
 "Strandfest": "Fiesta en la playa",
+"Leer – selbst gestalten": "En blanco – diseña tú mismo",
+"Eigene Gestaltung": "Diseño propio",
 });
