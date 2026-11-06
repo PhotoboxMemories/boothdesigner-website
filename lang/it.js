@@ -1741,4 +1741,5 @@ I18N.add('it', {
 "Diplomrolle": "Rotolo del diploma",
 "Osterrallye": "Rally di Pasqua",
 "ABIBALL": "GRAN BALLO",
+"Strandfest": "Festa in spiaggia",
 });

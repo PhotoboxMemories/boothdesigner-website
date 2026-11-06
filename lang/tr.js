@@ -1742,4 +1742,5 @@ I18N.add('tr', {
 "Diplomrolle": "Diploma Rulosu",
 "Osterrallye": "Paskalya Rallisi",
 "ABIBALL": "BALO",
+"Strandfest": "Plaj Şenliği",
 });
