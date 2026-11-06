@@ -1756,4 +1756,6 @@ I18N.add('tr', {
 "Perlennacht": "Köpüklü Gece",
 "Wachsmalkreide": "Pastel Boya",
 "3. September 2027": "3 Eylül 2027",
+"Tusch": "Tuş",
+"Tuschnacht": "Tuş Gecesi",
 });

@@ -1755,4 +1755,6 @@ I18N.add('es', {
 "Perlennacht": "Noche burbujeante",
 "Wachsmalkreide": "Ceras de colores",
 "3. September 2027": "3 de septiembre de 2027",
+"Tusch": "Redoble",
+"Tuschnacht": "Noche de charanga",
 });

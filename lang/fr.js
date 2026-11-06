@@ -1755,4 +1755,6 @@ I18N.add('fr', {
 "Perlennacht": "Nuit pétillante",
 "Wachsmalkreide": "Craies grasses",
 "3. September 2027": "3 septembre 2027",
+"Tusch": "Fanfare",
+"Tuschnacht": "Nuit de fanfare",
 });
