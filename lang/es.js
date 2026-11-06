@@ -1734,4 +1734,5 @@ I18N.add('es', {
 "Narrenorden": "Medallas de carnaval",
 "Ordensfest": "Fiesta de medallas",
 "11. November 2027": "11 de noviembre de 2027",
+"Korkenknall": "Descorche",
 });

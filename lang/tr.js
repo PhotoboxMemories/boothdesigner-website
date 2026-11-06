@@ -1735,4 +1735,5 @@ I18N.add('tr', {
 "Narrenorden": "Karnaval Madalyaları",
 "Ordensfest": "Madalya Partisi",
 "11. November 2027": "11 Kasım 2027",
+"Korkenknall": "Mantar Patlaması",
 });
