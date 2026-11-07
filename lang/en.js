@@ -1772,4 +1772,6 @@ I18N.add('en', {
 "4. Dezember 2026": "4 December 2026",
 "Sternstunde": "Shining Hour",
 "Ballonfahrt": "Balloon Ride",
+"Wachsbatik": "Wax Batik",
+"Familie Novak": "The Novak Family",
 });

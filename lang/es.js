@@ -1772,4 +1772,6 @@ I18N.add('es', {
 "4. Dezember 2026": "4 de diciembre de 2026",
 "Sternstunde": "Momento estelar",
 "Ballonfahrt": "Viaje en globo",
+"Wachsbatik": "Batik de cera",
+"Familie Novak": "Familia Novak",
 });

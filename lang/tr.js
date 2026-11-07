@@ -1773,4 +1773,6 @@ I18N.add('tr', {
 "4. Dezember 2026": "4 Aralık 2026",
 "Sternstunde": "Yıldız Anı",
 "Ballonfahrt": "Balon Yolculuğu",
+"Wachsbatik": "Mum Batik",
+"Familie Novak": "Novak Ailesi",
 });

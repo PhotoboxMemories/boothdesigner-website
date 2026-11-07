@@ -1772,4 +1772,6 @@ I18N.add('fr', {
 "4. Dezember 2026": "4 décembre 2026",
 "Sternstunde": "Heure de gloire",
 "Ballonfahrt": "Voyage en montgolfière",
+"Wachsbatik": "Batik à la cire",
+"Familie Novak": "Famille Novak",
 });
