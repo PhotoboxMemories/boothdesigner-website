@@ -1771,4 +1771,5 @@ I18N.add('it', {
 "Klammer-Tanne": "Albero di graffette",
 "4. Dezember 2026": "4 dicembre 2026",
 "Sternstunde": "Momento magico",
+"Ballonfahrt": "Viaggio in mongolfiera",
 });

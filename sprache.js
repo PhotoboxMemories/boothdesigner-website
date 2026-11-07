@@ -27,7 +27,7 @@
   } else {
     lang = [q, saved].find((c) => c && I.CODES.includes(c)) || I.guess('en');
   }
-  window.I18N_V = '20261107-8'; // Version der Wörterbücher (lang/*.js?v=…) – bei Änderungen anheben
+  window.I18N_V = '20261107-9'; // Version der Wörterbücher (lang/*.js?v=…) – bei Änderungen anheben
 
   let title0 = null; // Titel im Browser-Tab (steht nicht im <body>, den i18n.js beobachtet)
   function apply() {

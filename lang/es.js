@@ -1771,4 +1771,5 @@ I18N.add('es', {
 "Klammer-Tanne": "Árbol de clips",
 "4. Dezember 2026": "4 de diciembre de 2026",
 "Sternstunde": "Momento estelar",
+"Ballonfahrt": "Viaje en globo",
 });

@@ -1771,4 +1771,5 @@ I18N.add('fr', {
 "Klammer-Tanne": "Sapin en trombones",
 "4. Dezember 2026": "4 décembre 2026",
 "Sternstunde": "Heure de gloire",
+"Ballonfahrt": "Voyage en montgolfière",
 });

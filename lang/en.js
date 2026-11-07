@@ -1771,4 +1771,5 @@ I18N.add('en', {
 "Klammer-Tanne": "Paper Clip Tree",
 "4. Dezember 2026": "4 December 2026",
 "Sternstunde": "Shining Hour",
+"Ballonfahrt": "Balloon Ride",
 });
