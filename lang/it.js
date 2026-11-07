@@ -1762,4 +1762,5 @@ I18N.add('it', {
 "Pusteblume": "Soffione",
 "Kleine Ida": "Piccola Ida",
 "BABYPARTY": "BABY SHOWER",
+"Lilienband": "Nastro di gigli",
 });

@@ -1762,4 +1762,5 @@ I18N.add('es', {
 "Pusteblume": "Diente de león",
 "Kleine Ida": "Pequeña Ida",
 "BABYPARTY": "BABY SHOWER",
+"Lilienband": "Cinta de lirios",
 });

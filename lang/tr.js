@@ -1763,4 +1763,5 @@ I18N.add('tr', {
 "Pusteblume": "Karahindiba",
 "Kleine Ida": "Minik Ida",
 "BABYPARTY": "BABY SHOWER",
+"Lilienband": "Zambak Şeridi",
 });

@@ -1762,4 +1762,5 @@ I18N.add('en', {
 "Pusteblume": "Dandelion",
 "Kleine Ida": "Little Ida",
 "BABYPARTY": "BABY SHOWER",
+"Lilienband": "Lily Ribbon",
 });

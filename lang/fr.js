@@ -1762,4 +1762,5 @@ I18N.add('fr', {
 "Pusteblume": "Pissenlit",
 "Kleine Ida": "Petite Ida",
 "BABYPARTY": "BABY SHOWER",
+"Lilienband": "Ruban de lys",
 });
