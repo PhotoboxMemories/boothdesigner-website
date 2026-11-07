@@ -1766,4 +1766,6 @@ I18N.add('fr', {
 "Eisbär-Spa": "Spa des ours polaires",
 "WINTERPARTY": "FÊTE D'HIVER",
 "Bärenstark": "Fort comme un ours",
+"Ballonmeer": "Mer de ballons",
+"Prost 2027": "Santé 2027",
 });

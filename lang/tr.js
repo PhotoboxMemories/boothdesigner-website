@@ -1767,4 +1767,6 @@ I18N.add('tr', {
 "Eisbär-Spa": "Kutup Ayısı Spa",
 "WINTERPARTY": "KIŞ PARTİSİ",
 "Bärenstark": "Ayı Gibi Güçlü",
+"Ballonmeer": "Balon Denizi",
+"Prost 2027": "Şerefe 2027",
 });

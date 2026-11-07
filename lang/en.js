@@ -1766,4 +1766,6 @@ I18N.add('en', {
 "Eisbär-Spa": "Polar Bear Spa",
 "WINTERPARTY": "WINTER PARTY",
 "Bärenstark": "Bear-y Strong",
+"Ballonmeer": "Balloon Sea",
+"Prost 2027": "Cheers 2027",
 });
