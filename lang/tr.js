@@ -1764,4 +1764,7 @@ I18N.add('tr', {
 "Kleine Ida": "Minik Ida",
 "BABYPARTY": "BABY SHOWER",
 "Lilienband": "Zambak Şeridi",
+"Eisbär-Spa": "Kutup Ayısı Spa",
+"WINTERPARTY": "KIŞ PARTİSİ",
+"Bärenstark": "Ayı Gibi Güçlü",
 });

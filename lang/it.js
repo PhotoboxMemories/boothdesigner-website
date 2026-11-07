@@ -1763,4 +1763,7 @@ I18N.add('it', {
 "Kleine Ida": "Piccola Ida",
 "BABYPARTY": "BABY SHOWER",
 "Lilienband": "Nastro di gigli",
+"Eisbär-Spa": "Spa degli orsi polari",
+"WINTERPARTY": "FESTA D'INVERNO",
+"Bärenstark": "Forte come un orso",
 });

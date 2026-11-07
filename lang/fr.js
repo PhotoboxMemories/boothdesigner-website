@@ -1763,4 +1763,7 @@ I18N.add('fr', {
 "Kleine Ida": "Petite Ida",
 "BABYPARTY": "BABY SHOWER",
 "Lilienband": "Ruban de lys",
+"Eisbär-Spa": "Spa des ours polaires",
+"WINTERPARTY": "FÊTE D'HIVER",
+"Bärenstark": "Fort comme un ours",
 });
