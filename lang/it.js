@@ -1768,4 +1768,6 @@ I18N.add('it', {
 "Bärenstark": "Forte come un orso",
 "Ballonmeer": "Mare di palloncini",
 "Prost 2027": "Cin cin 2027",
+"Klammer-Tanne": "Albero di graffette",
+"4. Dezember 2026": "4 dicembre 2026",
 });

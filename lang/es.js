@@ -1768,4 +1768,6 @@ I18N.add('es', {
 "Bärenstark": "Fuerte como un oso",
 "Ballonmeer": "Mar de globos",
 "Prost 2027": "Salud 2027",
+"Klammer-Tanne": "Árbol de clips",
+"4. Dezember 2026": "4 de diciembre de 2026",
 });

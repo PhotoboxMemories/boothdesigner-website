@@ -1768,4 +1768,6 @@ I18N.add('en', {
 "Bärenstark": "Bear-y Strong",
 "Ballonmeer": "Balloon Sea",
 "Prost 2027": "Cheers 2027",
+"Klammer-Tanne": "Paper Clip Tree",
+"4. Dezember 2026": "4 December 2026",
 });

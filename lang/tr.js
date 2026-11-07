@@ -1769,4 +1769,6 @@ I18N.add('tr', {
 "Bärenstark": "Ayı Gibi Güçlü",
 "Ballonmeer": "Balon Denizi",
 "Prost 2027": "Şerefe 2027",
+"Klammer-Tanne": "Ataş Çam",
+"4. Dezember 2026": "4 Aralık 2026",
 });

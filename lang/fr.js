@@ -1768,4 +1768,6 @@ I18N.add('fr', {
 "Bärenstark": "Fort comme un ours",
 "Ballonmeer": "Mer de ballons",
 "Prost 2027": "Santé 2027",
+"Klammer-Tanne": "Sapin en trombones",
+"4. Dezember 2026": "4 décembre 2026",
 });
