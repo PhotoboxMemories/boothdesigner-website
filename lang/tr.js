@@ -1760,4 +1760,7 @@ I18N.add('tr', {
 "Tuschnacht": "Tuş Gecesi",
 "Christrose": "Noel Gülü",
 "Familie Arendt": "Arendt Ailesi",
+"Pusteblume": "Karahindiba",
+"Kleine Ida": "Minik Ida",
+"BABYPARTY": "BABY SHOWER",
 });

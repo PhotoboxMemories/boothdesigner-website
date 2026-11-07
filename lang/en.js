@@ -1759,4 +1759,7 @@ I18N.add('en', {
 "Tuschnacht": "Fanfare Night",
 "Christrose": "Christmas Rose",
 "Familie Arendt": "The Arendt Family",
+"Pusteblume": "Dandelion",
+"Kleine Ida": "Little Ida",
+"BABYPARTY": "BABY SHOWER",
 });
