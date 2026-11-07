@@ -1770,4 +1770,5 @@ I18N.add('it', {
 "Prost 2027": "Cin cin 2027",
 "Klammer-Tanne": "Albero di graffette",
 "4. Dezember 2026": "4 dicembre 2026",
+"Sternstunde": "Momento magico",
 });

@@ -1770,4 +1770,5 @@ I18N.add('es', {
 "Prost 2027": "Salud 2027",
 "Klammer-Tanne": "Árbol de clips",
 "4. Dezember 2026": "4 de diciembre de 2026",
+"Sternstunde": "Momento estelar",
 });

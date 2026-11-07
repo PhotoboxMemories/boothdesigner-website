@@ -1770,4 +1770,5 @@ I18N.add('en', {
 "Prost 2027": "Cheers 2027",
 "Klammer-Tanne": "Paper Clip Tree",
 "4. Dezember 2026": "4 December 2026",
+"Sternstunde": "Shining Hour",
 });
