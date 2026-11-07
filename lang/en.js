@@ -1774,4 +1774,6 @@ I18N.add('en', {
 "Ballonfahrt": "Balloon Ride",
 "Wachsbatik": "Wax Batik",
 "Familie Novak": "The Novak Family",
+"Kabelsalat": "Tangled Lights",
+"Familie Berger": "The Berger Family",
 });

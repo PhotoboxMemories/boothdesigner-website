@@ -1774,4 +1774,6 @@ I18N.add('fr', {
 "Ballonfahrt": "Voyage en montgolfière",
 "Wachsbatik": "Batik à la cire",
 "Familie Novak": "Famille Novak",
+"Kabelsalat": "Guirlande emmêlée",
+"Familie Berger": "La famille Berger",
 });

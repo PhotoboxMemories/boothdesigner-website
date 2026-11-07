@@ -1774,4 +1774,6 @@ I18N.add('es', {
 "Ballonfahrt": "Viaje en globo",
 "Wachsbatik": "Batik de cera",
 "Familie Novak": "Familia Novak",
+"Kabelsalat": "Lío de luces",
+"Familie Berger": "Familia Berger",
 });

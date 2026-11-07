@@ -1775,4 +1775,6 @@ I18N.add('tr', {
 "Ballonfahrt": "Balon Yolculuğu",
 "Wachsbatik": "Mum Batik",
 "Familie Novak": "Novak Ailesi",
+"Kabelsalat": "Kablo Karmaşası",
+"Familie Berger": "Berger Ailesi",
 });
