@@ -1757,4 +1757,6 @@ I18N.add('it', {
 "3. September 2027": "3 settembre 2027",
 "Tusch": "Fanfara",
 "Tuschnacht": "Notte in fanfara",
+"Christrose": "Rosa di Natale",
+"Familie Arendt": "Famiglia Arendt",
 });

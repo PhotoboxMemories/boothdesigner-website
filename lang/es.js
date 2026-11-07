@@ -1757,4 +1757,6 @@ I18N.add('es', {
 "3. September 2027": "3 de septiembre de 2027",
 "Tusch": "Redoble",
 "Tuschnacht": "Noche de charanga",
+"Christrose": "Rosa de Navidad",
+"Familie Arendt": "Familia Arendt",
 });

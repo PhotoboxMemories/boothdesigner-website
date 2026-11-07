@@ -1758,4 +1758,6 @@ I18N.add('tr', {
 "3. September 2027": "3 Eylül 2027",
 "Tusch": "Tuş",
 "Tuschnacht": "Tuş Gecesi",
+"Christrose": "Noel Gülü",
+"Familie Arendt": "Arendt Ailesi",
 });
