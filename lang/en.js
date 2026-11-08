@@ -1779,4 +1779,5 @@ I18N.add('en', {
 "Ankertau": "Anchor Rope",
 "Lockenwickler": "Hair Rollers",
 "Lea sagt Ja": "Lea Says Yes",
+"Libelle": "Dragonfly",
 });

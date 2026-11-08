@@ -1780,4 +1780,5 @@ I18N.add('tr', {
 "Ankertau": "Çapa Halatı",
 "Lockenwickler": "Bigudiler",
 "Lea sagt Ja": "Lea Evet Diyor",
+"Libelle": "Yusufçuk",
 });

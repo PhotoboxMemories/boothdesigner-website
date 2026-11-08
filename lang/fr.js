@@ -1779,4 +1779,5 @@ I18N.add('fr', {
 "Ankertau": "Corde d’ancre",
 "Lockenwickler": "Bigoudis",
 "Lea sagt Ja": "Lea dit oui",
+"Libelle": "Libellule",
 });

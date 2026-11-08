@@ -1779,4 +1779,5 @@ I18N.add('it', {
 "Ankertau": "Cima d’ancora",
 "Lockenwickler": "Bigodini",
 "Lea sagt Ja": "Lea dice sì",
+"Libelle": "Libellula",
 });

@@ -1779,4 +1779,5 @@ I18N.add('es', {
 "Ankertau": "Cabo del ancla",
 "Lockenwickler": "Rulos",
 "Lea sagt Ja": "Lea dice sí",
+"Libelle": "Libélula",
 });
