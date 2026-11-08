@@ -1777,4 +1777,5 @@ I18N.add('tr', {
 "Familie Novak": "Novak Ailesi",
 "Kabelsalat": "Kablo Karmaşası",
 "Familie Berger": "Berger Ailesi",
+"Ankertau": "Çapa Halatı",
 });

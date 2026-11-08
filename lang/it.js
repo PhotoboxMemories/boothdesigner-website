@@ -1776,4 +1776,5 @@ I18N.add('it', {
 "Familie Novak": "Famiglia Novak",
 "Kabelsalat": "Groviglio di luci",
 "Familie Berger": "Famiglia Berger",
+"Ankertau": "Cima d’ancora",
 });

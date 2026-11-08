@@ -1776,4 +1776,5 @@ I18N.add('es', {
 "Familie Novak": "Familia Novak",
 "Kabelsalat": "Lío de luces",
 "Familie Berger": "Familia Berger",
+"Ankertau": "Cabo del ancla",
 });

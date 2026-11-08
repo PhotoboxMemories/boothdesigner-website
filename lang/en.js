@@ -1776,4 +1776,5 @@ I18N.add('en', {
 "Familie Novak": "The Novak Family",
 "Kabelsalat": "Tangled Lights",
 "Familie Berger": "The Berger Family",
+"Ankertau": "Anchor Rope",
 });
