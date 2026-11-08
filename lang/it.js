@@ -1780,4 +1780,6 @@ I18N.add('it', {
 "Lockenwickler": "Bigodini",
 "Lea sagt Ja": "Lea dice sì",
 "Libelle": "Libellula",
+"Eulenklasse": "Classe dei gufi",
+"4. September 2027": "4 settembre 2027",
 });

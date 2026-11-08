@@ -1780,4 +1780,6 @@ I18N.add('en', {
 "Lockenwickler": "Hair Rollers",
 "Lea sagt Ja": "Lea Says Yes",
 "Libelle": "Dragonfly",
+"Eulenklasse": "Owl Class",
+"4. September 2027": "4 September 2027",
 });

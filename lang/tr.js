@@ -1781,4 +1781,6 @@ I18N.add('tr', {
 "Lockenwickler": "Bigudiler",
 "Lea sagt Ja": "Lea Evet Diyor",
 "Libelle": "Yusufçuk",
+"Eulenklasse": "Baykuş Sınıfı",
+"4. September 2027": "4 Eylül 2027",
 });
