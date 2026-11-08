@@ -1801,4 +1801,6 @@ I18N.add('fr', {
 "13. März 2027": "13 mars 2027",
 "Glaslichter": "Lueurs de verre",
 "Buntstiftzaun": "Clôture de crayons",
+"Eierbecher": "Coquetiers",
+"Osterfest": "Fête de Pâques",
 });

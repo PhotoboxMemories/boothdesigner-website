@@ -1801,4 +1801,6 @@ I18N.add('en', {
 "13. März 2027": "13 March 2027",
 "Glaslichter": "Glass Lights",
 "Buntstiftzaun": "Pencil Fence",
+"Eierbecher": "Egg Cups",
+"Osterfest": "Easter Party",
 });

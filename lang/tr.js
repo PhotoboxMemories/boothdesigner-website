@@ -1802,4 +1802,6 @@ I18N.add('tr', {
 "13. März 2027": "13 Mart 2027",
 "Glaslichter": "Cam Fenerler",
 "Buntstiftzaun": "Kuru Boya Çiti",
+"Eierbecher": "Yumurtalıklar",
+"Osterfest": "Paskalya Şenliği",
 });

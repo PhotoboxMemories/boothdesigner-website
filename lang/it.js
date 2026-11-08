@@ -1801,4 +1801,6 @@ I18N.add('it', {
 "13. März 2027": "13 marzo 2027",
 "Glaslichter": "Luci di vetro",
 "Buntstiftzaun": "Staccionata di matite",
+"Eierbecher": "Portauova",
+"Osterfest": "Festa di Pasqua",
 });

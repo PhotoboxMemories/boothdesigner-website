@@ -1801,4 +1801,6 @@ I18N.add('es', {
 "13. März 2027": "13 de marzo de 2027",
 "Glaslichter": "Luces de cristal",
 "Buntstiftzaun": "Valla de lápices",
+"Eierbecher": "Hueveras",
+"Osterfest": "Fiesta de Pascua",
 });
