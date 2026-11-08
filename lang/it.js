@@ -1784,4 +1784,5 @@ I18N.add('it', {
 "4. September 2027": "4 settembre 2027",
 "Casinoabend": "Serata casinò",
 "CASINOABEND 2026": "SERATA CASINÒ 2026",
+"Dackelzug": "Sfilata di bassotti",
 });

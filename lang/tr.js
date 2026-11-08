@@ -1785,4 +1785,5 @@ I18N.add('tr', {
 "4. September 2027": "4 Eylül 2027",
 "Casinoabend": "Kumarhane Gecesi",
 "CASINOABEND 2026": "KUMARHANE GECESİ 2026",
+"Dackelzug": "Sosis Köpek Geçidi",
 });

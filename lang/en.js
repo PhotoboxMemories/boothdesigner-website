@@ -1784,4 +1784,5 @@ I18N.add('en', {
 "4. September 2027": "4 September 2027",
 "Casinoabend": "Casino Night",
 "CASINOABEND 2026": "CASINO NIGHT 2026",
+"Dackelzug": "Dachshund Parade",
 });

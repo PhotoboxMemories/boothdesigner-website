@@ -1784,4 +1784,5 @@ I18N.add('es', {
 "4. September 2027": "4 de septiembre de 2027",
 "Casinoabend": "Noche de casino",
 "CASINOABEND 2026": "NOCHE DE CASINO 2026",
+"Dackelzug": "Desfile de perros salchicha",
 });
