@@ -1806,4 +1806,5 @@ I18N.add('tr', {
 "Osterfest": "Paskalya Şenliği",
 "Raclette-Sause": "Raclette Eğlencesi",
 "Käseparty": "Peynir Partisi",
+"Bauhaus-Weihnacht": "Bauhaus Noeli",
 });

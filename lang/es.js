@@ -1805,4 +1805,5 @@ I18N.add('es', {
 "Osterfest": "Fiesta de Pascua",
 "Raclette-Sause": "Fiesta raclette",
 "Käseparty": "Fiesta del queso",
+"Bauhaus-Weihnacht": "Navidad Bauhaus",
 });
