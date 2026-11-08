@@ -1799,4 +1799,5 @@ I18N.add('it', {
 "Dino-Trauung": "Nozze dei dinosauri",
 "Paul wird 50": "Paul compie 50 anni",
 "13. März 2027": "13 marzo 2027",
+"Glaslichter": "Luci di vetro",
 });
