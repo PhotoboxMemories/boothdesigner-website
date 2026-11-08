@@ -1782,4 +1782,6 @@ I18N.add('it', {
 "Libelle": "Libellula",
 "Eulenklasse": "Classe dei gufi",
 "4. September 2027": "4 settembre 2027",
+"Casinoabend": "Serata casinò",
+"CASINOABEND 2026": "SERATA CASINÒ 2026",
 });
