@@ -1803,4 +1803,6 @@ I18N.add('es', {
 "Buntstiftzaun": "Valla de lápices",
 "Eierbecher": "Hueveras",
 "Osterfest": "Fiesta de Pascua",
+"Raclette-Sause": "Fiesta raclette",
+"Käseparty": "Fiesta del queso",
 });

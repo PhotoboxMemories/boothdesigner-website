@@ -1804,4 +1804,6 @@ I18N.add('tr', {
 "Buntstiftzaun": "Kuru Boya Çiti",
 "Eierbecher": "Yumurtalıklar",
 "Osterfest": "Paskalya Şenliği",
+"Raclette-Sause": "Raclette Eğlencesi",
+"Käseparty": "Peynir Partisi",
 });
