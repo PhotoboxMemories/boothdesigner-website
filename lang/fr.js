@@ -1777,4 +1777,6 @@ I18N.add('fr', {
 "Kabelsalat": "Guirlande emmêlée",
 "Familie Berger": "La famille Berger",
 "Ankertau": "Corde d’ancre",
+"Lockenwickler": "Bigoudis",
+"Lea sagt Ja": "Lea dit oui",
 });

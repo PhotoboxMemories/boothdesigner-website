@@ -1777,4 +1777,6 @@ I18N.add('it', {
 "Kabelsalat": "Groviglio di luci",
 "Familie Berger": "Famiglia Berger",
 "Ankertau": "Cima d’ancora",
+"Lockenwickler": "Bigodini",
+"Lea sagt Ja": "Lea dice sì",
 });

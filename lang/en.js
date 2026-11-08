@@ -1777,4 +1777,6 @@ I18N.add('en', {
 "Kabelsalat": "Tangled Lights",
 "Familie Berger": "The Berger Family",
 "Ankertau": "Anchor Rope",
+"Lockenwickler": "Hair Rollers",
+"Lea sagt Ja": "Lea Says Yes",
 });

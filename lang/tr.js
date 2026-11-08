@@ -1778,4 +1778,6 @@ I18N.add('tr', {
 "Kabelsalat": "Kablo Karmaşası",
 "Familie Berger": "Berger Ailesi",
 "Ankertau": "Çapa Halatı",
+"Lockenwickler": "Bigudiler",
+"Lea sagt Ja": "Lea Evet Diyor",
 });

@@ -1777,4 +1777,6 @@ I18N.add('es', {
 "Kabelsalat": "Lío de luces",
 "Familie Berger": "Familia Berger",
 "Ankertau": "Cabo del ancla",
+"Lockenwickler": "Rulos",
+"Lea sagt Ja": "Lea dice sí",
 });
