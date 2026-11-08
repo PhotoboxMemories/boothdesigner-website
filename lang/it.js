@@ -1794,4 +1794,6 @@ I18N.add('it', {
 "Rotkehlchen": "Pettirosso",
 "Lichterabend": "Serata delle luci",
 "29. Januar 2027": "29 gennaio 2027",
+"Kobalt-Kringel": "Riccioli cobalto",
+"Partynacht 2027": "Notte di festa 2027",
 });

@@ -1795,4 +1795,6 @@ I18N.add('tr', {
 "Rotkehlchen": "Kızılgerdan",
 "Lichterabend": "Işıklar Akşamı",
 "29. Januar 2027": "29 Ocak 2027",
+"Kobalt-Kringel": "Kobalt Kıvrımlar",
+"Partynacht 2027": "Parti Gecesi 2027",
 });

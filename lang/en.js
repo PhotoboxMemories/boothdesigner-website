@@ -1794,4 +1794,6 @@ I18N.add('en', {
 "Rotkehlchen": "Robin",
 "Lichterabend": "Evening of Lights",
 "29. Januar 2027": "29 January 2027",
+"Kobalt-Kringel": "Cobalt Curls",
+"Partynacht 2027": "Party Night 2027",
 });

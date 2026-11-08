@@ -1794,4 +1794,6 @@ I18N.add('fr', {
 "Rotkehlchen": "Rouge-gorge",
 "Lichterabend": "Soirée des lumières",
 "29. Januar 2027": "29 janvier 2027",
+"Kobalt-Kringel": "Serpentins cobalt",
+"Partynacht 2027": "Soirée 2027",
 });
