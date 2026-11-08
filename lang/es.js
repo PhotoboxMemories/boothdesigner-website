@@ -1808,4 +1808,5 @@ I18N.add('es', {
 "Bauhaus-Weihnacht": "Navidad Bauhaus",
 "Glühwürmchen": "Luciérnagas",
 "Sommerabend": "Noche de verano",
+"Scherenschnitt": "Papel recortado",
 });

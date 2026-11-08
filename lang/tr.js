@@ -1809,4 +1809,5 @@ I18N.add('tr', {
 "Bauhaus-Weihnacht": "Bauhaus Noeli",
 "Glühwürmchen": "Ateş Böcekleri",
 "Sommerabend": "Yaz Akşamı",
+"Scherenschnitt": "Kâğıt Kesme",
 });

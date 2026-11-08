@@ -1808,4 +1808,5 @@ I18N.add('en', {
 "Bauhaus-Weihnacht": "Bauhaus Christmas",
 "Glühwürmchen": "Fireflies",
 "Sommerabend": "Summer Evening",
+"Scherenschnitt": "Paper Cut",
 });

@@ -1808,4 +1808,5 @@ I18N.add('fr', {
 "Bauhaus-Weihnacht": "Noël Bauhaus",
 "Glühwürmchen": "Lucioles",
 "Sommerabend": "Soirée d’été",
+"Scherenschnitt": "Papier découpé",
 });
