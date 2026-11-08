@@ -1786,4 +1786,7 @@ I18N.add('tr', {
 "Casinoabend": "Kumarhane Gecesi",
 "CASINOABEND 2026": "KUMARHANE GECESİ 2026",
 "Dackelzug": "Sosis Köpek Geçidi",
+"Silberblatt": "Gümüş Yaprak",
+"Faultier-Abi": "Tembel Hayvan Mezuniyeti",
+"ENDLICH GESCHAFFT": "SONUNDA BİTTİ",
 });

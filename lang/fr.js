@@ -1785,4 +1785,7 @@ I18N.add('fr', {
 "Casinoabend": "Soirée casino",
 "CASINOABEND 2026": "SOIRÉE CASINO 2026",
 "Dackelzug": "Défilé des teckels",
+"Silberblatt": "Monnaie-du-pape",
+"Faultier-Abi": "Bac des paresseux",
+"ENDLICH GESCHAFFT": "ENFIN TERMINÉ",
 });

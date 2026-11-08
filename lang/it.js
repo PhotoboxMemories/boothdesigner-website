@@ -1785,4 +1785,7 @@ I18N.add('it', {
 "Casinoabend": "Serata casinò",
 "CASINOABEND 2026": "SERATA CASINÒ 2026",
 "Dackelzug": "Sfilata di bassotti",
+"Silberblatt": "Foglia d'argento",
+"Faultier-Abi": "Diploma bradipo",
+"ENDLICH GESCHAFFT": "FINALMENTE FATTO",
 });

@@ -1785,4 +1785,7 @@ I18N.add('en', {
 "Casinoabend": "Casino Night",
 "CASINOABEND 2026": "CASINO NIGHT 2026",
 "Dackelzug": "Dachshund Parade",
+"Silberblatt": "Silver Leaf",
+"Faultier-Abi": "Sloth Graduation",
+"ENDLICH GESCHAFFT": "FINALLY DONE",
 });

@@ -1785,4 +1785,7 @@ I18N.add('es', {
 "Casinoabend": "Noche de casino",
 "CASINOABEND 2026": "NOCHE DE CASINO 2026",
 "Dackelzug": "Desfile de perros salchicha",
+"Silberblatt": "Hoja de plata",
+"Faultier-Abi": "Graduación perezosa",
+"ENDLICH GESCHAFFT": "¡POR FIN LO LOGRAMOS!",
 });
