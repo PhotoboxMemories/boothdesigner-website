@@ -1791,4 +1791,7 @@ I18N.add('es', {
 "Gänseblümchen": "Margaritas",
 "Pilzwiese": "Prado de setas",
 "14. März 2027": "14 de marzo de 2027",
+"Rotkehlchen": "Petirrojo",
+"Lichterabend": "Noche de luces",
+"29. Januar 2027": "29 de enero de 2027",
 });

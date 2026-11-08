@@ -1791,4 +1791,7 @@ I18N.add('it', {
 "Gänseblümchen": "Margherite",
 "Pilzwiese": "Prato di funghi",
 "14. März 2027": "14 marzo 2027",
+"Rotkehlchen": "Pettirosso",
+"Lichterabend": "Serata delle luci",
+"29. Januar 2027": "29 gennaio 2027",
 });

@@ -1792,4 +1792,7 @@ I18N.add('tr', {
 "Gänseblümchen": "Papatyalar",
 "Pilzwiese": "Mantar Çayırı",
 "14. März 2027": "14 Mart 2027",
+"Rotkehlchen": "Kızılgerdan",
+"Lichterabend": "Işıklar Akşamı",
+"29. Januar 2027": "29 Ocak 2027",
 });

@@ -1791,4 +1791,7 @@ I18N.add('fr', {
 "Gänseblümchen": "Pâquerettes",
 "Pilzwiese": "Prairie aux champignons",
 "14. März 2027": "14 mars 2027",
+"Rotkehlchen": "Rouge-gorge",
+"Lichterabend": "Soirée des lumières",
+"29. Januar 2027": "29 janvier 2027",
 });

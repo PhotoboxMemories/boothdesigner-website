@@ -1791,4 +1791,7 @@ I18N.add('en', {
 "Gänseblümchen": "Daisies",
 "Pilzwiese": "Mushroom Meadow",
 "14. März 2027": "14 March 2027",
+"Rotkehlchen": "Robin",
+"Lichterabend": "Evening of Lights",
+"29. Januar 2027": "29 January 2027",
 });
