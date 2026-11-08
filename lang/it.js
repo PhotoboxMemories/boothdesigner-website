@@ -1789,4 +1789,6 @@ I18N.add('it', {
 "Faultier-Abi": "Diploma bradipo",
 "ENDLICH GESCHAFFT": "FINALMENTE FATTO",
 "Gänseblümchen": "Margherite",
+"Pilzwiese": "Prato di funghi",
+"14. März 2027": "14 marzo 2027",
 });

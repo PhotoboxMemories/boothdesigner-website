@@ -1789,4 +1789,6 @@ I18N.add('es', {
 "Faultier-Abi": "Graduación perezosa",
 "ENDLICH GESCHAFFT": "¡POR FIN LO LOGRAMOS!",
 "Gänseblümchen": "Margaritas",
+"Pilzwiese": "Prado de setas",
+"14. März 2027": "14 de marzo de 2027",
 });

@@ -1790,4 +1790,6 @@ I18N.add('tr', {
 "Faultier-Abi": "Tembel Hayvan Mezuniyeti",
 "ENDLICH GESCHAFFT": "SONUNDA BİTTİ",
 "Gänseblümchen": "Papatyalar",
+"Pilzwiese": "Mantar Çayırı",
+"14. März 2027": "14 Mart 2027",
 });

@@ -1789,4 +1789,6 @@ I18N.add('fr', {
 "Faultier-Abi": "Bac des paresseux",
 "ENDLICH GESCHAFFT": "ENFIN TERMINÉ",
 "Gänseblümchen": "Pâquerettes",
+"Pilzwiese": "Prairie aux champignons",
+"14. März 2027": "14 mars 2027",
 });

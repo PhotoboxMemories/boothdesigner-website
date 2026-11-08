@@ -1789,4 +1789,6 @@ I18N.add('en', {
 "Faultier-Abi": "Sloth Graduation",
 "ENDLICH GESCHAFFT": "FINALLY DONE",
 "Gänseblümchen": "Daisies",
+"Pilzwiese": "Mushroom Meadow",
+"14. März 2027": "14 March 2027",
 });
