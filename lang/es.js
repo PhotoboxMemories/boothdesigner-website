@@ -1800,4 +1800,5 @@ I18N.add('es', {
 "Paul wird 50": "Paul cumple 50",
 "13. März 2027": "13 de marzo de 2027",
 "Glaslichter": "Luces de cristal",
+"Buntstiftzaun": "Valla de lápices",
 });

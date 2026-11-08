@@ -1801,4 +1801,5 @@ I18N.add('tr', {
 "Paul wird 50": "Paul 50 yaşında",
 "13. März 2027": "13 Mart 2027",
 "Glaslichter": "Cam Fenerler",
+"Buntstiftzaun": "Kuru Boya Çiti",
 });
