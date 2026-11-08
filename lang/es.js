@@ -1796,4 +1796,5 @@ I18N.add('es', {
 "29. Januar 2027": "29 de enero de 2027",
 "Kobalt-Kringel": "Rizos cobalto",
 "Partynacht 2027": "Noche de fiesta 2027",
+"Dino-Trauung": "Boda de dinos",
 });

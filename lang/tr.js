@@ -1797,4 +1797,5 @@ I18N.add('tr', {
 "29. Januar 2027": "29 Ocak 2027",
 "Kobalt-Kringel": "Kobalt Kıvrımlar",
 "Partynacht 2027": "Parti Gecesi 2027",
+"Dino-Trauung": "Dino Düğünü",
 });

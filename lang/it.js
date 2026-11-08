@@ -1796,4 +1796,5 @@ I18N.add('it', {
 "29. Januar 2027": "29 gennaio 2027",
 "Kobalt-Kringel": "Riccioli cobalto",
 "Partynacht 2027": "Notte di festa 2027",
+"Dino-Trauung": "Nozze dei dinosauri",
 });
