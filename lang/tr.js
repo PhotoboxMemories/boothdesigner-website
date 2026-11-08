@@ -1807,4 +1807,6 @@ I18N.add('tr', {
 "Raclette-Sause": "Raclette Eğlencesi",
 "Käseparty": "Peynir Partisi",
 "Bauhaus-Weihnacht": "Bauhaus Noeli",
+"Glühwürmchen": "Ateş Böcekleri",
+"Sommerabend": "Yaz Akşamı",
 });

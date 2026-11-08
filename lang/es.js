@@ -1806,4 +1806,6 @@ I18N.add('es', {
 "Raclette-Sause": "Fiesta raclette",
 "Käseparty": "Fiesta del queso",
 "Bauhaus-Weihnacht": "Navidad Bauhaus",
+"Glühwürmchen": "Luciérnagas",
+"Sommerabend": "Noche de verano",
 });
