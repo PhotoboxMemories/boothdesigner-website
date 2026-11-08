@@ -1798,4 +1798,6 @@ I18N.add('tr', {
 "Kobalt-Kringel": "Kobalt Kıvrımlar",
 "Partynacht 2027": "Parti Gecesi 2027",
 "Dino-Trauung": "Dino Düğünü",
+"Paul wird 50": "Paul 50 yaşında",
+"13. März 2027": "13 Mart 2027",
 });

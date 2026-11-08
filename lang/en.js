@@ -1797,4 +1797,6 @@ I18N.add('en', {
 "Kobalt-Kringel": "Cobalt Curls",
 "Partynacht 2027": "Party Night 2027",
 "Dino-Trauung": "Dino Wedding",
+"Paul wird 50": "Paul turns 50",
+"13. März 2027": "13 March 2027",
 });

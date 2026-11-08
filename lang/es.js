@@ -1797,4 +1797,6 @@ I18N.add('es', {
 "Kobalt-Kringel": "Rizos cobalto",
 "Partynacht 2027": "Noche de fiesta 2027",
 "Dino-Trauung": "Boda de dinos",
+"Paul wird 50": "Paul cumple 50",
+"13. März 2027": "13 de marzo de 2027",
 });
