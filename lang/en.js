@@ -1788,4 +1788,5 @@ I18N.add('en', {
 "Silberblatt": "Silver Leaf",
 "Faultier-Abi": "Sloth Graduation",
 "ENDLICH GESCHAFFT": "FINALLY DONE",
+"Gänseblümchen": "Daisies",
 });

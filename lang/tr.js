@@ -1789,4 +1789,5 @@ I18N.add('tr', {
 "Silberblatt": "Gümüş Yaprak",
 "Faultier-Abi": "Tembel Hayvan Mezuniyeti",
 "ENDLICH GESCHAFFT": "SONUNDA BİTTİ",
+"Gänseblümchen": "Papatyalar",
 });

@@ -1788,4 +1788,5 @@ I18N.add('fr', {
 "Silberblatt": "Monnaie-du-pape",
 "Faultier-Abi": "Bac des paresseux",
 "ENDLICH GESCHAFFT": "ENFIN TERMINÉ",
+"Gänseblümchen": "Pâquerettes",
 });

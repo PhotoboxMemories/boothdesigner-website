@@ -1788,4 +1788,5 @@ I18N.add('es', {
 "Silberblatt": "Hoja de plata",
 "Faultier-Abi": "Graduación perezosa",
 "ENDLICH GESCHAFFT": "¡POR FIN LO LOGRAMOS!",
+"Gänseblümchen": "Margaritas",
 });

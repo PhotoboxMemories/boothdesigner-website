@@ -1788,4 +1788,5 @@ I18N.add('it', {
 "Silberblatt": "Foglia d'argento",
 "Faultier-Abi": "Diploma bradipo",
 "ENDLICH GESCHAFFT": "FINALMENTE FATTO",
+"Gänseblümchen": "Margherite",
 });
