@@ -1812,4 +1812,7 @@ I18N.add('tr', {
 "Scherenschnitt": "Kâğıt Kesme",
 "Pyjamaparty": "Pijama Partisi",
 "Mia sagt Ja": "Mia evet diyor",
+"Kuhstrand": "İnek Plajı",
+"Seidenband": "İpek Kurdele",
+"Strandparty": "Plaj Partisi",
 });

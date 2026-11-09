@@ -1811,4 +1811,7 @@ I18N.add('it', {
 "Scherenschnitt": "Carta intagliata",
 "Pyjamaparty": "Pigiama party",
 "Mia sagt Ja": "Mia dice sì",
+"Kuhstrand": "Spiaggia delle mucche",
+"Seidenband": "Nastro di seta",
+"Strandparty": "Festa in spiaggia",
 });

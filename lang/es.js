@@ -1811,4 +1811,7 @@ I18N.add('es', {
 "Scherenschnitt": "Papel recortado",
 "Pyjamaparty": "Fiesta de pijamas",
 "Mia sagt Ja": "Mia dice sí",
+"Kuhstrand": "Playa de vacas",
+"Seidenband": "Cinta de seda",
+"Strandparty": "Fiesta en la playa",
 });

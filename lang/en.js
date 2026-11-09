@@ -1811,4 +1811,7 @@ I18N.add('en', {
 "Scherenschnitt": "Paper Cut",
 "Pyjamaparty": "Pajama Party",
 "Mia sagt Ja": "Mia Says Yes",
+"Kuhstrand": "Cow Beach",
+"Seidenband": "Silk Ribbon",
+"Strandparty": "Beach Party",
 });
