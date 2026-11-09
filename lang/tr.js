@@ -1810,4 +1810,6 @@ I18N.add('tr', {
 "Glühwürmchen": "Ateş Böcekleri",
 "Sommerabend": "Yaz Akşamı",
 "Scherenschnitt": "Kâğıt Kesme",
+"Pyjamaparty": "Pijama Partisi",
+"Mia sagt Ja": "Mia evet diyor",
 });

@@ -1809,4 +1809,6 @@ I18N.add('en', {
 "Glühwürmchen": "Fireflies",
 "Sommerabend": "Summer Evening",
 "Scherenschnitt": "Paper Cut",
+"Pyjamaparty": "Pajama Party",
+"Mia sagt Ja": "Mia Says Yes",
 });

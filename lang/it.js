@@ -1809,4 +1809,6 @@ I18N.add('it', {
 "Glühwürmchen": "Lucciole",
 "Sommerabend": "Serata estiva",
 "Scherenschnitt": "Carta intagliata",
+"Pyjamaparty": "Pigiama party",
+"Mia sagt Ja": "Mia dice sì",
 });
