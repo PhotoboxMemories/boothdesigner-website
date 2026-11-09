@@ -1822,4 +1822,5 @@ I18N.add('en', {
 "Fuchsschlau": "Clever Fox",
 "Ginkgoblatt": "Ginkgo Leaf",
 "Dino-Nest": "Dino Nest",
+"Kufenzauber": "Ice Skate Magic",
 });

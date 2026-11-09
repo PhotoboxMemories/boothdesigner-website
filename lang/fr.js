@@ -1822,4 +1822,5 @@ I18N.add('fr', {
 "Fuchsschlau": "Malin comme un renard",
 "Ginkgoblatt": "Feuille de ginkgo",
 "Dino-Nest": "Nid de dinos",
+"Kufenzauber": "Magie des patins",
 });

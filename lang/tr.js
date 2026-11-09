@@ -1823,4 +1823,5 @@ I18N.add('tr', {
 "Fuchsschlau": "Akıllı Tilki",
 "Ginkgoblatt": "Ginkgo Yaprağı",
 "Dino-Nest": "Dinozor Yuvası",
+"Kufenzauber": "Paten Büyüsü",
 });

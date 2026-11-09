@@ -1822,4 +1822,5 @@ I18N.add('it', {
 "Fuchsschlau": "Furbo come una volpe",
 "Ginkgoblatt": "Foglia di ginkgo",
 "Dino-Nest": "Nido di dinosauri",
+"Kufenzauber": "Magia dei pattini",
 });
