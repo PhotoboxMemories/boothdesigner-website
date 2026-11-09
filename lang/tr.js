@@ -1815,4 +1815,6 @@ I18N.add('tr', {
 "Kuhstrand": "İnek Plajı",
 "Seidenband": "İpek Kurdele",
 "Strandparty": "Plaj Partisi",
+"Narrenkappen": "Soytarı Şapkaları",
+"11. November 2026": "11 Kasım 2026",
 });

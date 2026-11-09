@@ -1814,4 +1814,6 @@ I18N.add('es', {
 "Kuhstrand": "Playa de vacas",
 "Seidenband": "Cinta de seda",
 "Strandparty": "Fiesta en la playa",
+"Narrenkappen": "Gorros de bufón",
+"11. November 2026": "11 de noviembre de 2026",
 });

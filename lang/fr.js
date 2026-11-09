@@ -1814,4 +1814,6 @@ I18N.add('fr', {
 "Kuhstrand": "Plage des vaches",
 "Seidenband": "Ruban de soie",
 "Strandparty": "Fête à la plage",
+"Narrenkappen": "Bonnets de bouffon",
+"11. November 2026": "11 novembre 2026",
 });

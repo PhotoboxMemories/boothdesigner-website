@@ -1814,4 +1814,6 @@ I18N.add('it', {
 "Kuhstrand": "Spiaggia delle mucche",
 "Seidenband": "Nastro di seta",
 "Strandparty": "Festa in spiaggia",
+"Narrenkappen": "Cappelli da giullare",
+"11. November 2026": "11 novembre 2026",
 });

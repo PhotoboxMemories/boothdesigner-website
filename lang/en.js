@@ -1814,4 +1814,6 @@ I18N.add('en', {
 "Kuhstrand": "Cow Beach",
 "Seidenband": "Silk Ribbon",
 "Strandparty": "Beach Party",
+"Narrenkappen": "Jester Caps",
+"11. November 2026": "11 November 2026",
 });
