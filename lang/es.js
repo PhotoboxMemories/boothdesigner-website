@@ -1820,4 +1820,5 @@ I18N.add('es', {
 "Geschafft!": "¡Lo logramos!",
 "Eierlei": "Huevos a montones",
 "Fuchsschlau": "Listo como un zorro",
+"Ginkgoblatt": "Hoja de ginkgo",
 });

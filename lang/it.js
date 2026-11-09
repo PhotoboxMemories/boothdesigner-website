@@ -1820,4 +1820,5 @@ I18N.add('it', {
 "Geschafft!": "Ce l’abbiamo fatta!",
 "Eierlei": "Uova a volontà",
 "Fuchsschlau": "Furbo come una volpe",
+"Ginkgoblatt": "Foglia di ginkgo",
 });

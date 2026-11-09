@@ -1821,4 +1821,5 @@ I18N.add('tr', {
 "Geschafft!": "Başardık!",
 "Eierlei": "Yumurta Karnavalı",
 "Fuchsschlau": "Akıllı Tilki",
+"Ginkgoblatt": "Ginkgo Yaprağı",
 });

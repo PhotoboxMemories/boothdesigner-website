@@ -1820,4 +1820,5 @@ I18N.add('en', {
 "Geschafft!": "Made It!",
 "Eierlei": "Egg Medley",
 "Fuchsschlau": "Clever Fox",
+"Ginkgoblatt": "Ginkgo Leaf",
 });

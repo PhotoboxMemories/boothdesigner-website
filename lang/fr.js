@@ -1820,4 +1820,5 @@ I18N.add('fr', {
 "Geschafft!": "On l’a fait !",
 "Eierlei": "Œufs en folie",
 "Fuchsschlau": "Malin comme un renard",
+"Ginkgoblatt": "Feuille de ginkgo",
 });
