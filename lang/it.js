@@ -1821,4 +1821,5 @@ I18N.add('it', {
 "Eierlei": "Uova a volontà",
 "Fuchsschlau": "Furbo come una volpe",
 "Ginkgoblatt": "Foglia di ginkgo",
+"Dino-Nest": "Nido di dinosauri",
 });

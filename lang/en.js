@@ -1821,4 +1821,5 @@ I18N.add('en', {
 "Eierlei": "Egg Medley",
 "Fuchsschlau": "Clever Fox",
 "Ginkgoblatt": "Ginkgo Leaf",
+"Dino-Nest": "Dino Nest",
 });

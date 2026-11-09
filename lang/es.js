@@ -1821,4 +1821,5 @@ I18N.add('es', {
 "Eierlei": "Huevos a montones",
 "Fuchsschlau": "Listo como un zorro",
 "Ginkgoblatt": "Hoja de ginkgo",
+"Dino-Nest": "Nido de dinos",
 });

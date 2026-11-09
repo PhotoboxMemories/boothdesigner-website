@@ -1822,4 +1822,5 @@ I18N.add('tr', {
 "Eierlei": "Yumurta Karnavalı",
 "Fuchsschlau": "Akıllı Tilki",
 "Ginkgoblatt": "Ginkgo Yaprağı",
+"Dino-Nest": "Dinozor Yuvası",
 });
