@@ -1818,4 +1818,5 @@ I18N.add('en', {
 "11. November 2026": "11 November 2026",
 "Punktlandung": "Spot On",
 "Geschafft!": "Made It!",
+"Eierlei": "Egg Medley",
 });

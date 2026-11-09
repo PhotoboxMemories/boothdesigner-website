@@ -1818,4 +1818,5 @@ I18N.add('it', {
 "11. November 2026": "11 novembre 2026",
 "Punktlandung": "Centro perfetto",
 "Geschafft!": "Ce l’abbiamo fatta!",
+"Eierlei": "Uova a volontà",
 });

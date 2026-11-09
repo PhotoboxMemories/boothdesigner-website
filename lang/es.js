@@ -1818,4 +1818,5 @@ I18N.add('es', {
 "11. November 2026": "11 de noviembre de 2026",
 "Punktlandung": "En el clavo",
 "Geschafft!": "¡Lo logramos!",
+"Eierlei": "Huevos a montones",
 });
