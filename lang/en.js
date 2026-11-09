@@ -1819,4 +1819,5 @@ I18N.add('en', {
 "Punktlandung": "Spot On",
 "Geschafft!": "Made It!",
 "Eierlei": "Egg Medley",
+"Fuchsschlau": "Clever Fox",
 });

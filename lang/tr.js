@@ -1820,4 +1820,5 @@ I18N.add('tr', {
 "Punktlandung": "Tam İsabet",
 "Geschafft!": "Başardık!",
 "Eierlei": "Yumurta Karnavalı",
+"Fuchsschlau": "Akıllı Tilki",
 });

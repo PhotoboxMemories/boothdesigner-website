@@ -1819,4 +1819,5 @@ I18N.add('es', {
 "Punktlandung": "En el clavo",
 "Geschafft!": "¡Lo logramos!",
 "Eierlei": "Huevos a montones",
+"Fuchsschlau": "Listo como un zorro",
 });

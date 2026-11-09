@@ -1819,4 +1819,5 @@ I18N.add('fr', {
 "Punktlandung": "Pile dans le mille",
 "Geschafft!": "On l’a fait !",
 "Eierlei": "Œufs en folie",
+"Fuchsschlau": "Malin comme un renard",
 });

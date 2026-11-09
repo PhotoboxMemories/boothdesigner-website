@@ -1819,4 +1819,5 @@ I18N.add('it', {
 "Punktlandung": "Centro perfetto",
 "Geschafft!": "Ce l’abbiamo fatta!",
 "Eierlei": "Uova a volontà",
+"Fuchsschlau": "Furbo come una volpe",
 });
