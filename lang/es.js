@@ -1816,4 +1816,6 @@ I18N.add('es', {
 "Strandparty": "Fiesta en la playa",
 "Narrenkappen": "Gorros de bufón",
 "11. November 2026": "11 de noviembre de 2026",
+"Punktlandung": "En el clavo",
+"Geschafft!": "¡Lo logramos!",
 });

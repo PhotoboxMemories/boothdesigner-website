@@ -1816,4 +1816,6 @@ I18N.add('en', {
 "Strandparty": "Beach Party",
 "Narrenkappen": "Jester Caps",
 "11. November 2026": "11 November 2026",
+"Punktlandung": "Spot On",
+"Geschafft!": "Made It!",
 });

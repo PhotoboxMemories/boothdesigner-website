@@ -1816,4 +1816,6 @@ I18N.add('fr', {
 "Strandparty": "Fête à la plage",
 "Narrenkappen": "Bonnets de bouffon",
 "11. November 2026": "11 novembre 2026",
+"Punktlandung": "Pile dans le mille",
+"Geschafft!": "On l’a fait !",
 });

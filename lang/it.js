@@ -1816,4 +1816,6 @@ I18N.add('it', {
 "Strandparty": "Festa in spiaggia",
 "Narrenkappen": "Cappelli da giullare",
 "11. November 2026": "11 novembre 2026",
+"Punktlandung": "Centro perfetto",
+"Geschafft!": "Ce l’abbiamo fatta!",
 });

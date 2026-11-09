@@ -1817,4 +1817,6 @@ I18N.add('tr', {
 "Strandparty": "Plaj Partisi",
 "Narrenkappen": "Soytarı Şapkaları",
 "11. November 2026": "11 Kasım 2026",
+"Punktlandung": "Tam İsabet",
+"Geschafft!": "Başardık!",
 });
