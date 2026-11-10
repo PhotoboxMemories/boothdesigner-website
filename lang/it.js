@@ -1834,4 +1834,7 @@ I18N.add('it', {
 "Federstrich": "Tratto di penna",
 "Abiball 2027": "Ballo di maturità 2027",
 "26. Juni 2027": "26 giugno 2027",
+"Bastelmobile": "Mobile di carta",
+"Goldstaub": "Polvere d'oro",
+"19. August 2027": "19 agosto 2027",
 });

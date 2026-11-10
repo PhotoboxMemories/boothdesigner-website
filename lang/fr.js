@@ -1834,4 +1834,7 @@ I18N.add('fr', {
 "Federstrich": "Trait de plume",
 "Abiball 2027": "Bal de fin d’études 2027",
 "26. Juni 2027": "26 juin 2027",
+"Bastelmobile": "Mobile en papier",
+"Goldstaub": "Poussière d'or",
+"19. August 2027": "19 août 2027",
 });

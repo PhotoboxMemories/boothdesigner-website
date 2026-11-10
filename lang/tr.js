@@ -1835,4 +1835,7 @@ I18N.add('tr', {
 "Federstrich": "Kalem Darbesi",
 "Abiball 2027": "Mezuniyet Balosu 2027",
 "26. Juni 2027": "26 Haziran 2027",
+"Bastelmobile": "Kağıt Mobil",
+"Goldstaub": "Altın Tozu",
+"19. August 2027": "19 Ağustos 2027",
 });

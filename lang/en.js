@@ -1834,4 +1834,7 @@ I18N.add('en', {
 "Federstrich": "Pen Stroke",
 "Abiball 2027": "Prom 2027",
 "26. Juni 2027": "26 June 2027",
+"Bastelmobile": "Craft Mobile",
+"Goldstaub": "Gold Dust",
+"19. August 2027": "19 August 2027",
 });
