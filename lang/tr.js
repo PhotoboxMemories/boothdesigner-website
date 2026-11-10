@@ -1826,4 +1826,5 @@ I18N.add('tr', {
 "Kufenzauber": "Paten Büyüsü",
 "Glockenklang": "Çan Sesi",
 "Familie Brandt": "Brandt Ailesi",
+"Terrazzo": "Terrazzo",
 });

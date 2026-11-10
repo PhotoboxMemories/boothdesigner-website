@@ -1825,4 +1825,5 @@ I18N.add('es', {
 "Kufenzauber": "Magia sobre patines",
 "Glockenklang": "Campanillas",
 "Familie Brandt": "La familia Brandt",
+"Terrazzo": "Terrazo",
 });

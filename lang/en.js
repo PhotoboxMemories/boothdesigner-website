@@ -1825,4 +1825,5 @@ I18N.add('en', {
 "Kufenzauber": "Ice Skate Magic",
 "Glockenklang": "Jingle Bells",
 "Familie Brandt": "The Brandt Family",
+"Terrazzo": "Terrazzo",
 });
