@@ -1840,4 +1840,7 @@ I18N.add('fr', {
 "Lichtband": "Bande de lumière",
 "Lotusblüte": "Fleur de lotus",
 "WIR SAGEN JA": "NOUS DISONS OUI",
+"Lama-Party": "Fête des lamas",
+"15. Mai 2027": "15 mai 2027",
+"Lena wird 30": "Lena a 30 ans",
 });

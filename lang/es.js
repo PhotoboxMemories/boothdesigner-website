@@ -1840,4 +1840,7 @@ I18N.add('es', {
 "Lichtband": "Franja de luz",
 "Lotusblüte": "Flor de loto",
 "WIR SAGEN JA": "DECIMOS SÍ",
+"Lama-Party": "Fiesta de llamas",
+"15. Mai 2027": "15 de mayo de 2027",
+"Lena wird 30": "Lena cumple 30",
 });

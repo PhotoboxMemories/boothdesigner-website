@@ -1841,4 +1841,7 @@ I18N.add('tr', {
 "Lichtband": "Işık Şeridi",
 "Lotusblüte": "Lotus Çiçeği",
 "WIR SAGEN JA": "EVET DİYORUZ",
+"Lama-Party": "Lama Partisi",
+"15. Mai 2027": "15 Mayıs 2027",
+"Lena wird 30": "Lena 30 yaşında",
 });

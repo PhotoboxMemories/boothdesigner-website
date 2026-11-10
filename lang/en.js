@@ -1840,4 +1840,7 @@ I18N.add('en', {
 "Lichtband": "Band of Light",
 "Lotusblüte": "Lotus Blossom",
 "WIR SAGEN JA": "WE SAY YES",
+"Lama-Party": "Llama Party",
+"15. Mai 2027": "15 May 2027",
+"Lena wird 30": "Lena turns 30",
 });
