@@ -1843,4 +1843,7 @@ I18N.add('en', {
 "Lama-Party": "Llama Party",
 "15. Mai 2027": "15 May 2027",
 "Lena wird 30": "Lena turns 30",
+"Krapfenzeit": "Doughnut Time",
+"Jeckenball": "Carnival Ball",
+"4. Februar 2027": "4 February 2027",
 });

@@ -1843,4 +1843,7 @@ I18N.add('fr', {
 "Lama-Party": "Fête des lamas",
 "15. Mai 2027": "15 mai 2027",
 "Lena wird 30": "Lena a 30 ans",
+"Krapfenzeit": "L'heure des beignets",
+"Jeckenball": "Bal du carnaval",
+"4. Februar 2027": "4 février 2027",
 });

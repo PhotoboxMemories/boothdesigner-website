@@ -1844,4 +1844,7 @@ I18N.add('tr', {
 "Lama-Party": "Lama Partisi",
 "15. Mai 2027": "15 Mayıs 2027",
 "Lena wird 30": "Lena 30 yaşında",
+"Krapfenzeit": "Pişi Zamanı",
+"Jeckenball": "Karnaval Balosu",
+"4. Februar 2027": "4 Şubat 2027",
 });
