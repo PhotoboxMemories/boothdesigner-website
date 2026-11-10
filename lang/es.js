@@ -1856,4 +1856,7 @@ I18N.add('es', {
 "Kamille": "Manzanilla",
 "Kleine Ella": "Pequeña Ella",
 "23. Mai 2027": "23 de mayo de 2027",
+"Retro-Flocken": "Copos retro",
+"Schneeball": "Bola de nieve",
+"#schneeball27": "#boladenieve27",
 });

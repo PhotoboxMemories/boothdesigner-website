@@ -1857,4 +1857,7 @@ I18N.add('tr', {
 "Kamille": "Papatya",
 "Kleine Ella": "Minik Ella",
 "23. Mai 2027": "23 Mayıs 2027",
+"Retro-Flocken": "Retro Kar Taneleri",
+"Schneeball": "Kartopu",
+"#schneeball27": "#kartopu27",
 });
