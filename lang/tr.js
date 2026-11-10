@@ -1829,4 +1829,6 @@ I18N.add('tr', {
 "Terrazzo": "Terrazzo",
 "Riso-Party": "Riso Parti",
 "Hausparty": "Ev Partisi",
+"Feuerblüten": "Havai Fişek Çiçekleri",
+"Hallo 2027": "Merhaba 2027",
 });

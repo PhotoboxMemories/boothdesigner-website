@@ -1828,4 +1828,6 @@ I18N.add('fr', {
 "Terrazzo": "Terrazzo",
 "Riso-Party": "Fête Riso",
 "Hausparty": "Soirée à la maison",
+"Feuerblüten": "Fleurs de feu",
+"Hallo 2027": "Bonjour 2027",
 });
