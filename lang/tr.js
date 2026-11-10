@@ -1831,4 +1831,5 @@ I18N.add('tr', {
 "Hausparty": "Ev Partisi",
 "Feuerblüten": "Havai Fişek Çiçekleri",
 "Hallo 2027": "Merhaba 2027",
+"Entenparade": "Ördek Geçidi",
 });

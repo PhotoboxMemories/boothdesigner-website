@@ -1830,4 +1830,5 @@ I18N.add('it', {
 "Hausparty": "Festa in casa",
 "Feuerblüten": "Fiori di fuoco",
 "Hallo 2027": "Ciao 2027",
+"Entenparade": "Parata di paperelle",
 });
