@@ -1850,4 +1850,10 @@ I18N.add('fr', {
 "Osterkaffee": "Café de Pâques",
 "Varieté": "Music-hall",
 "LETZTER VORHANG": "DERNIER RIDEAU",
+"Grillkönig": "Roi du barbecue",
+"LASS ES BRUTZELN": "ÇA GRÉSILLE",
+"GRILLFEST": "FÊTE BARBECUE",
+"Kamille": "Camomille",
+"Kleine Ella": "Petite Ella",
+"23. Mai 2027": "23 mai 2027",
 });

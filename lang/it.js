@@ -1850,4 +1850,10 @@ I18N.add('it', {
 "Osterkaffee": "Caffè di Pasqua",
 "Varieté": "Varietà",
 "LETZTER VORHANG": "ULTIMO SIPARIO",
+"Grillkönig": "Re della griglia",
+"LASS ES BRUTZELN": "CHE SFRIGOLI!",
+"GRILLFEST": "FESTA BARBECUE",
+"Kamille": "Camomilla",
+"Kleine Ella": "Piccola Ella",
+"23. Mai 2027": "23 maggio 2027",
 });

@@ -1850,4 +1850,10 @@ I18N.add('es', {
 "Osterkaffee": "Café de Pascua",
 "Varieté": "Varietés",
 "LETZTER VORHANG": "ÚLTIMO TELÓN",
+"Grillkönig": "Rey de la parrilla",
+"LASS ES BRUTZELN": "¡QUE CHISPORROTEE!",
+"GRILLFEST": "FIESTA BARBACOA",
+"Kamille": "Manzanilla",
+"Kleine Ella": "Pequeña Ella",
+"23. Mai 2027": "23 de mayo de 2027",
 });

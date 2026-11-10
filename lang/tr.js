@@ -1851,4 +1851,10 @@ I18N.add('tr', {
 "Osterkaffee": "Paskalya Kahvesi",
 "Varieté": "Varyete",
 "LETZTER VORHANG": "SON PERDE",
+"Grillkönig": "Mangal Kralı",
+"LASS ES BRUTZELN": "CIZIR CIZIR",
+"GRILLFEST": "MANGAL PARTİSİ",
+"Kamille": "Papatya",
+"Kleine Ella": "Minik Ella",
+"23. Mai 2027": "23 Mayıs 2027",
 });

@@ -1850,4 +1850,10 @@ I18N.add('en', {
 "Osterkaffee": "Easter Coffee",
 "Varieté": "Variety Show",
 "LETZTER VORHANG": "FINAL CURTAIN",
+"Grillkönig": "Grill King",
+"LASS ES BRUTZELN": "LET IT SIZZLE",
+"GRILLFEST": "BBQ PARTY",
+"Kamille": "Chamomile",
+"Kleine Ella": "Little Ella",
+"23. Mai 2027": "23 May 2027",
 });
