@@ -1823,4 +1823,6 @@ I18N.add('en', {
 "Ginkgoblatt": "Ginkgo Leaf",
 "Dino-Nest": "Dino Nest",
 "Kufenzauber": "Ice Skate Magic",
+"Glockenklang": "Jingle Bells",
+"Familie Brandt": "The Brandt Family",
 });

@@ -1823,4 +1823,6 @@ I18N.add('fr', {
 "Ginkgoblatt": "Feuille de ginkgo",
 "Dino-Nest": "Nid de dinos",
 "Kufenzauber": "Magie des patins",
+"Glockenklang": "Carillon de Noël",
+"Familie Brandt": "La famille Brandt",
 });

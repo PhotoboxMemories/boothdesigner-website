@@ -1824,4 +1824,6 @@ I18N.add('tr', {
 "Ginkgoblatt": "Ginkgo Yaprağı",
 "Dino-Nest": "Dinozor Yuvası",
 "Kufenzauber": "Paten Büyüsü",
+"Glockenklang": "Çan Sesi",
+"Familie Brandt": "Brandt Ailesi",
 });
