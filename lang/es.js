@@ -1826,4 +1826,6 @@ I18N.add('es', {
 "Glockenklang": "Campanillas",
 "Familie Brandt": "La familia Brandt",
 "Terrazzo": "Terrazo",
+"Riso-Party": "Fiesta Riso",
+"Hausparty": "Fiesta en casa",
 });

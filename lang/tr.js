@@ -1827,4 +1827,6 @@ I18N.add('tr', {
 "Glockenklang": "Çan Sesi",
 "Familie Brandt": "Brandt Ailesi",
 "Terrazzo": "Terrazzo",
+"Riso-Party": "Riso Parti",
+"Hausparty": "Ev Partisi",
 });

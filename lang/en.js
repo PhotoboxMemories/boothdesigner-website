@@ -1826,4 +1826,6 @@ I18N.add('en', {
 "Glockenklang": "Jingle Bells",
 "Familie Brandt": "The Brandt Family",
 "Terrazzo": "Terrazzo",
+"Riso-Party": "Riso Party",
+"Hausparty": "House Party",
 });
