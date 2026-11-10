@@ -1847,4 +1847,6 @@ I18N.add('tr', {
 "Krapfenzeit": "Pişi Zamanı",
 "Jeckenball": "Karnaval Balosu",
 "4. Februar 2027": "4 Şubat 2027",
+"Kressebeet": "Tere Bahçesi",
+"Osterkaffee": "Paskalya Kahvesi",
 });

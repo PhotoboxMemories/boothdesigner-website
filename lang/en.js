@@ -1846,4 +1846,6 @@ I18N.add('en', {
 "Krapfenzeit": "Doughnut Time",
 "Jeckenball": "Carnival Ball",
 "4. Februar 2027": "4 February 2027",
+"Kressebeet": "Cress Patch",
+"Osterkaffee": "Easter Coffee",
 });

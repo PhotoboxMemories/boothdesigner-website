@@ -1846,4 +1846,6 @@ I18N.add('it', {
 "Krapfenzeit": "Ora dei krapfen",
 "Jeckenball": "Ballo di carnevale",
 "4. Februar 2027": "4 febbraio 2027",
+"Kressebeet": "Orto di crescione",
+"Osterkaffee": "Caffè di Pasqua",
 });

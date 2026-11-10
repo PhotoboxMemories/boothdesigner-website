@@ -1846,4 +1846,6 @@ I18N.add('es', {
 "Krapfenzeit": "Hora de los buñuelos",
 "Jeckenball": "Baile de carnaval",
 "4. Februar 2027": "4 de febrero de 2027",
+"Kressebeet": "Huerto de berros",
+"Osterkaffee": "Café de Pascua",
 });

@@ -1846,4 +1846,6 @@ I18N.add('fr', {
 "Krapfenzeit": "L'heure des beignets",
 "Jeckenball": "Bal du carnaval",
 "4. Februar 2027": "4 février 2027",
+"Kressebeet": "Carré de cresson",
+"Osterkaffee": "Café de Pâques",
 });
