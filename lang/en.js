@@ -1838,4 +1838,6 @@ I18N.add('en', {
 "Goldstaub": "Gold Dust",
 "19. August 2027": "19 August 2027",
 "Lichtband": "Band of Light",
+"Lotusblüte": "Lotus Blossom",
+"WIR SAGEN JA": "WE SAY YES",
 });

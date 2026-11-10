@@ -1838,4 +1838,6 @@ I18N.add('it', {
 "Goldstaub": "Polvere d'oro",
 "19. August 2027": "19 agosto 2027",
 "Lichtband": "Fascia di luce",
+"Lotusblüte": "Fiore di loto",
+"WIR SAGEN JA": "DICIAMO SÌ",
 });

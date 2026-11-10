@@ -1839,4 +1839,6 @@ I18N.add('tr', {
 "Goldstaub": "Altın Tozu",
 "19. August 2027": "19 Ağustos 2027",
 "Lichtband": "Işık Şeridi",
+"Lotusblüte": "Lotus Çiçeği",
+"WIR SAGEN JA": "EVET DİYORUZ",
 });
