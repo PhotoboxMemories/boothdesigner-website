@@ -1848,4 +1848,6 @@ I18N.add('es', {
 "4. Februar 2027": "4 de febrero de 2027",
 "Kressebeet": "Huerto de berros",
 "Osterkaffee": "Café de Pascua",
+"Varieté": "Varietés",
+"LETZTER VORHANG": "ÚLTIMO TELÓN",
 });

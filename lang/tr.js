@@ -1849,4 +1849,6 @@ I18N.add('tr', {
 "4. Februar 2027": "4 Şubat 2027",
 "Kressebeet": "Tere Bahçesi",
 "Osterkaffee": "Paskalya Kahvesi",
+"Varieté": "Varyete",
+"LETZTER VORHANG": "SON PERDE",
 });

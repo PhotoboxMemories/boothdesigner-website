@@ -1848,4 +1848,6 @@ I18N.add('fr', {
 "4. Februar 2027": "4 février 2027",
 "Kressebeet": "Carré de cresson",
 "Osterkaffee": "Café de Pâques",
+"Varieté": "Music-hall",
+"LETZTER VORHANG": "DERNIER RIDEAU",
 });

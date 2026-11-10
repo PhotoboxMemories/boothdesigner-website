@@ -1848,4 +1848,6 @@ I18N.add('en', {
 "4. Februar 2027": "4 February 2027",
 "Kressebeet": "Cress Patch",
 "Osterkaffee": "Easter Coffee",
+"Varieté": "Variety Show",
+"LETZTER VORHANG": "FINAL CURTAIN",
 });

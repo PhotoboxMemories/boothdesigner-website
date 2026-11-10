@@ -1848,4 +1848,6 @@ I18N.add('it', {
 "4. Februar 2027": "4 febbraio 2027",
 "Kressebeet": "Orto di crescione",
 "Osterkaffee": "Caffè di Pasqua",
+"Varieté": "Varietà",
+"LETZTER VORHANG": "ULTIMO SIPARIO",
 });
