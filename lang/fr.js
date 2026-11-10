@@ -1837,4 +1837,5 @@ I18N.add('fr', {
 "Bastelmobile": "Mobile en papier",
 "Goldstaub": "Poussière d'or",
 "19. August 2027": "19 août 2027",
+"Lichtband": "Bande de lumière",
 });

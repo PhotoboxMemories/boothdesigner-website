@@ -1837,4 +1837,5 @@ I18N.add('en', {
 "Bastelmobile": "Craft Mobile",
 "Goldstaub": "Gold Dust",
 "19. August 2027": "19 August 2027",
+"Lichtband": "Band of Light",
 });
