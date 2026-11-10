@@ -1831,4 +1831,7 @@ I18N.add('fr', {
 "Feuerblüten": "Fleurs de feu",
 "Hallo 2027": "Bonjour 2027",
 "Entenparade": "Parade des canards",
+"Federstrich": "Trait de plume",
+"Abiball 2027": "Bal de fin d’études 2027",
+"26. Juni 2027": "26 juin 2027",
 });

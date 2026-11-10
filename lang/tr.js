@@ -1832,4 +1832,7 @@ I18N.add('tr', {
 "Feuerblüten": "Havai Fişek Çiçekleri",
 "Hallo 2027": "Merhaba 2027",
 "Entenparade": "Ördek Geçidi",
+"Federstrich": "Kalem Darbesi",
+"Abiball 2027": "Mezuniyet Balosu 2027",
+"26. Juni 2027": "26 Haziran 2027",
 });

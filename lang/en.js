@@ -1831,4 +1831,7 @@ I18N.add('en', {
 "Feuerblüten": "Fire Blossoms",
 "Hallo 2027": "Hello 2027",
 "Entenparade": "Duck Parade",
+"Federstrich": "Pen Stroke",
+"Abiball 2027": "Prom 2027",
+"26. Juni 2027": "26 June 2027",
 });

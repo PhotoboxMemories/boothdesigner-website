@@ -1831,4 +1831,7 @@ I18N.add('it', {
 "Feuerblüten": "Fiori di fuoco",
 "Hallo 2027": "Ciao 2027",
 "Entenparade": "Parata di paperelle",
+"Federstrich": "Tratto di penna",
+"Abiball 2027": "Ballo di maturità 2027",
+"26. Juni 2027": "26 giugno 2027",
 });
