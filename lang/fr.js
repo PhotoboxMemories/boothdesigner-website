@@ -1908,4 +1908,6 @@ I18N.add('fr', {
 "Spiel, Satz, Lena": "Jeu, set, Lena",
 "#spielsatzlena": "#jeusetlena",
 "Bitte erneut anmelden.": "Merci de vous reconnecter.",
+"Arche Noah": "L'arche de Noé",
+"#noahstaufe": "#baptêmedenoah",
 });

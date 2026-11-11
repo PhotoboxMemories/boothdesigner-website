@@ -1909,4 +1909,6 @@ I18N.add('tr', {
 "Spiel, Satz, Lena": "Oyun, Set, Lena",
 "#spielsatzlena": "#oyunsetlena",
 "Bitte erneut anmelden.": "Lütfen yeniden giriş yapın.",
+"Arche Noah": "Nuh'un Gemisi",
+"#noahstaufe": "#noahınvaftizi",
 });
