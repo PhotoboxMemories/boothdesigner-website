@@ -1872,4 +1872,7 @@ I18N.add('es', {
 "Bleistiftskizze": "Boceto a lápiz",
 "21. August 2027": "21 de agosto de 2027",
 "#milaschulkind": "#milaescolar",
+"Apfelblüte": "Flor de manzano",
+"25. April 2027": "25 de abril de 2027",
+"#linaskonfi": "#linaconfirmacion",
 });

@@ -1873,4 +1873,7 @@ I18N.add('tr', {
 "Bleistiftskizze": "Kurşun Kalem Eskiz",
 "21. August 2027": "21 Ağustos 2027",
 "#milaschulkind": "#milaokulda",
+"Apfelblüte": "Elma Çiçeği",
+"25. April 2027": "25 Nisan 2027",
+"#linaskonfi": "#linakonfirmasyon",
 });

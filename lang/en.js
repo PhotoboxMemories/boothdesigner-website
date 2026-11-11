@@ -1872,4 +1872,7 @@ I18N.add('en', {
 "Bleistiftskizze": "Pencil Sketch",
 "21. August 2027": "21 August 2027",
 "#milaschulkind": "#milaschoolkid",
+"Apfelblüte": "Apple Blossom",
+"25. April 2027": "25 April 2027",
+"#linaskonfi": "#linasconfirmation",
 });

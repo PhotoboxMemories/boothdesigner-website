@@ -1872,4 +1872,7 @@ I18N.add('it', {
 "Bleistiftskizze": "Schizzo a matita",
 "21. August 2027": "21 agosto 2027",
 "#milaschulkind": "#milascolara",
+"Apfelblüte": "Fiore di melo",
+"25. April 2027": "25 aprile 2027",
+"#linaskonfi": "#linacresima",
 });

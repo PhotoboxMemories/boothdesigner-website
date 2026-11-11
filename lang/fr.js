@@ -1872,4 +1872,7 @@ I18N.add('fr', {
 "Bleistiftskizze": "Croquis au crayon",
 "21. August 2027": "21 août 2027",
 "#milaschulkind": "#milaecoliere",
+"Apfelblüte": "Fleur de pommier",
+"25. April 2027": "25 avril 2027",
+"#linaskonfi": "#linaconfirmation",
 });
