@@ -1884,4 +1884,8 @@ I18N.add('it', {
 "#abi27leuchtet": "#maturita27brilla",
 "Blätterschnitt": "Foglie ritagliate",
 "#jonaskommunion": "#comunionedijonas",
+"Stockrosen": "Malvoni",
+"HALLO SOMMER": "CIAO ESTATE",
+"Gartenparty": "Festa in giardino",
+"#gartenparty27": "#festagiardino27",
 });

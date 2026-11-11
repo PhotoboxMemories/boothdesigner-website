@@ -1885,4 +1885,8 @@ I18N.add('tr', {
 "#abi27leuchtet": "#mezun27parliyor",
 "Blätterschnitt": "Kesik Yapraklar",
 "#jonaskommunion": "#jonasinkomunyonu",
+"Stockrosen": "Gül Hatmiler",
+"HALLO SOMMER": "MERHABA YAZ",
+"Gartenparty": "Bahçe Partisi",
+"#gartenparty27": "#bahcepartisi27",
 });

@@ -1884,4 +1884,8 @@ I18N.add('fr', {
 "#abi27leuchtet": "#promo27brille",
 "Blätterschnitt": "Feuilles découpées",
 "#jonaskommunion": "#communiondejonas",
+"Stockrosen": "Roses trémières",
+"HALLO SOMMER": "BONJOUR L'ÉTÉ",
+"Gartenparty": "Garden-party",
+"#gartenparty27": "#gardenparty27",
 });

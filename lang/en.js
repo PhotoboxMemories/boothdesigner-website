@@ -1884,4 +1884,8 @@ I18N.add('en', {
 "#abi27leuchtet": "#class27shines",
 "Blätterschnitt": "Leaf Cut-Out",
 "#jonaskommunion": "#jonasfirstcommunion",
+"Stockrosen": "Hollyhocks",
+"HALLO SOMMER": "HELLO SUMMER",
+"Gartenparty": "Garden Party",
+"#gartenparty27": "#gardenparty27",
 });
