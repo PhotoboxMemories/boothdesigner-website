@@ -1916,4 +1916,6 @@ I18N.add('fr', {
 "Eiszapfen": "Stalactites de glace",
 "WINTERNACHT": "NUIT D'HIVER",
 "#winterball27": "#baldhiver27",
+"Krakenklasse": "Classe des pieuvres",
+"28. August 2027": "28 août 2027",
 });

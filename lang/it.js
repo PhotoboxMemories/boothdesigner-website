@@ -1916,4 +1916,6 @@ I18N.add('it', {
 "Eiszapfen": "Ghiaccioli",
 "WINTERNACHT": "NOTTE D'INVERNO",
 "#winterball27": "#ballodinverno27",
+"Krakenklasse": "Classe dei polpi",
+"28. August 2027": "28 agosto 2027",
 });

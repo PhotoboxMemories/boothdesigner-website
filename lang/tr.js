@@ -1917,4 +1917,6 @@ I18N.add('tr', {
 "Eiszapfen": "Buz Sarkıtları",
 "WINTERNACHT": "KIŞ GECESİ",
 "#winterball27": "#kisbalosu27",
+"Krakenklasse": "Ahtapot Sınıfı",
+"28. August 2027": "28 Ağustos 2027",
 });
