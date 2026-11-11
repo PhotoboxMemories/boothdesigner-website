@@ -1862,4 +1862,6 @@ I18N.add('it', {
 "Mandarinen": "Mandarini",
 "Heiligabend": "Vigilia di Natale",
 "#mandarinenzeit": "#tempodimandarini",
+"Lochstickerei": "Sangallo",
+"#emilstaufe": "#battesimodiemil",
 });

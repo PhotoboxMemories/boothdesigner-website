@@ -1862,4 +1862,6 @@ I18N.add('en', {
 "Mandarinen": "Tangerines",
 "Heiligabend": "Christmas Eve",
 "#mandarinenzeit": "#tangerinetime",
+"Lochstickerei": "Eyelet Lace",
+"#emilstaufe": "#emilschristening",
 });

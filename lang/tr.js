@@ -1863,4 +1863,6 @@ I18N.add('tr', {
 "Mandarinen": "Mandalinalar",
 "Heiligabend": "Noel Arifesi",
 "#mandarinenzeit": "#mandalinazamanı",
+"Lochstickerei": "Delik İşi Dantel",
+"#emilstaufe": "#emilinvaftizi",
 });

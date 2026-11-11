@@ -1862,4 +1862,6 @@ I18N.add('es', {
 "Mandarinen": "Mandarinas",
 "Heiligabend": "Nochebuena",
 "#mandarinenzeit": "#tiempodemandarinas",
+"Lochstickerei": "Bordado inglés",
+"#emilstaufe": "#bautizodeemil",
 });
