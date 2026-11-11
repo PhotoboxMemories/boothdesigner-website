@@ -1910,4 +1910,7 @@ I18N.add('fr', {
 "Bitte erneut anmelden.": "Merci de vous reconnecter.",
 "Arche Noah": "L'arche de Noé",
 "#noahstaufe": "#baptêmedenoah",
+"Taschenuhr": "Montre à gousset",
+"Punkt zwölf": "Sur le coup de minuit",
+"#punktzwoelf": "#coupdeminuit",
 });

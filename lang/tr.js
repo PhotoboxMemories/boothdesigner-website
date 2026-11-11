@@ -1911,4 +1911,7 @@ I18N.add('tr', {
 "Bitte erneut anmelden.": "Lütfen yeniden giriş yapın.",
 "Arche Noah": "Nuh'un Gemisi",
 "#noahstaufe": "#noahınvaftizi",
+"Taschenuhr": "Cep Saati",
+"Punkt zwölf": "Tam Gece Yarısı",
+"#punktzwoelf": "#tamgeceyarisi",
 });

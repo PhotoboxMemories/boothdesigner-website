@@ -1910,4 +1910,7 @@ I18N.add('en', {
 "Bitte erneut anmelden.": "Please sign in again.",
 "Arche Noah": "Noah's Ark",
 "#noahstaufe": "#noahschristening",
+"Taschenuhr": "Pocket Watch",
+"Punkt zwölf": "Stroke of Twelve",
+"#punktzwoelf": "#strokeoftwelve",
 });

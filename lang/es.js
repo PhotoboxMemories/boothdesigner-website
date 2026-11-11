@@ -1910,4 +1910,7 @@ I18N.add('es', {
 "Bitte erneut anmelden.": "Vuelve a iniciar sesión.",
 "Arche Noah": "El arca de Noé",
 "#noahstaufe": "#bautizodenoah",
+"Taschenuhr": "Reloj de bolsillo",
+"Punkt zwölf": "Las doce en punto",
+"#punktzwoelf": "#lasdoceenpunto",
 });
