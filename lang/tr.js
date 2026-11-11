@@ -1860,4 +1860,7 @@ I18N.add('tr', {
 "Retro-Flocken": "Retro Kar Taneleri",
 "Schneeball": "Kartopu",
 "#schneeball27": "#kartopu27",
+"Mandarinen": "Mandalinalar",
+"Heiligabend": "Noel Arifesi",
+"#mandarinenzeit": "#mandalinazamanı",
 });

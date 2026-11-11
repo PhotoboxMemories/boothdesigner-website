@@ -1859,4 +1859,7 @@ I18N.add('fr', {
 "Retro-Flocken": "Flocons rétro",
 "Schneeball": "Boule de neige",
 "#schneeball27": "#bouledeneige27",
+"Mandarinen": "Mandarines",
+"Heiligabend": "Réveillon de Noël",
+"#mandarinenzeit": "#tempsdesmandarines",
 });

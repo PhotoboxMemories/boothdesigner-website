@@ -1859,4 +1859,7 @@ I18N.add('en', {
 "Retro-Flocken": "Retro Flakes",
 "Schneeball": "Snowball",
 "#schneeball27": "#snowball27",
+"Mandarinen": "Tangerines",
+"Heiligabend": "Christmas Eve",
+"#mandarinenzeit": "#tangerinetime",
 });
