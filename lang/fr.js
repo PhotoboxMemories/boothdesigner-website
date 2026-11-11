@@ -1895,4 +1895,8 @@ I18N.add('fr', {
 "Schellenball": "Bal des grelots",
 "Schlüpfmorgen": "Matin d’éclosion",
 "#osterbrunch27": "#brunchdepaques27",
+"Igel-Krabbelgruppe": "Les bébés hérissons",
+"Hallo Baby Ida": "Bonjour bébé Ida",
+"#hallobabyida": "#bonjourbebeida",
+"20. März 2027": "20 mars 2027",
 });

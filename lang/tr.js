@@ -1896,4 +1896,8 @@ I18N.add('tr', {
 "Schellenball": "Çıngırak Balosu",
 "Schlüpfmorgen": "Yumurtadan Çıkış Sabahı",
 "#osterbrunch27": "#paskalyabrunch27",
+"Igel-Krabbelgruppe": "Kirpi Oyun Grubu",
+"Hallo Baby Ida": "Merhaba Bebek Ida",
+"#hallobabyida": "#merhababebekida",
+"20. März 2027": "20 Mart 2027",
 });

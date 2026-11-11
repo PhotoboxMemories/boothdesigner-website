@@ -1895,4 +1895,8 @@ I18N.add('en', {
 "Schellenball": "Jingle Bell Ball",
 "Schlüpfmorgen": "Hatching Morning",
 "#osterbrunch27": "#easterbrunch27",
+"Igel-Krabbelgruppe": "Hedgehog Playgroup",
+"Hallo Baby Ida": "Hello Baby Ida",
+"#hallobabyida": "#hellobabyida",
+"20. März 2027": "20 March 2027",
 });

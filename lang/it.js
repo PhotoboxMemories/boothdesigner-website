@@ -1895,4 +1895,8 @@ I18N.add('it', {
 "Schellenball": "Ballo dei sonagli",
 "Schlüpfmorgen": "Mattino di schiusa",
 "#osterbrunch27": "#brunchdipasqua27",
+"Igel-Krabbelgruppe": "Asilo dei ricci",
+"Hallo Baby Ida": "Ciao bebè Ida",
+"#hallobabyida": "#ciaobebeida",
+"20. März 2027": "20 marzo 2027",
 });

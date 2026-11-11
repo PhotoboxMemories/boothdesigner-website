@@ -1895,4 +1895,8 @@ I18N.add('es', {
 "Schellenball": "Baile de cascabeles",
 "Schlüpfmorgen": "Mañana de eclosión",
 "#osterbrunch27": "#brunchdepascua27",
+"Igel-Krabbelgruppe": "Guardería de erizos",
+"Hallo Baby Ida": "Hola bebé Ida",
+"#hallobabyida": "#holabebeida",
+"20. März 2027": "20 de marzo de 2027",
 });
