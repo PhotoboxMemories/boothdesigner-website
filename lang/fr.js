@@ -1913,4 +1913,7 @@ I18N.add('fr', {
 "Taschenuhr": "Montre à gousset",
 "Punkt zwölf": "Sur le coup de minuit",
 "#punktzwoelf": "#coupdeminuit",
+"Eiszapfen": "Stalactites de glace",
+"WINTERNACHT": "NUIT D'HIVER",
+"#winterball27": "#baldhiver27",
 });

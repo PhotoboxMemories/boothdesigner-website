@@ -1913,4 +1913,7 @@ I18N.add('it', {
 "Taschenuhr": "Orologio da tasca",
 "Punkt zwölf": "Mezzanotte in punto",
 "#punktzwoelf": "#mezzanotteinpunto",
+"Eiszapfen": "Ghiaccioli",
+"WINTERNACHT": "NOTTE D'INVERNO",
+"#winterball27": "#ballodinverno27",
 });

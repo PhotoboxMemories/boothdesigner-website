@@ -1913,4 +1913,7 @@ I18N.add('es', {
 "Taschenuhr": "Reloj de bolsillo",
 "Punkt zwölf": "Las doce en punto",
 "#punktzwoelf": "#lasdoceenpunto",
+"Eiszapfen": "Carámbanos",
+"WINTERNACHT": "NOCHE DE INVIERNO",
+"#winterball27": "#baledeinvierno27",
 });

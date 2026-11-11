@@ -1913,4 +1913,7 @@ I18N.add('en', {
 "Taschenuhr": "Pocket Watch",
 "Punkt zwölf": "Stroke of Twelve",
 "#punktzwoelf": "#strokeoftwelve",
+"Eiszapfen": "Icicles",
+"WINTERNACHT": "WINTER NIGHT",
+"#winterball27": "#winterball27",
 });

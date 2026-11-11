@@ -1914,4 +1914,7 @@ I18N.add('tr', {
 "Taschenuhr": "Cep Saati",
 "Punkt zwölf": "Tam Gece Yarısı",
 "#punktzwoelf": "#tamgeceyarisi",
+"Eiszapfen": "Buz Sarkıtları",
+"WINTERNACHT": "KIŞ GECESİ",
+"#winterball27": "#kisbalosu27",
 });
