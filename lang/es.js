@@ -1867,4 +1867,6 @@ I18N.add('es', {
 "Kaffeeküche": "Cocina de la oficina",
 "Hängende Weihnachtstassen": "Tazas navideñas colgantes",
 "#kaffeepause26": "#pausacafé26",
+"Zwölf Trauben": "Doce uvas",
+"Zwölf Wünsche": "Doce deseos",
 });

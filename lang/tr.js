@@ -1868,4 +1868,6 @@ I18N.add('tr', {
 "Kaffeeküche": "Ofis Mutfağı",
 "Hängende Weihnachtstassen": "Asılı Noel kupaları",
 "#kaffeepause26": "#kahvemolası26",
+"Zwölf Trauben": "On İki Üzüm",
+"Zwölf Wünsche": "On İki Dilek",
 });

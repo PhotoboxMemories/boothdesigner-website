@@ -1867,4 +1867,6 @@ I18N.add('en', {
 "Kaffeeküche": "Office Kitchen",
 "Hängende Weihnachtstassen": "Hanging Christmas mugs",
 "#kaffeepause26": "#coffeebreak26",
+"Zwölf Trauben": "Twelve Grapes",
+"Zwölf Wünsche": "Twelve Wishes",
 });

@@ -1867,4 +1867,6 @@ I18N.add('it', {
 "Kaffeeküche": "Angolo caffè",
 "Hängende Weihnachtstassen": "Tazze natalizie appese",
 "#kaffeepause26": "#pausacaffè26",
+"Zwölf Trauben": "Dodici acini",
+"Zwölf Wünsche": "Dodici desideri",
 });

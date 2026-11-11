@@ -1867,4 +1867,6 @@ I18N.add('fr', {
 "Kaffeeküche": "Coin café",
 "Hängende Weihnachtstassen": "Tasses de Noël suspendues",
 "#kaffeepause26": "#pausecafé26",
+"Zwölf Trauben": "Douze raisins",
+"Zwölf Wünsche": "Douze vœux",
 });
