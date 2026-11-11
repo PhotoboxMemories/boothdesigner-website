@@ -1888,4 +1888,7 @@ I18N.add('it', {
 "HALLO SOMMER": "CIAO ESTATE",
 "Gartenparty": "Festa in giardino",
 "#gartenparty27": "#festagiardino27",
+"Zimtsterne": "Stelle alla cannella",
+"Zimtzeit": "Tempo di cannella",
+"#zimtsternzeit": "#stelleallacannella",
 });

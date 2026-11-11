@@ -1888,4 +1888,7 @@ I18N.add('en', {
 "HALLO SOMMER": "HELLO SUMMER",
 "Gartenparty": "Garden Party",
 "#gartenparty27": "#gardenparty27",
+"Zimtsterne": "Cinnamon Stars",
+"Zimtzeit": "Cinnamon Time",
+"#zimtsternzeit": "#cinnamonstartime",
 });

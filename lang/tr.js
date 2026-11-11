@@ -1889,4 +1889,7 @@ I18N.add('tr', {
 "HALLO SOMMER": "MERHABA YAZ",
 "Gartenparty": "Bahçe Partisi",
 "#gartenparty27": "#bahcepartisi27",
+"Zimtsterne": "Tarçınlı Yıldızlar",
+"Zimtzeit": "Tarçın Zamanı",
+"#zimtsternzeit": "#tarcinyildizi",
 });
