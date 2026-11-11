@@ -1882,4 +1882,6 @@ I18N.add('fr', {
 "Himmelsleuchten": "Lueur céleste",
 "GESCHAFFT!": "ON L'A FAIT !",
 "#abi27leuchtet": "#promo27brille",
+"Blätterschnitt": "Feuilles découpées",
+"#jonaskommunion": "#communiondejonas",
 });

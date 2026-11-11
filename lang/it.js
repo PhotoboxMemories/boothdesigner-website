@@ -1882,4 +1882,6 @@ I18N.add('it', {
 "Himmelsleuchten": "Bagliore del cielo",
 "GESCHAFFT!": "CE L'ABBIAMO FATTA!",
 "#abi27leuchtet": "#maturita27brilla",
+"Blätterschnitt": "Foglie ritagliate",
+"#jonaskommunion": "#comunionedijonas",
 });

@@ -1883,4 +1883,6 @@ I18N.add('tr', {
 "Himmelsleuchten": "Gökyüzü Işıltısı",
 "GESCHAFFT!": "BAŞARDIK!",
 "#abi27leuchtet": "#mezun27parliyor",
+"Blätterschnitt": "Kesik Yapraklar",
+"#jonaskommunion": "#jonasinkomunyonu",
 });

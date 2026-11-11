@@ -1882,4 +1882,6 @@ I18N.add('en', {
 "Himmelsleuchten": "Sky Glow",
 "GESCHAFFT!": "WE DID IT!",
 "#abi27leuchtet": "#class27shines",
+"Blätterschnitt": "Leaf Cut-Out",
+"#jonaskommunion": "#jonasfirstcommunion",
 });

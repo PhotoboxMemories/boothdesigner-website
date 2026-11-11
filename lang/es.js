@@ -1882,4 +1882,6 @@ I18N.add('es', {
 "Himmelsleuchten": "Brillo del cielo",
 "GESCHAFFT!": "¡LO LOGRAMOS!",
 "#abi27leuchtet": "#promo27brilla",
+"Blätterschnitt": "Hojas recortadas",
+"#jonaskommunion": "#comuniondejonas",
 });
