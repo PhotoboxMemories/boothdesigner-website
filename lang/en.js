@@ -1893,4 +1893,6 @@ I18N.add('en', {
 "#zimtsternzeit": "#cinnamonstartime",
 "Schellenband": "Bell Ribbon",
 "Schellenball": "Jingle Bell Ball",
+"Schlüpfmorgen": "Hatching Morning",
+"#osterbrunch27": "#easterbrunch27",
 });

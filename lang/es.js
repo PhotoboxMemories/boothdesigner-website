@@ -1893,4 +1893,6 @@ I18N.add('es', {
 "#zimtsternzeit": "#estrellasdecanela",
 "Schellenband": "Cinta de cascabeles",
 "Schellenball": "Baile de cascabeles",
+"Schlüpfmorgen": "Mañana de eclosión",
+"#osterbrunch27": "#brunchdepascua27",
 });

@@ -1893,4 +1893,6 @@ I18N.add('fr', {
 "#zimtsternzeit": "#etoilescannelle",
 "Schellenband": "Ruban à grelots",
 "Schellenball": "Bal des grelots",
+"Schlüpfmorgen": "Matin d’éclosion",
+"#osterbrunch27": "#brunchdepaques27",
 });

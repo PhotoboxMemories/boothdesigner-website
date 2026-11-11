@@ -1893,4 +1893,6 @@ I18N.add('it', {
 "#zimtsternzeit": "#stelleallacannella",
 "Schellenband": "Nastro a sonagli",
 "Schellenball": "Ballo dei sonagli",
+"Schlüpfmorgen": "Mattino di schiusa",
+"#osterbrunch27": "#brunchdipasqua27",
 });

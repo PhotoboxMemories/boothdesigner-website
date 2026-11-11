@@ -1894,4 +1894,6 @@ I18N.add('tr', {
 "#zimtsternzeit": "#tarcinyildizi",
 "Schellenband": "Çıngıraklı Kurdele",
 "Schellenball": "Çıngırak Balosu",
+"Schlüpfmorgen": "Yumurtadan Çıkış Sabahı",
+"#osterbrunch27": "#paskalyabrunch27",
 });
