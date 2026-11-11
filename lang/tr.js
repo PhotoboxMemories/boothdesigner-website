@@ -1892,4 +1892,6 @@ I18N.add('tr', {
 "Zimtsterne": "Tarçınlı Yıldızlar",
 "Zimtzeit": "Tarçın Zamanı",
 "#zimtsternzeit": "#tarcinyildizi",
+"Schellenband": "Çıngıraklı Kurdele",
+"Schellenball": "Çıngırak Balosu",
 });

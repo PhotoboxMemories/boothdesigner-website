@@ -1891,4 +1891,6 @@ I18N.add('en', {
 "Zimtsterne": "Cinnamon Stars",
 "Zimtzeit": "Cinnamon Time",
 "#zimtsternzeit": "#cinnamonstartime",
+"Schellenband": "Bell Ribbon",
+"Schellenball": "Jingle Bell Ball",
 });

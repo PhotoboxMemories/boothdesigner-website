@@ -1891,4 +1891,6 @@ I18N.add('it', {
 "Zimtsterne": "Stelle alla cannella",
 "Zimtzeit": "Tempo di cannella",
 "#zimtsternzeit": "#stelleallacannella",
+"Schellenband": "Nastro a sonagli",
+"Schellenball": "Ballo dei sonagli",
 });

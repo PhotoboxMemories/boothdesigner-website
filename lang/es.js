@@ -1891,4 +1891,6 @@ I18N.add('es', {
 "Zimtsterne": "Estrellas de canela",
 "Zimtzeit": "Tiempo de canela",
 "#zimtsternzeit": "#estrellasdecanela",
+"Schellenband": "Cinta de cascabeles",
+"Schellenball": "Baile de cascabeles",
 });

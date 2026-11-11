@@ -1891,4 +1891,6 @@ I18N.add('fr', {
 "Zimtsterne": "Étoiles à la cannelle",
 "Zimtzeit": "Temps de cannelle",
 "#zimtsternzeit": "#etoilescannelle",
+"Schellenband": "Ruban à grelots",
+"Schellenball": "Bal des grelots",
 });
