@@ -1900,4 +1900,7 @@ I18N.add('tr', {
 "Hallo Baby Ida": "Merhaba Bebek Ida",
 "#hallobabyida": "#merhababebekida",
 "20. März 2027": "20 Mart 2027",
+"Cocktailstunde": "Kokteyl Saati",
+"COCKTAILPARTY": "KOKTEYL PARTİSİ",
+"Barabend": "Bar Gecesi",
 });

@@ -1899,4 +1899,7 @@ I18N.add('it', {
 "Hallo Baby Ida": "Ciao bebè Ida",
 "#hallobabyida": "#ciaobebeida",
 "20. März 2027": "20 marzo 2027",
+"Cocktailstunde": "L’ora del cocktail",
+"COCKTAILPARTY": "COCKTAIL PARTY",
+"Barabend": "Serata al bar",
 });
