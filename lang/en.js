@@ -1907,4 +1907,5 @@ I18N.add('en', {
 "LETZTES MATCH": "LAST MATCH",
 "Spiel, Satz, Lena": "Game, Set, Lena",
 "#spielsatzlena": "#gamesetlena",
+"Bitte erneut anmelden.": "Please sign in again.",
 });
