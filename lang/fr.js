@@ -1864,4 +1864,7 @@ I18N.add('fr', {
 "#mandarinenzeit": "#tempsdesmandarines",
 "Lochstickerei": "Broderie anglaise",
 "#emilstaufe": "#baptêmedemil",
+"Kaffeeküche": "Coin café",
+"Hängende Weihnachtstassen": "Tasses de Noël suspendues",
+"#kaffeepause26": "#pausecafé26",
 });

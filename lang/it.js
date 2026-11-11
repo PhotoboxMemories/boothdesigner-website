@@ -1864,4 +1864,7 @@ I18N.add('it', {
 "#mandarinenzeit": "#tempodimandarini",
 "Lochstickerei": "Sangallo",
 "#emilstaufe": "#battesimodiemil",
+"Kaffeeküche": "Angolo caffè",
+"Hängende Weihnachtstassen": "Tazze natalizie appese",
+"#kaffeepause26": "#pausacaffè26",
 });

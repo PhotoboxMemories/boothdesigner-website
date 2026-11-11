@@ -1865,4 +1865,7 @@ I18N.add('tr', {
 "#mandarinenzeit": "#mandalinazamanı",
 "Lochstickerei": "Delik İşi Dantel",
 "#emilstaufe": "#emilinvaftizi",
+"Kaffeeküche": "Ofis Mutfağı",
+"Hängende Weihnachtstassen": "Asılı Noel kupaları",
+"#kaffeepause26": "#kahvemolası26",
 });

@@ -1864,4 +1864,7 @@ I18N.add('en', {
 "#mandarinenzeit": "#tangerinetime",
 "Lochstickerei": "Eyelet Lace",
 "#emilstaufe": "#emilschristening",
+"Kaffeeküche": "Office Kitchen",
+"Hängende Weihnachtstassen": "Hanging Christmas mugs",
+"#kaffeepause26": "#coffeebreak26",
 });

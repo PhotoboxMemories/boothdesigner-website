@@ -1864,4 +1864,7 @@ I18N.add('es', {
 "#mandarinenzeit": "#tiempodemandarinas",
 "Lochstickerei": "Bordado inglés",
 "#emilstaufe": "#bautizodeemil",
+"Kaffeeküche": "Cocina de la oficina",
+"Hängende Weihnachtstassen": "Tazas navideñas colgantes",
+"#kaffeepause26": "#pausacafé26",
 });
