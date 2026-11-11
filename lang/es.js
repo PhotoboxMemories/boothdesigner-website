@@ -1869,4 +1869,7 @@ I18N.add('es', {
 "#kaffeepause26": "#pausacafé26",
 "Zwölf Trauben": "Doce uvas",
 "Zwölf Wünsche": "Doce deseos",
+"Bleistiftskizze": "Boceto a lápiz",
+"21. August 2027": "21 de agosto de 2027",
+"#milaschulkind": "#milaescolar",
 });

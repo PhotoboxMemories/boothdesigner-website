@@ -1870,4 +1870,7 @@ I18N.add('tr', {
 "#kaffeepause26": "#kahvemolası26",
 "Zwölf Trauben": "On İki Üzüm",
 "Zwölf Wünsche": "On İki Dilek",
+"Bleistiftskizze": "Kurşun Kalem Eskiz",
+"21. August 2027": "21 Ağustos 2027",
+"#milaschulkind": "#milaokulda",
 });
