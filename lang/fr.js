@@ -1875,4 +1875,11 @@ I18N.add('fr', {
 "Apfelblüte": "Fleur de pommier",
 "25. April 2027": "25 avril 2027",
 "#linaskonfi": "#linaconfirmation",
+"Geister-Kaffeeklatsch": "Goûter des fantômes",
+"Spukcafé": "Café hanté",
+"#spukcafe": "#cafehante",
+"31. Oktober 2027": "31 octobre 2027",
+"Himmelsleuchten": "Lueur céleste",
+"GESCHAFFT!": "ON L'A FAIT !",
+"#abi27leuchtet": "#promo27brille",
 });

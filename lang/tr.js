@@ -1876,4 +1876,11 @@ I18N.add('tr', {
 "Apfelblüte": "Elma Çiçeği",
 "25. April 2027": "25 Nisan 2027",
 "#linaskonfi": "#linakonfirmasyon",
+"Geister-Kaffeeklatsch": "Hayalet Kahve Sohbeti",
+"Spukcafé": "Hayalet Kafe",
+"#spukcafe": "#hayaletkafe",
+"31. Oktober 2027": "31 Ekim 2027",
+"Himmelsleuchten": "Gökyüzü Işıltısı",
+"GESCHAFFT!": "BAŞARDIK!",
+"#abi27leuchtet": "#mezun27parliyor",
 });

@@ -1875,4 +1875,11 @@ I18N.add('es', {
 "Apfelblüte": "Flor de manzano",
 "25. April 2027": "25 de abril de 2027",
 "#linaskonfi": "#linaconfirmacion",
+"Geister-Kaffeeklatsch": "Café de fantasmas",
+"Spukcafé": "Café embrujado",
+"#spukcafe": "#cafeembrujado",
+"31. Oktober 2027": "31 de octubre de 2027",
+"Himmelsleuchten": "Brillo del cielo",
+"GESCHAFFT!": "¡LO LOGRAMOS!",
+"#abi27leuchtet": "#promo27brilla",
 });

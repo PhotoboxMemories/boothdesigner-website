@@ -1875,4 +1875,11 @@ I18N.add('en', {
 "Apfelblüte": "Apple Blossom",
 "25. April 2027": "25 April 2027",
 "#linaskonfi": "#linasconfirmation",
+"Geister-Kaffeeklatsch": "Ghost Coffee Party",
+"Spukcafé": "Spooky Café",
+"#spukcafe": "#spookycafe",
+"31. Oktober 2027": "31 October 2027",
+"Himmelsleuchten": "Sky Glow",
+"GESCHAFFT!": "WE DID IT!",
+"#abi27leuchtet": "#class27shines",
 });

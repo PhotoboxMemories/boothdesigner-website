@@ -1875,4 +1875,11 @@ I18N.add('it', {
 "Apfelblüte": "Fiore di melo",
 "25. April 2027": "25 aprile 2027",
 "#linaskonfi": "#linacresima",
+"Geister-Kaffeeklatsch": "Caffè dei fantasmi",
+"Spukcafé": "Caffè stregato",
+"#spukcafe": "#caffestregato",
+"31. Oktober 2027": "31 ottobre 2027",
+"Himmelsleuchten": "Bagliore del cielo",
+"GESCHAFFT!": "CE L'ABBIAMO FATTA!",
+"#abi27leuchtet": "#maturita27brilla",
 });
