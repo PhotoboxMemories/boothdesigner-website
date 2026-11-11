@@ -1903,4 +1903,9 @@ I18N.add('tr', {
 "Cocktailstunde": "Kokteyl Saati",
 "COCKTAILPARTY": "KOKTEYL PARTİSİ",
 "Barabend": "Bar Gecesi",
+"Aktualisieren": "Yenile",
+"Matchball": "Maç Sayısı",
+"LETZTES MATCH": "SON MAÇ",
+"Spiel, Satz, Lena": "Oyun, Set, Lena",
+"#spielsatzlena": "#oyunsetlena",
 });

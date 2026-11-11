@@ -1902,4 +1902,9 @@ I18N.add('fr', {
 "Cocktailstunde": "L’heure du cocktail",
 "COCKTAILPARTY": "COCKTAIL PARTY",
 "Barabend": "Soirée bar",
+"Aktualisieren": "Actualiser",
+"Matchball": "Balle de match",
+"LETZTES MATCH": "DERNIER MATCH",
+"Spiel, Satz, Lena": "Jeu, set, Lena",
+"#spielsatzlena": "#jeusetlena",
 });

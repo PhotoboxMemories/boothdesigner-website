@@ -54,7 +54,7 @@
   #studioRoot .rad-stats{margin:14px 0 0}
   @media (max-width:760px){#studioRoot .grid2,#studioRoot .tiles{grid-template-columns:1fr}}`;
 
-  let ctx = null, site = null, subs = [], plans = [], shopReady = false, shopTax = false, abo = null, filter = 'offen', fixes = [], tab = 'start';
+  let ctx = null, site = null, subs = [], plans = [], shopReady = false, shopTax = false, abo = null, filter = 'offen', fixes = [], tab = 'start', refreshT = null;
   const $ = s => document.querySelector(s);
   const root = () => $('#studioRoot');
   const studioUrl = () => String(G.FOTOBOX_CONFIG?.studioUrl || '').replace(/\/+$/, '');
@@ -75,8 +75,10 @@
     }
     await loadShop();
     if (!ctx.extra('studio')) return locked();
-    await load();
+    try { await load(); }
+    catch (err) { ctx.toast(err.message || String(err), 7000); root().innerHTML = '<p><button class="btn" data-a="refresh">Aktualisieren</button></p>'; root().onclick = onClick; return; }
     render();
+    startRefresh();
     // abgelaufene Einsendungen (Frist nach der Veranstaltung) im Hintergrund löschen
     if (!ctx.demo) call({ action: 'cleanup' }).then(r => { if (r?.deleted) { subs = subs.filter(s => new Date(s.delete_after) > new Date()); render(); } }).catch(() => {});
   }
@@ -91,8 +93,9 @@
     const [a, b] = await Promise.all([
       ctx.sb.from('studio_sites').select('*').eq('owner_id', ctx.me.id).maybeSingle(),
       ctx.sb.from('studio_submissions').select('*').eq('owner_id', ctx.me.id).order('created_at', { ascending: false }).limit(500)]);
+    if (a.error || b.error) throw new Error((a.error || b.error).message || 'Laden fehlgeschlagen'); // alten Stand behalten (Netz weg, Sitzung abgelaufen)
     site = (Array.isArray(a.data) ? a.data[0] : a.data) || null; subs = Array.isArray(b.data) ? b.data : []; // Vorführung: Listen statt Einzelzeile
-    if (ctx.admin && !ctx.demo) fixes = (await ctx.sb.from('studio_design_fixes').select('design,layout,updated_at').order('updated_at', { ascending: false })).data || [];
+    if (ctx.admin && !ctx.demo) { const f = await ctx.sb.from('studio_design_fixes').select('design,layout,updated_at').order('updated_at', { ascending: false }); if (!f.error) fixes = f.data || []; }
   }
 
   // ---------- Abo über Stripe (Serverfunktion license-shop) ----------
@@ -147,6 +150,7 @@
 
   // ---------- Noch nicht freigeschaltet: testen oder buchen ----------
   async function locked() {
+    clearInterval(refreshT); refreshT = null; // gesperrte Seite nie durch die volle Oberfläche ersetzen
     const t = ctx.tier() || {};
     const ended = t.studio_until && new Date(t.studio_until) < new Date();
     park(); show(); root().innerHTML = `<div class="pagehead"><h1>BoothDesigner</h1></div>
@@ -189,7 +193,7 @@
   const TABS = [['start', 'Übersicht'], ['subs', 'Einsendungen'], ['settings', 'Einstellungen'], ['abo', 'Abo & Rechnungen'], ['admin', 'Betreiber-Werkzeuge']];
   function render() {
     const t = ctx.tier() || {}, until = t.studio_until ? new Date(t.studio_until) : null;
-    const n = subs.filter(s => s.status === 'neu').length, aboHtml = aboCard(), isAdmin = ctx.admin && !ctx.demo;
+    const n = unseen().length, aboHtml = aboCard(), isAdmin = ctx.admin && !ctx.demo;
     const tabs = TABS.filter(([k]) => k === 'abo' ? !!aboHtml : k === 'admin' ? isAdmin : true);
     if (!tabs.some(([k]) => k === tab)) tab = 'start';
     park();
@@ -199,6 +203,42 @@
       ${tab === 'subs' ? subsTab() : tab === 'settings' ? settingsCard() : tab === 'abo' ? aboHtml : tab === 'admin' ? adminTab() : startTab(n)}`;
     place();
     root().onclick = onClick; root().onchange = onChange;
+    if (tab === 'subs') markSeen();
+  }
+  // „Neu“ zählt nur ungelesene Einsendungen (seen_at, SQL 202611110001). Fehlt die Spalte noch, zählt wie bisher der Status.
+  const unseen = () => subs.filter(s => s.status === 'neu' && !('seen_at' in s && s.seen_at));
+  // Reiter „Einsendungen“ geöffnet: alle ungelesenen als gelesen merken – der Status bleibt, nur der Zähler geht auf 0
+  async function markSeen() {
+    const ids = unseen().filter(s => 'seen_at' in s).map(s => s.id);
+    if (!ids.length || ctx.demo || markSeen.busy) return;
+    markSeen.busy = true;
+    try {
+      const now = new Date().toISOString();
+      const { error } = await ctx.sb.from('studio_submissions').update({ seen_at: now }).in('id', ids);
+      if (error) return console.warn('BoothDesigner gelesen:', error.message);
+      subs.forEach(s => { if (ids.includes(s.id)) s.seen_at = now; });
+      if (!editing()) render(); // Zähler am Reiter und in der Übersicht – nicht, wenn inzwischen ein Formular offen ist
+    } finally { markSeen.busy = false; }
+  }
+  // Nutzer tippt gerade (Reiter „Einstellungen“ oder ein Feld hat den Fokus): dann nichts neu zeichnen
+  const editing = () => tab === 'settings' || (!!root() && root().contains(document.activeElement) && /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName));
+  const snapshot = () => JSON.stringify([site, subs, fixes]);
+  // Einsendungen neu laden: alle 60 s, beim Zurückkehren zum Fenster und über „Aktualisieren“. Neu gezeichnet wird nur, wenn sich
+  // etwas geändert hat (sonst klappen offene Bereiche zu) und nie, solange ein Formular bearbeitet wird oder die Seite im
+  // Dashboard gerade nicht sichtbar ist. Schlägt das Laden fehl, bleibt der alte Stand stehen.
+  async function refresh(force) {
+    const r = root();
+    if (!r || !r.isConnected || !ctx || !ctx.extra('studio')) return;
+    if (!force && (r.offsetParent === null || document.hidden || editing())) return;
+    const before = snapshot();
+    try { await load(); }
+    catch (err) { if (force) { ctx.toast(err.message || String(err), 6000); r.querySelectorAll('[data-a="refresh"]').forEach(b => { b.disabled = false; }); } return; }
+    if (editing() || (!force && snapshot() === before)) return;
+    render();
+  }
+  function startRefresh() {
+    clearInterval(refreshT); refreshT = setInterval(() => refresh(false), 60000);
+    if (!startRefresh.bound) { startRefresh.bound = true; document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(false); }); }
   }
 
   // Übersicht: Glücksrad-Gewinn, Status (Abo/Test), neue Einsendungen, Studio an/aus, Link für die Kunden
@@ -225,7 +265,7 @@
       <p><button class="btn primary" data-a="tab" data-t="settings">Studio einrichten</button></p>`;
     const shown = subs.filter(s => filter === 'alle' || (filter === 'offen' ? s.status !== 'erledigt' : s.status === 'erledigt'));
     return `<div class="row" style="margin-bottom:12px">${[['offen', 'Offen'], ['erledigt', 'Erledigt'], ['alle', 'Alle']].map(([k, l]) =>
-        `<button class="btn small${filter === k ? ' primary' : ''}" data-a="filter" data-f="${k}">${l}</button>`).join('')}</div>
+        `<button class="btn small${filter === k ? ' primary' : ''}" data-a="filter" data-f="${k}">${l}</button>`).join('')}<button class="btn small" data-a="refresh">Aktualisieren</button></div>
       ${shown.length ? subGroups(shown) : '<p class="muted">Noch keine Einsendungen. Schick deinen Kunden den Link oder baue das Studio auf deiner Webseite ein.</p>'}`;
   }
 
@@ -333,6 +373,7 @@
     const card = b.closest('.sub'), s = card && subs.find(x => x.id === card.dataset.id);
     if (b.dataset.a === 'tab') { tab = b.dataset.t; render(); if (root().getBoundingClientRect().top < 0) root().scrollIntoView(); return; }
     if (b.dataset.a === 'filter') { filter = b.dataset.f; return render(); }
+    if (b.dataset.a === 'refresh') { b.disabled = true; return refresh(true); }
     if (b.dataset.a === 'buy' || b.dataset.a === 'portal') return onShop(b);
     if (b.dataset.a === 'fixopen') {
       const w = window.open('', '_blank'); // sofort öffnen, sonst blockiert der Browser das Fenster nach dem Warten
