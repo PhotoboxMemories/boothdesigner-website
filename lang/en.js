@@ -1924,4 +1924,5 @@ I18N.add('en', {
 "Waschbär-Countdown": "Raccoon Countdown",
 "Mitternachtsbande": "Midnight Gang",
 "Skyline": "Skyline",
+"Papiertauben": "Paper Doves",
 });

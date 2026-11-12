@@ -1924,4 +1924,5 @@ I18N.add('es', {
 "Waschbär-Countdown": "Cuenta atrás de mapaches",
 "Mitternachtsbande": "La pandilla de medianoche",
 "Skyline": "Skyline",
+"Papiertauben": "Palomas de papel",
 });

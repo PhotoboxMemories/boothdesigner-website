@@ -1924,4 +1924,5 @@ I18N.add('fr', {
 "Waschbär-Countdown": "Compte à rebours des ratons",
 "Mitternachtsbande": "La bande de minuit",
 "Skyline": "Skyline",
+"Papiertauben": "Colombes de papier",
 });

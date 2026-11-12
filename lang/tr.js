@@ -1925,4 +1925,5 @@ I18N.add('tr', {
 "Waschbär-Countdown": "Rakun Geri Sayımı",
 "Mitternachtsbande": "Gece Yarısı Çetesi",
 "Skyline": "Şehir Silueti",
+"Papiertauben": "Kağıt Güvercinler",
 });
