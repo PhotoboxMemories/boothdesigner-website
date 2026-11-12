@@ -1927,4 +1927,6 @@ I18N.add('it', {
 "Papiertauben": "Colombe di carta",
 "Prägedruck": "Stampa a rilievo",
 "Flower-Power": "Flower Power",
+"Kleiner Wal": "Piccola Balena",
+"Kleiner Emil": "Piccolo Emil",
 });

@@ -1928,4 +1928,6 @@ I18N.add('tr', {
 "Papiertauben": "Kağıt Güvercinler",
 "Prägedruck": "Kabartma Baskı",
 "Flower-Power": "Flower Power",
+"Kleiner Wal": "Minik Balina",
+"Kleiner Emil": "Minik Emil",
 });

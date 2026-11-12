@@ -1927,4 +1927,6 @@ I18N.add('fr', {
 "Papiertauben": "Colombes de papier",
 "Prägedruck": "Gaufrage",
 "Flower-Power": "Flower Power",
+"Kleiner Wal": "Petite Baleine",
+"Kleiner Emil": "Petit Emil",
 });

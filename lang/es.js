@@ -1927,4 +1927,6 @@ I18N.add('es', {
 "Papiertauben": "Palomas de papel",
 "Prägedruck": "Relieve en seco",
 "Flower-Power": "Flower Power",
+"Kleiner Wal": "Pequeña Ballena",
+"Kleiner Emil": "Pequeño Emil",
 });

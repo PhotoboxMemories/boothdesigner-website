@@ -1927,4 +1927,6 @@ I18N.add('en', {
 "Papiertauben": "Paper Doves",
 "Prägedruck": "Embossed Print",
 "Flower-Power": "Flower Power",
+"Kleiner Wal": "Little Whale",
+"Kleiner Emil": "Little Emil",
 });
