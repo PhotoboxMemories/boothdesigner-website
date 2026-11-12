@@ -1918,4 +1918,5 @@ I18N.add('fr', {
 "#winterball27": "#baldhiver27",
 "Krakenklasse": "Classe des pieuvres",
 "28. August 2027": "28 août 2027",
+"Siegellack": "Cire à cacheter",
 });

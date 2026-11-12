@@ -1919,4 +1919,5 @@ I18N.add('tr', {
 "#winterball27": "#kisbalosu27",
 "Krakenklasse": "Ahtapot Sınıfı",
 "28. August 2027": "28 Ağustos 2027",
+"Siegellack": "Mühür Mumu",
 });

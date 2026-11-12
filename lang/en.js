@@ -1918,4 +1918,5 @@ I18N.add('en', {
 "#winterball27": "#winterball27",
 "Krakenklasse": "Octopus Class",
 "28. August 2027": "28 August 2027",
+"Siegellack": "Sealing Wax",
 });
