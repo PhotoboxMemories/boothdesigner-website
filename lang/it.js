@@ -1936,4 +1936,6 @@ I18N.add('it', {
 "Rodelabend": "Serata in slittino",
 "Papierlampions": "Lanterne di carta",
 "Gartenzauber": "Magia del giardino",
+"Jazzabend": "Serata jazz",
+"Henrik wird 50": "Henrik compie 50 anni",
 });

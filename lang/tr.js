@@ -1937,4 +1937,6 @@ I18N.add('tr', {
 "Rodelabend": "Kızak Gecesi",
 "Papierlampions": "Kâğıt Fenerler",
 "Gartenzauber": "Bahçe Büyüsü",
+"Jazzabend": "Caz Gecesi",
+"Henrik wird 50": "Henrik 50 yaşında",
 });
