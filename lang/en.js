@@ -1946,4 +1946,6 @@ I18N.add('en', {
 "Knetwerk": "Clay Works",
 "Collegestreifen": "College Stripes",
 "#leonhatsgeschafft": "#leondidit",
+"Eisblumen": "Frost Flowers",
+"Frostmorgen": "Frosty Morning",
 });

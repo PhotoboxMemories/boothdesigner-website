@@ -1947,4 +1947,6 @@ I18N.add('tr', {
 "Knetwerk": "Hamur Atölyesi",
 "Collegestreifen": "Kolej Şeritleri",
 "#leonhatsgeschafft": "#leonbaşardı",
+"Eisblumen": "Buz Çiçekleri",
+"Frostmorgen": "Ayazlı Sabah",
 });

@@ -1946,4 +1946,6 @@ I18N.add('it', {
 "Knetwerk": "Plastilina",
 "Collegestreifen": "Righe College",
 "#leonhatsgeschafft": "#leonceliafatta",
+"Eisblumen": "Fiori di ghiaccio",
+"Frostmorgen": "Mattino di brina",
 });

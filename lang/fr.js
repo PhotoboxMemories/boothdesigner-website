@@ -1946,4 +1946,6 @@ I18N.add('fr', {
 "Knetwerk": "Pâte à modeler",
 "Collegestreifen": "Rayures College",
 "#leonhatsgeschafft": "#leonaréussi",
+"Eisblumen": "Fleurs de givre",
+"Frostmorgen": "Matin de givre",
 });

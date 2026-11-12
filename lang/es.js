@@ -1946,4 +1946,6 @@ I18N.add('es', {
 "Knetwerk": "Plastilina",
 "Collegestreifen": "Rayas College",
 "#leonhatsgeschafft": "#leonlologró",
+"Eisblumen": "Flores de escarcha",
+"Frostmorgen": "Mañana helada",
 });
