@@ -1921,4 +1921,6 @@ I18N.add('es', {
 "Siegellack": "Lacre",
 "Farnblau": "Azul helecho",
 "Weihnachtsstern": "Flor de Pascua",
+"Waschbär-Countdown": "Cuenta atrás de mapaches",
+"Mitternachtsbande": "La pandilla de medianoche",
 });

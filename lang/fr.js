@@ -1921,4 +1921,6 @@ I18N.add('fr', {
 "Siegellack": "Cire à cacheter",
 "Farnblau": "Bleu fougère",
 "Weihnachtsstern": "Poinsettia",
+"Waschbär-Countdown": "Compte à rebours des ratons",
+"Mitternachtsbande": "La bande de minuit",
 });

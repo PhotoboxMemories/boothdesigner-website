@@ -1921,4 +1921,6 @@ I18N.add('it', {
 "Siegellack": "Ceralacca",
 "Farnblau": "Blu felce",
 "Weihnachtsstern": "Stella di Natale",
+"Waschbär-Countdown": "Conto alla rovescia dei procioni",
+"Mitternachtsbande": "La banda di mezzanotte",
 });

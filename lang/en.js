@@ -1921,4 +1921,6 @@ I18N.add('en', {
 "Siegellack": "Sealing Wax",
 "Farnblau": "Fern Blue",
 "Weihnachtsstern": "Poinsettia",
+"Waschbär-Countdown": "Raccoon Countdown",
+"Mitternachtsbande": "Midnight Gang",
 });

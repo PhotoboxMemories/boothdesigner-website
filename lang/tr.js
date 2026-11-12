@@ -1922,4 +1922,6 @@ I18N.add('tr', {
 "Siegellack": "Mühür Mumu",
 "Farnblau": "Eğrelti Mavisi",
 "Weihnachtsstern": "Atatürk Çiçeği",
+"Waschbär-Countdown": "Rakun Geri Sayımı",
+"Mitternachtsbande": "Gece Yarısı Çetesi",
 });
