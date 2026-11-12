@@ -1955,4 +1955,7 @@ I18N.add('tr', {
 "#jonaskonfi": "#jonaskonfirmasyon",
 "Seifenblasen": "Sabun Köpükleri",
 "#lenistaufe": "#leninvaftizi",
+"Nilpferd-Garde": "Su Aygırı Muhafızları",
+"Gardeball": "Muhafız Balosu",
+"#gardeball27": "#muhafizbalosu27",
 });

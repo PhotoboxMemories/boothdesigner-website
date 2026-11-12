@@ -1954,4 +1954,7 @@ I18N.add('it', {
 "#jonaskonfi": "#jonascresima",
 "Seifenblasen": "Bolle di sapone",
 "#lenistaufe": "#battesimodileni",
+"Nilpferd-Garde": "Guardia degli ippopotami",
+"Gardeball": "Ballo della guardia",
+"#gardeball27": "#ballodellaguardia27",
 });

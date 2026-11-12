@@ -1954,4 +1954,7 @@ I18N.add('en', {
 "#jonaskonfi": "#jonasconfirmation",
 "Seifenblasen": "Soap Bubbles",
 "#lenistaufe": "#lenischristening",
+"Nilpferd-Garde": "Hippo Guard",
+"Gardeball": "Guard Ball",
+"#gardeball27": "#guardball27",
 });
