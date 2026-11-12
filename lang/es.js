@@ -1923,4 +1923,5 @@ I18N.add('es', {
 "Weihnachtsstern": "Flor de Pascua",
 "Waschbär-Countdown": "Cuenta atrás de mapaches",
 "Mitternachtsbande": "La pandilla de medianoche",
+"Skyline": "Skyline",
 });

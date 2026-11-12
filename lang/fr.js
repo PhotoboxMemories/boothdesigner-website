@@ -1923,4 +1923,5 @@ I18N.add('fr', {
 "Weihnachtsstern": "Poinsettia",
 "Waschbär-Countdown": "Compte à rebours des ratons",
 "Mitternachtsbande": "La bande de minuit",
+"Skyline": "Skyline",
 });

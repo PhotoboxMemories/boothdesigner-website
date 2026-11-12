@@ -1924,4 +1924,5 @@ I18N.add('tr', {
 "Weihnachtsstern": "Atatürk Çiçeği",
 "Waschbär-Countdown": "Rakun Geri Sayımı",
 "Mitternachtsbande": "Gece Yarısı Çetesi",
+"Skyline": "Şehir Silueti",
 });

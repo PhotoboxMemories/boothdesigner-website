@@ -1923,4 +1923,5 @@ I18N.add('en', {
 "Weihnachtsstern": "Poinsettia",
 "Waschbär-Countdown": "Raccoon Countdown",
 "Mitternachtsbande": "Midnight Gang",
+"Skyline": "Skyline",
 });
