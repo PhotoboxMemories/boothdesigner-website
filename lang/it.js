@@ -1934,4 +1934,6 @@ I18N.add('it', {
 "Karaoke-Nacht": "Serata karaoke",
 "Schlittenfahrt": "Gita in slitta",
 "Rodelabend": "Serata in slittino",
+"Papierlampions": "Lanterne di carta",
+"Gartenzauber": "Magia del giardino",
 });

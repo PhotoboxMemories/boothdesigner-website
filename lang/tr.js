@@ -1935,4 +1935,6 @@ I18N.add('tr', {
 "Karaoke-Nacht": "Karaoke Gecesi",
 "Schlittenfahrt": "Kızak Gezisi",
 "Rodelabend": "Kızak Gecesi",
+"Papierlampions": "Kâğıt Fenerler",
+"Gartenzauber": "Bahçe Büyüsü",
 });

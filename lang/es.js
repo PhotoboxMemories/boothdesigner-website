@@ -1934,4 +1934,6 @@ I18N.add('es', {
 "Karaoke-Nacht": "Noche de karaoke",
 "Schlittenfahrt": "Paseo en trineo",
 "Rodelabend": "Noche de trineo",
+"Papierlampions": "Farolillos de papel",
+"Gartenzauber": "Magia del jardín",
 });

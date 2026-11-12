@@ -1934,4 +1934,6 @@ I18N.add('en', {
 "Karaoke-Nacht": "Karaoke Night",
 "Schlittenfahrt": "Sleigh Ride",
 "Rodelabend": "Sledding Night",
+"Papierlampions": "Paper Lanterns",
+"Gartenzauber": "Garden Magic",
 });

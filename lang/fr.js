@@ -1934,4 +1934,6 @@ I18N.add('fr', {
 "Karaoke-Nacht": "Soirée karaoké",
 "Schlittenfahrt": "Balade en luge",
 "Rodelabend": "Soirée luge",
+"Papierlampions": "Lampions en papier",
+"Gartenzauber": "Magie du jardin",
 });
