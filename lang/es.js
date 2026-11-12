@@ -1939,4 +1939,9 @@ I18N.add('es', {
 "Jazzabend": "Noche de jazz",
 "Henrik wird 50": "Henrik cumple 50",
 "Damast": "Damasco",
+"Otter-Spa": "Spa de nutrias",
+"AUSZEIT VOR DEM JA": "UN RESPIRO ANTES DEL SÍ",
+"Leas Spa-Tag": "Día de spa de Lea",
+"#leasspatag": "#diadespalea",
+"Knetwerk": "Plastilina",
 });

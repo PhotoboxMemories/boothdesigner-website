@@ -1940,4 +1940,9 @@ I18N.add('tr', {
 "Jazzabend": "Caz Gecesi",
 "Henrik wird 50": "Henrik 50 yaşında",
 "Damast": "Damask",
+"Otter-Spa": "Su Samuru Spa",
+"AUSZEIT VOR DEM JA": "EVET'TEN ÖNCE MOLA",
+"Leas Spa-Tag": "Lea'nın Spa Günü",
+"#leasspatag": "#leaspagunu",
+"Knetwerk": "Hamur Atölyesi",
 });

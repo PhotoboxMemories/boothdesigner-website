@@ -1939,4 +1939,9 @@ I18N.add('en', {
 "Jazzabend": "Jazz Night",
 "Henrik wird 50": "Henrik turns 50",
 "Damast": "Damask",
+"Otter-Spa": "Otter Spa",
+"AUSZEIT VOR DEM JA": "TIME OUT BEFORE I DO",
+"Leas Spa-Tag": "Lea's Spa Day",
+"#leasspatag": "#leasspaday",
+"Knetwerk": "Clay Works",
 });
