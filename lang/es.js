@@ -1925,4 +1925,6 @@ I18N.add('es', {
 "Mitternachtsbande": "La pandilla de medianoche",
 "Skyline": "Skyline",
 "Papiertauben": "Palomas de papel",
+"Prägedruck": "Relieve en seco",
+"Flower-Power": "Flower Power",
 });

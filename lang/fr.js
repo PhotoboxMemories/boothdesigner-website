@@ -1925,4 +1925,6 @@ I18N.add('fr', {
 "Mitternachtsbande": "La bande de minuit",
 "Skyline": "Skyline",
 "Papiertauben": "Colombes de papier",
+"Prägedruck": "Gaufrage",
+"Flower-Power": "Flower Power",
 });

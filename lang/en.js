@@ -1925,4 +1925,6 @@ I18N.add('en', {
 "Mitternachtsbande": "Midnight Gang",
 "Skyline": "Skyline",
 "Papiertauben": "Paper Doves",
+"Prägedruck": "Embossed Print",
+"Flower-Power": "Flower Power",
 });

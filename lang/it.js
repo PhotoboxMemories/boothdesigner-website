@@ -1925,4 +1925,6 @@ I18N.add('it', {
 "Mitternachtsbande": "La banda di mezzanotte",
 "Skyline": "Skyline",
 "Papiertauben": "Colombe di carta",
+"Prägedruck": "Stampa a rilievo",
+"Flower-Power": "Flower Power",
 });

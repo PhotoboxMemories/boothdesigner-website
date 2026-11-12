@@ -1926,4 +1926,6 @@ I18N.add('tr', {
 "Mitternachtsbande": "Gece Yarısı Çetesi",
 "Skyline": "Şehir Silueti",
 "Papiertauben": "Kağıt Güvercinler",
+"Prägedruck": "Kabartma Baskı",
+"Flower-Power": "Flower Power",
 });
