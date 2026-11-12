@@ -1920,4 +1920,5 @@ I18N.add('fr', {
 "28. August 2027": "28 août 2027",
 "Siegellack": "Cire à cacheter",
 "Farnblau": "Bleu fougère",
+"Weihnachtsstern": "Poinsettia",
 });

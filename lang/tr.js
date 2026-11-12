@@ -1921,4 +1921,5 @@ I18N.add('tr', {
 "28. August 2027": "28 Ağustos 2027",
 "Siegellack": "Mühür Mumu",
 "Farnblau": "Eğrelti Mavisi",
+"Weihnachtsstern": "Atatürk Çiçeği",
 });

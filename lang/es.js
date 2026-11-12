@@ -1920,4 +1920,5 @@ I18N.add('es', {
 "28. August 2027": "28 de agosto de 2027",
 "Siegellack": "Lacre",
 "Farnblau": "Azul helecho",
+"Weihnachtsstern": "Flor de Pascua",
 });
