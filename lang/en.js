@@ -1929,4 +1929,7 @@ I18N.add('en', {
 "Flower-Power": "Flower Power",
 "Kleiner Wal": "Little Whale",
 "Kleiner Emil": "Little Emil",
+"Karaoke-Hühner": "Karaoke Chickens",
+"BÜHNE FREI": "STAGE IS YOURS",
+"Karaoke-Nacht": "Karaoke Night",
 });

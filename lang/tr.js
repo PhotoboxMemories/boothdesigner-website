@@ -1930,4 +1930,7 @@ I18N.add('tr', {
 "Flower-Power": "Flower Power",
 "Kleiner Wal": "Minik Balina",
 "Kleiner Emil": "Minik Emil",
+"Karaoke-Hühner": "Karaoke Tavukları",
+"BÜHNE FREI": "SAHNE SENİN",
+"Karaoke-Nacht": "Karaoke Gecesi",
 });

@@ -1929,4 +1929,7 @@ I18N.add('es', {
 "Flower-Power": "Flower Power",
 "Kleiner Wal": "Pequeña Ballena",
 "Kleiner Emil": "Pequeño Emil",
+"Karaoke-Hühner": "Gallinas karaoke",
+"BÜHNE FREI": "EL ESCENARIO ES TUYO",
+"Karaoke-Nacht": "Noche de karaoke",
 });
