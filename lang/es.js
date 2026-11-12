@@ -1919,4 +1919,5 @@ I18N.add('es', {
 "Krakenklasse": "Clase de pulpos",
 "28. August 2027": "28 de agosto de 2027",
 "Siegellack": "Lacre",
+"Farnblau": "Azul helecho",
 });

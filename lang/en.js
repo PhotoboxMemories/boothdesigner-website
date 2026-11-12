@@ -1919,4 +1919,5 @@ I18N.add('en', {
 "Krakenklasse": "Octopus Class",
 "28. August 2027": "28 August 2027",
 "Siegellack": "Sealing Wax",
+"Farnblau": "Fern Blue",
 });

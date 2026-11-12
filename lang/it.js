@@ -1919,4 +1919,5 @@ I18N.add('it', {
 "Krakenklasse": "Classe dei polpi",
 "28. August 2027": "28 agosto 2027",
 "Siegellack": "Ceralacca",
+"Farnblau": "Blu felce",
 });

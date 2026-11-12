@@ -1920,4 +1920,5 @@ I18N.add('tr', {
 "Krakenklasse": "Ahtapot Sınıfı",
 "28. August 2027": "28 Ağustos 2027",
 "Siegellack": "Mühür Mumu",
+"Farnblau": "Eğrelti Mavisi",
 });
