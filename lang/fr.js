@@ -1952,4 +1952,6 @@ I18N.add('fr', {
 "#beckerbackt": "#beckerpatisse",
 "Gipfelblick": "Vue sur les sommets",
 "#jonaskonfi": "#jonasconfirmation",
+"Seifenblasen": "Bulles de savon",
+"#lenistaufe": "#baptemedeleni",
 });

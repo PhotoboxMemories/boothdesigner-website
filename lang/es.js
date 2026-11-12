@@ -1952,4 +1952,6 @@ I18N.add('es', {
 "#beckerbackt": "#beckerhornea",
 "Gipfelblick": "Vista a la cumbre",
 "#jonaskonfi": "#jonasconfirmacion",
+"Seifenblasen": "Pompas de jabón",
+"#lenistaufe": "#bautizodeleni",
 });

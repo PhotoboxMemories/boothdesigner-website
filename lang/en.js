@@ -1952,4 +1952,6 @@ I18N.add('en', {
 "#beckerbackt": "#beckersbake",
 "Gipfelblick": "Summit View",
 "#jonaskonfi": "#jonasconfirmation",
+"Seifenblasen": "Soap Bubbles",
+"#lenistaufe": "#lenischristening",
 });

@@ -1953,4 +1953,6 @@ I18N.add('tr', {
 "#beckerbackt": "#beckerpisiriyor",
 "Gipfelblick": "Zirve Manzarası",
 "#jonaskonfi": "#jonaskonfirmasyon",
+"Seifenblasen": "Sabun Köpükleri",
+"#lenistaufe": "#leninvaftizi",
 });
