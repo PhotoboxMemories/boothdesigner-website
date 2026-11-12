@@ -1939,4 +1939,5 @@ I18N.add('tr', {
 "Gartenzauber": "Bahçe Büyüsü",
 "Jazzabend": "Caz Gecesi",
 "Henrik wird 50": "Henrik 50 yaşında",
+"Damast": "Damask",
 });

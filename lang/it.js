@@ -1938,4 +1938,5 @@ I18N.add('it', {
 "Gartenzauber": "Magia del giardino",
 "Jazzabend": "Serata jazz",
 "Henrik wird 50": "Henrik compie 50 anni",
+"Damast": "Damasco",
 });
