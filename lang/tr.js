@@ -1945,4 +1945,6 @@ I18N.add('tr', {
 "Leas Spa-Tag": "Lea'nın Spa Günü",
 "#leasspatag": "#leaspagunu",
 "Knetwerk": "Hamur Atölyesi",
+"Collegestreifen": "Kolej Şeritleri",
+"#leonhatsgeschafft": "#leonbaşardı",
 });

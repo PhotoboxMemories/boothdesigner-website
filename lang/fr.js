@@ -1944,4 +1944,6 @@ I18N.add('fr', {
 "Leas Spa-Tag": "Journée spa de Léa",
 "#leasspatag": "#journeespalea",
 "Knetwerk": "Pâte à modeler",
+"Collegestreifen": "Rayures College",
+"#leonhatsgeschafft": "#leonaréussi",
 });

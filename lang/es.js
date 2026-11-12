@@ -1944,4 +1944,6 @@ I18N.add('es', {
 "Leas Spa-Tag": "Día de spa de Lea",
 "#leasspatag": "#diadespalea",
 "Knetwerk": "Plastilina",
+"Collegestreifen": "Rayas College",
+"#leonhatsgeschafft": "#leonlologró",
 });
