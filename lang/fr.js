@@ -1948,4 +1948,6 @@ I18N.add('fr', {
 "#leonhatsgeschafft": "#leonaréussi",
 "Eisblumen": "Fleurs de givre",
 "Frostmorgen": "Matin de givre",
+"Plätzchenzeit": "Temps des biscuits",
+"#beckerbackt": "#beckerpatisse",
 });

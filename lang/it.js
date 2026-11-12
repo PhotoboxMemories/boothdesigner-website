@@ -1411,7 +1411,7 @@ I18N.add('it', {
 "Pflaume & Champagner": "Prugna & Champagne",
 "Frosttanne, Champagnerkugeln & Hortensie": "Abete brinato, palline champagne & ortensia",
 "Frosttanne in Champagnervase": "Abete brinato in vaso champagne",
-"Familie Becker": "Famiglia Becker",
+"Familie Becker": "La famiglia Becker",
 "24. Dezember 2026": "24 dicembre 2026",
 "Pfauenfeder": "Piuma di pavone",
 "Pfauenfedern & Goldluftschlangen": "Piume di pavone e stelle filanti dorate",
@@ -1948,4 +1948,6 @@ I18N.add('it', {
 "#leonhatsgeschafft": "#leonceliafatta",
 "Eisblumen": "Fiori di ghiaccio",
 "Frostmorgen": "Mattino di brina",
+"Plätzchenzeit": "Tempo di biscotti",
+"#beckerbackt": "#beckerinforna",
 });

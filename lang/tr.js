@@ -1949,4 +1949,6 @@ I18N.add('tr', {
 "#leonhatsgeschafft": "#leonbaşardı",
 "Eisblumen": "Buz Çiçekleri",
 "Frostmorgen": "Ayazlı Sabah",
+"Plätzchenzeit": "Kurabiye Zamanı",
+"#beckerbackt": "#beckerpisiriyor",
 });

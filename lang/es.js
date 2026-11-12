@@ -1411,7 +1411,7 @@ I18N.add('es', {
 "Pflaume & Champagner": "Ciruela & Champán",
 "Frosttanne, Champagnerkugeln & Hortensie": "Abeto escarchado, bolas champán & hortensia",
 "Frosttanne in Champagnervase": "Abeto escarchado en jarrón champán",
-"Familie Becker": "Familia Becker",
+"Familie Becker": "La familia Becker",
 "24. Dezember 2026": "24 de diciembre de 2026",
 "Pfauenfeder": "Pluma de pavo real",
 "Pfauenfedern & Goldluftschlangen": "Plumas de pavo real y serpentinas doradas",
@@ -1948,4 +1948,6 @@ I18N.add('es', {
 "#leonhatsgeschafft": "#leonlologró",
 "Eisblumen": "Flores de escarcha",
 "Frostmorgen": "Mañana helada",
+"Plätzchenzeit": "Tiempo de galletas",
+"#beckerbackt": "#beckerhornea",
 });

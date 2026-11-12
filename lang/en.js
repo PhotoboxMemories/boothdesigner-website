@@ -1948,4 +1948,6 @@ I18N.add('en', {
 "#leonhatsgeschafft": "#leondidit",
 "Eisblumen": "Frost Flowers",
 "Frostmorgen": "Frosty Morning",
+"Plätzchenzeit": "Cookie Time",
+"#beckerbackt": "#beckersbake",
 });
