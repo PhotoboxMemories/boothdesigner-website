@@ -1950,4 +1950,6 @@ I18N.add('fr', {
 "Frostmorgen": "Matin de givre",
 "Plätzchenzeit": "Temps des biscuits",
 "#beckerbackt": "#beckerpatisse",
+"Gipfelblick": "Vue sur les sommets",
+"#jonaskonfi": "#jonasconfirmation",
 });

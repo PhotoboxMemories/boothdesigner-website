@@ -1950,4 +1950,6 @@ I18N.add('en', {
 "Frostmorgen": "Frosty Morning",
 "Plätzchenzeit": "Cookie Time",
 "#beckerbackt": "#beckersbake",
+"Gipfelblick": "Summit View",
+"#jonaskonfi": "#jonasconfirmation",
 });

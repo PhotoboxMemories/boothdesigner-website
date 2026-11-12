@@ -1951,4 +1951,6 @@ I18N.add('tr', {
 "Frostmorgen": "Ayazlı Sabah",
 "Plätzchenzeit": "Kurabiye Zamanı",
 "#beckerbackt": "#beckerpisiriyor",
+"Gipfelblick": "Zirve Manzarası",
+"#jonaskonfi": "#jonaskonfirmasyon",
 });

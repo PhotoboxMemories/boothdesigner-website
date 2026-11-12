@@ -1950,4 +1950,6 @@ I18N.add('it', {
 "Frostmorgen": "Mattino di brina",
 "Plätzchenzeit": "Tempo di biscotti",
 "#beckerbackt": "#beckerinforna",
+"Gipfelblick": "Vista sulle vette",
+"#jonaskonfi": "#jonascresima",
 });
