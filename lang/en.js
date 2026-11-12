@@ -1932,4 +1932,6 @@ I18N.add('en', {
 "Karaoke-Hühner": "Karaoke Chickens",
 "BÜHNE FREI": "STAGE IS YOURS",
 "Karaoke-Nacht": "Karaoke Night",
+"Schlittenfahrt": "Sleigh Ride",
+"Rodelabend": "Sledding Night",
 });

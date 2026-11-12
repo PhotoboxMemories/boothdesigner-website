@@ -1932,4 +1932,6 @@ I18N.add('es', {
 "Karaoke-Hühner": "Gallinas karaoke",
 "BÜHNE FREI": "EL ESCENARIO ES TUYO",
 "Karaoke-Nacht": "Noche de karaoke",
+"Schlittenfahrt": "Paseo en trineo",
+"Rodelabend": "Noche de trineo",
 });

@@ -1932,4 +1932,6 @@ I18N.add('it', {
 "Karaoke-Hühner": "Galline al karaoke",
 "BÜHNE FREI": "IL PALCO È TUO",
 "Karaoke-Nacht": "Serata karaoke",
+"Schlittenfahrt": "Gita in slitta",
+"Rodelabend": "Serata in slittino",
 });

@@ -1932,4 +1932,6 @@ I18N.add('fr', {
 "Karaoke-Hühner": "Poules karaoké",
 "BÜHNE FREI": "À VOUS LA SCÈNE",
 "Karaoke-Nacht": "Soirée karaoké",
+"Schlittenfahrt": "Balade en luge",
+"Rodelabend": "Soirée luge",
 });

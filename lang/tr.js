@@ -1933,4 +1933,6 @@ I18N.add('tr', {
 "Karaoke-Hühner": "Karaoke Tavukları",
 "BÜHNE FREI": "SAHNE SENİN",
 "Karaoke-Nacht": "Karaoke Gecesi",
+"Schlittenfahrt": "Kızak Gezisi",
+"Rodelabend": "Kızak Gecesi",
 });
