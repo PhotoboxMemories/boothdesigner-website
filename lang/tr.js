@@ -1983,4 +1983,6 @@ I18N.add('tr', {
 "12. August 2027": "12 Ağustos 2027",
 "#mumienyoga27": "#mumyayogası27",
 "#emilsschulstart": "#emilokulda",
+"Blütenschnüre": "Çiçek Dizileri",
+"#sophiesagtja": "#sophieevetdiyor",
 });

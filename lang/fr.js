@@ -1982,4 +1982,6 @@ I18N.add('fr', {
 "12. August 2027": "12 août 2027",
 "#mumienyoga27": "#yogamomie27",
 "#emilsschulstart": "#rentreedemil",
+"Blütenschnüre": "Guirlandes fleuries",
+"#sophiesagtja": "#sophieditoui",
 });
