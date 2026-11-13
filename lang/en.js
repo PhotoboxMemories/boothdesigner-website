@@ -2001,4 +2001,7 @@ I18N.add('en', {
 "PARTYZEIT": "PARTY TIME",
 "Jonas feiert": "Jonas celebrates",
 "#jonasfeiert": "#jonascelebrates",
+"Farbkleckse": "Paint Splashes",
+"Klasse 10a": "Class 10a",
+"#klasse10a": "#class10a",
 });

@@ -2002,4 +2002,7 @@ I18N.add('tr', {
 "PARTYZEIT": "PARTİ ZAMANI",
 "Jonas feiert": "Jonas kutluyor",
 "#jonasfeiert": "#jonaskutluyor",
+"Farbkleckse": "Renk Lekeleri",
+"Klasse 10a": "10A Sınıfı",
+"#klasse10a": "#10asinifi",
 });

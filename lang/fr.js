@@ -2001,4 +2001,7 @@ I18N.add('fr', {
 "PARTYZEIT": "C'EST LA FÊTE",
 "Jonas feiert": "Jonas fait la fête",
 "#jonasfeiert": "#jonasfaitlafete",
+"Farbkleckse": "Taches de couleur",
+"Klasse 10a": "Classe 10a",
+"#klasse10a": "#classe10a",
 });
