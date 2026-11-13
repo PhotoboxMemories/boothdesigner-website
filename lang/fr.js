@@ -1989,4 +1989,10 @@ I18N.add('fr', {
 "#webersmarkt": "#marchedesweber",
 "Rasselbande": "Bande de hochets",
 "#rasselbande": "#bandedehochets",
+"Tortenspitze": "Dentelle de gâteau",
+"Marie wird 40": "Marie fête ses 40 ans",
+"6. März 2027": "6 mars 2027",
+"#mariewird40": "#marie40ans",
+"Pflanzen-Party": "Fête des plantes",
+"#gruenwerkfeiert": "#gruenwerkfaitlafete",
 });

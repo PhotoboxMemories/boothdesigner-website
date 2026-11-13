@@ -1989,4 +1989,10 @@ I18N.add('es', {
 "#webersmarkt": "#mercadilloweber",
 "Rasselbande": "Pandilla de sonajeros",
 "#rasselbande": "#pandilladesonajeros",
+"Tortenspitze": "Blonda de tarta",
+"Marie wird 40": "Marie cumple 40",
+"6. März 2027": "6 de marzo de 2027",
+"#mariewird40": "#mariecumple40",
+"Pflanzen-Party": "Fiesta de plantas",
+"#gruenwerkfeiert": "#gruenwerkcelebra",
 });

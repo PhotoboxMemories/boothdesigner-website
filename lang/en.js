@@ -1989,4 +1989,10 @@ I18N.add('en', {
 "#webersmarkt": "#webersmarket",
 "Rasselbande": "Rattle Gang",
 "#rasselbande": "#rattlegang",
+"Tortenspitze": "Cake Lace",
+"Marie wird 40": "Marie turns 40",
+"6. März 2027": "6 March 2027",
+"#mariewird40": "#marieturns40",
+"Pflanzen-Party": "Plant Party",
+"#gruenwerkfeiert": "#greenworkscelebrates",
 });

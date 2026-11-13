@@ -1989,4 +1989,10 @@ I18N.add('it', {
 "#webersmarkt": "#mercatinoweber",
 "Rasselbande": "Banda dei sonaglini",
 "#rasselbande": "#bandadeisonaglini",
+"Tortenspitze": "Pizzo per torte",
+"Marie wird 40": "Marie compie 40 anni",
+"6. März 2027": "6 marzo 2027",
+"#mariewird40": "#mariecompie40",
+"Pflanzen-Party": "Festa delle piante",
+"#gruenwerkfeiert": "#gruenwerkfesteggia",
 });

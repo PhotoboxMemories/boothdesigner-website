@@ -1990,4 +1990,10 @@ I18N.add('tr', {
 "#webersmarkt": "#weberpazari",
 "Rasselbande": "Çıngırak Çetesi",
 "#rasselbande": "#cingirakcetesi",
+"Tortenspitze": "Pasta Dantel",
+"Marie wird 40": "Marie 40 yaşında",
+"6. März 2027": "6 Mart 2027",
+"#mariewird40": "#marie40yasinda",
+"Pflanzen-Party": "Bitki Partisi",
+"#gruenwerkfeiert": "#gruenwerkkutluyor",
 });
