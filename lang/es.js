@@ -2007,4 +2007,7 @@ I18N.add('es', {
 "Schulhaus": "Escuelita",
 "14. August 2027": "14 de agosto de 2027",
 "#schulkindlotte": "#lottealcole",
+"Raketen-Pinguine": "Pingüinos cohete",
+"Abflug 2027": "Despegue 2027",
+"#abflug2027": "#despegue2027",
 });

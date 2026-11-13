@@ -2007,4 +2007,7 @@ I18N.add('fr', {
 "Schulhaus": "Petite école",
 "14. August 2027": "14 août 2027",
 "#schulkindlotte": "#lotteecoliere",
+"Raketen-Pinguine": "Pingouins-fusées",
+"Abflug 2027": "Décollage 2027",
+"#abflug2027": "#decollage2027",
 });

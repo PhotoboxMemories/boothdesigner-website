@@ -2008,4 +2008,7 @@ I18N.add('tr', {
 "Schulhaus": "Okul Evi",
 "14. August 2027": "14 Ağustos 2027",
 "#schulkindlotte": "#okulculotte",
+"Raketen-Pinguine": "Roket Penguenler",
+"Abflug 2027": "Kalkış 2027",
+"#abflug2027": "#kalkis2027",
 });
