@@ -1987,4 +1987,6 @@ I18N.add('it', {
 "Weihnachtsmarkt": "Mercatino di Natale",
 "20. Dezember 2026": "20 dicembre 2026",
 "#webersmarkt": "#mercatinoweber",
+"Rasselbande": "Banda dei sonaglini",
+"#rasselbande": "#bandadeisonaglini",
 });

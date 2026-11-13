@@ -1987,4 +1987,6 @@ I18N.add('es', {
 "Weihnachtsmarkt": "Mercadillo navideño",
 "20. Dezember 2026": "20 de diciembre de 2026",
 "#webersmarkt": "#mercadilloweber",
+"Rasselbande": "Pandilla de sonajeros",
+"#rasselbande": "#pandilladesonajeros",
 });

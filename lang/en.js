@@ -1987,4 +1987,6 @@ I18N.add('en', {
 "Weihnachtsmarkt": "Christmas Market",
 "20. Dezember 2026": "20 December 2026",
 "#webersmarkt": "#webersmarket",
+"Rasselbande": "Rattle Gang",
+"#rasselbande": "#rattlegang",
 });

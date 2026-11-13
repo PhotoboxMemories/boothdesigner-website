@@ -1987,4 +1987,6 @@ I18N.add('fr', {
 "Weihnachtsmarkt": "Marché de Noël",
 "20. Dezember 2026": "20 décembre 2026",
 "#webersmarkt": "#marchedesweber",
+"Rasselbande": "Bande de hochets",
+"#rasselbande": "#bandedehochets",
 });

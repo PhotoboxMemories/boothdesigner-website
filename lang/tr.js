@@ -1988,4 +1988,6 @@ I18N.add('tr', {
 "Weihnachtsmarkt": "Noel Pazarı",
 "20. Dezember 2026": "20 Aralık 2026",
 "#webersmarkt": "#weberpazari",
+"Rasselbande": "Çıngırak Çetesi",
+"#rasselbande": "#cingirakcetesi",
 });
