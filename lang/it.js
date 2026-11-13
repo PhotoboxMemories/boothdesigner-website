@@ -1972,4 +1972,8 @@ I18N.add('it', {
 "Steppdaune": "Piumino trapuntato",
 "Winterglück": "Felicità d’inverno",
 "#winterglueck27": "#felicitadinverno27",
+"Dschungelranke": "Liana della giungla",
+"SOMMERFEST 2027": "FESTA D'ESTATE 2027",
+"Ganz entspannt": "Tutto relax",
+"#dschungelsommer27": "#estategiungla27",
 });

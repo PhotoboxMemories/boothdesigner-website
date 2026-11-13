@@ -1972,4 +1972,8 @@ I18N.add('en', {
 "Steppdaune": "Quilted Down",
 "Winterglück": "Winter Bliss",
 "#winterglueck27": "#winterbliss27",
+"Dschungelranke": "Jungle Vine",
+"SOMMERFEST 2027": "SUMMER PARTY 2027",
+"Ganz entspannt": "Totally Relaxed",
+"#dschungelsommer27": "#junglesummer27",
 });

@@ -1972,4 +1972,8 @@ I18N.add('fr', {
 "Steppdaune": "Doudoune matelassée",
 "Winterglück": "Bonheur d’hiver",
 "#winterglueck27": "#bonheurdhiver27",
+"Dschungelranke": "Liane de jungle",
+"SOMMERFEST 2027": "FÊTE D'ÉTÉ 2027",
+"Ganz entspannt": "Tout en douceur",
+"#dschungelsommer27": "#etejungle27",
 });

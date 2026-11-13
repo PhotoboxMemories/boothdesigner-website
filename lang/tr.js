@@ -1973,4 +1973,8 @@ I18N.add('tr', {
 "Steppdaune": "Kapitone Kuş Tüyü",
 "Winterglück": "Kış Mutluluğu",
 "#winterglueck27": "#kismutlulugu27",
+"Dschungelranke": "Orman Sarmaşığı",
+"SOMMERFEST 2027": "YAZ ŞENLİĞİ 2027",
+"Ganz entspannt": "Tamamen Rahat",
+"#dschungelsommer27": "#ormanyazı27",
 });

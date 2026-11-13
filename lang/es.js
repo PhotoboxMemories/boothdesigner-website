@@ -1972,4 +1972,8 @@ I18N.add('es', {
 "Steppdaune": "Plumón acolchado",
 "Winterglück": "Felicidad invernal",
 "#winterglueck27": "#felicidadinvernal27",
+"Dschungelranke": "Liana de la selva",
+"SOMMERFEST 2027": "FIESTA DE VERANO 2027",
+"Ganz entspannt": "Todo relajado",
+"#dschungelsommer27": "#veranoselva27",
 });
