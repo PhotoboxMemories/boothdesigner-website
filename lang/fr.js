@@ -1969,4 +1969,7 @@ I18N.add('fr', {
 "Frohe Ostern": "Joyeuses Pâques",
 "OSTERBRUNCH": "BRUNCH DE PÂQUES",
 "#ostern2027": "#paques2027",
+"Steppdaune": "Doudoune matelassée",
+"Winterglück": "Bonheur d’hiver",
+"#winterglueck27": "#bonheurdhiver27",
 });

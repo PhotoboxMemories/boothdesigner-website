@@ -1969,4 +1969,7 @@ I18N.add('es', {
 "Frohe Ostern": "Felices Pascuas",
 "OSTERBRUNCH": "BRUNCH DE PASCUA",
 "#ostern2027": "#pascua2027",
+"Steppdaune": "Plumón acolchado",
+"Winterglück": "Felicidad invernal",
+"#winterglueck27": "#felicidadinvernal27",
 });

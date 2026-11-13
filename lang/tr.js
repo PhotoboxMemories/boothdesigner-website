@@ -1970,4 +1970,7 @@ I18N.add('tr', {
 "Frohe Ostern": "Mutlu Paskalyalar",
 "OSTERBRUNCH": "PASKALYA KAHVALTISI",
 "#ostern2027": "#paskalya2027",
+"Steppdaune": "Kapitone Kuş Tüyü",
+"Winterglück": "Kış Mutluluğu",
+"#winterglueck27": "#kismutlulugu27",
 });
