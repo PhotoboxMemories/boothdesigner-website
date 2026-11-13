@@ -1959,4 +1959,7 @@ I18N.add('es', {
 "#gardeball27": "#bailedelaguardia27",
 "Buchsbaum": "Boj",
 "#emilskommunion": "#comuniondeemil",
+"Pendelleuchten": "Lámparas colgantes",
+"Weber & Söhne": "Weber e Hijos",
+"#weberfeiert": "#webercelebra",
 });

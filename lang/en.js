@@ -1959,4 +1959,7 @@ I18N.add('en', {
 "#gardeball27": "#guardball27",
 "Buchsbaum": "Boxwood",
 "#emilskommunion": "#emilscommunion",
+"Pendelleuchten": "Pendant Lights",
+"Weber & Söhne": "Weber & Sons",
+"#weberfeiert": "#webercelebrates",
 });

@@ -1960,4 +1960,7 @@ I18N.add('tr', {
 "#gardeball27": "#muhafizbalosu27",
 "Buchsbaum": "Şimşir",
 "#emilskommunion": "#emilinkomünyonu",
+"Pendelleuchten": "Sarkıt Lambalar",
+"Weber & Söhne": "Weber & Oğulları",
+"#weberfeiert": "#weberkutluyor",
 });
