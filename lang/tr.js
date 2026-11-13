@@ -1977,4 +1977,10 @@ I18N.add('tr', {
 "SOMMERFEST 2027": "YAZ ŞENLİĞİ 2027",
 "Ganz entspannt": "Tamamen Rahat",
 "#dschungelsommer27": "#ormanyazı27",
+"Mumien-Yoga": "Mumya Yogası",
+"Formenkonfetti": "Şekil Konfetisi",
+"HALLOWEEN-PARTY": "CADILAR BAYRAMI PARTİSİ",
+"12. August 2027": "12 Ağustos 2027",
+"#mumienyoga27": "#mumyayogası27",
+"#emilsschulstart": "#emilokulda",
 });

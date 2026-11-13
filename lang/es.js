@@ -1976,4 +1976,10 @@ I18N.add('es', {
 "SOMMERFEST 2027": "FIESTA DE VERANO 2027",
 "Ganz entspannt": "Todo relajado",
 "#dschungelsommer27": "#veranoselva27",
+"Mumien-Yoga": "Yoga de momias",
+"Formenkonfetti": "Confeti de formas",
+"HALLOWEEN-PARTY": "FIESTA DE HALLOWEEN",
+"12. August 2027": "12 de agosto de 2027",
+"#mumienyoga27": "#yogamomia27",
+"#emilsschulstart": "#emilalcole",
 });
