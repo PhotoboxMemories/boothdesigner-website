@@ -1984,4 +1984,7 @@ I18N.add('en', {
 "#emilsschulstart": "#emilsfirstday",
 "Blütenschnüre": "Flower Strands",
 "#sophiesagtja": "#sophiesaysyes",
+"Weihnachtsmarkt": "Christmas Market",
+"20. Dezember 2026": "20 December 2026",
+"#webersmarkt": "#webersmarket",
 });

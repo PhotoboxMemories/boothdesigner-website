@@ -1985,4 +1985,7 @@ I18N.add('tr', {
 "#emilsschulstart": "#emilokulda",
 "Blütenschnüre": "Çiçek Dizileri",
 "#sophiesagtja": "#sophieevetdiyor",
+"Weihnachtsmarkt": "Noel Pazarı",
+"20. Dezember 2026": "20 Aralık 2026",
+"#webersmarkt": "#weberpazari",
 });

@@ -1984,4 +1984,7 @@ I18N.add('it', {
 "#emilsschulstart": "#emilascuola",
 "Blütenschnüre": "Fili di fiori",
 "#sophiesagtja": "#sophiedicesì",
+"Weihnachtsmarkt": "Mercatino di Natale",
+"20. Dezember 2026": "20 dicembre 2026",
+"#webersmarkt": "#mercatinoweber",
 });

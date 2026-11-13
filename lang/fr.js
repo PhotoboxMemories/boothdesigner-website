@@ -1984,4 +1984,7 @@ I18N.add('fr', {
 "#emilsschulstart": "#rentreedemil",
 "Blütenschnüre": "Guirlandes fleuries",
 "#sophiesagtja": "#sophieditoui",
+"Weihnachtsmarkt": "Marché de Noël",
+"20. Dezember 2026": "20 décembre 2026",
+"#webersmarkt": "#marchedesweber",
 });
