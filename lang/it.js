@@ -1962,4 +1962,7 @@ I18N.add('it', {
 "Pendelleuchten": "Lampade a sospensione",
 "Weber & Söhne": "Weber & Figli",
 "#weberfeiert": "#weberfesteggia",
+"Neujahrsglühen": "Bagliore di Capodanno",
+"Prost 2027!": "Cin cin 2027!",
+"#hallo2027": "#ciao2027",
 });

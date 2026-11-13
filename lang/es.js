@@ -1962,4 +1962,7 @@ I18N.add('es', {
 "Pendelleuchten": "Lámparas colgantes",
 "Weber & Söhne": "Weber e Hijos",
 "#weberfeiert": "#webercelebra",
+"Neujahrsglühen": "Brillo de Año Nuevo",
+"Prost 2027!": "¡Salud 2027!",
+"#hallo2027": "#hola2027",
 });

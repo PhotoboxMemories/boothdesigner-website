@@ -1963,4 +1963,7 @@ I18N.add('tr', {
 "Pendelleuchten": "Sarkıt Lambalar",
 "Weber & Söhne": "Weber & Oğulları",
 "#weberfeiert": "#weberkutluyor",
+"Neujahrsglühen": "Yeni Yıl Işıltısı",
+"Prost 2027!": "Şerefe 2027!",
+"#hallo2027": "#merhaba2027",
 });

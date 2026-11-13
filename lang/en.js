@@ -1962,4 +1962,7 @@ I18N.add('en', {
 "Pendelleuchten": "Pendant Lights",
 "Weber & Söhne": "Weber & Sons",
 "#weberfeiert": "#webercelebrates",
+"Neujahrsglühen": "New Year's Glow",
+"Prost 2027!": "Cheers 2027!",
+"#hallo2027": "#hello2027",
 });
