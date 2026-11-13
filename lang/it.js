@@ -2004,4 +2004,7 @@ I18N.add('it', {
 "Farbkleckse": "Macchie di colore",
 "Klasse 10a": "Classe 10a",
 "#klasse10a": "#classe10a",
+"Schulhaus": "Scuoletta",
+"14. August 2027": "14 agosto 2027",
+"#schulkindlotte": "#lotteascuola",
 });

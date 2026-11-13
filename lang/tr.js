@@ -2005,4 +2005,7 @@ I18N.add('tr', {
 "Farbkleckse": "Renk Lekeleri",
 "Klasse 10a": "10A Sınıfı",
 "#klasse10a": "#10asinifi",
+"Schulhaus": "Okul Evi",
+"14. August 2027": "14 Ağustos 2027",
+"#schulkindlotte": "#okulculotte",
 });

@@ -2004,4 +2004,7 @@ I18N.add('en', {
 "Farbkleckse": "Paint Splashes",
 "Klasse 10a": "Class 10a",
 "#klasse10a": "#class10a",
+"Schulhaus": "Schoolhouse",
+"14. August 2027": "14 August 2027",
+"#schulkindlotte": "#schoolkidlotte",
 });

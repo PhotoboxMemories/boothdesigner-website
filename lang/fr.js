@@ -2004,4 +2004,7 @@ I18N.add('fr', {
 "Farbkleckse": "Taches de couleur",
 "Klasse 10a": "Classe 10a",
 "#klasse10a": "#classe10a",
+"Schulhaus": "Petite école",
+"14. August 2027": "14 août 2027",
+"#schulkindlotte": "#lotteecoliere",
 });
