@@ -1995,4 +1995,6 @@ I18N.add('it', {
 "#mariewird40": "#mariecompie40",
 "Pflanzen-Party": "Festa delle piante",
 "#gruenwerkfeiert": "#gruenwerkfesteggia",
+"Avocado-Paar": "Coppia di avocado",
+"#annaundmax": "#annaemax",
 });

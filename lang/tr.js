@@ -1996,4 +1996,6 @@ I18N.add('tr', {
 "#mariewird40": "#marie40yasinda",
 "Pflanzen-Party": "Bitki Partisi",
 "#gruenwerkfeiert": "#gruenwerkkutluyor",
+"Avocado-Paar": "Avokado Çifti",
+"#annaundmax": "#annailemax",
 });
