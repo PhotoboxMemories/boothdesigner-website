@@ -1965,4 +1965,8 @@ I18N.add('es', {
 "Neujahrsglühen": "Brillo de Año Nuevo",
 "Prost 2027!": "¡Salud 2027!",
 "#hallo2027": "#hola2027",
+"Möhrenbeet": "Huerto de zanahorias",
+"Frohe Ostern": "Felices Pascuas",
+"OSTERBRUNCH": "BRUNCH DE PASCUA",
+"#ostern2027": "#pascua2027",
 });

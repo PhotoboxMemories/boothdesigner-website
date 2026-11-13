@@ -1966,4 +1966,8 @@ I18N.add('tr', {
 "Neujahrsglühen": "Yeni Yıl Işıltısı",
 "Prost 2027!": "Şerefe 2027!",
 "#hallo2027": "#merhaba2027",
+"Möhrenbeet": "Havuç Tarlası",
+"Frohe Ostern": "Mutlu Paskalyalar",
+"OSTERBRUNCH": "PASKALYA KAHVALTISI",
+"#ostern2027": "#paskalya2027",
 });

@@ -1965,4 +1965,8 @@ I18N.add('it', {
 "Neujahrsglühen": "Bagliore di Capodanno",
 "Prost 2027!": "Cin cin 2027!",
 "#hallo2027": "#ciao2027",
+"Möhrenbeet": "Orto di carote",
+"Frohe Ostern": "Buona Pasqua",
+"OSTERBRUNCH": "BRUNCH DI PASQUA",
+"#ostern2027": "#pasqua2027",
 });
