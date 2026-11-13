@@ -1958,4 +1958,6 @@ I18N.add('tr', {
 "Nilpferd-Garde": "Su Aygırı Muhafızları",
 "Gardeball": "Muhafız Balosu",
 "#gardeball27": "#muhafizbalosu27",
+"Buchsbaum": "Şimşir",
+"#emilskommunion": "#emilinkomünyonu",
 });

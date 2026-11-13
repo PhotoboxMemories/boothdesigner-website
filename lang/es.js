@@ -1957,4 +1957,6 @@ I18N.add('es', {
 "Nilpferd-Garde": "Guardia de hipopótamos",
 "Gardeball": "Baile de la guardia",
 "#gardeball27": "#bailedelaguardia27",
+"Buchsbaum": "Boj",
+"#emilskommunion": "#comuniondeemil",
 });

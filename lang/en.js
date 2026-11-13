@@ -1957,4 +1957,6 @@ I18N.add('en', {
 "Nilpferd-Garde": "Hippo Guard",
 "Gardeball": "Guard Ball",
 "#gardeball27": "#guardball27",
+"Buchsbaum": "Boxwood",
+"#emilskommunion": "#emilscommunion",
 });
