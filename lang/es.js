@@ -2010,4 +2010,5 @@ I18N.add('es', {
 "Raketen-Pinguine": "Pingüinos cohete",
 "Abflug 2027": "Despegue 2027",
 "#abflug2027": "#despegue2027",
+"Orgelklang": "Sonido de órgano",
 });
