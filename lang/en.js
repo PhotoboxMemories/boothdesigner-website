@@ -1997,4 +1997,8 @@ I18N.add('en', {
 "#gruenwerkfeiert": "#greenworkscelebrates",
 "Avocado-Paar": "Avocado Couple",
 "#annaundmax": "#annaandmax",
+"Partyhütchen": "Party Hats",
+"PARTYZEIT": "PARTY TIME",
+"Jonas feiert": "Jonas celebrates",
+"#jonasfeiert": "#jonascelebrates",
 });

@@ -1997,4 +1997,8 @@ I18N.add('fr', {
 "#gruenwerkfeiert": "#gruenwerkfaitlafete",
 "Avocado-Paar": "Couple d'avocats",
 "#annaundmax": "#annaetmax",
+"Partyhütchen": "Chapeaux de fête",
+"PARTYZEIT": "C'EST LA FÊTE",
+"Jonas feiert": "Jonas fait la fête",
+"#jonasfeiert": "#jonasfaitlafete",
 });

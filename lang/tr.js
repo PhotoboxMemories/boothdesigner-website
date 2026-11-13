@@ -1998,4 +1998,8 @@ I18N.add('tr', {
 "#gruenwerkfeiert": "#gruenwerkkutluyor",
 "Avocado-Paar": "Avokado Çifti",
 "#annaundmax": "#annailemax",
+"Partyhütchen": "Parti Şapkaları",
+"PARTYZEIT": "PARTİ ZAMANI",
+"Jonas feiert": "Jonas kutluyor",
+"#jonasfeiert": "#jonaskutluyor",
 });
