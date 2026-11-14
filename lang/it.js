@@ -2047,4 +2047,6 @@ I18N.add('it', {
 "Leo-Look": "Look leopardato",
 "Wildkatzen": "Le Tigri",
 "#wildkatzen27": "#letigri27",
+"Zielflagge": "Bandiera d'arrivo",
+"ZIEL ERREICHT": "TRAGUARDO RAGGIUNTO",
 });

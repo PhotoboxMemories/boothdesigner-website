@@ -2047,4 +2047,6 @@ I18N.add('es', {
 "Leo-Look": "Look leopardo",
 "Wildkatzen": "Las Fieras",
 "#wildkatzen27": "#lasfieras27",
+"Zielflagge": "Bandera de meta",
+"ZIEL ERREICHT": "META ALCANZADA",
 });

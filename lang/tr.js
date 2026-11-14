@@ -2048,4 +2048,6 @@ I18N.add('tr', {
 "Leo-Look": "Leopar Tarzı",
 "Wildkatzen": "Vahşi Kediler",
 "#wildkatzen27": "#vahsikediler27",
+"Zielflagge": "Bitiş Bayrağı",
+"ZIEL ERREICHT": "HEDEFE ULAŞTIK",
 });

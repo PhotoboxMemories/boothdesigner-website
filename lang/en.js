@@ -2047,4 +2047,6 @@ I18N.add('en', {
 "Leo-Look": "Leo Look",
 "Wildkatzen": "Wildcats",
 "#wildkatzen27": "#wildcats27",
+"Zielflagge": "Finish Flag",
+"ZIEL ERREICHT": "GOAL REACHED",
 });

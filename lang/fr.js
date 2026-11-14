@@ -2047,4 +2047,6 @@ I18N.add('fr', {
 "Leo-Look": "Look léopard",
 "Wildkatzen": "Les Félines",
 "#wildkatzen27": "#lesfelines27",
+"Zielflagge": "Drapeau d'arrivée",
+"ZIEL ERREICHT": "OBJECTIF ATTEINT",
 });
