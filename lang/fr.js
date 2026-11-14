@@ -2021,4 +2021,7 @@ I18N.add('fr', {
 "#emiliaskommunion": "#communionemilia",
 "Wabenbälle": "Boules alvéolées",
 "#narrenball27": "#baldesfous27",
+"Schneemann-Kollegen": "Collègues bonshommes de neige",
+"Team Nordpol": "Équipe Pôle Nord",
+"#teamnordpol": "#equipepolenord",
 });

@@ -2022,4 +2022,7 @@ I18N.add('tr', {
 "#emiliaskommunion": "#emiliakomünyon",
 "Wabenbälle": "Petek Toplar",
 "#narrenball27": "#karnavalbalosu27",
+"Schneemann-Kollegen": "Kardan Adam Ekibi",
+"Team Nordpol": "Kuzey Kutbu Ekibi",
+"#teamnordpol": "#kuzeykutbuekibi",
 });

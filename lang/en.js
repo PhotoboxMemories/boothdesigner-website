@@ -2021,4 +2021,7 @@ I18N.add('en', {
 "#emiliaskommunion": "#emiliascommunion",
 "Wabenbälle": "Honeycomb Balls",
 "#narrenball27": "#foolsball27",
+"Schneemann-Kollegen": "Snowman Colleagues",
+"Team Nordpol": "Team North Pole",
+"#teamnordpol": "#teamnorthpole",
 });
