@@ -2028,4 +2028,9 @@ I18N.add('fr', {
 "PICKNICK IM GRÜNEN": "PIQUE-NIQUE AU VERT",
 "Wiesenfest": "Fête champêtre",
 "#wiesenfest27": "#fetechampetre27",
+"Hohlsaum": "Ourlet à jour",
+"Klangwellen": "Ondes sonores",
+"Tanznacht": "Nuit de danse",
+"#gartenfest27": "#fetedujardin27",
+"#tanznacht27": "#nuitdedanse27",
 });

@@ -2028,4 +2028,9 @@ I18N.add('es', {
 "PICKNICK IM GRÜNEN": "PÍCNIC AL AIRE LIBRE",
 "Wiesenfest": "Fiesta campestre",
 "#wiesenfest27": "#fiestacampestre27",
+"Hohlsaum": "Vainica",
+"Klangwellen": "Ondas sonoras",
+"Tanznacht": "Noche de baile",
+"#gartenfest27": "#fiestajardin27",
+"#tanznacht27": "#nochedebaile27",
 });

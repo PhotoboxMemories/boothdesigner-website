@@ -2028,4 +2028,9 @@ I18N.add('it', {
 "PICKNICK IM GRÜNEN": "PICNIC NEL VERDE",
 "Wiesenfest": "Festa sul prato",
 "#wiesenfest27": "#festasulprato27",
+"Hohlsaum": "Punto a giorno",
+"Klangwellen": "Onde sonore",
+"Tanznacht": "Notte danzante",
+"#gartenfest27": "#festaingiardino27",
+"#tanznacht27": "#nottedanzante27",
 });

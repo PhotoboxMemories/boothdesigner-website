@@ -2029,4 +2029,9 @@ I18N.add('tr', {
 "PICKNICK IM GRÜNEN": "KIRDA PİKNİK",
 "Wiesenfest": "Çayır Şenliği",
 "#wiesenfest27": "#cayirsenligi27",
+"Hohlsaum": "Ajur",
+"Klangwellen": "Ses Dalgaları",
+"Tanznacht": "Dans Gecesi",
+"#gartenfest27": "#bahcepartisi27",
+"#tanznacht27": "#dansgecesi27",
 });

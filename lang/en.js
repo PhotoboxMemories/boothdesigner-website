@@ -2028,4 +2028,9 @@ I18N.add('en', {
 "PICKNICK IM GRÜNEN": "PICNIC IN THE PARK",
 "Wiesenfest": "Meadow Party",
 "#wiesenfest27": "#meadowparty27",
+"Hohlsaum": "Hemstitch",
+"Klangwellen": "Sound Waves",
+"Tanznacht": "Dance Night",
+"#gartenfest27": "#gardenparty27",
+"#tanznacht27": "#dancenight27",
 });
