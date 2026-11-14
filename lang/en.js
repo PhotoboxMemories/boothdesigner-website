@@ -2051,4 +2051,10 @@ I18N.add('en', {
 "ZIEL ERREICHT": "GOAL REACHED",
 "Froschhochzeit": "Frog Wedding",
 "#froschhochzeit": "#frogwedding",
+// Beschnitt beim Druck im Studio (14.11.2026, Texte wie im Dashboard)
+"Beschnitt anzeigen": "Show trim",
+"Beschnitt ausblenden": "Hide trim",
+"Wird beim Druck abgeschnitten": "Cut off when printing",
+"Logo und Text innerhalb der blauen Linie halten": "Keep logo and text inside the blue line",
+"Je nach Drucker etwas mehr oder weniger.": "A little more or less depending on the printer.",
 });

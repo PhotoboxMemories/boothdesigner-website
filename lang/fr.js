@@ -2051,4 +2051,10 @@ I18N.add('fr', {
 "ZIEL ERREICHT": "OBJECTIF ATTEINT",
 "Froschhochzeit": "Mariage des grenouilles",
 "#froschhochzeit": "#mariagegrenouilles",
+// Beschnitt beim Druck im Studio (14.11.2026, Texte wie im Dashboard)
+"Beschnitt anzeigen": "Afficher la coupe",
+"Beschnitt ausblenden": "Masquer la coupe",
+"Wird beim Druck abgeschnitten": "Coupé à l’impression",
+"Logo und Text innerhalb der blauen Linie halten": "Gardez logo et texte à l’intérieur de la ligne bleue",
+"Je nach Drucker etwas mehr oder weniger.": "Un peu plus ou moins selon l’imprimante.",
 });

@@ -2052,4 +2052,10 @@ I18N.add('tr', {
 "ZIEL ERREICHT": "HEDEFE ULAŞTIK",
 "Froschhochzeit": "Kurbağa Düğünü",
 "#froschhochzeit": "#kurbagadugunu",
+// Beschnitt beim Druck im Studio (14.11.2026, Texte wie im Dashboard)
+"Beschnitt anzeigen": "Kesim payını göster",
+"Beschnitt ausblenden": "Kesim payını gizle",
+"Wird beim Druck abgeschnitten": "Baskıda kesilir",
+"Logo und Text innerhalb der blauen Linie halten": "Logo ve metni mavi çizginin içinde tut",
+"Je nach Drucker etwas mehr oder weniger.": "Yazıcıya göre biraz daha fazla veya az.",
 });

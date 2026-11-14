@@ -2051,4 +2051,10 @@ I18N.add('it', {
 "ZIEL ERREICHT": "TRAGUARDO RAGGIUNTO",
 "Froschhochzeit": "Nozze delle rane",
 "#froschhochzeit": "#nozzedellerane",
+// Beschnitt beim Druck im Studio (14.11.2026, Texte wie im Dashboard)
+"Beschnitt anzeigen": "Mostra rifilo",
+"Beschnitt ausblenden": "Nascondi rifilo",
+"Wird beim Druck abgeschnitten": "Viene tagliato in stampa",
+"Logo und Text innerhalb der blauen Linie halten": "Tieni logo e testo all’interno della linea blu",
+"Je nach Drucker etwas mehr oder weniger.": "Un po’ di più o di meno a seconda della stampante.",
 });
