@@ -2012,4 +2012,8 @@ I18N.add('fr', {
 "#abflug2027": "#decollage2027",
 "Orgelklang": "Son d'orgue",
 "Mondwiege": "Berceau de lune",
+"Skijacke": "Veste de ski",
+"SKI-WOCHENENDE": "WEEK-END AU SKI",
+"Pistenparty": "Fête des pistes",
+"#pistenparty27": "#fetedespistes27",
 });

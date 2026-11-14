@@ -2012,4 +2012,8 @@ I18N.add('en', {
 "#abflug2027": "#liftoff2027",
 "Orgelklang": "Organ Sound",
 "Mondwiege": "Moon Cradle",
+"Skijacke": "Ski Jacket",
+"SKI-WOCHENENDE": "SKI WEEKEND",
+"Pistenparty": "Slope Party",
+"#pistenparty27": "#slopeparty27",
 });

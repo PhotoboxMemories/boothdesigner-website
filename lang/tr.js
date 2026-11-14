@@ -2013,4 +2013,8 @@ I18N.add('tr', {
 "#abflug2027": "#kalkis2027",
 "Orgelklang": "Org Sesi",
 "Mondwiege": "Ay Beşiği",
+"Skijacke": "Kayak Montu",
+"SKI-WOCHENENDE": "KAYAK HAFTA SONU",
+"Pistenparty": "Pist Partisi",
+"#pistenparty27": "#pistpartisi27",
 });
