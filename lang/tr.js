@@ -2045,4 +2045,7 @@ I18N.add('tr', {
 "Strampelzeit": "Tulum Zamanı",
 "Baby Mila": "Bebek Mila",
 "#strampelzeit": "#tulumzamani",
+"Leo-Look": "Leopar Tarzı",
+"Wildkatzen": "Vahşi Kediler",
+"#wildkatzen27": "#vahsikediler27",
 });

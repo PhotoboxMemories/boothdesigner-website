@@ -2044,4 +2044,7 @@ I18N.add('it', {
 "Strampelzeit": "Tempo di tutine",
 "Baby Mila": "Baby Mila",
 "#strampelzeit": "#tempoditutine",
+"Leo-Look": "Look leopardato",
+"Wildkatzen": "Le Tigri",
+"#wildkatzen27": "#letigri27",
 });

@@ -2044,4 +2044,7 @@ I18N.add('en', {
 "Strampelzeit": "Romper Time",
 "Baby Mila": "Baby Mila",
 "#strampelzeit": "#rompertime",
+"Leo-Look": "Leo Look",
+"Wildkatzen": "Wildcats",
+"#wildkatzen27": "#wildcats27",
 });

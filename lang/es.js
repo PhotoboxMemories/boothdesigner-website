@@ -2044,4 +2044,7 @@ I18N.add('es', {
 "Strampelzeit": "Ropita de bebé",
 "Baby Mila": "Bebé Mila",
 "#strampelzeit": "#ropitadebebe",
+"Leo-Look": "Look leopardo",
+"Wildkatzen": "Las Fieras",
+"#wildkatzen27": "#lasfieras27",
 });

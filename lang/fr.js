@@ -2044,4 +2044,7 @@ I18N.add('fr', {
 "Strampelzeit": "Petite layette",
 "Baby Mila": "Bébé Mila",
 "#strampelzeit": "#petitelayette",
+"Leo-Look": "Look léopard",
+"Wildkatzen": "Les Félines",
+"#wildkatzen27": "#lesfelines27",
 });
