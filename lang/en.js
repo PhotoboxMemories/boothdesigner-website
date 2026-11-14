@@ -2033,4 +2033,7 @@ I18N.add('en', {
 "Tanznacht": "Dance Night",
 "#gartenfest27": "#gardenparty27",
 "#tanznacht27": "#dancenight27",
+"Papierschnitt": "Layered Paper",
+"Clara wird 30": "Clara turns 30",
+"#clarawird30": "#claraturns30",
 });

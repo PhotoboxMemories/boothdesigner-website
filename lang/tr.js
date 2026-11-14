@@ -2034,4 +2034,7 @@ I18N.add('tr', {
 "Tanznacht": "Dans Gecesi",
 "#gartenfest27": "#bahcepartisi27",
 "#tanznacht27": "#dansgecesi27",
+"Papierschnitt": "Katmanlı Kâğıt",
+"Clara wird 30": "Clara 30 yaşında",
+"#clarawird30": "#clara30yasinda",
 });
