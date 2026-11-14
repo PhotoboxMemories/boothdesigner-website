@@ -2024,4 +2024,8 @@ I18N.add('it', {
 "Schneemann-Kollegen": "Colleghi pupazzi di neve",
 "Team Nordpol": "Team Polo Nord",
 "#teamnordpol": "#teampolonord",
+"Picknickdecke": "Tovaglia da picnic",
+"PICKNICK IM GRÜNEN": "PICNIC NEL VERDE",
+"Wiesenfest": "Festa sul prato",
+"#wiesenfest27": "#festasulprato27",
 });

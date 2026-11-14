@@ -2024,4 +2024,8 @@ I18N.add('fr', {
 "Schneemann-Kollegen": "Collègues bonshommes de neige",
 "Team Nordpol": "Équipe Pôle Nord",
 "#teamnordpol": "#equipepolenord",
+"Picknickdecke": "Nappe de pique-nique",
+"PICKNICK IM GRÜNEN": "PIQUE-NIQUE AU VERT",
+"Wiesenfest": "Fête champêtre",
+"#wiesenfest27": "#fetechampetre27",
 });

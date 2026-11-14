@@ -2025,4 +2025,8 @@ I18N.add('tr', {
 "Schneemann-Kollegen": "Kardan Adam Ekibi",
 "Team Nordpol": "Kuzey Kutbu Ekibi",
 "#teamnordpol": "#kuzeykutbuekibi",
+"Picknickdecke": "Piknik Örtüsü",
+"PICKNICK IM GRÜNEN": "KIRDA PİKNİK",
+"Wiesenfest": "Çayır Şenliği",
+"#wiesenfest27": "#cayirsenligi27",
 });
