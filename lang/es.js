@@ -2036,4 +2036,7 @@ I18N.add('es', {
 "Papierschnitt": "Papel en capas",
 "Clara wird 30": "Clara cumple 30",
 "#clarawird30": "#claracumple30",
+"Tannentaxi": "Taxi de abetos",
+"Familie Kern": "Familia Kern",
+"#tannentaxi": "#taxideabetos",
 });

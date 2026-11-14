@@ -2037,4 +2037,7 @@ I18N.add('tr', {
 "Papierschnitt": "Katmanlı Kâğıt",
 "Clara wird 30": "Clara 30 yaşında",
 "#clarawird30": "#clara30yasinda",
+"Tannentaxi": "Çam Taksisi",
+"Familie Kern": "Kern Ailesi",
+"#tannentaxi": "#camtaksisi",
 });
