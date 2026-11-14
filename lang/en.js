@@ -2049,4 +2049,6 @@ I18N.add('en', {
 "#wildkatzen27": "#wildcats27",
 "Zielflagge": "Finish Flag",
 "ZIEL ERREICHT": "GOAL REACHED",
+"Froschhochzeit": "Frog Wedding",
+"#froschhochzeit": "#frogwedding",
 });

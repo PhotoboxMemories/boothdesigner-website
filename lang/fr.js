@@ -2049,4 +2049,6 @@ I18N.add('fr', {
 "#wildkatzen27": "#lesfelines27",
 "Zielflagge": "Drapeau d'arrivée",
 "ZIEL ERREICHT": "OBJECTIF ATTEINT",
+"Froschhochzeit": "Mariage des grenouilles",
+"#froschhochzeit": "#mariagegrenouilles",
 });

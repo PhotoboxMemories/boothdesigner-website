@@ -2050,4 +2050,6 @@ I18N.add('tr', {
 "#wildkatzen27": "#vahsikediler27",
 "Zielflagge": "Bitiş Bayrağı",
 "ZIEL ERREICHT": "HEDEFE ULAŞTIK",
+"Froschhochzeit": "Kurbağa Düğünü",
+"#froschhochzeit": "#kurbagadugunu",
 });

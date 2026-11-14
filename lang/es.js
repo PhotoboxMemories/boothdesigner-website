@@ -2049,4 +2049,6 @@ I18N.add('es', {
 "#wildkatzen27": "#lasfieras27",
 "Zielflagge": "Bandera de meta",
 "ZIEL ERREICHT": "META ALCANZADA",
+"Froschhochzeit": "Boda de ranas",
+"#froschhochzeit": "#bodaderanas",
 });

@@ -2049,4 +2049,6 @@ I18N.add('it', {
 "#wildkatzen27": "#letigri27",
 "Zielflagge": "Bandiera d'arrivo",
 "ZIEL ERREICHT": "TRAGUARDO RAGGIUNTO",
+"Froschhochzeit": "Nozze delle rane",
+"#froschhochzeit": "#nozzedellerane",
 });
