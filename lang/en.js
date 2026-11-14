@@ -2016,4 +2016,7 @@ I18N.add('en', {
 "SKI-WOCHENENDE": "SKI WEEKEND",
 "Pistenparty": "Slope Party",
 "#pistenparty27": "#slopeparty27",
+"Falterflug": "Butterfly Flight",
+"4. April 2027": "4 April 2027",
+"#emiliaskommunion": "#emiliascommunion",
 });

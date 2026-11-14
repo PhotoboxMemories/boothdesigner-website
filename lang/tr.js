@@ -2017,4 +2017,7 @@ I18N.add('tr', {
 "SKI-WOCHENENDE": "KAYAK HAFTA SONU",
 "Pistenparty": "Pist Partisi",
 "#pistenparty27": "#pistpartisi27",
+"Falterflug": "Kelebek Uçuşu",
+"4. April 2027": "4 Nisan 2027",
+"#emiliaskommunion": "#emiliakomünyon",
 });

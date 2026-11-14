@@ -2016,4 +2016,7 @@ I18N.add('es', {
 "SKI-WOCHENENDE": "FIN DE SEMANA DE ESQUÍ",
 "Pistenparty": "Fiesta en pista",
 "#pistenparty27": "#fiestaenpista27",
+"Falterflug": "Vuelo de mariposas",
+"4. April 2027": "4 de abril de 2027",
+"#emiliaskommunion": "#comuniondeemilia",
 });
