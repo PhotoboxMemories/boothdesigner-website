@@ -2042,4 +2042,7 @@ I18N.add('tr', {
 "#tannentaxi": "#camtaksisi",
 "Eierlauf": "Yumurta Yarışı",
 "#eierlauf27": "#yumurtayarisi27",
+"Strampelzeit": "Tulum Zamanı",
+"Baby Mila": "Bebek Mila",
+"#strampelzeit": "#tulumzamani",
 });

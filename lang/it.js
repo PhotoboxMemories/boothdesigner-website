@@ -2041,4 +2041,7 @@ I18N.add('it', {
 "#tannentaxi": "#taxidegliabeti",
 "Eierlauf": "Corsa delle uova",
 "#eierlauf27": "#corsadelleuova27",
+"Strampelzeit": "Tempo di tutine",
+"Baby Mila": "Baby Mila",
+"#strampelzeit": "#tempoditutine",
 });

@@ -2041,4 +2041,7 @@ I18N.add('es', {
 "#tannentaxi": "#taxideabetos",
 "Eierlauf": "Carrera de huevos",
 "#eierlauf27": "#carreradehuevos27",
+"Strampelzeit": "Ropita de bebé",
+"Baby Mila": "Bebé Mila",
+"#strampelzeit": "#ropitadebebe",
 });

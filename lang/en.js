@@ -2041,4 +2041,7 @@ I18N.add('en', {
 "#tannentaxi": "#treetaxi",
 "Eierlauf": "Egg Race",
 "#eierlauf27": "#eggrace27",
+"Strampelzeit": "Romper Time",
+"Baby Mila": "Baby Mila",
+"#strampelzeit": "#rompertime",
 });

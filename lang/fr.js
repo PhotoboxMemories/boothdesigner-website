@@ -2041,4 +2041,7 @@ I18N.add('fr', {
 "#tannentaxi": "#taxiasapins",
 "Eierlauf": "Course aux œufs",
 "#eierlauf27": "#courseauxoeufs27",
+"Strampelzeit": "Petite layette",
+"Baby Mila": "Bébé Mila",
+"#strampelzeit": "#petitelayette",
 });
