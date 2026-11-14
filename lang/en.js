@@ -2019,4 +2019,6 @@ I18N.add('en', {
 "Falterflug": "Butterfly Flight",
 "4. April 2027": "4 April 2027",
 "#emiliaskommunion": "#emiliascommunion",
+"Wabenbälle": "Honeycomb Balls",
+"#narrenball27": "#foolsball27",
 });

@@ -2019,4 +2019,6 @@ I18N.add('it', {
 "Falterflug": "Volo di farfalle",
 "4. April 2027": "4 aprile 2027",
 "#emiliaskommunion": "#comunionediemilia",
+"Wabenbälle": "Sfere a nido d'ape",
+"#narrenball27": "#balloinmaschera27",
 });

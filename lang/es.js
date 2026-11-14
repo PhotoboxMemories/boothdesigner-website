@@ -2019,4 +2019,6 @@ I18N.add('es', {
 "Falterflug": "Vuelo de mariposas",
 "4. April 2027": "4 de abril de 2027",
 "#emiliaskommunion": "#comuniondeemilia",
+"Wabenbälle": "Bolas de nido de abeja",
+"#narrenball27": "#bailedecarnaval27",
 });

@@ -2020,4 +2020,6 @@ I18N.add('tr', {
 "Falterflug": "Kelebek Uçuşu",
 "4. April 2027": "4 Nisan 2027",
 "#emiliaskommunion": "#emiliakomünyon",
+"Wabenbälle": "Petek Toplar",
+"#narrenball27": "#karnavalbalosu27",
 });
