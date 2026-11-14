@@ -2040,4 +2040,6 @@ I18N.add('tr', {
 "Tannentaxi": "Çam Taksisi",
 "Familie Kern": "Kern Ailesi",
 "#tannentaxi": "#camtaksisi",
+"Eierlauf": "Yumurta Yarışı",
+"#eierlauf27": "#yumurtayarisi27",
 });

@@ -2039,4 +2039,6 @@ I18N.add('en', {
 "Tannentaxi": "Tree Taxi",
 "Familie Kern": "The Kern Family",
 "#tannentaxi": "#treetaxi",
+"Eierlauf": "Egg Race",
+"#eierlauf27": "#eggrace27",
 });

@@ -2039,4 +2039,6 @@ I18N.add('es', {
 "Tannentaxi": "Taxi de abetos",
 "Familie Kern": "Familia Kern",
 "#tannentaxi": "#taxideabetos",
+"Eierlauf": "Carrera de huevos",
+"#eierlauf27": "#carreradehuevos27",
 });

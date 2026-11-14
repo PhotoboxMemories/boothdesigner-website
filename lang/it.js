@@ -2039,4 +2039,6 @@ I18N.add('it', {
 "Tannentaxi": "Taxi degli abeti",
 "Familie Kern": "Famiglia Kern",
 "#tannentaxi": "#taxidegliabeti",
+"Eierlauf": "Corsa delle uova",
+"#eierlauf27": "#corsadelleuova27",
 });

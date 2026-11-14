@@ -2039,4 +2039,6 @@ I18N.add('fr', {
 "Tannentaxi": "Taxi à sapins",
 "Familie Kern": "Famille Kern",
 "#tannentaxi": "#taxiasapins",
+"Eierlauf": "Course aux œufs",
+"#eierlauf27": "#courseauxoeufs27",
 });
