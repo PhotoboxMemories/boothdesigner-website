@@ -2011,4 +2011,5 @@ I18N.add('it', {
 "Abflug 2027": "Decollo 2027",
 "#abflug2027": "#decollo2027",
 "Orgelklang": "Suono d'organo",
+"Mondwiege": "Culla di luna",
 });

@@ -2011,4 +2011,5 @@ I18N.add('en', {
 "Abflug 2027": "Lift-off 2027",
 "#abflug2027": "#liftoff2027",
 "Orgelklang": "Organ Sound",
+"Mondwiege": "Moon Cradle",
 });

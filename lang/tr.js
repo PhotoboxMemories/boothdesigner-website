@@ -2012,4 +2012,5 @@ I18N.add('tr', {
 "Abflug 2027": "Kalkış 2027",
 "#abflug2027": "#kalkis2027",
 "Orgelklang": "Org Sesi",
+"Mondwiege": "Ay Beşiği",
 });
