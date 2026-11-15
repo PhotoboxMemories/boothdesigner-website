@@ -2058,4 +2058,6 @@ I18N.add('tr', {
 "Wird beim Druck abgeschnitten": "Baskıda kesilir",
 "Logo und Text innerhalb der blauen Linie halten": "Logo ve metni mavi çizginin içinde tut",
 "Je nach Drucker etwas mehr oder weniger.": "Yazıcıya göre biraz daha fazla veya az.",
+"Leuchtturm": "Deniz Feneri",
+"#hannaskonfi": "#hannaninkonfirmasyonu",
 });

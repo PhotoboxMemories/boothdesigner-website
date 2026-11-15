@@ -2057,4 +2057,6 @@ I18N.add('it', {
 "Wird beim Druck abgeschnitten": "Viene tagliato in stampa",
 "Logo und Text innerhalb der blauen Linie halten": "Tieni logo e testo all’interno della linea blu",
 "Je nach Drucker etwas mehr oder weniger.": "Un po’ di più o di meno a seconda della stampante.",
+"Leuchtturm": "Faro",
+"#hannaskonfi": "#cresimadihanna",
 });

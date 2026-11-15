@@ -2057,4 +2057,6 @@ I18N.add('en', {
 "Wird beim Druck abgeschnitten": "Cut off when printing",
 "Logo und Text innerhalb der blauen Linie halten": "Keep logo and text inside the blue line",
 "Je nach Drucker etwas mehr oder weniger.": "A little more or less depending on the printer.",
+"Leuchtturm": "Lighthouse",
+"#hannaskonfi": "#hannasconfirmation",
 });

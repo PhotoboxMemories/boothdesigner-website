@@ -2057,4 +2057,6 @@ I18N.add('fr', {
 "Wird beim Druck abgeschnitten": "Coupé à l’impression",
 "Logo und Text innerhalb der blauen Linie halten": "Gardez logo et texte à l’intérieur de la ligne bleue",
 "Je nach Drucker etwas mehr oder weniger.": "Un peu plus ou moins selon l’imprimante.",
+"Leuchtturm": "Phare",
+"#hannaskonfi": "#confirmationdehanna",
 });
