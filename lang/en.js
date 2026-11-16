@@ -2059,4 +2059,6 @@ I18N.add('en', {
 "Je nach Drucker etwas mehr oder weniger.": "A little more or less depending on the printer.",
 "Leuchtturm": "Lighthouse",
 "#hannaskonfi": "#hannasconfirmation",
+"Porzellanblau": "Porcelain Blue",
+"#weihnachtenbeiwebers": "#christmaswiththewebers",
 });

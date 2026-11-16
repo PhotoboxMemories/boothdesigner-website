@@ -2059,4 +2059,6 @@ I18N.add('fr', {
 "Je nach Drucker etwas mehr oder weniger.": "Un peu plus ou moins selon l’imprimante.",
 "Leuchtturm": "Phare",
 "#hannaskonfi": "#confirmationdehanna",
+"Porzellanblau": "Bleu porcelaine",
+"#weihnachtenbeiwebers": "#noelchezlesweber",
 });

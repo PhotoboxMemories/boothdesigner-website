@@ -2060,4 +2060,6 @@ I18N.add('tr', {
 "Je nach Drucker etwas mehr oder weniger.": "Yazıcıya göre biraz daha fazla veya az.",
 "Leuchtturm": "Deniz Feneri",
 "#hannaskonfi": "#hannaninkonfirmasyonu",
+"Porzellanblau": "Porselen Mavisi",
+"#weihnachtenbeiwebers": "#weberlerdenoel",
 });
