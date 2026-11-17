@@ -2061,4 +2061,6 @@ I18N.add('it', {
 "#hannaskonfi": "#cresimadihanna",
 "Porzellanblau": "Blu porcellana",
 "#weihnachtenbeiwebers": "#nataleconiweber",
+"Gemüse-Polonaise": "Trenino di verdure",
+"#maskenball27": "#ballomascherato27",
 });

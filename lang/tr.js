@@ -2062,4 +2062,6 @@ I18N.add('tr', {
 "#hannaskonfi": "#hannaninkonfirmasyonu",
 "Porzellanblau": "Porselen Mavisi",
 "#weihnachtenbeiwebers": "#weberlerdenoel",
+"Gemüse-Polonaise": "Sebze Polonezi",
+"#maskenball27": "#maskeliba27",
 });

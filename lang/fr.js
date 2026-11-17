@@ -2061,4 +2061,6 @@ I18N.add('fr', {
 "#hannaskonfi": "#confirmationdehanna",
 "Porzellanblau": "Bleu porcelaine",
 "#weihnachtenbeiwebers": "#noelchezlesweber",
+"Gemüse-Polonaise": "Polonaise des légumes",
+"#maskenball27": "#balmasque27",
 });

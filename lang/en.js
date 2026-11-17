@@ -2061,4 +2061,6 @@ I18N.add('en', {
 "#hannaskonfi": "#hannasconfirmation",
 "Porzellanblau": "Porcelain Blue",
 "#weihnachtenbeiwebers": "#christmaswiththewebers",
+"Gemüse-Polonaise": "Vegetable Conga",
+"#maskenball27": "#masquerade27",
 });
