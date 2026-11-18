@@ -2064,4 +2064,6 @@ I18N.add('tr', {
 "#weihnachtenbeiwebers": "#weberlerdenoel",
 "Gemüse-Polonaise": "Sebze Polonezi",
 "#maskenball27": "#maskeliba27",
+"Smokstich": "Büzgü Nakışı",
+"#mariesfest": "#marieningünü",
 });

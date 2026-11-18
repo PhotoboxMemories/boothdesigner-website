@@ -2063,4 +2063,6 @@ I18N.add('en', {
 "#weihnachtenbeiwebers": "#christmaswiththewebers",
 "Gemüse-Polonaise": "Vegetable Conga",
 "#maskenball27": "#masquerade27",
+"Smokstich": "Smocking",
+"#mariesfest": "#mariescelebration",
 });

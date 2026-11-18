@@ -2063,4 +2063,6 @@ I18N.add('it', {
 "#weihnachtenbeiwebers": "#nataleconiweber",
 "Gemüse-Polonaise": "Trenino di verdure",
 "#maskenball27": "#ballomascherato27",
+"Smokstich": "Punto smock",
+"#mariesfest": "#lafestadimarie",
 });

@@ -2063,4 +2063,6 @@ I18N.add('fr', {
 "#weihnachtenbeiwebers": "#noelchezlesweber",
 "Gemüse-Polonaise": "Polonaise des légumes",
 "#maskenball27": "#balmasque27",
+"Smokstich": "Smocks",
+"#mariesfest": "#lafetedemarie",
 });
