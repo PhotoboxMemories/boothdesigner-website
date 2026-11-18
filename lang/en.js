@@ -1,5 +1,7 @@
 // Übersetzung „en“ – BoothDesigner (Webseite und Studio), Schlüssel = deutscher Text aus sprachen/texte.json (sprachen/sammeln.py)
 I18N.add('en', {
+"Hinweis: Dein Design ist im Querformat, die Fotobox steht im Hochformat. Du kannst es trotzdem absenden – die Fotobox druckt es im Querformat.": "Note: your design is landscape and the photo booth stands upright. You can still send it – the photo booth will print it in landscape.",
+"Hinweis: Dein Design ist im Hochformat, die Fotobox steht im Querformat. Du kannst es trotzdem absenden – die Fotobox druckt es im Hochformat.": "Note: your design is portrait and the photo booth stands sideways. You can still send it – the photo booth will print it in portrait.",
 "Abgelaufen": "Past",
 "Als Nächstes": "Coming up next",
 "BoothDesigner – Fotobox-Layouts, die deine Kunden selbst gestalten": "BoothDesigner – photo booth layouts your customers design themselves",

@@ -1,5 +1,7 @@
 // Übersetzung „tr“ – BoothDesigner (Webseite und Studio), Schlüssel = deutscher Text aus sprachen/texte.json (sprachen/sammeln.py)
 I18N.add('tr', {
+"Hinweis: Dein Design ist im Querformat, die Fotobox steht im Hochformat. Du kannst es trotzdem absenden – die Fotobox druckt es im Querformat.": "Not: Tasarımınız yatay, fotoğraf kabini ise dikey duruyor. Yine de gönderebilirsiniz – fotoğraf kabini onu yatay basar.",
+"Hinweis: Dein Design ist im Hochformat, die Fotobox steht im Querformat. Du kannst es trotzdem absenden – die Fotobox druckt es im Hochformat.": "Not: Tasarımınız dikey, fotoğraf kabini ise yatay duruyor. Yine de gönderebilirsiniz – fotoğraf kabini onu dikey basar.",
 "Abgelaufen": "Geçmiş",
 "Als Nächstes": "Sıradakiler",
 "BoothDesigner – Fotobox-Layouts, die deine Kunden selbst gestalten": "BoothDesigner – müşterilerinin kendi tasarladığı fotoğraf kabini düzenleri",

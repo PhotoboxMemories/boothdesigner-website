@@ -4241,12 +4241,14 @@ const PAPER = ['600x1800', '1200x1800', '1800x1200', '1500x1500'], MAX_VARIANTS 
 const orientOf = (l) => l.screen ? l.orient : l.H > l.W * 1.02 ? 'p' : l.W > l.H * 1.02 ? 'l' : '';
 const sendModel = () => ($('#send-form [name=model]:checked') || {}).value || 'p';
 function checkModel() {
-  const o = orientOf(L()), m = sendModel(), bad = !L().screen && !!o && o !== m, w = $('#send-model-warn');
-  w.hidden = !bad;
-  w.textContent = !bad ? '' : o === 'l' ? 'Dein Design ist im Querformat – es passt nicht zu einer Fotobox im Hochformat. Wähle oben unter „Format“ ein Format im Hochformat.'
-    : 'Dein Design ist im Hochformat – es passt nicht zu einer Fotobox im Querformat. Wähle oben unter „Format“ ein Format im Querformat.';
-  $('#send-go').disabled = bad;
-  return !bad;
+  // Betreiber 18.11.2026: Ein Hochformat-Druck an einer Fotobox im Querformat (oder umgekehrt) soll gehen – die Fotobox nimmt jedes Layout
+  // (Gäste wählen aus allen; gibt es keins in ihrer Ausrichtung, nimmt sie das erste). Deshalb nur ein Hinweis, Absenden bleibt möglich.
+  const o = orientOf(L()), m = sendModel(), mix = !L().screen && !!o && o !== m, w = $('#send-model-warn');
+  w.hidden = !mix; w.style.color = '#8a6d00';
+  w.textContent = !mix ? '' : o === 'l' ? 'Hinweis: Dein Design ist im Querformat, die Fotobox steht im Hochformat. Du kannst es trotzdem absenden – die Fotobox druckt es im Querformat.'
+    : 'Hinweis: Dein Design ist im Hochformat, die Fotobox steht im Querformat. Du kannst es trotzdem absenden – die Fotobox druckt es im Hochformat.';
+  $('#send-go').disabled = false;
+  return true;
 }
 document.querySelectorAll('#send-form [name=model]').forEach((r) => { r.onchange = () => { state.model = sendModel(); buildVariants(); checkModel(); }; });
 function buildVariants() {
