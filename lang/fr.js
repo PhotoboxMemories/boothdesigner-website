@@ -2067,4 +2067,7 @@ I18N.add('fr', {
 "#maskenball27": "#balmasque27",
 "Smokstich": "Smocks",
 "#mariesfest": "#lafetedemarie",
+"Lichtervorhang": "Rideau lumineux",
+"Hallo 2027!": "Bonjour 2027 !",
+"#lichterparty27": "#fêtelumineuse27",
 });

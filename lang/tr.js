@@ -2068,4 +2068,7 @@ I18N.add('tr', {
 "#maskenball27": "#maskeliba27",
 "Smokstich": "Büzgü Nakışı",
 "#mariesfest": "#marieningünü",
+"Lichtervorhang": "Işık Perdesi",
+"Hallo 2027!": "Merhaba 2027!",
+"#lichterparty27": "#ışıkpartisi27",
 });
