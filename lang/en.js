@@ -2070,4 +2070,7 @@ I18N.add('en', {
 "Lichtervorhang": "String Light Curtain",
 "Hallo 2027!": "Hello 2027!",
 "#lichterparty27": "#lightsparty27",
+"Schnullerkette": "Pacifier Chain",
+"Bald zu dritt": "Soon to be three",
+"#baldzudritt": "#soontobethree",
 });

@@ -2070,4 +2070,7 @@ I18N.add('it', {
 "Lichtervorhang": "Tenda di luci",
 "Hallo 2027!": "Ciao 2027!",
 "#lichterparty27": "#festadiluci27",
+"Schnullerkette": "Catenella portaciuccio",
+"Bald zu dritt": "Presto in tre",
+"#baldzudritt": "#prestointre",
 });

@@ -2070,4 +2070,7 @@ I18N.add('es', {
 "Lichtervorhang": "Cortina de luces",
 "Hallo 2027!": "¡Hola 2027!",
 "#lichterparty27": "#fiestadeluces27",
+"Schnullerkette": "Cadena de chupete",
+"Bald zu dritt": "Pronto seremos tres",
+"#baldzudritt": "#prontoseremostres",
 });

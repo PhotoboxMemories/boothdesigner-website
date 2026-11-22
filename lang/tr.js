@@ -2071,4 +2071,7 @@ I18N.add('tr', {
 "Lichtervorhang": "Işık Perdesi",
 "Hallo 2027!": "Merhaba 2027!",
 "#lichterparty27": "#ışıkpartisi27",
+"Schnullerkette": "Emzik Zinciri",
+"Bald zu dritt": "Yakında üç kişiyiz",
+"#baldzudritt": "#yakındaüçkişiyiz",
 });

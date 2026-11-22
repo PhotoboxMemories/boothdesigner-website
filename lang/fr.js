@@ -2070,4 +2070,7 @@ I18N.add('fr', {
 "Lichtervorhang": "Rideau lumineux",
 "Hallo 2027!": "Bonjour 2027 !",
 "#lichterparty27": "#fêtelumineuse27",
+"Schnullerkette": "Attache-tétine",
+"Bald zu dritt": "Bientôt trois",
+"#baldzudritt": "#bientôttrois",
 });
