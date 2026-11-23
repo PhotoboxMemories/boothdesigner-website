@@ -2073,4 +2073,6 @@ I18N.add('fr', {
 "Schnullerkette": "Attache-tétine",
 "Bald zu dritt": "Bientôt trois",
 "#baldzudritt": "#bientôttrois",
+"Yeti-Gaudi": "Fête des yétis",
+"#yetigaudi": "#feteyeti",
 });

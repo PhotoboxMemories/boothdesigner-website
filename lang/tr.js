@@ -2074,4 +2074,6 @@ I18N.add('tr', {
 "Schnullerkette": "Emzik Zinciri",
 "Bald zu dritt": "Yakında üç kişiyiz",
 "#baldzudritt": "#yakındaüçkişiyiz",
+"Yeti-Gaudi": "Yeti Eğlencesi",
+"#yetigaudi": "#yetieglencesi",
 });

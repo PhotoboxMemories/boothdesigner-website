@@ -2073,4 +2073,6 @@ I18N.add('en', {
 "Schnullerkette": "Pacifier Chain",
 "Bald zu dritt": "Soon to be three",
 "#baldzudritt": "#soontobethree",
+"Yeti-Gaudi": "Yeti Fun",
+"#yetigaudi": "#yetifun",
 });

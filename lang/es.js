@@ -2073,4 +2073,6 @@ I18N.add('es', {
 "Schnullerkette": "Cadena de chupete",
 "Bald zu dritt": "Pronto seremos tres",
 "#baldzudritt": "#prontoseremostres",
+"Yeti-Gaudi": "Fiesta Yeti",
+"#yetigaudi": "#fiestayeti",
 });

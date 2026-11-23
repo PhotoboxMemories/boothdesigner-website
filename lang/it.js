@@ -2073,4 +2073,6 @@ I18N.add('it', {
 "Schnullerkette": "Catenella portaciuccio",
 "Bald zu dritt": "Presto in tre",
 "#baldzudritt": "#prestointre",
+"Yeti-Gaudi": "Festa degli Yeti",
+"#yetigaudi": "#festayeti",
 });
