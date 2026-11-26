@@ -2075,4 +2075,6 @@ I18N.add('fr', {
 "#baldzudritt": "#bientôttrois",
 "Yeti-Gaudi": "Fête des yétis",
 "#yetigaudi": "#feteyeti",
+"Adventsstern": "Étoile de l'Avent",
+"#sternbergfeiert": "#sternbergfete",
 });

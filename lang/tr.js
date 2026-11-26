@@ -2076,4 +2076,6 @@ I18N.add('tr', {
 "#baldzudritt": "#yakındaüçkişiyiz",
 "Yeti-Gaudi": "Yeti Eğlencesi",
 "#yetigaudi": "#yetieglencesi",
+"Adventsstern": "Advent Yıldızı",
+"#sternbergfeiert": "#sternbergkutluyor",
 });

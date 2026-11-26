@@ -2075,4 +2075,6 @@ I18N.add('es', {
 "#baldzudritt": "#prontoseremostres",
 "Yeti-Gaudi": "Fiesta Yeti",
 "#yetigaudi": "#fiestayeti",
+"Adventsstern": "Estrella de Adviento",
+"#sternbergfeiert": "#sternbergcelebra",
 });

@@ -2075,4 +2075,6 @@ I18N.add('en', {
 "#baldzudritt": "#soontobethree",
 "Yeti-Gaudi": "Yeti Fun",
 "#yetigaudi": "#yetifun",
+"Adventsstern": "Advent Star",
+"#sternbergfeiert": "#sternbergcelebrates",
 });
