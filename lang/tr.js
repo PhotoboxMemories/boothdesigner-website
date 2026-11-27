@@ -2078,4 +2078,6 @@ I18N.add('tr', {
 "#yetigaudi": "#yetieglencesi",
 "Adventsstern": "Advent Yıldızı",
 "#sternbergfeiert": "#sternbergkutluyor",
+"Musterei": "Desenli Yumurtalar",
+"#brandtsostern": "#brandtpaskalya",
 });

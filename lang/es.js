@@ -2077,4 +2077,6 @@ I18N.add('es', {
 "#yetigaudi": "#fiestayeti",
 "Adventsstern": "Estrella de Adviento",
 "#sternbergfeiert": "#sternbergcelebra",
+"Musterei": "Huevos con estampado",
+"#brandtsostern": "#pascuabrandt",
 });

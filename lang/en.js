@@ -2077,4 +2077,6 @@ I18N.add('en', {
 "#yetigaudi": "#yetifun",
 "Adventsstern": "Advent Star",
 "#sternbergfeiert": "#sternbergcelebrates",
+"Musterei": "Egg Patterns",
+"#brandtsostern": "#brandtseaster",
 });

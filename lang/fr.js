@@ -2077,4 +2077,6 @@ I18N.add('fr', {
 "#yetigaudi": "#feteyeti",
 "Adventsstern": "Étoile de l'Avent",
 "#sternbergfeiert": "#sternbergfete",
+"Musterei": "Œufs à motifs",
+"#brandtsostern": "#paquesbrandt",
 });
