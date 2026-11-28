@@ -2079,4 +2079,8 @@ I18N.add('en', {
 "#sternbergfeiert": "#sternbergcelebrates",
 "Musterei": "Egg Patterns",
 "#brandtsostern": "#brandtseaster",
+"Hennenparty": "Hen Party",
+"JUNGGESELLINNENABSCHIED": "HEN PARTY",
+"LAURAS JGA": "LAURA'S HEN DO",
+"#hennenparty": "#henparty",
 });

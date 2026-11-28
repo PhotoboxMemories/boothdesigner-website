@@ -2080,4 +2080,8 @@ I18N.add('tr', {
 "#sternbergfeiert": "#sternbergkutluyor",
 "Musterei": "Desenli Yumurtalar",
 "#brandtsostern": "#brandtpaskalya",
+"Hennenparty": "Tavuk Partisi",
+"JUNGGESELLINNENABSCHIED": "BEKARLIĞA VEDA",
+"LAURAS JGA": "LAURA'NIN PARTİSİ",
+"#hennenparty": "#tavukpartisi",
 });

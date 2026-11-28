@@ -2079,4 +2079,8 @@ I18N.add('es', {
 "#sternbergfeiert": "#sternbergcelebra",
 "Musterei": "Huevos con estampado",
 "#brandtsostern": "#pascuabrandt",
+"Hennenparty": "Fiesta de gallinas",
+"JUNGGESELLINNENABSCHIED": "DESPEDIDA DE SOLTERA",
+"LAURAS JGA": "LA DESPEDIDA DE LAURA",
+"#hennenparty": "#fiestadegallinas",
 });

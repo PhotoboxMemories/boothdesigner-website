@@ -2079,4 +2079,8 @@ I18N.add('fr', {
 "#sternbergfeiert": "#sternbergfete",
 "Musterei": "Œufs à motifs",
 "#brandtsostern": "#paquesbrandt",
+"Hennenparty": "Fête des poules",
+"JUNGGESELLINNENABSCHIED": "ENTERREMENT DE VIE DE JEUNE FILLE",
+"LAURAS JGA": "EVJF DE LAURA",
+"#hennenparty": "#fetedespoules",
 });

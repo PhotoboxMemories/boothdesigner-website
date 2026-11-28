@@ -2079,4 +2079,8 @@ I18N.add('it', {
 "#sternbergfeiert": "#sternbergfesteggia",
 "Musterei": "Uova a motivi",
 "#brandtsostern": "#pasquabrandt",
+"Hennenparty": "Festa delle galline",
+"JUNGGESELLINNENABSCHIED": "ADDIO AL NUBILATO",
+"LAURAS JGA": "ADDIO AL NUBILATO DI LAURA",
+"#hennenparty": "#festadellegalline",
 });
